@@ -1,4 +1,4 @@
-package com.selenium.studentportal.dataDriven;
+package com.selenium.studentportal.data;
 
 import org.testng.annotations.DataProvider;
 

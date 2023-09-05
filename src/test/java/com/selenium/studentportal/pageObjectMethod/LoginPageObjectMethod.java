@@ -1,14 +1,14 @@
-package com.selenium.studentportal.action;
+package com.selenium.studentportal.pageObjectMethod;
 
 import org.openqa.selenium.WebDriver;
 
 import com.selenium.studentportal.pageObject.LoginPageObject;
 
-public class LoginPageAction extends LoginPageObject{
+public class LoginPageObjectMethod extends LoginPageObject{
 	
 
 	
-	public LoginPageAction(WebDriver driver) {
+	public LoginPageObjectMethod(WebDriver driver) {
 		super(driver);
 	
 	}

@@ -6,7 +6,7 @@
     <classes>
       <class name="com.selenium.studentportal.testCase.TC_LoginTest_00001">
         <methods>
-          <include name="loginTest"/>
+          <include name="loginTest" invocation-numbers="1"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>

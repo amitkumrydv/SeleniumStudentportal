@@ -7,10 +7,10 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.selenium.studentportal.action.LoginPageAction;
 import com.selenium.studentportal.baseClass.BasClass;
-import com.selenium.studentportal.dataDriven.DataProvideLogin;
+import com.selenium.studentportal.data.DataProvideLogin;
 import com.selenium.studentportal.pageObject.LoginPageObject;
+import com.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.selenium.studentportal.utilities.XLUtils;
 
 public class TC_LoginTest_00001 extends BasClass {
@@ -53,7 +53,7 @@ public class TC_LoginTest_00001 extends BasClass {
 	@Test(dataProvider = "Login" , dataProviderClass= DataProvideLogin.class)
 	public void loginTest(String user, String pwd) throws Exception {	
 		
-		LoginPageAction loginPage = new LoginPageAction(driver);
+		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
 
 		String pageHeaderTitle = loginPage.verifyTitle(); // This is page header title
 		System.out.println("page header title is " + pageHeaderTitle);
