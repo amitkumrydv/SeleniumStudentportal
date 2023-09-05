@@ -21,8 +21,7 @@ public class LoginPageObject {
     // Xpath
 	@FindBy(xpath = "//h2[contains(text(),'WELCOME TO NGASCE')]")
 	@CacheLookup
-	protected
-	 WebElement loginPageTitle;
+	protected WebElement loginPageTitle;
 
 	@FindBy(id = "userId")
 	@CacheLookup

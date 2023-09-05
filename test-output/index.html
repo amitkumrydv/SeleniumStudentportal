@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Studentportal" class="navigator-link ">
-                    <span>E:\Spring Boot\Workspace\git_project\SeleniumStudentportal\TestNG.xml</span>
+                    <span>C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal\TestNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -143,12 +143,31 @@
                   </a> <!-- loginTest(54443434, grhru) -->
                   <span class="method-name">loginTest</span>
                   <span class="parameters">(54443434, grhru)</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]&quot;}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-HKLU73H&apos;, ip: &apos;192.168.0.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 02b5adccfd0f54e4fe780193e65d53d9
+*** Element info: {Using=xpath, value=//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy16.getText(Unknown Source)
-	at com.selenium.studentportal.action.LoginPageAction.verifyTitle(LoginPageAction.java:18)
+	at com.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod.verifyTitle(LoginPageObjectMethod.java:18)
 	at com.selenium.studentportal.testCase.TC_LoginTest_00001.loginTest(TC_LoginTest_00001.java:58)
-... Removed 26 stack frames
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -173,7 +192,7 @@
         </div> <!-- panel Studentportal -->
         <div panel-name="test-xml-Studentportal" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\Spring Boot\Workspace\git_project\SeleniumStudentportal\TestNG.xml</span>
+            <span class="header-content">C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal\TestNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -227,16 +246,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'com.selenium.studentportal.testCase.TC_LoginTest_00001')
-data.setCell(0, 3, 28643);
+data.setCell(0, 3, 10084);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTest')
 data.setCell(1, 2, 'com.selenium.studentportal.testCase.TC_LoginTest_00001')
-data.setCell(1, 3, 5697);
+data.setCell(1, 3, 7871);
 window.suiteTableData['Studentportal']= { tableData: data, tableDiv: 'times-div-Studentportal'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Studentportal">
               </div> <!-- times-div-Studentportal -->
             </div> <!-- times-div -->
@@ -269,17 +288,17 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest(77777777775, ngasce@775)</span>
-                <span class="method-start">6494 ms</span>
+                <span class="method-start">7028 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginTest(54443434, grhru)</span>
-                <span class="method-start">35153 ms</span>
+                <span class="method-start">14909 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">40856 ms</span>
+                <span class="method-start">25015 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
