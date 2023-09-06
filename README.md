@@ -1,5 +1,6 @@
-# SeleniumStudentportal
-Automate Student portal using selenium Junit and TestNG
+# selenium-studentportal
+Automate Student portal using selenium Junit and TestNG. 
+1. Setup TestNG --> https://github.com/testng-team/testng-eclipse
 
 pageObject Structure
 
