@@ -78,6 +78,9 @@ public class TC_LoginTest_00001 extends BasClass {
 		logger.info("Entered the password");
 		loginPage.clickSubmit();
 		logger.info("Click on the login button ");
+		loginPage.clickLogout();
+		logger.info("Click on the Logout button ");
+		
 		
 
 	}

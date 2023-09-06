@@ -33,5 +33,10 @@ public class LoginPageObjectMethod extends LoginPageObject{
 
 		loginButton.click();
 	}
+	
+	public void clickLogout() {
+
+		logoutButton.click();
+	}
 
 }
