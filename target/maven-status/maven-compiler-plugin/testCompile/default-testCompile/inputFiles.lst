@@ -1,8 +1,8 @@
-C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal\src\test\java\com\selenium\studentportal\baseClass\BasClass.java
-C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal\src\test\java\com\selenium\studentportal\pageObject\LoginPageObject.java
-C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal\src\test\java\com\selenium\studentportal\utilities\XLUtils.java
-C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal\src\test\java\com\selenium\studentportal\data\DataProvideLogin.java
-C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal\src\test\java\com\selenium\studentportal\utilities\ReadConfig.java
-C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal\src\test\java\com\selenium\studentportal\pageObjectMethod\LoginPageObjectMethod.java
-C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal\src\test\java\com\selenium\studentportal\utilities\Reporting.java
-C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal\src\test\java\com\selenium\studentportal\testCase\TC_LoginTest_00001.java
+C:\Users\amit.yadav.EXT\git\selenium-studentportal\src\test\java\com\selenium\studentportal\utilities\ReadConfig.java
+C:\Users\amit.yadav.EXT\git\selenium-studentportal\src\test\java\com\selenium\studentportal\pageObject\LoginPageObject.java
+C:\Users\amit.yadav.EXT\git\selenium-studentportal\src\test\java\com\selenium\studentportal\testCase\TC_LoginTest_00001.java
+C:\Users\amit.yadav.EXT\git\selenium-studentportal\src\test\java\com\selenium\studentportal\utilities\Reporting.java
+C:\Users\amit.yadav.EXT\git\selenium-studentportal\src\test\java\com\selenium\studentportal\utilities\XLUtils.java
+C:\Users\amit.yadav.EXT\git\selenium-studentportal\src\test\java\com\selenium\studentportal\baseClass\BasClass.java
+C:\Users\amit.yadav.EXT\git\selenium-studentportal\src\test\java\com\selenium\studentportal\data\DataProvideLogin.java
+C:\Users\amit.yadav.EXT\git\selenium-studentportal\src\test\java\com\selenium\studentportal\pageObjectMethod\LoginPageObjectMethod.java

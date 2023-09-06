@@ -1,0 +1,8 @@
+com\selenium\studentportal\data\DataProvideLogin.class
+com\selenium\studentportal\utilities\Reporting.class
+com\selenium\studentportal\testCase\TC_LoginTest_00001.class
+com\selenium\studentportal\utilities\XLUtils.class
+com\selenium\studentportal\pageObjectMethod\LoginPageObjectMethod.class
+com\selenium\studentportal\baseClass\BasClass.class
+com\selenium\studentportal\utilities\ReadConfig.class
+com\selenium\studentportal\pageObject\LoginPageObject.class
