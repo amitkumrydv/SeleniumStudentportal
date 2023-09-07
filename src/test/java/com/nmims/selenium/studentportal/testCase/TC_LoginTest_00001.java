@@ -10,26 +10,10 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-<<<<<<< HEAD:src/test/java/com/selenium/studentportal/testCase/TC_LoginTest_00001.java
-import com.selenium.studentportal.action.ActionHandler;
-import com.selenium.studentportal.baseClass.BasClass;
-import com.selenium.studentportal.data.DataProvideLogin;
-import com.selenium.studentportal.pageObject.LoginPageObject;
-import com.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
-import com.selenium.studentportal.testutil.LoginTestutil;
-import com.selenium.studentportal.utilities.XLUtils;
-=======
-import com.nmims.selenium.studentportal.baseClass.BasClass;
-import com.nmims.selenium.studentportal.data.DataProvideLogin;
-import com.nmims.selenium.studentportal.pageObject.LoginPageObject;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
-import com.nmims.selenium.studentportal.utilities.XLUtils;
->>>>>>> a3a49d57e246893560c10009f37d1a90defaf7f4:src/test/java/com/nmims/selenium/studentportal/testCase/TC_LoginTest_00001.java
+import com.nmims.selenium.studentportal.testutil.LoginTestutil;
 
 public class TC_LoginTest_00001 extends LoginTestutil {
-	
-
-	
 
 	// Read the data using property file
 	/*
@@ -66,11 +50,13 @@ public class TC_LoginTest_00001 extends LoginTestutil {
 
 	@Test(dependsOnMethods = "loginTest", alwaysRun = true)
 	public void logoutTest() throws InterruptedException, IOException {
+
 		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
 		loginPage.clickLogout();
+
 		Thread.sleep(5000);
 		logger.info("Page logout ");
-		
+
 //		boolean isAlertPresent = ActionHandler.isAlertPresent();
 //		
 //		 if (isAlertPresent) {
@@ -81,17 +67,12 @@ public class TC_LoginTest_00001 extends LoginTestutil {
 //	        } else {
 //	            System.out.println("No alert found.");
 //	        }
-		
-		
-		driver.switchTo().alert();                    //Switch on the alert alert
+
+		driver.switchTo().alert(); // Switch on the alert alert
 		Alert alert = driver.switchTo().alert();
 		System.out.println("Alert text Displayed : " + alert.getText());
-		
-		
-		
-		
-		LoginPageObjectMethod loginPageObject = new LoginPageObjectMethod(driver);
 
+		LoginPageObjectMethod loginPageObject = new LoginPageObjectMethod(driver);
 		String pageHeaderTitle = loginPageObject.verifyTitle(); // This is page header title
 		System.out.println("page header title is " + pageHeaderTitle);
 
@@ -108,30 +89,7 @@ public class TC_LoginTest_00001 extends LoginTestutil {
 			logger.info("After logout the Login page title is not match");
 			Assert.assertTrue(false);
 		}
-		
-<<<<<<< HEAD:src/test/java/com/selenium/studentportal/testCase/TC_LoginTest_00001.java
-		
-		
-	
-			
-=======
-		loginPage.setUserName(user);
-		logger.info("Entered the UserId");
-		loginPage.setPassword(pwd); 
-		logger.info("Entered the password");
-		loginPage.clickSubmit();
-		logger.info("Click on the login button ");
-		loginPage.clickLogout();
-		logger.info("Click on the Logout button ");
-		
->>>>>>> a3a49d57e246893560c10009f37d1a90defaf7f4:src/test/java/com/nmims/selenium/studentportal/testCase/TC_LoginTest_00001.java
-		
 
 	}
-	
-	
-	
-
-
 
 }

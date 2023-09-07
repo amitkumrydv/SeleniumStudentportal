@@ -5,7 +5,7 @@
 
 	<listeners>
 
-		<listener class-name="com.selenium.studentportal.utilities.Reporting" />
+		<listener class-name="com.nmims.selenium.studentportal.utilities.Reporting" />
 
 	</listeners>
 
@@ -14,8 +14,8 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 
-			<class name="com.selenium.studentportal.testCase.TC_LoginTest_00001" /> 
-			<!-- <class name="com.selenium.studentportal.testutil.LoginTestutil" /> -->
+			<class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001" /> 
+			<!-- <class name="com.nmims.selenium.studentportal.testutil.LoginTestutil" /> -->
 			
 
 

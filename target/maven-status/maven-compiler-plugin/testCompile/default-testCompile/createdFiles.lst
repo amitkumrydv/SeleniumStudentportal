@@ -1,16 +1,10 @@
-<<<<<<< HEAD
-com\selenium\studentportal\action\ActionHandler.class
-=======
->>>>>>> a3a49d57e246893560c10009f37d1a90defaf7f4
-com\selenium\studentportal\data\DataProvideLogin.class
-com\selenium\studentportal\utilities\Reporting.class
-com\selenium\studentportal\testCase\TC_LoginTest_00001.class
-com\selenium\studentportal\utilities\XLUtils.class
-com\selenium\studentportal\pageObjectMethod\LoginPageObjectMethod.class
-com\selenium\studentportal\baseClass\BasClass.class
-com\selenium\studentportal\utilities\ReadConfig.class
-com\selenium\studentportal\pageObject\LoginPageObject.class
-<<<<<<< HEAD
-com\selenium\studentportal\testutil\LoginTestutil.class
-=======
->>>>>>> a3a49d57e246893560c10009f37d1a90defaf7f4
+com\nmims\selenium\studentportal\utilities\XLUtils.class
+com\nmims\selenium\studentportal\action\ActionHandler.class
+com\nmims\selenium\studentportal\baseClass\BasClass.class
+com\nmims\selenium\studentportal\data\DataProvideLogin.class
+com\nmims\selenium\studentportal\utilities\Reporting.class
+com\nmims\selenium\studentportal\pageObject\LoginPageObject.class
+com\nmims\selenium\studentportal\pageObjectMethod\LoginPageObjectMethod.class
+com\nmims\selenium\studentportal\testCase\TC_LoginTest_00001.class
+com\nmims\selenium\studentportal\testutil\LoginTestutil.class
+com\nmims\selenium\studentportal\utilities\ReadConfig.class

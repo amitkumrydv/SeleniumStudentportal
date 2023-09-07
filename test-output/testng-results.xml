@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-07T08:31:51Z" name="Studentportal" finished-at="2023-09-07T08:32:21Z" duration-ms="29468">
+  <suite started-at="2023-09-07T11:44:10Z" name="StudentportalDashboard" finished-at="2023-09-07T11:44:46Z" duration-ms="35578">
     <groups>
     </groups>
-    <test started-at="2023-09-07T08:31:51Z" name="portalApp" finished-at="2023-09-07T08:32:21Z" duration-ms="29468">
-      <class name="com.selenium.studentportal.testCase.TC_LoginTest_00001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.studentportal.testCase.TC_LoginTest_00001@6497b078]" started-at="2023-09-07T08:31:51Z" name="setup" finished-at="2023-09-07T08:31:55Z" duration-ms="4055" status="PASS">
+    <test started-at="2023-09-07T11:44:10Z" name="portalApp" finished-at="2023-09-07T11:44:46Z" duration-ms="35578">
+      <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@53aad5d5]" started-at="2023-09-07T11:44:10Z" name="setup" finished-at="2023-09-07T11:44:15Z" duration-ms="4744" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.studentportal.testCase.TC_LoginTest_00001@6497b078]" started-at="2023-09-07T08:31:57Z" name="loginTest" data-provider="Login" finished-at="2023-09-07T08:32:05Z" duration-ms="8044" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@53aad5d5]" started-at="2023-09-07T11:44:17Z" name="loginTest" data-provider="Login" finished-at="2023-09-07T11:44:25Z" duration-ms="8170" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.studentportal.testCase.TC_LoginTest_00001@6497b078]" started-at="2023-09-07T08:32:05Z" name="loginTest" data-provider="Login" finished-at="2023-09-07T08:32:15Z" duration-ms="10108" status="FAIL">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@53aad5d5]" started-at="2023-09-07T11:44:25Z" name="loginTest" data-provider="Login" finished-at="2023-09-07T11:44:35Z" duration-ms="10093" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -55,8 +55,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63788}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f875cf2ec673936cd4cc3bf1cdf6a25
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53568}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 448f6c0eaf129ca65d079bcdd85ca489
 *** Element info: {Using=xpath, value=//h2[contains(text(),'WELCOME TO NGASCE')]}]]>
             </message>
             <full-stacktrace>
@@ -66,8 +66,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63788}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f875cf2ec673936cd4cc3bf1cdf6a25
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53568}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 448f6c0eaf129ca65d079bcdd85ca489
 *** Element info: {Using=xpath, value=//h2[contains(text(),'WELCOME TO NGASCE')]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -86,8 +86,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy16.getText(Unknown Source)
-at com.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod.verifyTitle(LoginPageObjectMethod.java:15)
-at com.selenium.studentportal.testutil.LoginTestutil.loginTest(LoginTestutil.java:19)
+at com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod.verifyTitle(LoginPageObjectMethod.java:15)
+at com.nmims.selenium.studentportal.testutil.LoginTestutil.loginTest(LoginTestutil.java:20)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -119,7 +119,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="logoutTest()[pri:0, instance:com.selenium.studentportal.testCase.TC_LoginTest_00001@6497b078]" started-at="2023-09-07T08:32:15Z" name="logoutTest" finished-at="2023-09-07T08:32:20Z" depends-on-methods="com.selenium.studentportal.testutil.LoginTestutil.loginTest" duration-ms="5223" status="FAIL">
+        <test-method signature="logoutTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@53aad5d5]" started-at="2023-09-07T11:44:35Z" name="logoutTest" finished-at="2023-09-07T11:44:45Z" depends-on-methods="com.nmims.selenium.studentportal.testutil.LoginTestutil.loginTest" duration-ms="10262" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : }
@@ -127,8 +127,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63788}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f875cf2ec673936cd4cc3bf1cdf6a25
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53568}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 448f6c0eaf129ca65d079bcdd85ca489
 *** Element info: {Using=xpath, value=//h2[contains(text(),'WELCOME TO NGASCE')]}]]>
             </message>
             <full-stacktrace>
@@ -137,8 +137,8 @@ Session ID: 0f875cf2ec673936cd4cc3bf1cdf6a25
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63788}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f875cf2ec673936cd4cc3bf1cdf6a25
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53568}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 448f6c0eaf129ca65d079bcdd85ca489
 *** Element info: {Using=xpath, value=//h2[contains(text(),'WELCOME TO NGASCE')]}
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -152,8 +152,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy16.getText(Unknown Source)
-at com.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod.verifyTitle(LoginPageObjectMethod.java:15)
-at com.selenium.studentportal.testCase.TC_LoginTest_00001.logoutTest(TC_LoginTest_00001.java:87)
+at com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod.verifyTitle(LoginPageObjectMethod.java:15)
+at com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001.logoutTest(TC_LoginTest_00001.java:75)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -185,11 +185,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.studentportal.testCase.TC_LoginTest_00001@6497b078]" started-at="2023-09-07T08:32:20Z" name="tearDown" finished-at="2023-09-07T08:32:21Z" duration-ms="404" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@53aad5d5]" started-at="2023-09-07T11:44:45Z" name="tearDown" finished-at="2023-09-07T11:44:46Z" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.selenium.studentportal.testCase.TC_LoginTest_00001 -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001 -->
     </test> <!-- portalApp -->
-  </suite> <!-- Studentportal -->
+  </suite> <!-- StudentportalDashboard -->
 </testng-results>
