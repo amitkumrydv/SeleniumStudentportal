@@ -1,8 +1,8 @@
-package com.selenium.studentportal.pageObjectMethod;
+package com.nmims.selenium.studentportal.pageObjectMethod;
 
 import org.openqa.selenium.WebDriver;
 
-import com.selenium.studentportal.pageObject.LoginPageObject;
+import com.nmims.selenium.studentportal.pageObject.LoginPageObject;
 
 public class LoginPageObjectMethod extends LoginPageObject {
 
@@ -30,11 +30,17 @@ public class LoginPageObjectMethod extends LoginPageObject {
 	}
 	
 	public void clickLogout() {
+<<<<<<< HEAD:src/test/java/com/selenium/studentportal/pageObjectMethod/LoginPageObjectMethod.java
 		logoutButton.click();
 		
 	}
 	
 	
 	
+=======
+
+		logoutButton.click();
+	}
+>>>>>>> a3a49d57e246893560c10009f37d1a90defaf7f4:src/test/java/com/nmims/selenium/studentportal/pageObjectMethod/LoginPageObjectMethod.java
 
 }

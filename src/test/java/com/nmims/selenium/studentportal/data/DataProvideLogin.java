@@ -1,8 +1,8 @@
-package com.selenium.studentportal.data;
+package com.nmims.selenium.studentportal.data;
 
 import org.testng.annotations.DataProvider;
 
-import com.selenium.studentportal.utilities.XLUtils;
+import com.nmims.selenium.studentportal.utilities.XLUtils;
 
 public class DataProvideLogin {
 	

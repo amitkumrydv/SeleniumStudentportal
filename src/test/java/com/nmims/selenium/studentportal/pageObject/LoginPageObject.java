@@ -1,4 +1,4 @@
-package com.selenium.studentportal.pageObject;
+package com.nmims.selenium.studentportal.pageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -36,6 +36,11 @@ public class LoginPageObject {
 	protected WebElement loginButton;
 	
 	@FindBy(xpath = "//a[normalize-space()='Logout']")
+	@CacheLookup
+	protected WebElement logoutButton;
+	
+	
+	@FindBy(xpath = "//a[normalize-space()='Logout']')]")
 	@CacheLookup
 	protected WebElement logoutButton;
 	

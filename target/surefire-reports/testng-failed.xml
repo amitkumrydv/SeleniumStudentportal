@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Studentportal]" guice-stage="DEVELOPMENT" verbose="0">
@@ -15,3 +16,21 @@
     </classes>
   </test> <!-- portalApp(failed) -->
 </suite> <!-- Failed suite [Studentportal] -->
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Studentportal]">
+  <test thread-count="5" verbose="0" name="portalApp(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.selenium.studentportal.testCase.TC_LoginTest_00001">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.studentportal.testCase.TC_LoginTest_00001 -->
+    </classes>
+  </test> <!-- portalApp(failed) -->
+</suite> <!-- Failed suite [Studentportal] -->
+>>>>>>> a3a49d57e246893560c10009f37d1a90defaf7f4

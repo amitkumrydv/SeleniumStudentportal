@@ -1,4 +1,4 @@
-package com.selenium.studentportal.testCase;
+package com.nmims.selenium.studentportal.testCase;
 
 import java.io.IOException;
 
@@ -10,6 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+<<<<<<< HEAD:src/test/java/com/selenium/studentportal/testCase/TC_LoginTest_00001.java
 import com.selenium.studentportal.action.ActionHandler;
 import com.selenium.studentportal.baseClass.BasClass;
 import com.selenium.studentportal.data.DataProvideLogin;
@@ -17,6 +18,13 @@ import com.selenium.studentportal.pageObject.LoginPageObject;
 import com.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.selenium.studentportal.testutil.LoginTestutil;
 import com.selenium.studentportal.utilities.XLUtils;
+=======
+import com.nmims.selenium.studentportal.baseClass.BasClass;
+import com.nmims.selenium.studentportal.data.DataProvideLogin;
+import com.nmims.selenium.studentportal.pageObject.LoginPageObject;
+import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
+import com.nmims.selenium.studentportal.utilities.XLUtils;
+>>>>>>> a3a49d57e246893560c10009f37d1a90defaf7f4:src/test/java/com/nmims/selenium/studentportal/testCase/TC_LoginTest_00001.java
 
 public class TC_LoginTest_00001 extends LoginTestutil {
 	
@@ -101,10 +109,22 @@ public class TC_LoginTest_00001 extends LoginTestutil {
 			Assert.assertTrue(false);
 		}
 		
+<<<<<<< HEAD:src/test/java/com/selenium/studentportal/testCase/TC_LoginTest_00001.java
 		
 		
 	
 			
+=======
+		loginPage.setUserName(user);
+		logger.info("Entered the UserId");
+		loginPage.setPassword(pwd); 
+		logger.info("Entered the password");
+		loginPage.clickSubmit();
+		logger.info("Click on the login button ");
+		loginPage.clickLogout();
+		logger.info("Click on the Logout button ");
+		
+>>>>>>> a3a49d57e246893560c10009f37d1a90defaf7f4:src/test/java/com/nmims/selenium/studentportal/testCase/TC_LoginTest_00001.java
 		
 
 	}

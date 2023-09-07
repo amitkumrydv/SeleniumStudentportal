@@ -1,6 +1,6 @@
 //Listener class used to generate Extent reports
 
-package com.selenium.studentportal.utilities;
+package com.nmims.selenium.studentportal.utilities;
 
 import java.io.File;
 import java.io.IOException;

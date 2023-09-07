@@ -1,4 +1,4 @@
-package com.selenium.studentportal.utilities;
+package com.nmims.selenium.studentportal.utilities;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
