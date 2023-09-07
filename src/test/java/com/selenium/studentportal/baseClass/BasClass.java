@@ -28,8 +28,8 @@ public class BasClass {
 	ReadConfig readConfig = new ReadConfig();
 
 	public String baseURL = readConfig.getApplicationURL();
-	public String userName = readConfig.getUsername();
-	public String password = readConfig.getPassword();
+	//public String userName = readConfig.getUsername();
+	//public String password = readConfig.getPassword();
 	public  WebDriver driver;
 	public static Logger logger; 
 	

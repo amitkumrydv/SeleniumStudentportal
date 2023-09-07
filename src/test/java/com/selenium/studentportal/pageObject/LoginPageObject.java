@@ -35,6 +35,10 @@ public class LoginPageObject {
 	@CacheLookup
 	protected WebElement loginButton;
 	
+	@FindBy(xpath = "//a[normalize-space()='Logout']")
+	@CacheLookup
+	protected WebElement logoutButton;
+	
 	
 
 
