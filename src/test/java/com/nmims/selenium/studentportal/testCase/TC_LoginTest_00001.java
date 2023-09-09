@@ -72,8 +72,7 @@ public class TC_LoginTest_00001 extends LoginTestutil {
 		Alert alert = driver.switchTo().alert();
 		System.out.println("Alert text Displayed : " + alert.getText());
 
-		LoginPageObjectMethod loginPageObject = new LoginPageObjectMethod(driver);
-		String pageHeaderTitle = loginPageObject.verifyTitle(); // This is page header title
+		String pageHeaderTitle = loginPage.verifyTitle(); // This is page header title
 		System.out.println("page header title is " + pageHeaderTitle);
 
 		String tabTitle = driver.getTitle(); // This is page tab title

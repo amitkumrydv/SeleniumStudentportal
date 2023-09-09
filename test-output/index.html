@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,12 +102,7 @@
                     <div class="method-list-content failed suite-StudentportalDashboard">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-StudentportalDashboard" title="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001" class="method navigator-link" hash-for-method="loginTest(54443434, grhru)">loginTest(54443434, grhru)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-StudentportalDashboard" title="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-StudentportalDashboard" title="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004" class="method navigator-link" hash-for-method="studentDetailsTest(54443434, grhru)">studentDetailsTest(54443434, grhru)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-StudentportalDashboard -->
@@ -121,7 +116,7 @@
                     <div class="method-list-content passed suite-StudentportalDashboard">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-StudentportalDashboard" title="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001" class="method navigator-link" hash-for-method="loginTest(77777777775, ngasce@775)">loginTest(77777777775, ngasce@775)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-StudentportalDashboard" title="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004" class="method navigator-link" hash-for-method="studentDetailsTest(77777777775, ngasce@775)">studentDetailsTest(77777777775, ngasce@775)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-StudentportalDashboard -->
@@ -139,24 +134,24 @@
           <div class="suite-StudentportalDashboard-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001</span>
+              <span class="class-name">com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(54443434, grhru)">
-                  </a> <!-- loginTest(54443434, grhru) -->
-                  <span class="method-name">loginTest</span>
+                  <a name="studentDetailsTest(54443434, grhru)">
+                  </a> <!-- studentDetailsTest(54443434, grhru) -->
+                  <span class="method-name">studentDetailsTest</span>
                   <span class="parameters">(54443434, grhru)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]&quot;}
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#userId&quot;}
   (Session info: chrome=114.0.5735.199)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;DESKTOP-HKLU73H&apos;, ip: &apos;192.168.0.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+System info: host: &apos;DESKTOP-HKLU73H&apos;, ip: &apos;192.168.0.114&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53568}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 448f6c0eaf129ca65d079bcdd85ca489
-*** Element info: {Using=xpath, value=//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56966}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ecef79a62dd7ccd60cf202e9ddbf047
+*** Element info: {Using=id, value=userId}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -164,46 +159,15 @@ Session ID: 448f6c0eaf129ca65d079bcdd85ca489
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy16.getText(Unknown Source)
-	at com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod.verifyTitle(LoginPageObjectMethod.java:15)
-	at com.nmims.selenium.studentportal.testutil.LoginTestutil.loginTest(LoginTestutil.java:20)
+	at com.sun.proxy.$Proxy16.clear(Unknown Source)
+	at com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod.setUserName(LoginPageObjectMethod.java:19)
+	at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004.studentDetailsTest(TC_StudenBasicInfo00004.java:20)
 ... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logoutTest">
-                  </a> <!-- logoutTest -->
-                  <span class="method-name">logoutTest</span>
-                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
-  (Session info: chrome=114.0.5735.199): {Alert text : 
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;DESKTOP-HKLU73H&apos;, ip: &apos;192.168.0.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53568}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 448f6c0eaf129ca65d079bcdd85ca489
-*** Element info: {Using=xpath, value=//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy16.getText(Unknown Source)
-	at com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod.verifyTitle(LoginPageObjectMethod.java:15)
-	at com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001.logoutTest(TC_LoginTest_00001.java:75)
-... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -212,14 +176,14 @@ Session ID: 448f6c0eaf129ca65d079bcdd85ca489
           <div class="suite-StudentportalDashboard-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001</span>
+              <span class="class-name">com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(77777777775, ngasce@775)">
-                  </a> <!-- loginTest(77777777775, ngasce@775) -->
-                  <span class="method-name">loginTest</span>
+                  <a name="studentDetailsTest(77777777775, ngasce@775)">
+                  </a> <!-- studentDetailsTest(77777777775, ngasce@775) -->
+                  <span class="method-name">studentDetailsTest</span>
                   <span class="parameters">(77777777775, ngasce@775)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -241,7 +205,7 @@ Session ID: 448f6c0eaf129ca65d079bcdd85ca489
   &lt;test thread-count=&quot;5&quot; name=&quot;portalApp&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001&quot;/&gt;
+      &lt;class name=&quot;com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- portalApp --&gt;
 &lt;/suite&gt; &lt;!-- StudentportalDashboard --&gt;
@@ -281,24 +245,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'logoutTest')
-data.setCell(0, 2, 'com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001')
-data.setCell(0, 3, 10262);
+data.setCell(0, 1, 'studentDetailsTest')
+data.setCell(0, 2, 'com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004')
+data.setCell(0, 3, 10107);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTest')
-data.setCell(1, 2, 'com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001')
-data.setCell(1, 3, 10093);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginTest')
-data.setCell(2, 2, 'com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001')
-data.setCell(2, 3, 8170);
+data.setCell(1, 1, 'studentDetailsTest')
+data.setCell(1, 2, 'com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004')
+data.setCell(1, 3, 9834);
 window.suiteTableData['StudentportalDashboard']= { tableData: data, tableDiv: 'times-div-StudentportalDashboard'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-StudentportalDashboard">
               </div> <!-- times-div-StudentportalDashboard -->
             </div> <!-- times-div -->
@@ -324,30 +284,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">loginTest(77777777775, ngasce@775)</span>
-                <span class="method-start">6269 ms</span>
+                <span class="method-name">studentDetailsTest(77777777775, ngasce@775)</span>
+                <span class="method-start">4745 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">loginTest(54443434, grhru)</span>
-                <span class="method-start">14532 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">logoutTest</span>
-                <span class="method-start">24640 ms</span>
+                <span class="method-name">studentDetailsTest(54443434, grhru)</span>
+                <span class="method-start">14596 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34919 ms</span>
+                <span class="method-start">24708 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
