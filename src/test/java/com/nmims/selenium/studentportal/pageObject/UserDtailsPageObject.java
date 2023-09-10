@@ -18,20 +18,13 @@ public class UserDtailsPageObject {
 		PageFactory.initElements(driver, this);
 	}
 	
-	
-	
-	@FindBy(xpath = "//ul[contains(@class,'student-info-list')]//li")
-	@CacheLookup
-	protected WebElement  studentBasicData;
-	
 	@FindBy(xpath = "//h3[@class=\"student-name\"]")
 	@CacheLookup
-	protected WebElement studentName;
+	public static WebElement studentName;
+
 
 	
-	@FindBy(xpath = "//ul[contains(@class,'student-info-list')]//li")
-	@CacheLookup
-	public static List<WebElement> countBasicDetails;
+	
 	
 	
 

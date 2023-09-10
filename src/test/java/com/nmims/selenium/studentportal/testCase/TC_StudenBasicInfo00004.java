@@ -4,13 +4,20 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.nmims.selenium.studentportal.baseClass.BasClass;
 import com.nmims.selenium.studentportal.data.DataProvideLogin;
+import com.nmims.selenium.studentportal.data.StudaentDetail;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
+import com.nmims.selenium.studentportal.pageObjectMethod.UserDtailsPageObjectMethod;
+import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
 public class TC_StudenBasicInfo00004 extends BasClass {
+
+	ReadConfig readStudentdata = new ReadConfig();
+	public String path = readStudentdata.getStudentDetailsExcel();
 
 	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class)
 	public void studentDetailsTest(String user, String pwd) throws Exception {
@@ -25,23 +32,24 @@ public class TC_StudenBasicInfo00004 extends BasClass {
 
 		loginPage.clickSubmit();
 		logger.info("Click on the login button ");
-
 		
-         // get student details from the UI
-		 List<WebElement> countData =
-		 driver.findElements(By.xpath("//ul[contains(@class,'student-info-list')]//li"));
-		 int countDataSize = countData.size();
-		 logger.info("Count displayed " + countDataSize);
+		
 
-		for (int i = 1; i <= countDataSize; i++) {
-			String studentInfo = "//ul[contains(@class,'student-info-list')]//li[" + i + "]";
+		StudaentDetail excelReader = new StudaentDetail();
+		UserDtailsPageObjectMethod webElementFetcher = new UserDtailsPageObjectMethod();
 
-			WebElement item = driver.findElement(By.xpath(studentInfo));
-			String studentInfoList = item.getText();
-			logger.info("Data displayed " + studentInfoList);
-			
-			item.click();
+		List<String> expectedOptions = excelReader.studentDetailExcel(path, "Details");
+		logger.info(expectedOptions);
+		List<String> actualTextValues = webElementFetcher.fetchTextValuesFromUI(driver,"//ul[contains(@class,'student-info-list')]//li");
+		logger.info("Header Xpath pass " + actualTextValues);
 
+		if (expectedOptions.containsAll(actualTextValues)) {
+			logger.info("Student data is matched from the Excel");
+			Assert.assertEquals(actualTextValues, expectedOptions, "Excel Data matched from the UI");
+		} else {
+			logger.info("Student data is not matched from the Excel");
+			captureScreen(driver, "loginTest");
+			Assert.assertNotSame(expectedOptions, actualTextValues);
 		}
 
 	}
