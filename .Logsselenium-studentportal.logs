@@ -824,3 +824,47 @@
 2023-09-10 13:46:19,962 [main] INFO aelenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
 2023-09-10 13:46:19,981 - aelenium_studentPortal -INFO - Student data is not matched from the Excel
 2023-09-10 13:46:19,981 [main] INFO aelenium_studentPortal - Student data is not matched from the Excel
+2023-09-10 13:52:54,008 - aelenium_studentPortal -INFO - Login page title is match
+2023-09-10 13:52:54,008 [main] INFO aelenium_studentPortal - Login page title is match
+2023-09-10 13:52:54,430 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-10 13:52:54,430 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-10 13:52:54,677 - aelenium_studentPortal -INFO - Entered the password
+2023-09-10 13:52:54,677 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-10 13:53:06,078 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-10 13:53:06,078 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-10 13:53:21,588 - aelenium_studentPortal -INFO - Page logout 
+2023-09-10 13:53:21,588 [main] INFO aelenium_studentPortal - Page logout 
+2023-09-10 13:53:28,887 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-10 13:53:28,887 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-10 13:53:29,230 - aelenium_studentPortal -INFO - Entered the password
+2023-09-10 13:53:29,230 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-10 13:53:38,831 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-10 13:53:38,831 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-10 13:53:39,018 - aelenium_studentPortal -INFO - []
+2023-09-10 13:53:39,018 [main] INFO aelenium_studentPortal - []
+2023-09-10 13:53:39,165 - aelenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-10 13:53:39,165 [main] INFO aelenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-10 13:53:39,174 - aelenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-10 13:53:39,174 [main] INFO aelenium_studentPortal - Student data is not matched from the Excel
+2023-09-10 15:28:09,872 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-10 15:28:09,872 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-10 15:28:10,144 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-10 15:28:10,144 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-10 15:28:10,424 - Selenium_studentPortal -INFO - Entered the password
+2023-09-10 15:28:10,424 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-10 15:28:17,802 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-10 15:28:17,802 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-10 15:28:33,091 - Selenium_studentPortal -INFO - Page logout 
+2023-09-10 15:28:33,091 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-10 15:28:35,885 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-10 15:28:35,885 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-10 15:28:36,137 - Selenium_studentPortal -INFO - Entered the password
+2023-09-10 15:28:36,137 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-10 15:28:40,198 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-10 15:28:40,198 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-10 15:28:40,314 - Selenium_studentPortal -INFO - []
+2023-09-10 15:28:40,314 [main] INFO Selenium_studentPortal - []
+2023-09-10 15:28:40,431 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-10 15:28:40,431 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-10 15:28:40,451 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-10 15:28:40,451 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel

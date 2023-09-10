@@ -14,6 +14,14 @@
           <include name="studentDetailsTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004 -->
+      <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001">
+        <methods>
+          <include name="logoutTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001 -->
     </classes>
   </test> <!-- portalApp(failed) -->
 </suite> <!-- Failed suite [StudentportalDashboard] -->
