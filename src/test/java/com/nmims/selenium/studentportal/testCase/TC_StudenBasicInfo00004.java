@@ -1,6 +1,7 @@
 package com.nmims.selenium.studentportal.testCase;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -32,7 +33,7 @@ public class TC_StudenBasicInfo00004 extends BasClass {
 
 		loginPage.clickSubmit();
 		logger.info("Click on the login button ");
-		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 
 		StudaentDetail excelReader = new StudaentDetail();
@@ -42,7 +43,7 @@ public class TC_StudenBasicInfo00004 extends BasClass {
 		logger.info(expectedOptions);
 		List<String> actualTextValues = webElementFetcher.fetchTextValuesFromUI(driver,"//ul[contains(@class,'student-info-list')]//li");
 		logger.info("Header Xpath pass " + actualTextValues);
-
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		if (expectedOptions.containsAll(actualTextValues)) {
 			logger.info("Student data is matched from the Excel");
 			Assert.assertEquals(actualTextValues, expectedOptions, "Excel Data matched from the UI");

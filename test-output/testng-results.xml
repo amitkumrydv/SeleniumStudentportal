@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-10T06:01:35Z" name="StudentportalDashboard" finished-at="2023-09-10T06:02:26Z" duration-ms="50299">
+  <suite started-at="2023-09-10T08:16:02Z" name="StudentportalDashboard" finished-at="2023-09-10T08:16:30Z" duration-ms="27961">
     <groups>
     </groups>
-    <test started-at="2023-09-10T06:01:35Z" name="portalApp" finished-at="2023-09-10T06:02:26Z" duration-ms="50299">
+    <test started-at="2023-09-10T08:16:02Z" name="portalApp" finished-at="2023-09-10T08:16:30Z" duration-ms="27961">
       <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T06:01:36Z" name="setup" finished-at="2023-09-10T06:01:41Z" duration-ms="5552" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T08:16:03Z" name="setup" finished-at="2023-09-10T08:16:07Z" duration-ms="4317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T06:01:43Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-09-10T06:02:15Z" duration-ms="32428" status="PASS">
+        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T08:16:09Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-09-10T08:16:20Z" duration-ms="11171" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- studentDetailsTest -->
-        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T06:02:15Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-09-10T06:02:25Z" duration-ms="10056" status="FAIL">
+        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T08:16:20Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-09-10T08:16:30Z" duration-ms="10071" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -55,8 +55,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9a6e750014fc84a58a8abc20fc98ce06
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e01218469de6c054d114d97973b66198
 *** Element info: {Using=id, value=userId}]]>
             </message>
             <full-stacktrace>
@@ -66,8 +66,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9a6e750014fc84a58a8abc20fc98ce06
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e01218469de6c054d114d97973b66198
 *** Element info: {Using=id, value=userId}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -87,7 +87,7 @@ at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(Def
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy16.clear(Unknown Source)
 at com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod.setUserName(LoginPageObjectMethod.java:19)
-at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004.studentDetailsTest(TC_StudenBasicInfo00004.java:26)
+at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004.studentDetailsTest(TC_StudenBasicInfo00004.java:28)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -119,7 +119,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- studentDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T06:02:25Z" name="tearDown" finished-at="2023-09-10T06:02:26Z" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T08:16:30Z" name="tearDown" finished-at="2023-09-10T08:16:30Z" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

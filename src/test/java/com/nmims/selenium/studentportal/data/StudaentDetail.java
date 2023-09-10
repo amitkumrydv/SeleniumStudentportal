@@ -49,22 +49,9 @@ public class StudaentDetail {
 	            	    } else {
 	            	        // Handle other cell types (e.g., string, formula, etc.)
 	            	        String stringValue = cell.getStringCellValue();
-	            	        logger.info("Excel Data-- "+ stringValue);
+	            	        logger.info("Successfully read Excel data "+stringValue.toString() );
 	            	        // Continue working with stringValue as a string
 	            	    }
-	            	
-	            	
-	            	
-	            	
-	            	
-	            	
-	            	
-	            	
-	            	
-	            	
-	            	
-	            	
-	               //  expectedOptions.add(cell.getStringCellValue());
 	              }
 			 
 			   }
