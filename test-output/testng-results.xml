@@ -2,12 +2,12 @@
 <testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="StudentportalDashboard" duration-ms="8148" started-at="2023-09-13T06:16:54Z" finished-at="2023-09-13T06:17:02Z">
+  <suite name="StudentportalDashboard" duration-ms="2054" started-at="2023-09-13T09:30:51Z" finished-at="2023-09-13T09:30:53Z">
     <groups>
     </groups>
-    <test name="portalApp" duration-ms="8148" started-at="2023-09-13T06:16:54Z" finished-at="2023-09-13T06:17:02Z">
+    <test name="portalApp" duration-ms="2054" started-at="2023-09-13T09:30:51Z" finished-at="2023-09-13T09:30:53Z">
       <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001">
-        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@4cec5cd5]" name="setup" is-config="true" duration-ms="8087" started-at="2023-09-13T06:16:54Z" finished-at="2023-09-13T06:17:02Z">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@63bd2f9c]" name="setup" is-config="true" duration-ms="1932" started-at="2023-09-13T09:30:51Z" finished-at="2023-09-13T09:30:53Z">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@4cec5cd5]" name="loginTest" duration-ms="0" started-at="2023-09-13T06:17:02Z" data-provider="Login" finished-at="2023-09-13T06:17:02Z">
+        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@63bd2f9c]" name="loginTest" duration-ms="0" started-at="2023-09-13T09:30:53Z" data-provider="Login" finished-at="2023-09-13T09:30:53Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
@@ -256,7 +256,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@4cec5cd5]" name="loginTest" duration-ms="0" started-at="2023-09-13T06:17:02Z" data-provider="Login" finished-at="2023-09-13T06:17:02Z">
+        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@63bd2f9c]" name="loginTest" duration-ms="0" started-at="2023-09-13T09:30:53Z" data-provider="Login" finished-at="2023-09-13T09:30:53Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
@@ -377,11 +377,7 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@4cec5cd5]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-09-13T06:17:02Z" finished-at="2023-09-13T06:17:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@4cec5cd5]" name="logoutTest" duration-ms="0" started-at="2023-09-13T06:17:02Z" depends-on-methods="com.nmims.selenium.studentportal.testutil.LoginTestutil.loginTest" finished-at="2023-09-13T06:17:02Z">
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@63bd2f9c]" name="logoutTest" duration-ms="0" started-at="2023-09-13T09:30:53Z" depends-on-methods="com.nmims.selenium.studentportal.testutil.LoginTestutil.loginTest" finished-at="2023-09-13T09:30:53Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
@@ -502,6 +498,10 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@63bd2f9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-09-13T09:30:53Z" finished-at="2023-09-13T09:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001 -->
     </test> <!-- portalApp -->
   </suite> <!-- StudentportalDashboard -->

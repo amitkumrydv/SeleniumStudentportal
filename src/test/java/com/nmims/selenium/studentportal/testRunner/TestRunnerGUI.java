@@ -13,7 +13,7 @@ public class TestRunnerGUI {
     private TestNGTestRunner testRunner;
 
     public TestRunnerGUI() {
-        frame = new JFrame("TestNG Test Runner");
+        frame = new JFrame("Test Runner");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 400);
 
