@@ -1,4 +1,4 @@
-package com.nmims.selenium.studentportal.pageObjectMethod;
+package com.nmims.selenium.studentportal.pom;
 
 import org.openqa.selenium.WebDriver;
 

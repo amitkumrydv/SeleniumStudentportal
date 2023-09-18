@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import com.nmims.selenium.studentportal.baseClass.BasClass;
 import com.nmims.selenium.studentportal.data.DataProvideLogin;
-import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
+import com.nmims.selenium.studentportal.pom.LoginPageObjectMethod;
 
 
  public class LoginTestutil extends BasClass {
