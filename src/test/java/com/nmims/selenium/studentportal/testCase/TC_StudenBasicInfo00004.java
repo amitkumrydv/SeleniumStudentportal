@@ -11,8 +11,8 @@ import org.testng.annotations.Test;
 import com.nmims.selenium.studentportal.baseClass.BasClass;
 import com.nmims.selenium.studentportal.data.DataProvideLogin;
 import com.nmims.selenium.studentportal.data.StudaentDetail;
-import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
-import com.nmims.selenium.studentportal.pageObjectMethod.UserDtailsPageObjectMethod;
+import com.nmims.selenium.studentportal.pom.LoginPageObjectMethod;
+import com.nmims.selenium.studentportal.pom.UserDtailsPageObjectMethod;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
 public class TC_StudenBasicInfo00004 extends BasClass {
