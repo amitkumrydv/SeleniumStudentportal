@@ -824,6 +824,7 @@
 2023-09-10 13:46:19,962 [main] INFO aelenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
 2023-09-10 13:46:19,981 - aelenium_studentPortal -INFO - Student data is not matched from the Excel
 2023-09-10 13:46:19,981 [main] INFO aelenium_studentPortal - Student data is not matched from the Excel
+<<<<<<< HEAD
 2023-09-10 13:52:54,008 - aelenium_studentPortal -INFO - Login page title is match
 2023-09-10 13:52:54,008 [main] INFO aelenium_studentPortal - Login page title is match
 2023-09-10 13:52:54,430 - aelenium_studentPortal -INFO - Entered the UserId
@@ -868,6 +869,7 @@
 2023-09-10 15:28:40,431 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
 2023-09-10 15:28:40,451 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
 2023-09-10 15:28:40,451 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+<<<<<<< HEAD
 2023-09-17 15:29:47,528 - Selenium_studentPortal -INFO - Login page title is match
 2023-09-17 15:29:47,528 [main] INFO Selenium_studentPortal - Login page title is match
 2023-09-17 15:29:47,823 - Selenium_studentPortal -INFO - Entered the UserId
@@ -1196,3 +1198,133 @@
 2023-09-18 21:27:03,949 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
 2023-09-18 21:27:03,964 - Selenium_studentPortal -INFO - Student data is matched from the Excel
 2023-09-18 21:27:03,964 [main] INFO Selenium_studentPortal - Student data is matched from the Excel
+=======
+=======
+2023-09-18 21:50:14,674 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-18 21:50:14,674 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-18 21:50:14,945 - aelenium_studentPortal -INFO - Entered the password
+2023-09-18 21:50:14,945 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-18 21:50:15,645 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-18 21:50:15,645 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-18 21:50:15,766 - aelenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 21:50:15,766 [main] INFO aelenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 21:50:25,859 - aelenium_studentPortal -INFO - Header Xpath pass []
+2023-09-18 21:50:25,859 [main] INFO aelenium_studentPortal - Header Xpath pass []
+2023-09-18 21:50:25,881 - aelenium_studentPortal -INFO - Student data is matched from the Excel
+2023-09-18 21:50:25,881 [main] INFO aelenium_studentPortal - Student data is matched from the Excel
+2023-09-18 21:50:26,116 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-18 21:50:26,116 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-18 21:50:26,304 - aelenium_studentPortal -INFO - Entered the password
+2023-09-18 21:50:26,304 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-18 21:50:26,586 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-18 21:50:26,586 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-18 21:50:26,668 - aelenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 21:50:26,668 [main] INFO aelenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 21:50:36,689 - aelenium_studentPortal -INFO - Header Xpath pass []
+2023-09-18 21:50:36,689 [main] INFO aelenium_studentPortal - Header Xpath pass []
+2023-09-18 21:50:36,704 - aelenium_studentPortal -INFO - Student data is matched from the Excel
+2023-09-18 21:50:36,704 [main] INFO aelenium_studentPortal - Student data is matched from the Excel
+2023-09-18 22:16:50,634 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-18 22:16:50,634 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-18 22:16:50,907 - aelenium_studentPortal -INFO - Entered the password
+2023-09-18 22:16:50,907 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-18 22:16:51,336 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-18 22:16:51,336 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-18 22:17:01,415 - aelenium_studentPortal -INFO - Header Xpath pass []
+2023-09-18 22:17:01,415 [main] INFO aelenium_studentPortal - Header Xpath pass []
+2023-09-18 22:17:01,538 - aelenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:17:01,538 [main] INFO aelenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:17:01,539 - aelenium_studentPortal -INFO - Student data is matched from the Excel
+2023-09-18 22:17:01,539 [main] INFO aelenium_studentPortal - Student data is matched from the Excel
+2023-09-18 22:17:01,770 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-18 22:17:01,770 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-18 22:17:02,006 - aelenium_studentPortal -INFO - Entered the password
+2023-09-18 22:17:02,006 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-18 22:17:02,374 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-18 22:17:02,374 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-18 22:17:12,517 - aelenium_studentPortal -INFO - Header Xpath pass []
+2023-09-18 22:17:12,517 [main] INFO aelenium_studentPortal - Header Xpath pass []
+2023-09-18 22:17:12,592 - aelenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:17:12,592 [main] INFO aelenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:17:12,597 - aelenium_studentPortal -INFO - Student data is matched from the Excel
+2023-09-18 22:17:12,597 [main] INFO aelenium_studentPortal - Student data is matched from the Excel
+2023-09-18 22:18:24,508 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-18 22:18:24,508 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-18 22:18:24,780 - aelenium_studentPortal -INFO - Entered the password
+2023-09-18 22:18:24,780 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-18 22:18:25,324 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-18 22:18:25,324 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-18 22:18:35,368 - aelenium_studentPortal -INFO - Header Xpath pass []
+2023-09-18 22:18:35,368 [main] INFO aelenium_studentPortal - Header Xpath pass []
+2023-09-18 22:18:35,447 - aelenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:18:35,447 [main] INFO aelenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:18:35,641 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-18 22:18:35,641 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-18 22:18:35,805 - aelenium_studentPortal -INFO - Entered the password
+2023-09-18 22:18:35,805 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-18 22:18:36,189 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-18 22:18:36,189 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-18 22:18:46,248 - aelenium_studentPortal -INFO - Header Xpath pass []
+2023-09-18 22:18:46,248 [main] INFO aelenium_studentPortal - Header Xpath pass []
+2023-09-18 22:18:46,412 - aelenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:18:46,412 [main] INFO aelenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:22:12,672 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-18 22:22:12,672 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-18 22:22:12,890 - aelenium_studentPortal -INFO - Entered the password
+2023-09-18 22:22:12,890 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-18 22:22:13,601 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-18 22:22:13,601 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-18 22:22:23,673 - aelenium_studentPortal -INFO - Header Xpath pass []
+2023-09-18 22:22:23,673 [main] INFO aelenium_studentPortal - Header Xpath pass []
+2023-09-18 22:22:23,829 - aelenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:22:23,829 [main] INFO aelenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:22:23,839 - aelenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-18 22:22:23,839 [main] INFO aelenium_studentPortal - Student data is not matched from the Excel
+2023-09-18 22:22:24,590 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-18 22:22:24,590 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-18 22:22:24,861 - aelenium_studentPortal -INFO - Entered the password
+2023-09-18 22:22:24,861 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-18 22:22:25,247 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-18 22:22:25,247 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-18 22:22:35,323 - aelenium_studentPortal -INFO - Header Xpath pass []
+2023-09-18 22:22:35,323 [main] INFO aelenium_studentPortal - Header Xpath pass []
+2023-09-18 22:22:35,383 - aelenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:22:35,383 [main] INFO aelenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, 46022]
+2023-09-18 22:22:35,388 - aelenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-18 22:22:35,388 [main] INFO aelenium_studentPortal - Student data is not matched from the Excel
+2023-09-18 22:24:46,437 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-18 22:24:46,437 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-18 22:24:46,709 - aelenium_studentPortal -INFO - Entered the password
+2023-09-18 22:24:46,709 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-18 22:24:54,707 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-18 22:24:54,707 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-18 22:24:54,904 - aelenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 22:24:54,904 [main] INFO aelenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 22:24:55,032 - aelenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 22:24:55,032 [main] INFO aelenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 22:27:22,904 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-18 22:27:22,904 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-18 22:27:23,166 - aelenium_studentPortal -INFO - Entered the password
+2023-09-18 22:27:23,166 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-18 22:27:30,947 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-18 22:27:30,947 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-18 22:27:31,165 - aelenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 22:27:31,165 [main] INFO aelenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 22:27:31,290 - aelenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 22:27:31,290 [main] INFO aelenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 22:27:31,291 - aelenium_studentPortal -INFO - Excel Data matched from the UI
+2023-09-18 22:27:31,291 [main] INFO aelenium_studentPortal - Excel Data matched from the UI
+2023-09-18 22:37:36,231 - aelenium_studentPortal -INFO - Entered the UserId
+2023-09-18 22:37:36,231 [main] INFO aelenium_studentPortal - Entered the UserId
+2023-09-18 22:37:36,484 - aelenium_studentPortal -INFO - Entered the password
+2023-09-18 22:37:36,484 [main] INFO aelenium_studentPortal - Entered the password
+2023-09-18 22:37:44,403 - aelenium_studentPortal -INFO - Click on the login button 
+2023-09-18 22:37:44,403 [main] INFO aelenium_studentPortal - Click on the login button 
+2023-09-18 22:37:44,579 - aelenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 22:37:44,579 [main] INFO aelenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 22:37:44,701 - aelenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, ]
+2023-09-18 22:37:44,701 [main] INFO aelenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, ]
+2023-09-18 22:37:44,702 - aelenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-18 22:37:44,702 [main] INFO aelenium_studentPortal - Student data is not matched from the Excel
+>>>>>>> student_details
+>>>>>>> developer
