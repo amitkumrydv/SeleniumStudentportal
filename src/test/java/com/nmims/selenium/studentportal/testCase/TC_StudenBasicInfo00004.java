@@ -39,18 +39,25 @@ public class TC_StudenBasicInfo00004 extends BasClass {
 		StudaentDetail excelReader = new StudaentDetail();
 		UserDtailsPageObjectMethod webElementFetcher = new UserDtailsPageObjectMethod();
 
-		List<String> expectedOptions = excelReader.studentDetailExcel(path, "Details");
-		logger.info(expectedOptions);
+		
 		List<String> actualTextValues = webElementFetcher.fetchTextValuesFromUI(driver,"//ul[contains(@class,'student-info-list')]//li");
 		logger.info("Header Xpath pass " + actualTextValues);
+		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		if (expectedOptions.containsAll(actualTextValues)) {
-			logger.info("Student data is matched from the Excel");
-			Assert.assertEquals(actualTextValues, expectedOptions, "Excel Data matched from the UI");
+		List<String> expectedOptions = excelReader.studentDetailExcel(path, "Details");
+		logger.info(expectedOptions);
+		
+		
+		
+		
+		if (expectedOptions.equals(actualTextValues)) {
+			
+			logger.info("Excel Data matched from the UI");
+			Assert.assertEquals(actualTextValues, expectedOptions);
 		} else {
 			logger.info("Student data is not matched from the Excel");
 			captureScreen(driver, "loginTest");
-			Assert.assertNotSame(expectedOptions, actualTextValues);
+			Assert.assertEquals(expectedOptions, actualTextValues);
 		}
 
 	}

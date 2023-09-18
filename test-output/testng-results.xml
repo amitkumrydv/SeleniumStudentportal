@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-10T08:16:02Z" name="StudentportalDashboard" finished-at="2023-09-10T08:16:30Z" duration-ms="27961">
+  <suite started-at="2023-09-18T17:07:29Z" name="StudentportalDashboard" finished-at="2023-09-18T17:07:45Z" duration-ms="16289">
     <groups>
     </groups>
-    <test started-at="2023-09-10T08:16:02Z" name="portalApp" finished-at="2023-09-10T08:16:30Z" duration-ms="27961">
+    <test started-at="2023-09-18T17:07:29Z" name="portalApp" finished-at="2023-09-18T17:07:45Z" duration-ms="16289">
       <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T08:16:03Z" name="setup" finished-at="2023-09-10T08:16:07Z" duration-ms="4317" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-18T17:07:29Z" name="setup" finished-at="2023-09-18T17:07:34Z" duration-ms="5038" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T08:16:09Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-09-10T08:16:20Z" duration-ms="11171" status="PASS">
+        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-18T17:07:35Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-09-18T17:07:45Z" duration-ms="9159" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -27,67 +27,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[ngasce@775]]>
+                <![CDATA[Ngasce@123]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- studentDetailsTest -->
-        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T08:16:20Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-09-10T08:16:30Z" duration-ms="10071" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[54443434]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[grhru]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#userId"}
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e01218469de6c054d114d97973b66198
-*** Element info: {Using=id, value=userId}]]>
+              <![CDATA[Lists differ at element [4]: Validity End: 31-Dec-2025 !=  expected [Validity End: 31-Dec-2025] but found []]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userId"}
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e01218469de6c054d114d97973b66198
-*** Element info: {Using=id, value=userId}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy16.clear(Unknown Source)
-at com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod.setUserName(LoginPageObjectMethod.java:19)
-at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004.studentDetailsTest(TC_StudenBasicInfo00004.java:28)
+              <![CDATA[java.lang.AssertionError: Lists differ at element [4]: Validity End: 31-Dec-2025 !=  expected [Validity End: 31-Dec-2025] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:831)
+at org.testng.Assert.assertEquals(Assert.java:796)
+at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004.studentDetailsTest(TC_StudenBasicInfo00004.java:60)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -115,11 +70,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- studentDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-10T08:16:30Z" name="tearDown" finished-at="2023-09-10T08:16:30Z" duration-ms="362" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@6497b078]" started-at="2023-09-18T17:07:45Z" name="tearDown" finished-at="2023-09-18T17:07:45Z" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

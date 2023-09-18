@@ -11,7 +11,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="studentDetailsTest" invocation-numbers="1"/>
+          <include name="studentDetailsTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004 -->
     </classes>
