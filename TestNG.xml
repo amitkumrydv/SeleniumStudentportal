@@ -15,7 +15,7 @@
 		<classes>
 		
             
-		   <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001" />  
+		 <!--  <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001" /> --> 
 			<!-- <class name="com.nmims.selenium.studentportal.testutil.LoginTestutil" /> -->
 			<class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004" /> 
 			

@@ -868,3 +868,331 @@
 2023-09-10 15:28:40,431 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
 2023-09-10 15:28:40,451 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
 2023-09-10 15:28:40,451 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-17 15:29:47,528 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-17 15:29:47,528 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-17 15:29:47,823 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 15:29:47,823 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 15:29:48,032 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 15:29:48,032 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 15:29:48,340 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 15:29:48,340 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 15:29:48,460 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-17 15:29:48,460 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-17 15:29:48,619 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 15:29:48,619 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 15:29:48,823 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 15:29:48,823 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 15:29:49,069 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 15:29:49,069 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 15:30:01,846 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 15:30:01,846 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 15:30:02,183 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 15:30:02,183 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 15:30:02,508 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 15:30:02,508 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 15:30:02,588 - Selenium_studentPortal -INFO - []
+2023-09-17 15:30:02,588 [main] INFO Selenium_studentPortal - []
+2023-09-17 15:30:12,613 - Selenium_studentPortal -INFO - Header Xpath pass []
+2023-09-17 15:30:12,613 [main] INFO Selenium_studentPortal - Header Xpath pass []
+2023-09-17 15:30:12,625 - Selenium_studentPortal -INFO - Student data is matched from the Excel
+2023-09-17 15:30:12,625 [main] INFO Selenium_studentPortal - Student data is matched from the Excel
+2023-09-17 15:30:12,777 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 15:30:12,777 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 15:30:12,986 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 15:30:12,986 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 15:30:13,319 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 15:30:13,319 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 15:30:13,434 - Selenium_studentPortal -INFO - []
+2023-09-17 15:30:13,434 [main] INFO Selenium_studentPortal - []
+2023-09-17 15:30:23,452 - Selenium_studentPortal -INFO - Header Xpath pass []
+2023-09-17 15:30:23,452 [main] INFO Selenium_studentPortal - Header Xpath pass []
+2023-09-17 15:30:23,472 - Selenium_studentPortal -INFO - Student data is matched from the Excel
+2023-09-17 15:30:23,472 [main] INFO Selenium_studentPortal - Student data is matched from the Excel
+2023-09-17 17:14:22,082 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-17 17:14:22,082 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-17 17:14:22,320 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 17:14:22,320 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 17:14:22,515 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 17:14:22,515 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 17:14:22,792 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 17:14:22,792 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 17:14:22,885 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-17 17:14:22,885 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-17 17:14:23,054 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 17:14:23,054 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 17:14:23,219 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 17:14:23,219 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 17:14:23,407 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 17:14:23,407 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 17:14:35,937 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 17:14:35,937 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 17:14:36,118 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 17:14:36,118 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 17:14:36,690 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 17:14:36,690 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 17:14:36,778 - Selenium_studentPortal -INFO - []
+2023-09-17 17:14:36,778 [main] INFO Selenium_studentPortal - []
+2023-09-17 17:14:46,703 - Selenium_studentPortal -INFO - Header Xpath pass []
+2023-09-17 17:14:46,703 [main] INFO Selenium_studentPortal - Header Xpath pass []
+2023-09-17 17:14:46,724 - Selenium_studentPortal -INFO - Student data is matched from the Excel
+2023-09-17 17:14:46,724 [main] INFO Selenium_studentPortal - Student data is matched from the Excel
+2023-09-17 18:26:06,542 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-17 18:26:06,542 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-17 18:26:06,744 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 18:26:06,744 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 18:26:06,931 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 18:26:06,931 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 18:26:14,955 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 18:26:14,955 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 18:26:20,137 - Selenium_studentPortal -INFO - Page logout 
+2023-09-17 18:26:20,137 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-17 18:26:23,771 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 18:26:23,771 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 18:26:23,971 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 18:26:23,971 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 18:26:27,638 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 18:26:27,638 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 18:26:27,741 - Selenium_studentPortal -INFO - []
+2023-09-17 18:26:27,741 [main] INFO Selenium_studentPortal - []
+2023-09-17 18:26:27,952 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 18:26:27,952 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 18:26:27,963 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-17 18:26:27,963 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-17 18:35:50,462 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-17 18:35:50,462 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-17 18:35:50,645 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 18:35:50,645 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 18:35:50,827 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 18:35:50,827 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 18:36:01,378 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 18:36:01,378 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 18:36:06,561 - Selenium_studentPortal -INFO - Page logout 
+2023-09-17 18:36:06,561 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-17 18:36:09,859 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 18:36:09,859 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 18:36:10,051 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 18:36:10,051 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 18:36:13,513 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 18:36:13,513 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 18:36:13,586 - Selenium_studentPortal -INFO - []
+2023-09-17 18:36:13,586 [main] INFO Selenium_studentPortal - []
+2023-09-17 18:36:13,732 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 18:36:13,732 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 18:36:13,737 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-17 18:36:13,737 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-17 18:37:35,101 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-17 18:37:35,101 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-17 18:37:35,290 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 18:37:35,290 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 18:37:35,501 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 18:37:35,501 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 18:37:46,128 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 18:37:46,128 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 18:37:51,320 - Selenium_studentPortal -INFO - Page logout 
+2023-09-17 18:37:51,320 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-17 18:37:54,508 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 18:37:54,508 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 18:37:54,697 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 18:37:54,697 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 18:37:58,575 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 18:37:58,575 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 18:37:58,667 - Selenium_studentPortal -INFO - []
+2023-09-17 18:37:58,667 [main] INFO Selenium_studentPortal - []
+2023-09-17 18:37:58,863 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 18:37:58,863 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 18:37:58,876 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-17 18:37:58,876 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-17 18:38:42,107 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-17 18:38:42,107 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-17 18:38:42,314 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 18:38:42,314 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 18:38:42,573 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 18:38:42,573 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 18:38:51,841 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 18:38:51,841 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 18:38:57,016 - Selenium_studentPortal -INFO - Page logout 
+2023-09-17 18:38:57,016 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-17 18:39:00,639 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 18:39:00,639 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 18:39:00,819 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 18:39:00,819 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 18:39:13,535 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 18:39:13,535 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 18:39:13,604 - Selenium_studentPortal -INFO - []
+2023-09-17 18:39:13,604 [main] INFO Selenium_studentPortal - []
+2023-09-17 18:39:13,723 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 18:39:13,723 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 18:39:13,729 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-17 18:39:13,729 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-17 18:47:47,794 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-17 18:47:47,794 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-17 18:47:47,961 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 18:47:47,961 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 18:47:48,133 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 18:47:48,133 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 18:47:58,694 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 18:47:58,694 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 18:48:03,976 - Selenium_studentPortal -INFO - Page logout 
+2023-09-17 18:48:03,976 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-17 18:48:07,789 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 18:48:07,789 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 18:48:08,043 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 18:48:08,043 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 18:48:12,112 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 18:48:12,112 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 18:48:12,244 - Selenium_studentPortal -INFO - []
+2023-09-17 18:48:12,244 [main] INFO Selenium_studentPortal - []
+2023-09-17 18:48:12,348 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 18:48:12,348 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 18:48:12,370 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-17 18:48:12,370 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-17 19:02:37,147 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 19:02:37,147 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 19:02:37,416 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 19:02:37,416 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 19:02:45,006 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 19:02:45,006 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 19:02:45,183 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu]
+2023-09-17 19:02:45,183 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu]
+2023-09-17 19:02:45,351 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 19:02:45,351 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 19:02:45,359 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-17 19:02:45,359 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-17 19:04:22,924 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 19:04:22,924 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 19:04:23,224 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 19:04:23,224 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 19:04:31,009 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 19:04:31,009 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 19:05:45,544 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 19:05:45,544 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 19:05:45,797 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 19:05:45,797 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 19:05:54,939 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 19:05:54,939 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 19:05:55,120 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu]
+2023-09-17 19:05:55,120 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu]
+2023-09-17 19:05:55,252 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 19:05:55,252 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 19:05:55,266 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-17 19:05:55,266 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-17 19:18:16,314 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 19:18:16,314 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 19:18:16,556 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 19:18:16,556 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 19:18:23,274 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 19:18:23,274 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 19:18:23,449 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8.287324844E9, MBA (FM), 7.7777777775E10, Validity End: 31-Dec-2025]
+2023-09-17 19:18:23,449 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8.287324844E9, MBA (FM), 7.7777777775E10, Validity End: 31-Dec-2025]
+2023-09-17 19:18:23,572 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 19:18:23,572 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 19:18:23,586 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-17 19:18:23,586 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-17 19:43:20,147 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 19:43:20,147 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 19:43:20,410 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 19:43:20,410 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 19:43:48,871 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 19:43:48,871 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 19:43:49,035 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8.287324844E9, MBA (FM), 7.7777777775E10, Validity End: 31-Dec-2025]
+2023-09-17 19:43:49,035 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8.287324844E9, MBA (FM), 7.7777777775E10, Validity End: 31-Dec-2025]
+2023-09-17 19:43:49,155 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 19:43:49,155 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 19:43:49,177 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-17 19:43:49,177 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-17 19:59:47,753 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 19:59:47,753 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 19:59:48,029 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 19:59:48,029 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 19:59:56,003 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 19:59:56,003 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 19:59:56,172 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8.287324844E9, MBA (FM), 7.7777777775E10, Validity End: 31-Dec-2025]
+2023-09-17 19:59:56,172 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8.287324844E9, MBA (FM), 7.7777777775E10, Validity End: 31-Dec-2025]
+2023-09-17 19:59:56,310 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 19:59:56,310 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 19:59:56,321 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-17 19:59:56,321 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-17 20:04:26,003 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-17 20:04:26,003 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-17 20:04:26,220 - Selenium_studentPortal -INFO - Entered the password
+2023-09-17 20:04:26,220 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-17 20:04:35,362 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-17 20:04:35,362 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-17 20:04:35,521 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8.287324844E9, MBA (FM), 7.7777777775E10, Validity End: 31-Dec-2025]
+2023-09-17 20:04:35,521 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8.287324844E9, MBA (FM), 7.7777777775E10, Validity End: 31-Dec-2025]
+2023-09-17 20:04:35,648 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 20:04:35,648 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-17 20:04:35,665 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-17 20:04:35,665 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-18 21:08:39,281 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-18 21:08:39,281 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-18 21:08:39,530 - Selenium_studentPortal -INFO - Entered the password
+2023-09-18 21:08:39,530 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-18 21:08:47,540 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-18 21:08:47,540 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-18 21:08:47,728 - Selenium_studentPortal -INFO - [8287324844, 77777777775]
+2023-09-18 21:08:47,728 [main] INFO Selenium_studentPortal - [8287324844, 77777777775]
+2023-09-18 21:08:47,879 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:08:47,879 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:08:47,896 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-18 21:08:47,896 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-18 21:14:26,197 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-18 21:14:26,197 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-18 21:14:26,444 - Selenium_studentPortal -INFO - Entered the password
+2023-09-18 21:14:26,444 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-18 21:14:34,104 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-18 21:14:34,104 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-18 21:14:34,212 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:14:34,212 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:14:34,336 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:14:34,336 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:14:34,352 - Selenium_studentPortal -INFO - Student data is matched from the Excel
+2023-09-18 21:14:34,352 [main] INFO Selenium_studentPortal - Student data is matched from the Excel
+2023-09-18 21:20:02,822 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-18 21:20:02,822 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-18 21:20:03,076 - Selenium_studentPortal -INFO - Entered the password
+2023-09-18 21:20:03,076 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-18 21:20:10,959 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-18 21:20:10,959 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-18 21:20:11,122 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu]
+2023-09-18 21:20:11,122 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu]
+2023-09-18 21:20:11,256 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:20:11,256 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:20:11,272 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-18 21:20:11,272 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-18 21:21:57,169 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-18 21:21:57,169 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-18 21:21:57,421 - Selenium_studentPortal -INFO - Entered the password
+2023-09-18 21:21:57,421 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-18 21:22:07,498 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-18 21:22:07,498 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-18 21:22:07,654 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:22:07,654 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:22:07,811 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:22:07,811 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:22:07,835 - Selenium_studentPortal -INFO - Student data is matched from the Excel
+2023-09-18 21:22:07,835 [main] INFO Selenium_studentPortal - Student data is matched from the Excel
+2023-09-18 21:23:28,544 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-18 21:23:28,544 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-18 21:23:28,802 - Selenium_studentPortal -INFO - Entered the password
+2023-09-18 21:23:28,802 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-18 21:23:39,832 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-18 21:23:39,832 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-18 21:23:39,983 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:23:39,983 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:23:40,102 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:23:40,102 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:23:40,108 - Selenium_studentPortal -INFO - Student data is matched from the Excel
+2023-09-18 21:23:40,108 [main] INFO Selenium_studentPortal - Student data is matched from the Excel
+2023-09-18 21:26:52,040 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-18 21:26:52,040 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-18 21:26:52,291 - Selenium_studentPortal -INFO - Entered the password
+2023-09-18 21:26:52,291 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-18 21:27:03,673 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-18 21:27:03,673 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-18 21:27:03,829 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:27:03,829 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:27:03,949 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:27:03,949 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-18 21:27:03,964 - Selenium_studentPortal -INFO - Student data is matched from the Excel
+2023-09-18 21:27:03,964 [main] INFO Selenium_studentPortal - Student data is matched from the Excel
