@@ -3,8 +3,7 @@ package com.nmims.selenium.studentportal.testCase;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -49,17 +48,6 @@ try {
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-		
-		if (expectedOptions.containsAll(actualTextValues)) {
-			logger.info("Student data is matched from the Excel");
-			Assert.assertEquals(actualTextValues, expectedOptions, "Excel Data matched from the UI");
-
-		List<String> expectedOptions = excelReader.studentDetailExcel(path, "Details");
-		logger.info(expectedOptions);
-		
-		
-		
-		
 		if (expectedOptions.equals(actualTextValues)) {
 			
 			logger.info("Excel Data matched from the UI");
