@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-19T16:09:31Z" name="StudentportalDashboard" finished-at="2023-09-19T16:09:49Z" duration-ms="18268">
+  <suite started-at="2023-09-19T16:42:59Z" name="StudentportalDashboard" finished-at="2023-09-19T16:44:06Z" duration-ms="67525">
     <groups>
     </groups>
-    <test started-at="2023-09-19T16:09:31Z" name="portalApp" finished-at="2023-09-19T16:09:49Z" duration-ms="18268">
-      <class name="com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006@55562aa9]" started-at="2023-09-19T16:09:31Z" name="setup" finished-at="2023-09-19T16:09:36Z" duration-ms="4745" status="PASS">
+    <test started-at="2023-09-19T16:42:59Z" name="portalApp" finished-at="2023-09-19T16:44:06Z" duration-ms="67525">
+      <class name="com.nmims.selenium.studentportal.testutil.LoginTestutil">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testutil.LoginTestutil@3ecd267f]" started-at="2023-09-19T16:43:22Z" name="setup" finished-at="2023-09-19T16:43:24Z" duration-ms="2027" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ongoingSubject(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006@55562aa9]" started-at="2023-09-19T16:09:37Z" name="ongoingSubject" data-provider="Login" finished-at="2023-09-19T16:09:49Z" duration-ms="11591" status="FAIL">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testutil.LoginTestutil@3ecd267f]" started-at="2023-09-19T16:43:24Z" name="loginTest" data-provider="Login" finished-at="2023-09-19T16:43:30Z" duration-ms="5945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77118915395]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jitu@1990]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testutil.LoginTestutil@3ecd267f]" started-at="2023-09-19T16:43:30Z" name="tearDown" finished-at="2023-09-19T16:43:31Z" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nmims.selenium.studentportal.testutil.LoginTestutil -->
+      <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@58ffcbd7]" started-at="2023-09-19T16:43:31Z" name="setup" finished-at="2023-09-19T16:43:33Z" duration-ms="2012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@58ffcbd7]" started-at="2023-09-19T16:43:33Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-09-19T16:43:53Z" duration-ms="20281" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -33,12 +66,16 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Subject is not matched from the UI]]>
+              <![CDATA[Lists differ at element [0]: ashishkr.kumar18@gmail.com != Shiv.Golani.Ext@nmims.edu expected [ashishkr.kumar18@gmail.com] but found [Shiv.Golani.Ext@nmims.edu]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Subject is not matched from the UI
+              <![CDATA[java.lang.AssertionError: Lists differ at element [0]: ashishkr.kumar18@gmail.com != Shiv.Golani.Ext@nmims.edu expected [ashishkr.kumar18@gmail.com] but found [Shiv.Golani.Ext@nmims.edu]
 at org.testng.Assert.fail(Assert.java:96)
-at com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006.ongoingSubject(TC_OngoingSubject00006.java:65)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:831)
+at org.testng.Assert.assertEquals(Assert.java:796)
+at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004.studentDetailsTest(TC_StudenBasicInfo00004.java:56)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -69,12 +106,144 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- studentDetailsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004@58ffcbd7]" started-at="2023-09-19T16:43:53Z" name="tearDown" finished-at="2023-09-19T16:43:53Z" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004 -->
+      <class name="com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006@555cf22]" started-at="2023-09-19T16:43:53Z" name="setup" finished-at="2023-09-19T16:43:56Z" duration-ms="2503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ongoingSubject(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006@555cf22]" started-at="2023-09-19T16:43:56Z" name="ongoingSubject" data-provider="Login" finished-at="2023-09-19T16:44:05Z" duration-ms="8838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77118915395]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jitu@1990]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- ongoingSubject -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006@55562aa9]" started-at="2023-09-19T16:09:49Z" name="tearDown" finished-at="2023-09-19T16:09:49Z" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006@555cf22]" started-at="2023-09-19T16:44:05Z" name="tearDown" finished-at="2023-09-19T16:44:06Z" duration-ms="1243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006 -->
+      <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@77d2e85]" started-at="2023-09-19T16:42:59Z" name="setup" finished-at="2023-09-19T16:43:05Z" duration-ms="5787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@77d2e85]" started-at="2023-09-19T16:43:06Z" name="loginTest" data-provider="Login" finished-at="2023-09-19T16:43:16Z" duration-ms="9377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77118915395]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jitu@1990]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@77d2e85]" started-at="2023-09-19T16:43:16Z" name="logoutTest" finished-at="2023-09-19T16:43:21Z" depends-on-methods="com.nmims.selenium.studentportal.testutil.LoginTestutil.loginTest" duration-ms="5313" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : }
+  (Session info: chrome=114.0.5735.199): {Alert text : 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 99efb20fcb398119e5e27e00bee31d12
+*** Element info: {Using=xpath, value=//h2[contains(text(),'WELCOME TO NGASCE')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=114.0.5735.199): {Alert text : 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 99efb20fcb398119e5e27e00bee31d12
+*** Element info: {Using=xpath, value=//h2[contains(text(),'WELCOME TO NGASCE')]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy23.getText(Unknown Source)
+at com.nmims.selenium.studentportal.pom.LoginPageObjectMethod.verifyTitle(LoginPageObjectMethod.java:15)
+at com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001.logoutTest(TC_LoginTest_00001.java:75)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@77d2e85]" started-at="2023-09-19T16:43:21Z" name="tearDown" finished-at="2023-09-19T16:43:22Z" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001 -->
     </test> <!-- portalApp -->
   </suite> <!-- StudentportalDashboard -->
 </testng-results>

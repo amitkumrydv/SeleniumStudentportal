@@ -7,13 +7,21 @@
   <test thread-count="5" name="portalApp(failed)" verbose="10">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006">
+      <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001">
+        <methods>
+          <include name="logoutTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001 -->
+      <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="ongoingSubject" invocation-numbers="0"/>
+          <include name="studentDetailsTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006 -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004 -->
     </classes>
   </test> <!-- portalApp(failed) -->
 </suite> <!-- Failed suite [StudentportalDashboard] -->

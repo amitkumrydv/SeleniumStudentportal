@@ -9,13 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">StudentportalDashboard</th></tr>
-<tr><td><a href="#t0">portalApp</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">18,268</td><td></td><td></td></tr>
+<tr><td><a href="#t0">portalApp</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">67,525</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">StudentportalDashboard</th></tr></tbody><tbody id="t0"><tr><th colspan="4">portalApp &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006</td><td><a href="#m0">ongoingSubject</a></td><td rowspan="1">1695139777881</td><td rowspan="1">11591</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">StudentportalDashboard</th></tr></tbody><tbody id="t0"><tr><th colspan="4">portalApp &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001</td><td><a href="#m0">logoutTest</a></td><td rowspan="1">1695141796034</td><td rowspan="1">5313</td></tr><tr class="failedodd"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004</td><td><a href="#m1">studentDetailsTest</a></td><td rowspan="1">1695141813227</td><td rowspan="1">20281</td></tr><tr><th colspan="4">portalApp &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001</td><td><a href="#m2">loginTest</a></td><td rowspan="1">1695141786628</td><td rowspan="1">9377</td></tr><tr class="passedodd"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006</td><td><a href="#m3">ongoingSubject</a></td><td rowspan="1">1695141836618</td><td rowspan="1">8838</td></tr><tr class="passedeven"><td rowspan="1">com.nmims.selenium.studentportal.testutil.LoginTestutil</td><td><a href="#m4">loginTest</a></td><td rowspan="1">1695141804806</td><td rowspan="1">5945</td></tr></tbody>
 </table>
-<h2>portalApp</h2><h3 id="m0">com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006#ongoingSubject</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>77118915395</td><td>Jitu@1990</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Subject is not matched from the UI
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006.ongoingSubject(TC_OngoingSubject00006.java:65)
+<h2>portalApp</h2><h3 id="m0">com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001#logoutTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=114.0.5735.199): {Alert text : 
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-HKLU73H&apos;, ip: &apos;192.168.0.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 99efb20fcb398119e5e27e00bee31d12
+*** Element info: {Using=xpath, value=//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.getText(Unknown Source)
+	at com.nmims.selenium.studentportal.pom.LoginPageObjectMethod.verifyTitle(LoginPageObjectMethod.java:15)
+	at com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001.logoutTest(TC_LoginTest_00001.java:75)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -42,5 +61,41 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004#studentDetailsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>77118915395</td><td>Jitu@1990</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Lists differ at element [0]: ashishkr.kumar18@gmail.com != Shiv.Golani.Ext@nmims.edu expected [ashishkr.kumar18@gmail.com] but found [Shiv.Golani.Ext@nmims.edu]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:831)
+	at org.testng.Assert.assertEquals(Assert.java:796)
+	at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo00004.studentDetailsTest(TC_StudenBasicInfo00004.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>77118915395</td><td>Jitu@1990</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.nmims.selenium.studentportal.testCase.TC_OngoingSubject00006#ongoingSubject</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>77118915395</td><td>Jitu@1990</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.nmims.selenium.studentportal.testutil.LoginTestutil#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>77118915395</td><td>Jitu@1990</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
