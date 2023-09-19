@@ -44,9 +44,7 @@ public class TC_StudenBasicInfo00004 extends BasClass {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		List<String> expectedOptions = excelReader.studentDetailExcel(path, "Details");
 		logger.info(expectedOptions);
-		
-		
-		
+				
 		
 		if (expectedOptions.equals(actualTextValues)) {
 			

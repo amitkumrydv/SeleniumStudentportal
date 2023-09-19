@@ -1352,3 +1352,183 @@
 2023-09-19 08:52:59,102 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
 2023-09-19 08:52:59,104 - Selenium_studentPortal -INFO - Excel Data matched from the UI
 2023-09-19 08:52:59,104 [main] INFO Selenium_studentPortal - Excel Data matched from the UI
+2023-09-19 10:45:58,530 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 10:45:58,530 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 10:45:58,866 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 10:45:58,866 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 10:46:06,541 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 10:46:06,541 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 12:24:05,536 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 12:24:05,536 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 12:24:05,715 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 12:24:05,715 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 12:24:13,568 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 12:24:13,568 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 12:24:13,719 - Selenium_studentPortal -INFO - Header Xpath pass [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-19 12:24:13,719 [main] INFO Selenium_studentPortal - Header Xpath pass [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-19 12:24:14,707 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 12:24:14,707 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 12:24:14,708 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-19 12:24:14,708 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-19 12:29:57,342 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 12:29:57,342 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 12:29:57,527 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 12:29:57,527 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 12:30:05,503 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 12:30:05,503 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 12:30:05,650 - Selenium_studentPortal -INFO - suject visible on the UI[1 Research Methodology, 2 Business: Ethics, Governance & Risk, 3 Project, 4 Digital Payments, 5 Managing Business Process Outsourcing, 6 IT Security and Risk Management]
+2023-09-19 12:30:05,650 [main] INFO Selenium_studentPortal - suject visible on the UI[1 Research Methodology, 2 Business: Ethics, Governance & Risk, 3 Project, 4 Digital Payments, 5 Managing Business Process Outsourcing, 6 IT Security and Risk Management]
+2023-09-19 12:30:06,373 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 12:30:06,373 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 12:30:06,374 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-19 12:30:06,374 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-19 12:32:48,544 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 12:32:48,544 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 12:32:48,728 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 12:32:48,728 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 12:32:56,128 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 12:32:56,128 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 12:32:56,279 - Selenium_studentPortal -INFO - suject visible on the UI[1 Research Methodology, 2 Business: Ethics, Governance & Risk, 3 Project, 4 Digital Payments, 5 Managing Business Process Outsourcing, 6 IT Security and Risk Management]
+2023-09-19 12:32:56,279 [main] INFO Selenium_studentPortal - suject visible on the UI[1 Research Methodology, 2 Business: Ethics, Governance & Risk, 3 Project, 4 Digital Payments, 5 Managing Business Process Outsourcing, 6 IT Security and Risk Management]
+2023-09-19 12:32:57,005 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 12:32:57,005 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 12:32:57,006 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-19 12:32:57,006 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-19 14:52:35,469 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 14:52:35,469 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 14:52:35,756 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 14:52:35,756 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 14:52:43,910 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 14:52:43,910 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 14:54:28,920 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 14:54:28,920 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 14:54:29,174 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 14:54:29,174 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 14:54:37,066 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 14:54:37,066 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 14:56:43,821 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 14:56:43,821 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 14:56:44,105 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 14:56:44,105 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 14:56:51,810 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 14:56:51,810 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 14:57:47,675 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 14:57:47,675 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 14:57:47,943 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 14:57:47,943 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 14:57:57,279 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 14:57:57,279 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 14:57:57,482 - Selenium_studentPortal -INFO - suject visible on the UI[]
+2023-09-19 14:57:57,482 [main] INFO Selenium_studentPortal - suject visible on the UI[]
+2023-09-19 14:57:58,608 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 14:57:58,608 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 14:57:58,609 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-19 14:57:58,609 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-19 15:15:14,812 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 15:15:14,812 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 15:15:15,069 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 15:15:15,069 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 15:15:28,207 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 15:15:28,207 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 15:15:28,450 - Selenium_studentPortal -INFO - suject visible on the UI[]
+2023-09-19 15:15:28,450 [main] INFO Selenium_studentPortal - suject visible on the UI[]
+2023-09-19 15:15:29,552 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 15:15:29,552 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 15:15:29,553 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-19 15:15:29,553 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-19 15:19:11,420 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 15:19:11,420 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 15:19:11,667 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 15:19:11,667 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 15:19:24,008 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 15:19:24,008 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 15:19:24,220 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 15:19:24,220 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 15:19:24,970 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 15:19:24,970 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 15:19:24,971 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-19 15:19:24,971 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-19 15:21:57,033 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 15:21:57,033 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 15:21:57,294 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 15:21:57,294 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 15:22:16,959 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 15:22:16,959 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 15:22:17,167 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 15:22:17,167 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 15:22:18,332 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 15:22:18,332 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 15:22:18,333 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-19 15:22:18,333 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-19 20:42:39,619 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 20:42:39,619 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 20:42:39,913 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 20:42:39,913 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 20:42:50,009 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 20:42:50,009 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 20:42:50,274 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 20:42:50,274 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 20:42:51,729 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 20:42:51,729 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business: Ethics, Governance & Risk, Corporate Finance, Entrepreneurship and Venture Capital Management, Project, Research Methodology, Sales Management]
+2023-09-19 20:42:51,730 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-19 20:42:51,730 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-19 20:46:39,136 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 20:46:39,136 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 20:46:39,436 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 20:46:39,436 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 20:46:46,717 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 20:46:46,717 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 20:46:46,870 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 20:46:46,870 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 20:46:47,620 - Selenium_studentPortal -INFO - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-19 20:46:47,620 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-19 20:46:47,620 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-19 20:46:47,620 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-19 20:52:20,643 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 20:52:20,643 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 20:52:20,890 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 20:52:20,890 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 20:52:29,972 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 20:52:29,972 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 20:52:30,214 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 20:52:30,214 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 20:52:30,971 - Selenium_studentPortal -INFO - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-19 20:52:30,971 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-19 20:52:30,972 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-19 20:52:30,972 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-19 20:57:44,273 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 20:57:44,273 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 20:57:44,599 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 20:57:44,599 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 20:57:55,986 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 20:57:55,986 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 20:57:56,197 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 20:57:56,197 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 20:57:56,884 - Selenium_studentPortal -INFO - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-19 20:57:56,884 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-19 20:57:56,886 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-09-19 20:57:56,886 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-09-19 21:33:59,771 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 21:33:59,771 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 21:34:00,013 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 21:34:00,013 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 21:34:07,472 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 21:34:07,472 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 21:34:07,649 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 21:34:07,649 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 21:34:08,620 - Selenium_studentPortal -INFO - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-19 21:34:08,620 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-19 21:34:08,623 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-09-19 21:34:08,623 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-09-19 21:39:38,230 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 21:39:38,230 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 21:39:38,483 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 21:39:38,483 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 21:39:47,644 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 21:39:47,644 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 21:39:47,963 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 21:39:47,963 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-19 21:39:49,028 - Selenium_studentPortal -INFO - applicableCurrentSubject [B2B Marketing, Business Law, Integrated Marketing Communications, Project, Services Marketing]
+2023-09-19 21:39:49,028 [main] INFO Selenium_studentPortal - applicableCurrentSubject [B2B Marketing, Business Law, Integrated Marketing Communications, Project, Services Marketing]
+2023-09-19 21:39:49,030 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-19 21:39:49,030 [main] INFO Selenium_studentPortal - Subject is not matched from the UI

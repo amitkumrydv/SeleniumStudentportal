@@ -15,15 +15,21 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import com.nmims.selenium.studentportal.config.DataBaseConfig;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
 
 
+
+
 public class BasClass {
+	
 	
 	
 	ReadConfig readConfig = new ReadConfig();
