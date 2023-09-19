@@ -3,7 +3,6 @@ package com.nmims.selenium.studentportal.testCase;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -38,30 +37,26 @@ public class TC_StudenBasicInfo00004 extends BasClass {
 		StudaentDetail excelReader = new StudaentDetail();
 		UserDtailsPageObjectMethod webElementFetcher = new UserDtailsPageObjectMethod();
 
-try {
-		List<String> expectedOptions = excelReader.studentDetailExcel(path, "Details");
-		logger.info(expectedOptions);
-
 		
 		List<String> actualTextValues = webElementFetcher.fetchTextValuesFromUI(driver,"//ul[contains(@class,'student-info-list')]//li");
 		logger.info("Header Xpath pass " + actualTextValues);
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+		List<String> expectedOptions = excelReader.studentDetailExcel(path, "Details");
+		logger.info(expectedOptions);
+		
+		
+		
+		
 		if (expectedOptions.equals(actualTextValues)) {
 			
-			logger.info("Excel Data matched from the UI");
+			logger.info("Student details is matched from the UI");
 			Assert.assertEquals(actualTextValues, expectedOptions);
-
 		} else {
 			logger.info("Student data is not matched from the Excel");
-			captureScreen(driver, "loginTest");
+			captureScreen(driver, "TC_StudenBasicInfo00004");
 			Assert.assertEquals(expectedOptions, actualTextValues);
 		}
-
-	}catch (Exception e) {
-		e.printStackTrace();
-	}
 
 	}
 

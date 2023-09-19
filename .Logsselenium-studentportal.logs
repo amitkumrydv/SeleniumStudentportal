@@ -1340,3 +1340,15 @@
 2023-09-19 08:32:37,079 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
 2023-09-19 08:32:37,099 - Selenium_studentPortal -INFO - Excel Data matched from the UI
 2023-09-19 08:32:37,099 [main] INFO Selenium_studentPortal - Excel Data matched from the UI
+2023-09-19 08:52:50,597 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-19 08:52:50,597 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-19 08:52:50,910 - Selenium_studentPortal -INFO - Entered the password
+2023-09-19 08:52:50,910 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-19 08:52:58,775 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-19 08:52:58,775 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-19 08:52:58,993 - Selenium_studentPortal -INFO - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-19 08:52:58,993 [main] INFO Selenium_studentPortal - Header Xpath pass [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-19 08:52:59,102 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-19 08:52:59,102 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-19 08:52:59,104 - Selenium_studentPortal -INFO - Excel Data matched from the UI
+2023-09-19 08:52:59,104 [main] INFO Selenium_studentPortal - Excel Data matched from the UI
