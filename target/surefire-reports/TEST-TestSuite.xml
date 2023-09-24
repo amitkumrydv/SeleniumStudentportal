@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="21.539" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.19+9-LTS-224"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.19+9-LTS-224"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\AMITY~1.DES\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\Spring Boot\Workspace\git_project\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1445319252821062434.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:/Spring Boot/Sowftware/sts/sts_App/sts-4.19.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;E:/Spring Boot/Sowftware/sts/sts_App/sts-4.19.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.8.7\apache-maven-3.8.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\amity.DESKTOP-HKLU73H\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk-11\bin;;E:\Microsoft VS Code\bin;E:\Spring Boot\Sowftware\sts\sts_App\sts-4.19.0.RELEASE;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\amity.DESKTOP-HKLU73H"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="amity"/>
+    <property name="java.class.path" value="E:\Spring Boot\Sowftware\sts\sts_App\sts-4.19.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.400.20230826-0755\jars\plexus-classworlds-2.7.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.19"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\amity.DESKTOP-HKLU73H\git\selenium-studentportal\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="m2e.build.project.data.socket.port" value="55526"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="studentDetailsTest" classname="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004" time="21.539">
+    <failure message="Lists differ at element [0]: ashishkr.kumar18@gmail.com != Shiv.Golani.Ext@nmims.edu expected [ashishkr.kumar18@gmail.com] but found [Shiv.Golani.Ext@nmims.edu]" type="java.lang.AssertionError">java.lang.AssertionError: Lists differ at element [0]: ashishkr.kumar18@gmail.com != Shiv.Golani.Ext@nmims.edu expected [ashishkr.kumar18@gmail.com] but found [Shiv.Golani.Ext@nmims.edu]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:831)
+	at org.testng.Assert.assertEquals(Assert.java:796)
+	at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004.studentDetailsTest(TC_StudenBasicInfo_00004.java:99)
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.14.3 by Cédric Beust (cedric@beust.com)
+...
+
+ INFO [main] (TC_StudenBasicInfo_00004.java:38)- Entered the UserId
+ INFO [main] (TC_StudenBasicInfo_00004.java:41)- Entered the password
+ INFO [main] (TC_StudenBasicInfo_00004.java:44)- Click on the login button 
+studentNameOnUI ASHISH KUMAR
+ INFO [main] (TC_StudenBasicInfo_00004.java:52)-  Readed student Actual Name ASHISH KUMAR
+ INFO [main] (TC_StudenBasicInfo_00004.java:55)- ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+ INFO [main] (TC_StudenBasicInfo_00004.java:63)- studentExpectedName ASHISH KUMAR
+ INFO [main] (TC_StudenBasicInfo_00004.java:68)- Student Name is matched
+ INFO [main] (TC_StudenBasicInfo_00004.java:86)- Data Displyed on header [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+ INFO [main] (TC_StudenBasicInfo_00004.java:90)- Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+ INFO [main] (TC_StudenBasicInfo_00004.java:97)- Student data is not matched from the Excel
+Screenshot taken
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.springframework.core.env.StandardEnvironment).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 47858
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2023 7:08:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

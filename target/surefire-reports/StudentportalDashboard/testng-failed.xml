@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [StudentportalDashboard]" guice-stage="DEVELOPMENT" allow-return-values="true" verbose="0">
+  <listeners>
+    <listener class-name="com.nmims.selenium.studentportal.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="portalApp(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004">
+        <methods>
+          <include name="studentDetailsTest" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004 -->
+    </classes>
+  </test> <!-- portalApp(failed) -->
+</suite> <!-- Failed suite [StudentportalDashboard] -->

@@ -1574,3 +1574,1359 @@
 2023-09-19 22:14:05,454 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
 2023-09-19 22:14:05,455 - Selenium_studentPortal -INFO - Subject is matched from the UI
 2023-09-19 22:14:05,455 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-09-20 17:08:43,906 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-20 17:08:43,906 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-20 17:08:44,133 - Selenium_studentPortal -INFO - Entered the password
+2023-09-20 17:08:44,133 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-20 17:08:53,749 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-20 17:08:53,749 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-20 17:08:53,904 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-20 17:08:53,904 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-20 17:08:54,553 - Selenium_studentPortal -INFO - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-20 17:08:54,553 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-20 17:08:54,554 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-09-20 17:08:54,554 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-09-20 20:18:08,622 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-20 20:18:08,622 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-20 20:18:08,927 - Selenium_studentPortal -INFO - Entered the password
+2023-09-20 20:18:08,927 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-20 20:18:17,554 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-20 20:18:17,554 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-20 20:18:17,823 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-20 20:18:17,823 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-22 23:08:35,738 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-22 23:08:35,738 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-22 23:08:35,963 - Selenium_studentPortal -INFO - Entered the password
+2023-09-22 23:08:35,963 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-22 23:08:43,724 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-22 23:08:43,724 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 09:08:27,260 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 09:08:27,260 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 09:08:27,594 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 09:08:27,594 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 09:08:32,868 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 09:08:32,868 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 09:08:42,934 - Selenium_studentPortal -INFO - Header Xpath pass []
+2023-09-23 09:08:42,934 [main] INFO Selenium_studentPortal - Header Xpath pass []
+2023-09-23 09:08:43,076 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-23 09:08:43,076 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-23 09:08:43,077 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-23 09:08:43,077 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-23 09:43:00,142 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 09:43:00,142 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 09:43:00,354 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 09:43:00,354 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 09:43:02,929 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 09:43:02,929 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 09:43:34,883 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-23 09:43:34,883 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-23 09:43:35,936 - Selenium_studentPortal -INFO - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-23 09:43:35,936 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-23 09:43:35,937 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-09-23 09:43:35,937 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-09-23 09:51:51,257 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 09:51:51,257 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 09:51:51,498 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 09:51:51,498 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 09:51:54,068 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 09:51:54,068 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 19:34:41,698 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 19:34:41,698 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 19:34:41,960 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 19:34:41,960 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 19:34:48,047 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 19:34:48,047 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 19:35:08,961 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 19:35:08,961 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 19:35:09,198 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 19:35:09,198 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 19:35:10,719 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 19:35:10,719 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 19:37:14,268 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 19:37:14,268 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 19:37:14,550 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 19:37:14,550 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 19:37:17,729 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 19:37:17,729 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 19:58:21,226 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 19:58:21,226 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 19:58:21,516 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 19:58:21,516 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 19:58:31,917 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 19:58:31,917 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 19:58:32,959 - org.springframework.beans.factory.xml.XmlBeanDefinitionReader -INFO - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-23 19:58:32,959 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-23 19:58:33,242 - org.springframework.jdbc.support.SQLErrorCodesFactory -INFO - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-23 19:58:33,242 [main] INFO org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-23 20:01:01,982 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 20:01:01,982 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 20:01:02,319 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 20:01:02,319 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 20:01:04,999 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 20:01:04,999 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 20:01:06,197 - org.springframework.beans.factory.xml.XmlBeanDefinitionReader -INFO - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-23 20:01:06,197 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-23 20:01:06,416 - org.springframework.jdbc.support.SQLErrorCodesFactory -INFO - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-23 20:01:06,416 [main] INFO org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-23 20:31:26,915 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 20:31:26,915 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 20:31:27,247 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 20:31:27,247 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 20:31:29,893 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 20:31:29,893 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 20:37:29,795 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 20:37:29,795 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 20:37:30,083 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 20:37:30,083 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 20:37:32,802 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 20:37:32,802 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 20:40:09,596 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 20:40:09,596 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 20:40:09,798 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 20:40:09,798 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 20:40:11,349 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 20:40:11,349 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 20:40:12,016 - Selenium_studentPortal -INFO - applicableCurrentSubject StudentBean [lastName=Pallinti,
+ firstName=Seema Rao,
+ middleName=null,
+ fatherName=Sitaram,
+ husbandName=Ravikumar Rao,
+ motherName=Meena,
+ gender=Female,
+ program=MBA - WX,
+ enrollmentMonth=Jul,
+ enrollmentYear=2019,
+ emailId=seema_pallinti@yahoo.co.in,
+ mobile=9960697730,
+ altPhone=null,
+ dob=1975-07-20,
+ address=A 201 Anusha Residency, Opposite Swami Samarth building,Pashan Sus Road,411021,Pune,
+ houseNoName=A 201 Anusha Residency,
+ street=Pashan Sus Road,
+ locality=Opposite Swami Samarth building,
+ city=Pune,
+ state=Maharashtra,
+ country=India,
+ shippingAddress=null,
+ designation=Primary Teacher,
+ industry=Education Management,
+ pin=411021,
+ centerCode=a029000000o6phu,
+ centerName=Pune - Kharadi,
+ validityEndMonth=Dec,
+ validityEndYear=2021,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Bank of Maharashtra lane,
+ errorFlag=null,
+ age=null,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=N,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=111]
+2023-09-23 20:40:12,016 [main] INFO Selenium_studentPortal - applicableCurrentSubject StudentBean [lastName=Pallinti,
+ firstName=Seema Rao,
+ middleName=null,
+ fatherName=Sitaram,
+ husbandName=Ravikumar Rao,
+ motherName=Meena,
+ gender=Female,
+ program=MBA - WX,
+ enrollmentMonth=Jul,
+ enrollmentYear=2019,
+ emailId=seema_pallinti@yahoo.co.in,
+ mobile=9960697730,
+ altPhone=null,
+ dob=1975-07-20,
+ address=A 201 Anusha Residency, Opposite Swami Samarth building,Pashan Sus Road,411021,Pune,
+ houseNoName=A 201 Anusha Residency,
+ street=Pashan Sus Road,
+ locality=Opposite Swami Samarth building,
+ city=Pune,
+ state=Maharashtra,
+ country=India,
+ shippingAddress=null,
+ designation=Primary Teacher,
+ industry=Education Management,
+ pin=411021,
+ centerCode=a029000000o6phu,
+ centerName=Pune - Kharadi,
+ validityEndMonth=Dec,
+ validityEndYear=2021,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Bank of Maharashtra lane,
+ errorFlag=null,
+ age=null,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=N,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=111]
+2023-09-23 20:42:33,599 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 20:42:33,599 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 20:42:33,793 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 20:42:33,793 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 20:42:38,451 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 20:42:38,451 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 20:42:39,195 - Selenium_studentPortal -INFO - applicableCurrentSubject StudentBean [lastName=Pallinti,
+ firstName=Seema Rao,
+ middleName=null,
+ fatherName=Sitaram,
+ husbandName=Ravikumar Rao,
+ motherName=Meena,
+ gender=Female,
+ program=MBA - WX,
+ enrollmentMonth=Jul,
+ enrollmentYear=2019,
+ emailId=seema_pallinti@yahoo.co.in,
+ mobile=9960697730,
+ altPhone=null,
+ dob=1975-07-20,
+ address=A 201 Anusha Residency, Opposite Swami Samarth building,Pashan Sus Road,411021,Pune,
+ houseNoName=A 201 Anusha Residency,
+ street=Pashan Sus Road,
+ locality=Opposite Swami Samarth building,
+ city=Pune,
+ state=Maharashtra,
+ country=India,
+ shippingAddress=null,
+ designation=Primary Teacher,
+ industry=Education Management,
+ pin=411021,
+ centerCode=a029000000o6phu,
+ centerName=Pune - Kharadi,
+ validityEndMonth=Dec,
+ validityEndYear=2021,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Bank of Maharashtra lane,
+ errorFlag=null,
+ age=null,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=N,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=111]
+2023-09-23 20:42:39,195 [main] INFO Selenium_studentPortal - applicableCurrentSubject StudentBean [lastName=Pallinti,
+ firstName=Seema Rao,
+ middleName=null,
+ fatherName=Sitaram,
+ husbandName=Ravikumar Rao,
+ motherName=Meena,
+ gender=Female,
+ program=MBA - WX,
+ enrollmentMonth=Jul,
+ enrollmentYear=2019,
+ emailId=seema_pallinti@yahoo.co.in,
+ mobile=9960697730,
+ altPhone=null,
+ dob=1975-07-20,
+ address=A 201 Anusha Residency, Opposite Swami Samarth building,Pashan Sus Road,411021,Pune,
+ houseNoName=A 201 Anusha Residency,
+ street=Pashan Sus Road,
+ locality=Opposite Swami Samarth building,
+ city=Pune,
+ state=Maharashtra,
+ country=India,
+ shippingAddress=null,
+ designation=Primary Teacher,
+ industry=Education Management,
+ pin=411021,
+ centerCode=a029000000o6phu,
+ centerName=Pune - Kharadi,
+ validityEndMonth=Dec,
+ validityEndYear=2021,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Bank of Maharashtra lane,
+ errorFlag=null,
+ age=null,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=N,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=111]
+2023-09-23 20:53:24,811 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 20:53:24,811 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 20:53:24,995 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 20:53:24,995 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 20:53:27,529 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 20:53:27,529 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 20:53:28,311 - Selenium_studentPortal -INFO - applicableCurrentSubject StudentBean [lastName=Pallinti,
+ firstName=Seema Rao,
+ middleName=null,
+ fatherName=Sitaram,
+ husbandName=Ravikumar Rao,
+ motherName=Meena,
+ gender=Female,
+ program=MBA - WX,
+ enrollmentMonth=Jul,
+ enrollmentYear=2019,
+ emailId=seema_pallinti@yahoo.co.in,
+ mobile=9960697730,
+ altPhone=null,
+ dob=1975-07-20,
+ address=A 201 Anusha Residency, Opposite Swami Samarth building,Pashan Sus Road,411021,Pune,
+ houseNoName=A 201 Anusha Residency,
+ street=Pashan Sus Road,
+ locality=Opposite Swami Samarth building,
+ city=Pune,
+ state=Maharashtra,
+ country=India,
+ shippingAddress=null,
+ designation=Primary Teacher,
+ industry=Education Management,
+ pin=411021,
+ centerCode=a029000000o6phu,
+ centerName=Pune - Kharadi,
+ validityEndMonth=Dec,
+ validityEndYear=2021,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Bank of Maharashtra lane,
+ errorFlag=null,
+ age=null,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=N,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=111]
+2023-09-23 20:53:28,311 [main] INFO Selenium_studentPortal - applicableCurrentSubject StudentBean [lastName=Pallinti,
+ firstName=Seema Rao,
+ middleName=null,
+ fatherName=Sitaram,
+ husbandName=Ravikumar Rao,
+ motherName=Meena,
+ gender=Female,
+ program=MBA - WX,
+ enrollmentMonth=Jul,
+ enrollmentYear=2019,
+ emailId=seema_pallinti@yahoo.co.in,
+ mobile=9960697730,
+ altPhone=null,
+ dob=1975-07-20,
+ address=A 201 Anusha Residency, Opposite Swami Samarth building,Pashan Sus Road,411021,Pune,
+ houseNoName=A 201 Anusha Residency,
+ street=Pashan Sus Road,
+ locality=Opposite Swami Samarth building,
+ city=Pune,
+ state=Maharashtra,
+ country=India,
+ shippingAddress=null,
+ designation=Primary Teacher,
+ industry=Education Management,
+ pin=411021,
+ centerCode=a029000000o6phu,
+ centerName=Pune - Kharadi,
+ validityEndMonth=Dec,
+ validityEndYear=2021,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Bank of Maharashtra lane,
+ errorFlag=null,
+ age=null,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=N,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=111]
+2023-09-23 20:57:09,450 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 20:57:09,450 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 20:57:09,644 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 20:57:09,644 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 20:57:11,163 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 20:57:11,163 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 20:57:11,907 - Selenium_studentPortal -INFO - applicableCurrentSubject StudentBean [lastName=Pallinti,
+ firstName=Seema Rao,
+ middleName=null,
+ fatherName=Sitaram,
+ husbandName=Ravikumar Rao,
+ motherName=Meena,
+ gender=Female,
+ program=MBA - WX,
+ enrollmentMonth=Jul,
+ enrollmentYear=2019,
+ emailId=seema_pallinti@yahoo.co.in,
+ mobile=9960697730,
+ altPhone=null,
+ dob=1975-07-20,
+ address=A 201 Anusha Residency, Opposite Swami Samarth building,Pashan Sus Road,411021,Pune,
+ houseNoName=A 201 Anusha Residency,
+ street=Pashan Sus Road,
+ locality=Opposite Swami Samarth building,
+ city=Pune,
+ state=Maharashtra,
+ country=India,
+ shippingAddress=null,
+ designation=Primary Teacher,
+ industry=Education Management,
+ pin=411021,
+ centerCode=a029000000o6phu,
+ centerName=Pune - Kharadi,
+ validityEndMonth=Dec,
+ validityEndYear=2021,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Bank of Maharashtra lane,
+ errorFlag=null,
+ age=null,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=N,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=111]
+2023-09-23 20:57:11,907 [main] INFO Selenium_studentPortal - applicableCurrentSubject StudentBean [lastName=Pallinti,
+ firstName=Seema Rao,
+ middleName=null,
+ fatherName=Sitaram,
+ husbandName=Ravikumar Rao,
+ motherName=Meena,
+ gender=Female,
+ program=MBA - WX,
+ enrollmentMonth=Jul,
+ enrollmentYear=2019,
+ emailId=seema_pallinti@yahoo.co.in,
+ mobile=9960697730,
+ altPhone=null,
+ dob=1975-07-20,
+ address=A 201 Anusha Residency, Opposite Swami Samarth building,Pashan Sus Road,411021,Pune,
+ houseNoName=A 201 Anusha Residency,
+ street=Pashan Sus Road,
+ locality=Opposite Swami Samarth building,
+ city=Pune,
+ state=Maharashtra,
+ country=India,
+ shippingAddress=null,
+ designation=Primary Teacher,
+ industry=Education Management,
+ pin=411021,
+ centerCode=a029000000o6phu,
+ centerName=Pune - Kharadi,
+ validityEndMonth=Dec,
+ validityEndYear=2021,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Bank of Maharashtra lane,
+ errorFlag=null,
+ age=null,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=N,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=111]
+2023-09-23 20:58:21,773 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 20:58:21,773 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 20:58:21,955 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 20:58:21,955 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 20:58:24,534 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 20:58:24,534 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 20:58:25,277 - Selenium_studentPortal -INFO - applicableCurrentSubject StudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-23 20:58:25,277 [main] INFO Selenium_studentPortal - applicableCurrentSubject StudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-23 21:52:59,498 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 21:52:59,498 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 21:52:59,677 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 21:52:59,677 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 21:53:08,229 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 21:53:08,229 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 21:53:09,031 - Selenium_studentPortal -INFO - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-23 21:53:09,031 [main] INFO Selenium_studentPortal - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-23 22:11:46,907 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 22:11:46,907 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 22:11:47,094 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 22:11:47,094 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 22:12:15,445 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 22:12:15,445 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 22:12:16,105 - Selenium_studentPortal -INFO - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-23 22:12:16,105 [main] INFO Selenium_studentPortal - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-23 22:51:08,419 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 22:51:08,419 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 22:51:08,612 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 22:51:08,612 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 22:51:34,761 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 22:51:34,761 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 23:08:07,422 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 23:08:07,422 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 23:08:07,621 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 23:08:07,621 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 23:08:15,592 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 23:08:15,592 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-23 23:10:52,449 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-23 23:10:52,449 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-23 23:10:52,626 - Selenium_studentPortal -INFO - Entered the password
+2023-09-23 23:10:52,626 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-23 23:11:08,672 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-23 23:11:08,672 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 08:24:56,187 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 08:24:56,187 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 08:24:56,471 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 08:24:56,471 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 08:25:32,888 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 08:25:32,888 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 08:34:51,520 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 08:34:51,520 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 08:34:51,756 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 08:34:51,756 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 08:34:59,475 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 08:34:59,475 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 08:55:49,692 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 08:55:49,692 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 08:55:49,975 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 08:55:49,975 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 08:55:58,692 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 08:55:58,692 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 08:55:58,909 - Selenium_studentPortal -INFO - Header Xpath pass [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-24 08:55:58,909 [main] INFO Selenium_studentPortal - Header Xpath pass [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-24 08:55:59,037 - Selenium_studentPortal -INFO - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-24 08:55:59,037 [main] INFO Selenium_studentPortal - [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-24 08:55:59,038 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-24 08:55:59,038 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-24 08:56:02,112 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 08:56:02,112 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 08:56:02,388 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 08:56:02,388 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 08:56:30,055 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 08:56:30,055 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 09:06:17,771 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 09:06:17,771 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 09:06:18,036 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 09:06:18,036 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 09:06:25,903 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 09:06:25,903 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 09:11:58,076 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 09:11:58,076 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 09:11:58,323 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 09:11:58,323 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 09:12:11,184 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 09:12:11,184 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 14:18:57,811 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 14:18:57,811 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 14:18:58,104 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 14:18:58,104 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 14:20:31,112 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 14:20:31,112 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 14:24:22,785 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 14:24:22,785 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 14:24:23,001 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 14:24:23,001 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 14:24:31,864 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 14:24:31,864 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 14:35:27,794 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 14:35:27,794 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 14:35:28,079 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 14:35:28,079 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 14:35:37,196 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 14:35:37,196 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 14:37:58,015 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 14:37:58,015 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 14:37:58,217 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 14:37:58,217 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 14:38:06,317 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 14:38:06,317 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 14:40:44,222 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 14:40:44,222 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 14:40:44,490 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 14:40:44,490 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 14:40:52,454 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 14:40:52,454 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 15:04:30,201 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 15:04:30,201 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 15:04:30,390 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 15:04:30,390 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 15:05:02,633 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 15:05:02,633 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 15:06:36,815 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 15:06:36,815 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 15:06:37,012 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 15:06:37,012 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 15:06:49,495 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 15:06:49,495 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 15:35:05,624 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 15:35:05,624 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 15:35:05,859 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 15:35:05,859 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 15:35:15,954 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 15:35:15,954 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 15:35:17,142 - Selenium_studentPortal -INFO - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 15:35:17,142 [main] INFO Selenium_studentPortal - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 15:35:17,143 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-24 15:35:17,143 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-24 15:43:54,617 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 15:43:54,617 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 15:43:54,876 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 15:43:54,876 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 15:44:02,354 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 15:44:02,354 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 15:44:02,477 - Selenium_studentPortal -INFO -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 15:44:02,477 [main] INFO Selenium_studentPortal -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 15:44:03,195 - Selenium_studentPortal -INFO - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 15:44:03,195 [main] INFO Selenium_studentPortal - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 15:44:03,196 - Selenium_studentPortal -INFO - Student Name is not matched from the UI
+2023-09-24 15:44:03,196 [main] INFO Selenium_studentPortal - Student Name is not matched from the UI
+2023-09-24 15:48:46,512 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 15:48:46,512 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 15:48:46,686 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 15:48:46,686 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 15:48:55,332 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 15:48:55,332 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 15:48:55,397 - Selenium_studentPortal -INFO -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 15:48:55,397 [main] INFO Selenium_studentPortal -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 15:48:56,277 - Selenium_studentPortal -INFO - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 15:48:56,277 [main] INFO Selenium_studentPortal - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 15:48:56,278 - Selenium_studentPortal -INFO - Student Name is not matched from the UI
+2023-09-24 15:48:56,278 [main] INFO Selenium_studentPortal - Student Name is not matched from the UI
+2023-09-24 16:20:07,515 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 16:20:07,515 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 16:20:07,810 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 16:20:07,810 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 16:20:16,165 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 16:20:16,165 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 16:20:16,234 - Selenium_studentPortal -INFO -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 16:20:16,234 [main] INFO Selenium_studentPortal -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 16:20:17,235 - Selenium_studentPortal -INFO - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 16:20:17,235 [main] INFO Selenium_studentPortal - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 16:20:17,240 - Selenium_studentPortal -INFO - Student Name is matched
+2023-09-24 16:20:17,240 [main] INFO Selenium_studentPortal - Student Name is matched
+2023-09-24 16:34:55,024 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 16:34:55,024 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 16:34:55,326 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 16:34:55,326 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 16:35:03,871 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 16:35:03,871 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 16:35:03,980 - Selenium_studentPortal -INFO -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 16:35:03,980 [main] INFO Selenium_studentPortal -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 16:35:05,187 - Selenium_studentPortal -INFO - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 16:35:05,187 [main] INFO Selenium_studentPortal - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 16:35:05,190 - Selenium_studentPortal -INFO - Student Name is matched
+2023-09-24 16:35:05,190 [main] INFO Selenium_studentPortal - Student Name is matched
+2023-09-24 16:35:05,338 - Selenium_studentPortal -INFO - Data Displyed on header [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-24 16:35:05,338 [main] INFO Selenium_studentPortal - Data Displyed on header [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-24 16:35:05,492 - Selenium_studentPortal -INFO - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-24 16:35:05,492 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-24 16:35:05,493 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-24 16:35:05,493 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-24 19:08:38,572 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 19:08:38,572 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 19:08:38,787 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 19:08:38,787 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 19:08:57,252 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 19:08:57,252 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 19:08:57,357 - Selenium_studentPortal -INFO -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 19:08:57,357 [main] INFO Selenium_studentPortal -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 19:08:58,833 - Selenium_studentPortal -INFO - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 19:08:58,833 [main] INFO Selenium_studentPortal - ActualsingleStudentDetailsStudentBean [lastName=Kumar,
+ firstName=Ashish,
+ middleName=,
+ fatherName=Shashi,
+ husbandName=null,
+ motherName=Rashmi,
+ gender=Male,
+ program=PGDITSM,
+ enrollmentMonth=Jul,
+ enrollmentYear=2018,
+ emailId=ashishkr.kumar18@gmail.com,
+ mobile=8015253052,
+ altPhone=09066699180,
+ dob=1992-03-18,
+ address=S/O Shashi Bhushan Singh, .,Village and Post Mahna,851210,Begusarai,
+ houseNoName=S/O Shashi Bhushan Singh,
+ street=Village and Post Mahna,
+ locality=.,
+ city=Begusarai,
+ state=Bihar,
+ country=India,
+ shippingAddress=null,
+ designation=,
+ industry=,
+ pin=851210,
+ centerCode=a022j000003aeOG,
+ centerName=Bangalore - Kormangala - Sony World Signal,
+ validityEndMonth=Sep,
+ validityEndYear=2023,
+ errorMessage=null,
+ errorRecord=false,
+ landMark=Opposite Sahara office,
+ errorFlag=null,
+ age=26,
+ highestQualification=Bachelor Degree,
+ detailsConfirmedByStudent=Y,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-24 19:08:58,836 - Selenium_studentPortal -INFO - studentExpectedName ASHISH KUMAR
+2023-09-24 19:08:58,836 [main] INFO Selenium_studentPortal - studentExpectedName ASHISH KUMAR
+2023-09-24 19:08:58,844 - Selenium_studentPortal -INFO - Student Name is matched
+2023-09-24 19:08:58,844 [main] INFO Selenium_studentPortal - Student Name is matched
+2023-09-24 19:08:59,224 - Selenium_studentPortal -INFO - Data Displyed on header [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-24 19:08:59,224 [main] INFO Selenium_studentPortal - Data Displyed on header [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-24 19:08:59,408 - Selenium_studentPortal -INFO - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-24 19:08:59,408 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-24 19:08:59,409 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-24 19:08:59,409 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-24 19:12:23,263 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 19:12:23,263 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 19:12:23,505 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 19:12:23,505 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 19:12:31,911 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 19:12:31,911 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 19:12:31,994 - Selenium_studentPortal -INFO -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 19:12:31,994 [main] INFO Selenium_studentPortal -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 19:12:33,115 - Selenium_studentPortal -INFO - Actual single Student Details
+2023-09-24 19:12:33,115 [main] INFO Selenium_studentPortal - Actual single Student Details
+2023-09-24 19:12:33,115 - Selenium_studentPortal -INFO - Expected student Name ASHISH KUMAR
+2023-09-24 19:12:33,115 [main] INFO Selenium_studentPortal - Expected student Name ASHISH KUMAR
+2023-09-24 19:12:33,120 - Selenium_studentPortal -INFO - Student Name is matched
+2023-09-24 19:12:33,120 [main] INFO Selenium_studentPortal - Student Name is matched
+2023-09-24 19:12:33,278 - Selenium_studentPortal -INFO - Data Displyed on header [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-24 19:12:33,278 [main] INFO Selenium_studentPortal - Data Displyed on header [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-24 19:12:33,398 - Selenium_studentPortal -INFO - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-24 19:12:33,398 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-24 19:12:33,399 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-24 19:12:33,399 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel

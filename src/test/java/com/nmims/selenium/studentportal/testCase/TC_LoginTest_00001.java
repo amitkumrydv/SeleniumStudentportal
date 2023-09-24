@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.nmims.selenium.studentportal.pom.LoginPageObjectMethod;
+import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.nmims.selenium.studentportal.testutil.LoginTestutil;
 
 public class TC_LoginTest_00001 extends LoginTestutil {

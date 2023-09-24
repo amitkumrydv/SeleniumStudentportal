@@ -4,11 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.jdbc.core.JdbcTemplate;
+import com.nmims.selenium.studentportal.dao.StudentSubjectDao;
 
-
-import com.nmims.selenium.studentportal.dao.OngoingSubjectDao;
-
-public class OngoingSubjectDaoImpl implements OngoingSubjectDao {
+public class OngoingSubjectDaoImpl implements StudentSubjectDao {
 	
 	private JdbcTemplate jdbcTemplate;
 	
@@ -33,6 +31,7 @@ public class OngoingSubjectDaoImpl implements OngoingSubjectDao {
 		
 		return currentSubjectList;
 	}
+
 
 
 }

@@ -5,26 +5,12 @@ import java.util.List;
 
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
-
 import com.nmims.selenium.studentportal.dao.StudentDao;
-import com.nmims.selenium.studentportal.entities.Student;
+import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
 
-public class StudentDaoImpl  implements StudentDao{
-	
+public class StudentDaoImpl implements StudentDao {
+
 	private JdbcTemplate jdbcTemplate;
-	
-	public int insert(Student student) {
-		
-		String query ="insert into studentData.student(id,name,city) values(?,?,?)";
-		int r =this.jdbcTemplate.update(query,student.getId(),student.getName(),student.getCity());
-		
-		return r;
-		
-	}
-	
-	
-	
 
 	public JdbcTemplate getJdbcTemplate() {
 		return jdbcTemplate;
@@ -34,27 +20,21 @@ public class StudentDaoImpl  implements StudentDao{
 		this.jdbcTemplate = jdbcTemplate;
 	}
 
+	@Override
+	public StudentStudentPortalBean getStudentRegistration(String sapid) {
+		StudentStudentPortalBean currenrtRgistration = new StudentStudentPortalBean();
+		try {
+			String sqlquery = "SELECT * FROM exam.students s where"
+					+ "   s.sapid = ?  and s.sem = (Select max(sem) from exam.students where sapid =? ) ";
 
+			currenrtRgistration = (StudentStudentPortalBean) jdbcTemplate.queryForObject(sqlquery,
+					new Object[] { sapid, sapid }, new BeanPropertyRowMapper(StudentStudentPortalBean.class));
+			currenrtRgistration.setProgramForHeader(currenrtRgistration.getProgram());
 
-
-
-	public List<Student> read(int studentID) {
-		List<Student> student = new ArrayList<Student>();
-		String query="Select * from studentData.student where id=?";
-		//int r =this.jdbcTemplate.update(query,studentID.getId());
-		
-		RowMapper<Student> rowMapper =new RowMapperImpl();
-		student = jdbcTemplate.query(query, new Object[]{studentID}, rowMapper);
-		
-		
-		return student;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return currenrtRgistration;
 	}
-
-
-
-
-	
-	
-	
 
 }
