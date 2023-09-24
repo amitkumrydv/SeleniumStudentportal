@@ -1,15 +1,13 @@
 package com.nmims.selenium.studentportal.testutil;
 
-import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import com.nmims.selenium.studentportal.baseClass.BasClass;
+import com.nmims.selenium.studentportal.baseClass.BaseClass;
 import com.nmims.selenium.studentportal.data.DataProvideLogin;
-import com.nmims.selenium.studentportal.pom.LoginPageObjectMethod;
+import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 
 
- public class LoginTestutil extends BasClass {
+ public class LoginTestutil extends BaseClass {
 	
 	
 	@Test(dataProvider = "Login" , dataProviderClass= DataProvideLogin.class)
