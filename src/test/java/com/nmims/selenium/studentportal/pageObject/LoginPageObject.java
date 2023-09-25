@@ -8,10 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPageObject {
 
-	WebDriver driver;
 	
-	
-
 	public LoginPageObject(WebDriver driver) {
 		
 		PageFactory.initElements(driver, this); // Define as page object class

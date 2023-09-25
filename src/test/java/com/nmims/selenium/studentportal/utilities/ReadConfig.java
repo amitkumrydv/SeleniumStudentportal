@@ -32,16 +32,16 @@ public class ReadConfig {
 		return url;
 	}
 	
-	public String getUsername() {
-		String username=pro.getProperty("username");
-		System.out.println("userName Value passed from the propert file " + username);
-		return username;
-	}
-	
-	public String getPassword() {
-		String password=pro.getProperty("password");
-		return password;
-	}
+//	public String getUsername() {
+//		String username=pro.getProperty("username");
+//		System.out.println("userName Value passed from the propert file " + username);
+//		return username;
+//	}
+//	
+//	public String getPassword() {
+//		String password=pro.getProperty("password");
+//		return password;
+//	}
 	
 	public String getChrome() {
 		String Chromepath=pro.getProperty("Chromepath");
@@ -63,5 +63,9 @@ public class ReadConfig {
 	}
 	
 	
+	public String getStudentDetailsExcel() {
+		String studentDetailsExcel=pro.getProperty("STUDENT_BASIC_DETAILS");
+		return studentDetailsExcel;
+	}
 	
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="StudentportalDashboard">
+<suite name="StudentportalDashboard"  allow-return-values="true" verbose="10">
 
 	<listeners>
 
@@ -13,9 +13,13 @@
 
 		<parameter name="browser" value="chrome" />
 		<classes>
-
-			<class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001" /> 
-			<!-- <class name="com.nmims.selenium.studentportal.testutil.LoginTestutil" /> -->
+		
+           
+		  <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001" /> 
+			 <class name="com.nmims.selenium.studentportal.testutil.LoginTestutil" />  
+		 	<class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004" /> 
+		  	<class name="com.nmims.selenium.studentportal.testCase.TC_OngoingSubject_00006" /> 
+		 	<class name="com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002" /> 
 			
 
 

@@ -12,17 +12,24 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import com.nmims.selenium.studentportal.config.DataBaseConfig;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
 
 
-public class BasClass {
+
+
+public class BaseClass {
+	
 	
 	
 	ReadConfig readConfig = new ReadConfig();
@@ -39,13 +46,41 @@ public class BasClass {
 	@BeforeClass
 	public void setup(String br) {
 		
-		logger=Logger.getLogger("aelenium_studentPortal");
+		logger=Logger.getLogger("Selenium_studentPortal");
 		PropertyConfigurator.configure("Log4j.properties");
 		
      if (br.equals("chrome"))
      {
     	 System.setProperty("webdriver.chrome.driver", readConfig.getChrome());
-    	 driver = new ChromeDriver();
+    	 
+    	 
+    	 // Add arguments to enable the "clear-browser-data" command-line switch
+    	 ChromeOptions options = new ChromeOptions();
+         options.addArguments("--disable-extensions"); // Disable extensions
+       
+//         options.addArguments("--disable-bundled-ppapi-flash");
+//         options.addArguments("--disable-plugins-discovery");
+//         options.addArguments("--disable-hang-monitor");
+//         options.addArguments("--disable-prompt-on-repost");
+//         options.addArguments("--enable-experimental-accessibility");
+//         options.addArguments("--test-type");
+//         options.addArguments("--disable-infobars");
+//         options.addArguments("--disable-dev-shm-usage");
+//         options.addArguments("--no-sandbox");
+//         options.addArguments("--disable-browser-side-navigation");
+//         options.addArguments("--disable-gpu");
+//         options.addArguments("--disable-software-rasterizer");
+//         options.addArguments("--disable-default-apps");
+//         options.addArguments("--disable-extensions");
+//         options.addArguments("--disable-popup-blocking");
+//         options.addArguments("--disable-translate");
+         options.addArguments("--disable-web-security");
+         options.addArguments("--ignore-certificate-errors");
+
+         driver = new ChromeDriver(options);
+    	 
+    	 
+    	 
      }
      if (br.equals("firefox"))
      {
@@ -60,6 +95,7 @@ public class BasClass {
      }
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
  	    driver.get(baseURL);
+ 	                       
  	   driver.manage().window().maximize();
 	}
 
@@ -88,6 +124,14 @@ public class BasClass {
 		String generatedstring2=RandomStringUtils.randomNumeric(4);
 		return (generatedstring2)  ;
 	}
+	
+	
+
+	
+	
+	
+	
+	
 	
 	
 	@AfterClass
