@@ -2,12 +2,12 @@
 <testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="StudentportalDashboard" duration-ms="2054" started-at="2023-09-13T09:30:51Z" finished-at="2023-09-13T09:30:53Z">
+  <suite name="StudentportalDashboard" duration-ms="4366" started-at="2023-09-25T04:21:02Z" finished-at="2023-09-25T04:21:06Z">
     <groups>
     </groups>
-    <test name="portalApp" duration-ms="2054" started-at="2023-09-13T09:30:51Z" finished-at="2023-09-13T09:30:53Z">
+    <test name="portalApp" duration-ms="4366" started-at="2023-09-25T04:21:02Z" finished-at="2023-09-25T04:21:06Z">
       <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001">
-        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@63bd2f9c]" name="setup" is-config="true" duration-ms="1932" started-at="2023-09-13T09:30:51Z" finished-at="2023-09-13T09:30:53Z">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@27bd79e3]" name="setup" is-config="true" duration-ms="3420" started-at="2023-09-25T04:21:02Z" finished-at="2023-09-25T04:21:05Z">
           <params>
             <param index="0">
               <value>
@@ -18,64 +18,64 @@
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.182 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 116.0.5845.188 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'MUM15119CPU2027', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'MUM15119CPU2027', ip: '10.106.107.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0084A813+48355]
-(No symbol) [0x007DC4B1]
-(No symbol) [0x006E5358]
-(No symbol) [0x007061AC]
-(No symbol) [0x00701EF3]
-(No symbol) [0x00700579]
-(No symbol) [0x00730C55]
-(No symbol) [0x0073093C]
-(No symbol) [0x0072A536]
-(No symbol) [0x007082DC]
-(No symbol) [0x007093DD]
-GetHandleVerifier [0x00AAAABD+2539405]
-GetHandleVerifier [0x00AEA78F+2800735]
-GetHandleVerifier [0x00AE456C+2775612]
-GetHandleVerifier [0x008D51E0+616112]
-(No symbol) [0x007E5F8C]
-(No symbol) [0x007E2328]
-(No symbol) [0x007E240B]
-(No symbol) [0x007D4FF7]
-BaseThreadInitThunk [0x767EFA29+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]
-RtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]
+GetHandleVerifier [0x011AA813+48355]
+(No symbol) [0x0113C4B1]
+(No symbol) [0x01045358]
+(No symbol) [0x010661AC]
+(No symbol) [0x01061EF3]
+(No symbol) [0x01060579]
+(No symbol) [0x01090C55]
+(No symbol) [0x0109093C]
+(No symbol) [0x0108A536]
+(No symbol) [0x010682DC]
+(No symbol) [0x010693DD]
+GetHandleVerifier [0x0140AABD+2539405]
+GetHandleVerifier [0x0144A78F+2800735]
+GetHandleVerifier [0x0144456C+2775612]
+GetHandleVerifier [0x012351E0+616112]
+(No symbol) [0x01145F8C]
+(No symbol) [0x01142328]
+(No symbol) [0x0114240B]
+(No symbol) [0x01134FF7]
+BaseThreadInitThunk [0x76F3FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BC7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BC7A4E+238]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.182 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 116.0.5845.188 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'MUM15119CPU2027', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'MUM15119CPU2027', ip: '10.106.107.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0084A813+48355]
-(No symbol) [0x007DC4B1]
-(No symbol) [0x006E5358]
-(No symbol) [0x007061AC]
-(No symbol) [0x00701EF3]
-(No symbol) [0x00700579]
-(No symbol) [0x00730C55]
-(No symbol) [0x0073093C]
-(No symbol) [0x0072A536]
-(No symbol) [0x007082DC]
-(No symbol) [0x007093DD]
-GetHandleVerifier [0x00AAAABD+2539405]
-GetHandleVerifier [0x00AEA78F+2800735]
-GetHandleVerifier [0x00AE456C+2775612]
-GetHandleVerifier [0x008D51E0+616112]
-(No symbol) [0x007E5F8C]
-(No symbol) [0x007E2328]
-(No symbol) [0x007E240B]
-(No symbol) [0x007D4FF7]
-BaseThreadInitThunk [0x767EFA29+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]
-RtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]
+GetHandleVerifier [0x011AA813+48355]
+(No symbol) [0x0113C4B1]
+(No symbol) [0x01045358]
+(No symbol) [0x010661AC]
+(No symbol) [0x01061EF3]
+(No symbol) [0x01060579]
+(No symbol) [0x01090C55]
+(No symbol) [0x0109093C]
+(No symbol) [0x0108A536]
+(No symbol) [0x010682DC]
+(No symbol) [0x010693DD]
+GetHandleVerifier [0x0140AABD+2539405]
+GetHandleVerifier [0x0144A78F+2800735]
+GetHandleVerifier [0x0144456C+2775612]
+GetHandleVerifier [0x012351E0+616112]
+(No symbol) [0x01145F8C]
+(No symbol) [0x01142328]
+(No symbol) [0x0114240B]
+(No symbol) [0x01134FF7]
+BaseThreadInitThunk [0x76F3FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BC7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BC7A4E+238]
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -127,76 +127,113 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at com.nmims.selenium.studentportal.testRunner.TestNGTestRunner.run(TestNGTestRunner.java:31)
-at java.lang.Thread.run(Thread.java:745)
+at com.nmims.selenium.studentportal.testRunner.TestRunner.runTests(TestRunner.java:61)
+at com.nmims.selenium.studentportal.testRunner.TestRunner.access$0(TestRunner.java:45)
+at com.nmims.selenium.studentportal.testRunner.TestRunner$1.actionPerformed(TestRunner.java:40)
+at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+at java.awt.Component.processMouseEvent(Component.java:6533)
+at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+at java.awt.Component.processEvent(Component.java:6298)
+at java.awt.Container.processEvent(Container.java:2236)
+at java.awt.Component.dispatchEventImpl(Component.java:4889)
+at java.awt.Container.dispatchEventImpl(Container.java:2294)
+at java.awt.Component.dispatchEvent(Component.java:4711)
+at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+at java.awt.Container.dispatchEventImpl(Container.java:2280)
+at java.awt.Window.dispatchEventImpl(Window.java:2746)
+at java.awt.Component.dispatchEvent(Component.java:4711)
+at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+at java.awt.EventQueue.access$500(EventQueue.java:97)
+at java.awt.EventQueue$3.run(EventQueue.java:709)
+at java.awt.EventQueue$3.run(EventQueue.java:703)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+at java.awt.EventQueue$4.run(EventQueue.java:731)
+at java.awt.EventQueue$4.run(EventQueue.java:729)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@63bd2f9c]" name="loginTest" duration-ms="0" started-at="2023-09-13T09:30:53Z" data-provider="Login" finished-at="2023-09-13T09:30:53Z">
+        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@27bd79e3]" name="loginTest" duration-ms="0" started-at="2023-09-25T04:21:06Z" data-provider="Login" finished-at="2023-09-25T04:21:06Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.182 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 116.0.5845.188 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'MUM15119CPU2027', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'MUM15119CPU2027', ip: '10.106.107.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0084A813+48355]
-(No symbol) [0x007DC4B1]
-(No symbol) [0x006E5358]
-(No symbol) [0x007061AC]
-(No symbol) [0x00701EF3]
-(No symbol) [0x00700579]
-(No symbol) [0x00730C55]
-(No symbol) [0x0073093C]
-(No symbol) [0x0072A536]
-(No symbol) [0x007082DC]
-(No symbol) [0x007093DD]
-GetHandleVerifier [0x00AAAABD+2539405]
-GetHandleVerifier [0x00AEA78F+2800735]
-GetHandleVerifier [0x00AE456C+2775612]
-GetHandleVerifier [0x008D51E0+616112]
-(No symbol) [0x007E5F8C]
-(No symbol) [0x007E2328]
-(No symbol) [0x007E240B]
-(No symbol) [0x007D4FF7]
-BaseThreadInitThunk [0x767EFA29+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]
-RtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]
+GetHandleVerifier [0x011AA813+48355]
+(No symbol) [0x0113C4B1]
+(No symbol) [0x01045358]
+(No symbol) [0x010661AC]
+(No symbol) [0x01061EF3]
+(No symbol) [0x01060579]
+(No symbol) [0x01090C55]
+(No symbol) [0x0109093C]
+(No symbol) [0x0108A536]
+(No symbol) [0x010682DC]
+(No symbol) [0x010693DD]
+GetHandleVerifier [0x0140AABD+2539405]
+GetHandleVerifier [0x0144A78F+2800735]
+GetHandleVerifier [0x0144456C+2775612]
+GetHandleVerifier [0x012351E0+616112]
+(No symbol) [0x01145F8C]
+(No symbol) [0x01142328]
+(No symbol) [0x0114240B]
+(No symbol) [0x01134FF7]
+BaseThreadInitThunk [0x76F3FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BC7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BC7A4E+238]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.182 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 116.0.5845.188 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'MUM15119CPU2027', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'MUM15119CPU2027', ip: '10.106.107.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0084A813+48355]
-(No symbol) [0x007DC4B1]
-(No symbol) [0x006E5358]
-(No symbol) [0x007061AC]
-(No symbol) [0x00701EF3]
-(No symbol) [0x00700579]
-(No symbol) [0x00730C55]
-(No symbol) [0x0073093C]
-(No symbol) [0x0072A536]
-(No symbol) [0x007082DC]
-(No symbol) [0x007093DD]
-GetHandleVerifier [0x00AAAABD+2539405]
-GetHandleVerifier [0x00AEA78F+2800735]
-GetHandleVerifier [0x00AE456C+2775612]
-GetHandleVerifier [0x008D51E0+616112]
-(No symbol) [0x007E5F8C]
-(No symbol) [0x007E2328]
-(No symbol) [0x007E240B]
-(No symbol) [0x007D4FF7]
-BaseThreadInitThunk [0x767EFA29+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]
-RtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]
+GetHandleVerifier [0x011AA813+48355]
+(No symbol) [0x0113C4B1]
+(No symbol) [0x01045358]
+(No symbol) [0x010661AC]
+(No symbol) [0x01061EF3]
+(No symbol) [0x01060579]
+(No symbol) [0x01090C55]
+(No symbol) [0x0109093C]
+(No symbol) [0x0108A536]
+(No symbol) [0x010682DC]
+(No symbol) [0x010693DD]
+GetHandleVerifier [0x0140AABD+2539405]
+GetHandleVerifier [0x0144A78F+2800735]
+GetHandleVerifier [0x0144456C+2775612]
+GetHandleVerifier [0x012351E0+616112]
+(No symbol) [0x01145F8C]
+(No symbol) [0x01142328]
+(No symbol) [0x0114240B]
+(No symbol) [0x01134FF7]
+BaseThreadInitThunk [0x76F3FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BC7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BC7A4E+238]
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -248,76 +285,113 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at com.nmims.selenium.studentportal.testRunner.TestNGTestRunner.run(TestNGTestRunner.java:31)
-at java.lang.Thread.run(Thread.java:745)
+at com.nmims.selenium.studentportal.testRunner.TestRunner.runTests(TestRunner.java:61)
+at com.nmims.selenium.studentportal.testRunner.TestRunner.access$0(TestRunner.java:45)
+at com.nmims.selenium.studentportal.testRunner.TestRunner$1.actionPerformed(TestRunner.java:40)
+at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+at java.awt.Component.processMouseEvent(Component.java:6533)
+at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+at java.awt.Component.processEvent(Component.java:6298)
+at java.awt.Container.processEvent(Container.java:2236)
+at java.awt.Component.dispatchEventImpl(Component.java:4889)
+at java.awt.Container.dispatchEventImpl(Container.java:2294)
+at java.awt.Component.dispatchEvent(Component.java:4711)
+at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+at java.awt.Container.dispatchEventImpl(Container.java:2280)
+at java.awt.Window.dispatchEventImpl(Window.java:2746)
+at java.awt.Component.dispatchEvent(Component.java:4711)
+at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+at java.awt.EventQueue.access$500(EventQueue.java:97)
+at java.awt.EventQueue$3.run(EventQueue.java:709)
+at java.awt.EventQueue$3.run(EventQueue.java:703)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+at java.awt.EventQueue$4.run(EventQueue.java:731)
+at java.awt.EventQueue$4.run(EventQueue.java:729)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@63bd2f9c]" name="loginTest" duration-ms="0" started-at="2023-09-13T09:30:53Z" data-provider="Login" finished-at="2023-09-13T09:30:53Z">
+        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@27bd79e3]" name="loginTest" duration-ms="0" started-at="2023-09-25T04:21:06Z" data-provider="Login" finished-at="2023-09-25T04:21:06Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.182 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 116.0.5845.188 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'MUM15119CPU2027', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'MUM15119CPU2027', ip: '10.106.107.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0084A813+48355]
-(No symbol) [0x007DC4B1]
-(No symbol) [0x006E5358]
-(No symbol) [0x007061AC]
-(No symbol) [0x00701EF3]
-(No symbol) [0x00700579]
-(No symbol) [0x00730C55]
-(No symbol) [0x0073093C]
-(No symbol) [0x0072A536]
-(No symbol) [0x007082DC]
-(No symbol) [0x007093DD]
-GetHandleVerifier [0x00AAAABD+2539405]
-GetHandleVerifier [0x00AEA78F+2800735]
-GetHandleVerifier [0x00AE456C+2775612]
-GetHandleVerifier [0x008D51E0+616112]
-(No symbol) [0x007E5F8C]
-(No symbol) [0x007E2328]
-(No symbol) [0x007E240B]
-(No symbol) [0x007D4FF7]
-BaseThreadInitThunk [0x767EFA29+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]
-RtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]
+GetHandleVerifier [0x011AA813+48355]
+(No symbol) [0x0113C4B1]
+(No symbol) [0x01045358]
+(No symbol) [0x010661AC]
+(No symbol) [0x01061EF3]
+(No symbol) [0x01060579]
+(No symbol) [0x01090C55]
+(No symbol) [0x0109093C]
+(No symbol) [0x0108A536]
+(No symbol) [0x010682DC]
+(No symbol) [0x010693DD]
+GetHandleVerifier [0x0140AABD+2539405]
+GetHandleVerifier [0x0144A78F+2800735]
+GetHandleVerifier [0x0144456C+2775612]
+GetHandleVerifier [0x012351E0+616112]
+(No symbol) [0x01145F8C]
+(No symbol) [0x01142328]
+(No symbol) [0x0114240B]
+(No symbol) [0x01134FF7]
+BaseThreadInitThunk [0x76F3FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BC7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BC7A4E+238]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.182 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 116.0.5845.188 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'MUM15119CPU2027', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'MUM15119CPU2027', ip: '10.106.107.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0084A813+48355]
-(No symbol) [0x007DC4B1]
-(No symbol) [0x006E5358]
-(No symbol) [0x007061AC]
-(No symbol) [0x00701EF3]
-(No symbol) [0x00700579]
-(No symbol) [0x00730C55]
-(No symbol) [0x0073093C]
-(No symbol) [0x0072A536]
-(No symbol) [0x007082DC]
-(No symbol) [0x007093DD]
-GetHandleVerifier [0x00AAAABD+2539405]
-GetHandleVerifier [0x00AEA78F+2800735]
-GetHandleVerifier [0x00AE456C+2775612]
-GetHandleVerifier [0x008D51E0+616112]
-(No symbol) [0x007E5F8C]
-(No symbol) [0x007E2328]
-(No symbol) [0x007E240B]
-(No symbol) [0x007D4FF7]
-BaseThreadInitThunk [0x767EFA29+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]
-RtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]
+GetHandleVerifier [0x011AA813+48355]
+(No symbol) [0x0113C4B1]
+(No symbol) [0x01045358]
+(No symbol) [0x010661AC]
+(No symbol) [0x01061EF3]
+(No symbol) [0x01060579]
+(No symbol) [0x01090C55]
+(No symbol) [0x0109093C]
+(No symbol) [0x0108A536]
+(No symbol) [0x010682DC]
+(No symbol) [0x010693DD]
+GetHandleVerifier [0x0140AABD+2539405]
+GetHandleVerifier [0x0144A78F+2800735]
+GetHandleVerifier [0x0144456C+2775612]
+GetHandleVerifier [0x012351E0+616112]
+(No symbol) [0x01145F8C]
+(No symbol) [0x01142328]
+(No symbol) [0x0114240B]
+(No symbol) [0x01134FF7]
+BaseThreadInitThunk [0x76F3FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BC7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BC7A4E+238]
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -369,76 +443,113 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at com.nmims.selenium.studentportal.testRunner.TestNGTestRunner.run(TestNGTestRunner.java:31)
-at java.lang.Thread.run(Thread.java:745)
+at com.nmims.selenium.studentportal.testRunner.TestRunner.runTests(TestRunner.java:61)
+at com.nmims.selenium.studentportal.testRunner.TestRunner.access$0(TestRunner.java:45)
+at com.nmims.selenium.studentportal.testRunner.TestRunner$1.actionPerformed(TestRunner.java:40)
+at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+at java.awt.Component.processMouseEvent(Component.java:6533)
+at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+at java.awt.Component.processEvent(Component.java:6298)
+at java.awt.Container.processEvent(Container.java:2236)
+at java.awt.Component.dispatchEventImpl(Component.java:4889)
+at java.awt.Container.dispatchEventImpl(Container.java:2294)
+at java.awt.Component.dispatchEvent(Component.java:4711)
+at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+at java.awt.Container.dispatchEventImpl(Container.java:2280)
+at java.awt.Window.dispatchEventImpl(Window.java:2746)
+at java.awt.Component.dispatchEvent(Component.java:4711)
+at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+at java.awt.EventQueue.access$500(EventQueue.java:97)
+at java.awt.EventQueue$3.run(EventQueue.java:709)
+at java.awt.EventQueue$3.run(EventQueue.java:703)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+at java.awt.EventQueue$4.run(EventQueue.java:731)
+at java.awt.EventQueue$4.run(EventQueue.java:729)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@63bd2f9c]" name="logoutTest" duration-ms="0" started-at="2023-09-13T09:30:53Z" depends-on-methods="com.nmims.selenium.studentportal.testutil.LoginTestutil.loginTest" finished-at="2023-09-13T09:30:53Z">
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@27bd79e3]" name="logoutTest" duration-ms="0" started-at="2023-09-25T04:21:06Z" depends-on-methods="com.nmims.selenium.studentportal.testutil.LoginTestutil.loginTest" finished-at="2023-09-25T04:21:06Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.182 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 116.0.5845.188 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'MUM15119CPU2027', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'MUM15119CPU2027', ip: '10.106.107.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0084A813+48355]
-(No symbol) [0x007DC4B1]
-(No symbol) [0x006E5358]
-(No symbol) [0x007061AC]
-(No symbol) [0x00701EF3]
-(No symbol) [0x00700579]
-(No symbol) [0x00730C55]
-(No symbol) [0x0073093C]
-(No symbol) [0x0072A536]
-(No symbol) [0x007082DC]
-(No symbol) [0x007093DD]
-GetHandleVerifier [0x00AAAABD+2539405]
-GetHandleVerifier [0x00AEA78F+2800735]
-GetHandleVerifier [0x00AE456C+2775612]
-GetHandleVerifier [0x008D51E0+616112]
-(No symbol) [0x007E5F8C]
-(No symbol) [0x007E2328]
-(No symbol) [0x007E240B]
-(No symbol) [0x007D4FF7]
-BaseThreadInitThunk [0x767EFA29+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]
-RtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]
+GetHandleVerifier [0x011AA813+48355]
+(No symbol) [0x0113C4B1]
+(No symbol) [0x01045358]
+(No symbol) [0x010661AC]
+(No symbol) [0x01061EF3]
+(No symbol) [0x01060579]
+(No symbol) [0x01090C55]
+(No symbol) [0x0109093C]
+(No symbol) [0x0108A536]
+(No symbol) [0x010682DC]
+(No symbol) [0x010693DD]
+GetHandleVerifier [0x0140AABD+2539405]
+GetHandleVerifier [0x0144A78F+2800735]
+GetHandleVerifier [0x0144456C+2775612]
+GetHandleVerifier [0x012351E0+616112]
+(No symbol) [0x01145F8C]
+(No symbol) [0x01142328]
+(No symbol) [0x0114240B]
+(No symbol) [0x01134FF7]
+BaseThreadInitThunk [0x76F3FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BC7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BC7A4E+238]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.182 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 116.0.5845.188 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'MUM15119CPU2027', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'MUM15119CPU2027', ip: '10.106.107.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0084A813+48355]
-(No symbol) [0x007DC4B1]
-(No symbol) [0x006E5358]
-(No symbol) [0x007061AC]
-(No symbol) [0x00701EF3]
-(No symbol) [0x00700579]
-(No symbol) [0x00730C55]
-(No symbol) [0x0073093C]
-(No symbol) [0x0072A536]
-(No symbol) [0x007082DC]
-(No symbol) [0x007093DD]
-GetHandleVerifier [0x00AAAABD+2539405]
-GetHandleVerifier [0x00AEA78F+2800735]
-GetHandleVerifier [0x00AE456C+2775612]
-GetHandleVerifier [0x008D51E0+616112]
-(No symbol) [0x007E5F8C]
-(No symbol) [0x007E2328]
-(No symbol) [0x007E240B]
-(No symbol) [0x007D4FF7]
-BaseThreadInitThunk [0x767EFA29+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]
-RtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]
+GetHandleVerifier [0x011AA813+48355]
+(No symbol) [0x0113C4B1]
+(No symbol) [0x01045358]
+(No symbol) [0x010661AC]
+(No symbol) [0x01061EF3]
+(No symbol) [0x01060579]
+(No symbol) [0x01090C55]
+(No symbol) [0x0109093C]
+(No symbol) [0x0108A536]
+(No symbol) [0x010682DC]
+(No symbol) [0x010693DD]
+GetHandleVerifier [0x0140AABD+2539405]
+GetHandleVerifier [0x0144A78F+2800735]
+GetHandleVerifier [0x0144456C+2775612]
+GetHandleVerifier [0x012351E0+616112]
+(No symbol) [0x01145F8C]
+(No symbol) [0x01142328]
+(No symbol) [0x0114240B]
+(No symbol) [0x01134FF7]
+BaseThreadInitThunk [0x76F3FA29+25]
+RtlGetAppContainerNamedObjectPath [0x77BC7A7E+286]
+RtlGetAppContainerNamedObjectPath [0x77BC7A4E+238]
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -490,15 +601,52 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at com.nmims.selenium.studentportal.testRunner.TestNGTestRunner.run(TestNGTestRunner.java:31)
-at java.lang.Thread.run(Thread.java:745)
+at com.nmims.selenium.studentportal.testRunner.TestRunner.runTests(TestRunner.java:61)
+at com.nmims.selenium.studentportal.testRunner.TestRunner.access$0(TestRunner.java:45)
+at com.nmims.selenium.studentportal.testRunner.TestRunner$1.actionPerformed(TestRunner.java:40)
+at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+at java.awt.Component.processMouseEvent(Component.java:6533)
+at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+at java.awt.Component.processEvent(Component.java:6298)
+at java.awt.Container.processEvent(Container.java:2236)
+at java.awt.Component.dispatchEventImpl(Component.java:4889)
+at java.awt.Container.dispatchEventImpl(Container.java:2294)
+at java.awt.Component.dispatchEvent(Component.java:4711)
+at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+at java.awt.Container.dispatchEventImpl(Container.java:2280)
+at java.awt.Window.dispatchEventImpl(Window.java:2746)
+at java.awt.Component.dispatchEvent(Component.java:4711)
+at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+at java.awt.EventQueue.access$500(EventQueue.java:97)
+at java.awt.EventQueue$3.run(EventQueue.java:709)
+at java.awt.EventQueue$3.run(EventQueue.java:703)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+at java.awt.EventQueue$4.run(EventQueue.java:731)
+at java.awt.EventQueue$4.run(EventQueue.java:729)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@63bd2f9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-09-13T09:30:53Z" finished-at="2023-09-13T09:30:53Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@27bd79e3]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-09-25T04:21:06Z" finished-at="2023-09-25T04:21:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
