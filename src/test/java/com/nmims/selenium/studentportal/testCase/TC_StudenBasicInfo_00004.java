@@ -49,9 +49,9 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 		UserDtailsPageObjectMethod studentActualNameOnUI = new UserDtailsPageObjectMethod(driver);
 
 		String studentActualName = studentActualNameOnUI.setStudentName();
-		logger.info(" Readed student Actual Name " + studentActualName);
+		logger.info(" Readed student Actual Name ");
 
-		StudentStudentPortalBean actualSingleStudentDetails = singleStudentDetails.getStudentRegistration(user);
+		StudentStudentPortalBean actualSingleStudentDetails = singleStudentDetails.getsinglStudentdata(user);
 		logger.info("Actual single Student Details");
 
 		String studentFirstName = actualSingleStudentDetails.getFirstName();

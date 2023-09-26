@@ -2930,3 +2930,507 @@
 2023-09-24 19:12:33,398 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
 2023-09-24 19:12:33,399 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
 2023-09-24 19:12:33,399 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-24 20:12:05,964 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-24 20:12:05,964 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-24 20:12:06,209 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 20:12:06,209 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 20:12:06,442 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 20:12:06,442 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 20:12:15,608 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 20:12:15,608 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 20:12:20,796 - Selenium_studentPortal -INFO - Page logout 
+2023-09-24 20:12:20,796 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-24 20:12:24,126 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-24 20:12:24,126 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-24 20:12:24,357 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 20:12:24,357 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 20:12:24,589 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 20:12:24,589 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 20:12:34,274 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 20:12:34,274 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 20:12:36,627 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 20:12:36,627 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 20:12:36,861 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 20:12:36,861 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 20:12:46,995 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 20:12:46,995 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 20:12:47,109 - Selenium_studentPortal -INFO -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 20:12:47,109 [main] INFO Selenium_studentPortal -  Readed student Actual Name ASHISH KUMAR
+2023-09-24 20:12:48,402 - Selenium_studentPortal -INFO - Actual single Student Details
+2023-09-24 20:12:48,402 [main] INFO Selenium_studentPortal - Actual single Student Details
+2023-09-24 20:12:48,403 - Selenium_studentPortal -INFO - Expected student Name ASHISH KUMAR
+2023-09-24 20:12:48,403 [main] INFO Selenium_studentPortal - Expected student Name ASHISH KUMAR
+2023-09-24 20:12:48,403 - Selenium_studentPortal -INFO - Student Name is matched
+2023-09-24 20:12:48,403 [main] INFO Selenium_studentPortal - Student Name is matched
+2023-09-24 20:12:48,532 - Selenium_studentPortal -INFO - Data Displyed on header [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-24 20:12:48,532 [main] INFO Selenium_studentPortal - Data Displyed on header [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-24 20:12:48,656 - Selenium_studentPortal -INFO - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-24 20:12:48,656 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-24 20:12:48,656 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-24 20:12:48,656 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-24 20:12:51,371 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 20:12:51,371 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 20:12:51,540 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 20:12:51,540 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 20:12:59,122 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 20:12:59,122 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 20:12:59,353 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-24 20:12:59,353 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-24 20:12:59,543 - Selenium_studentPortal -INFO - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-24 20:12:59,543 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-24 20:12:59,543 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-09-24 20:12:59,543 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-09-24 20:13:01,838 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 20:13:01,838 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 20:13:02,158 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 20:13:02,158 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 20:13:09,542 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 20:13:09,542 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 20:58:44,457 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-24 20:58:44,457 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-24 20:58:44,684 - Selenium_studentPortal -INFO - Entered the password
+2023-09-24 20:58:44,684 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-24 20:58:53,604 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-24 20:58:53,604 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-24 20:58:54,886 - Selenium_studentPortal -INFO - Actual single Student Details
+2023-09-24 20:58:54,886 [main] INFO Selenium_studentPortal - Actual single Student Details
+2023-09-24 20:58:55,063 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-24 20:58:55,063 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-24 20:58:55,148 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business Communication and Etiquette, Business Economics, Corporate Social Responsibility, Information Systems for Managers, Management Theory and Practice, Organisational Behaviour]
+2023-09-24 20:58:55,148 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business Communication and Etiquette, Business Economics, Corporate Social Responsibility, Information Systems for Managers, Management Theory and Practice, Organisational Behaviour]
+2023-09-24 20:58:55,149 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-24 20:58:55,149 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-25 22:41:32,277 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-25 22:41:32,277 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-25 22:41:32,489 - Selenium_studentPortal -INFO - Entered the password
+2023-09-25 22:41:32,489 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-25 22:41:45,948 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-25 22:41:45,948 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-25 22:41:47,274 - org.springframework.beans.factory.xml.XmlBeanDefinitionReader -INFO - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-25 22:41:47,274 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-25 22:41:47,446 - org.springframework.jdbc.support.SQLErrorCodesFactory -INFO - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-25 22:41:47,446 [main] INFO org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-25 22:41:47,649 - Selenium_studentPortal -INFO - applicableCurrentSubject []
+2023-09-25 22:41:47,649 [main] INFO Selenium_studentPortal - applicableCurrentSubject []
+2023-09-25 22:41:47,650 - Selenium_studentPortal -INFO - Actual single Student Details
+2023-09-25 22:41:47,650 [main] INFO Selenium_studentPortal - Actual single Student Details
+2023-09-25 22:41:47,837 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-25 22:41:47,837 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-25 22:41:47,838 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-25 22:41:47,838 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-25 22:47:50,057 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-25 22:47:50,057 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-25 22:47:50,327 - Selenium_studentPortal -INFO - Entered the password
+2023-09-25 22:47:50,327 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-25 22:47:59,414 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-25 22:47:59,414 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-25 22:48:00,963 - org.springframework.beans.factory.xml.XmlBeanDefinitionReader -INFO - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-25 22:48:00,963 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-25 22:48:01,148 - org.springframework.jdbc.support.SQLErrorCodesFactory -INFO - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-25 22:48:01,148 [main] INFO org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-25 22:48:01,382 - Selenium_studentPortal -INFO - applicableCurrentSubject []
+2023-09-25 22:48:01,382 [main] INFO Selenium_studentPortal - applicableCurrentSubject []
+2023-09-25 22:48:01,545 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-25 22:48:01,545 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-25 22:48:01,546 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-09-25 22:48:01,546 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-09-25 23:11:45,707 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-25 23:11:45,707 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-25 23:11:45,986 - Selenium_studentPortal -INFO - Entered the password
+2023-09-25 23:11:45,986 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-25 23:11:54,167 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-25 23:11:54,167 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-25 23:13:04,673 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-25 23:13:04,673 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-25 23:13:04,952 - Selenium_studentPortal -INFO - Entered the password
+2023-09-25 23:13:04,952 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-25 23:13:13,261 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-25 23:13:13,261 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-25 23:13:43,869 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-25 23:13:43,869 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-25 23:13:44,142 - Selenium_studentPortal -INFO - Entered the password
+2023-09-25 23:13:44,142 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-25 23:13:51,434 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-25 23:13:51,434 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-25 23:13:51,597 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-25 23:13:51,597 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-25 23:13:52,607 - org.springframework.beans.factory.xml.XmlBeanDefinitionReader -INFO - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-25 23:13:52,607 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-25 23:13:52,741 - org.springframework.jdbc.support.SQLErrorCodesFactory -INFO - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-25 23:13:52,741 [main] INFO org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-25 23:13:52,836 - Selenium_studentPortal -INFO - studentRgistration StudentBean [lastName=null,
+ firstName=null,
+ middleName=null,
+ fatherName=null,
+ husbandName=null,
+ motherName=null,
+ gender=null,
+ program=null,
+ enrollmentMonth=null,
+ enrollmentYear=null,
+ emailId=null,
+ mobile=null,
+ altPhone=null,
+ dob=null,
+ address=null,
+ houseNoName=null,
+ street=null,
+ locality=null,
+ city=null,
+ state=null,
+ country=null,
+ shippingAddress=null,
+ designation=null,
+ industry=null,
+ pin=null,
+ centerCode=null,
+ centerName=null,
+ validityEndMonth=null,
+ validityEndYear=null,
+ errorMessage=,
+ errorRecord=false,
+ landMark=null,
+ errorFlag=null,
+ age=null,
+ highestQualification=null,
+ detailsConfirmedByStudent=null,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=null]
+2023-09-25 23:13:52,836 [main] INFO Selenium_studentPortal - studentRgistration StudentBean [lastName=null,
+ firstName=null,
+ middleName=null,
+ fatherName=null,
+ husbandName=null,
+ motherName=null,
+ gender=null,
+ program=null,
+ enrollmentMonth=null,
+ enrollmentYear=null,
+ emailId=null,
+ mobile=null,
+ altPhone=null,
+ dob=null,
+ address=null,
+ houseNoName=null,
+ street=null,
+ locality=null,
+ city=null,
+ state=null,
+ country=null,
+ shippingAddress=null,
+ designation=null,
+ industry=null,
+ pin=null,
+ centerCode=null,
+ centerName=null,
+ validityEndMonth=null,
+ validityEndYear=null,
+ errorMessage=,
+ errorRecord=false,
+ landMark=null,
+ errorFlag=null,
+ age=null,
+ highestQualification=null,
+ detailsConfirmedByStudent=null,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=null]
+2023-09-25 23:13:52,938 - Selenium_studentPortal -INFO - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-25 23:13:52,938 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-25 23:13:52,939 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-09-25 23:13:52,939 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-09-26 21:14:16,398 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-26 21:14:16,398 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-26 21:14:16,600 - Selenium_studentPortal -INFO - Entered the password
+2023-09-26 21:14:16,600 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-26 21:14:26,315 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-26 21:14:26,315 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-26 21:14:26,383 - Selenium_studentPortal -INFO -  Readed student Actual Name ASHISH KUMAR
+2023-09-26 21:14:26,383 [main] INFO Selenium_studentPortal -  Readed student Actual Name ASHISH KUMAR
+2023-09-26 21:14:27,129 - Selenium_studentPortal -INFO - Actual single Student Details
+2023-09-26 21:14:27,129 [main] INFO Selenium_studentPortal - Actual single Student Details
+2023-09-26 21:14:27,129 - Selenium_studentPortal -INFO - Expected student Name ASHISH KUMAR
+2023-09-26 21:14:27,129 [main] INFO Selenium_studentPortal - Expected student Name ASHISH KUMAR
+2023-09-26 21:14:27,133 - Selenium_studentPortal -INFO - Student Name is matched
+2023-09-26 21:14:27,133 [main] INFO Selenium_studentPortal - Student Name is matched
+2023-09-26 21:14:27,226 - Selenium_studentPortal -INFO - Data Displyed on header [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-26 21:14:27,226 [main] INFO Selenium_studentPortal - Data Displyed on header [ashishkr.kumar18@gmail.com, 8015253052, PGDITSM, 77118915395, Validity End: 30-Sep-2023]
+2023-09-26 21:14:27,304 - Selenium_studentPortal -INFO - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-26 21:14:27,304 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-26 21:14:27,305 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-26 21:14:27,305 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-26 21:22:50,554 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-26 21:22:50,554 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-26 21:22:50,763 - Selenium_studentPortal -INFO - Entered the password
+2023-09-26 21:22:50,763 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-26 21:23:20,852 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-26 21:23:20,852 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-26 21:23:21,017 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-26 21:23:21,017 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-26 21:23:21,929 - org.springframework.beans.factory.xml.XmlBeanDefinitionReader -INFO - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-26 21:23:21,929 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2023-09-26 21:23:22,075 - org.springframework.jdbc.support.SQLErrorCodesFactory -INFO - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-26 21:23:22,075 [main] INFO org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2023-09-26 21:23:22,187 - Selenium_studentPortal -INFO - studentRgistration StudentBean [lastName=null,
+ firstName=null,
+ middleName=null,
+ fatherName=null,
+ husbandName=null,
+ motherName=null,
+ gender=null,
+ program=null,
+ enrollmentMonth=null,
+ enrollmentYear=null,
+ emailId=null,
+ mobile=null,
+ altPhone=null,
+ dob=null,
+ address=null,
+ houseNoName=null,
+ street=null,
+ locality=null,
+ city=null,
+ state=null,
+ country=null,
+ shippingAddress=null,
+ designation=null,
+ industry=null,
+ pin=null,
+ centerCode=null,
+ centerName=null,
+ validityEndMonth=null,
+ validityEndYear=null,
+ errorMessage=,
+ errorRecord=false,
+ landMark=null,
+ errorFlag=null,
+ age=null,
+ highestQualification=null,
+ detailsConfirmedByStudent=null,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=null]
+2023-09-26 21:23:22,187 [main] INFO Selenium_studentPortal - studentRgistration StudentBean [lastName=null,
+ firstName=null,
+ middleName=null,
+ fatherName=null,
+ husbandName=null,
+ motherName=null,
+ gender=null,
+ program=null,
+ enrollmentMonth=null,
+ enrollmentYear=null,
+ emailId=null,
+ mobile=null,
+ altPhone=null,
+ dob=null,
+ address=null,
+ houseNoName=null,
+ street=null,
+ locality=null,
+ city=null,
+ state=null,
+ country=null,
+ shippingAddress=null,
+ designation=null,
+ industry=null,
+ pin=null,
+ centerCode=null,
+ centerName=null,
+ validityEndMonth=null,
+ validityEndYear=null,
+ errorMessage=,
+ errorRecord=false,
+ landMark=null,
+ errorFlag=null,
+ age=null,
+ highestQualification=null,
+ detailsConfirmedByStudent=null,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=null]
+2023-09-26 21:23:22,305 - Selenium_studentPortal -INFO - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-26 21:23:22,305 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-26 21:23:22,305 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-09-26 21:23:22,305 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-09-26 21:31:58,016 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-26 21:31:58,016 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-26 21:31:58,225 - Selenium_studentPortal -INFO - Entered the password
+2023-09-26 21:31:58,225 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-26 21:32:14,826 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-26 21:32:14,826 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-26 21:32:15,005 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-26 21:32:15,005 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-26 21:32:16,161 - Selenium_studentPortal -INFO - studentRgistration StudentBean [lastName=null,
+ firstName=null,
+ middleName=null,
+ fatherName=null,
+ husbandName=null,
+ motherName=null,
+ gender=null,
+ program=PGDITSM,
+ enrollmentMonth=null,
+ enrollmentYear=null,
+ emailId=null,
+ mobile=null,
+ altPhone=null,
+ dob=null,
+ address=null,
+ houseNoName=null,
+ street=null,
+ locality=null,
+ city=null,
+ state=null,
+ country=null,
+ shippingAddress=null,
+ designation=null,
+ industry=null,
+ pin=null,
+ centerCode=null,
+ centerName=null,
+ validityEndMonth=null,
+ validityEndYear=null,
+ errorMessage=,
+ errorRecord=false,
+ landMark=null,
+ errorFlag=null,
+ age=null,
+ highestQualification=null,
+ detailsConfirmedByStudent=null,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-26 21:32:16,161 [main] INFO Selenium_studentPortal - studentRgistration StudentBean [lastName=null,
+ firstName=null,
+ middleName=null,
+ fatherName=null,
+ husbandName=null,
+ motherName=null,
+ gender=null,
+ program=PGDITSM,
+ enrollmentMonth=null,
+ enrollmentYear=null,
+ emailId=null,
+ mobile=null,
+ altPhone=null,
+ dob=null,
+ address=null,
+ houseNoName=null,
+ street=null,
+ locality=null,
+ city=null,
+ state=null,
+ country=null,
+ shippingAddress=null,
+ designation=null,
+ industry=null,
+ pin=null,
+ centerCode=null,
+ centerName=null,
+ validityEndMonth=null,
+ validityEndYear=null,
+ errorMessage=,
+ errorRecord=false,
+ landMark=null,
+ errorFlag=null,
+ age=null,
+ highestQualification=null,
+ detailsConfirmedByStudent=null,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-26 21:32:16,258 - Selenium_studentPortal -INFO - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-26 21:32:16,258 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-26 21:32:16,258 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-09-26 21:32:16,258 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-09-26 21:50:24,343 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-26 21:50:24,343 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-26 21:50:24,596 - Selenium_studentPortal -INFO - Entered the password
+2023-09-26 21:50:24,596 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-26 21:51:08,509 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-26 21:51:08,509 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-26 21:51:08,669 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-26 21:51:08,669 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Business: Ethics, Governance & Risk, Project, Digital Payments, Managing Business Process Outsourcing, IT Security and Risk Management]
+2023-09-26 21:51:09,433 - Selenium_studentPortal -INFO - studentRgistration StudentBean [lastName=null,
+ firstName=null,
+ middleName=null,
+ fatherName=null,
+ husbandName=null,
+ motherName=null,
+ gender=null,
+ program=PGDITSM,
+ enrollmentMonth=null,
+ enrollmentYear=null,
+ emailId=null,
+ mobile=null,
+ altPhone=null,
+ dob=null,
+ address=null,
+ houseNoName=null,
+ street=null,
+ locality=null,
+ city=null,
+ state=null,
+ country=null,
+ shippingAddress=null,
+ designation=null,
+ industry=null,
+ pin=null,
+ centerCode=null,
+ centerName=null,
+ validityEndMonth=null,
+ validityEndYear=null,
+ errorMessage=,
+ errorRecord=false,
+ landMark=null,
+ errorFlag=null,
+ age=null,
+ highestQualification=null,
+ detailsConfirmedByStudent=null,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-26 21:51:09,433 [main] INFO Selenium_studentPortal - studentRgistration StudentBean [lastName=null,
+ firstName=null,
+ middleName=null,
+ fatherName=null,
+ husbandName=null,
+ motherName=null,
+ gender=null,
+ program=PGDITSM,
+ enrollmentMonth=null,
+ enrollmentYear=null,
+ emailId=null,
+ mobile=null,
+ altPhone=null,
+ dob=null,
+ address=null,
+ houseNoName=null,
+ street=null,
+ locality=null,
+ city=null,
+ state=null,
+ country=null,
+ shippingAddress=null,
+ designation=null,
+ industry=null,
+ pin=null,
+ centerCode=null,
+ centerName=null,
+ validityEndMonth=null,
+ validityEndYear=null,
+ errorMessage=,
+ errorRecord=false,
+ landMark=null,
+ errorFlag=null,
+ age=null,
+ highestQualification=null,
+ detailsConfirmedByStudent=null,
+ subjectsCount=null,
+ registrationNum=null,
+ consumerProgramStructureId=65]
+2023-09-26 21:51:09,514 - Selenium_studentPortal -INFO - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-26 21:51:09,514 [main] INFO Selenium_studentPortal - applicableCurrentSubject [IT Security and Risk Management, Managing Business Process Outsourcing, Digital Payments, Project, Business: Ethics, Governance & Risk, Research Methodology]
+2023-09-26 21:51:09,514 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-09-26 21:51:09,514 [main] INFO Selenium_studentPortal - Subject is matched from the UI
