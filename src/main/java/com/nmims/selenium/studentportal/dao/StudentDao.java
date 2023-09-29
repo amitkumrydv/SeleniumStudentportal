@@ -5,7 +5,8 @@ import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
 
 public interface StudentDao {
 	
-	  public StudentStudentPortalBean getStudentRegistration (String sapid);
+	  public StudentStudentPortalBean getsinglStudentdata (String sapid);
+	  public StudentStudentPortalBean getstudentLatestRegistration (String sapid);
 	  
 	   
 

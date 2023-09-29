@@ -11,10 +11,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.nmims.selenium.studentportal.baseClass.BaseClass;
 import com.nmims.selenium.studentportal.config.DataBaseConfig;
+import com.nmims.selenium.studentportal.dao.StudentDao;
 import com.nmims.selenium.studentportal.dao.StudentSubjectDao;
 import com.nmims.selenium.studentportal.data.DataProvideLogin;
+import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
-import com.nmims.selenium.studentportal.pageObjectMethod.OngoingSubjectPom;
+import com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
 public class TC_OngoingSubject_00006 extends BaseClass {
@@ -22,7 +24,7 @@ public class TC_OngoingSubject_00006 extends BaseClass {
 	ApplicationContext context = new AnnotationConfigApplicationContext(DataBaseConfig.class);
 	StudentSubjectDao studentSubjectDao = context.getBean("ongoingSubjectDao", StudentSubjectDao.class);
 	ReadConfig readStudentdata = new ReadConfig();
-	OngoingSubjectPom actualSebjectOnUI = new OngoingSubjectPom();
+	StudentDao singleStudentDetails = context.getBean("singleStudentData", StudentDao.class);
 
 	public String path = readStudentdata.getStudentDetailsExcel();
 
@@ -41,15 +43,22 @@ public class TC_OngoingSubject_00006 extends BaseClass {
 		logger.info("Click on the login button ");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+		SubjectPageObjectMethod actualSebjectOnUI = new SubjectPageObjectMethod();
 		List<String> actualSubjectsList = actualSebjectOnUI.getOngoingSubjectFromUI(driver,
 				"//a[@class=\" text-dark fw-semibold list-group-item list-group-item-action\"]");
-		
+
 		logger.info("suject visible on the UI" + actualSubjectsList);
 
-		// Static Value pass sem & consumerstructure
-		List<String> expectedSubjectsList = studentSubjectDao.getOngoingSubject("4", "65");
-		logger.info("applicableCurrentSubject " + expectedSubjectsList);
+		StudentStudentPortalBean studentRgistration = singleStudentDetails.getstudentLatestRegistration (user);
+		String consumerProgramStructureId = studentRgistration.getConsumerProgramStructureId();
+		String sem =studentRgistration.getSem();
 		
+		logger.info("Get student sem and consumerProgramStructureId");
+
+		// Static Value pass sem & consumerstructure
+		List<String> expectedSubjectsList = studentSubjectDao.getOngoingSubject(sem, consumerProgramStructureId);
+		logger.info("applicableCurrentSubject " + expectedSubjectsList);
+
 //		 This approach will work if you want to check whether the lists contain the same unique elements, regardless of their order.
 		Set<String> expectedtSubjects = new HashSet<String>(expectedSubjectsList);
 		Set<String> actualSubjects = new HashSet<String>(actualSubjectsList);

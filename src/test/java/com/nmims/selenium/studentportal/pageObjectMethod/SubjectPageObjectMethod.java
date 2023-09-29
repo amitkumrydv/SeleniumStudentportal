@@ -3,14 +3,15 @@ package com.nmims.selenium.studentportal.pageObjectMethod;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
-public class OngoingSubjectPom {
+public class SubjectPageObjectMethod {
 	
-	
+	public static Logger logger;
 	
 	List<String> actualSubjectList = new ArrayList<String>();
 
@@ -18,6 +19,7 @@ public class OngoingSubjectPom {
 		List<WebElement> OngoingSubjectLocationOnUI = driver.findElements(By.xpath(xpath));
 		List<String> modifiedList = applySubstring(OngoingSubjectLocationOnUI, 2);           // on the web have every count numners of subjets  now here remove the number
 		System.out.println(" modifiedList " +modifiedList);
+		//logger.info("Modified Suject Name remove the count ");
 		//logger.info("subject list modifiedList by substring ");
 
 		return modifiedList;
@@ -26,8 +28,9 @@ public class OngoingSubjectPom {
 	
 	
 
-	// apply substring on the web element
+	// apply substring on the web element 
 	private List<String> applySubstring(List<WebElement> inputList, int startIndex) {
+		//logger.info("Applying Substring on the Suject");
 		List<String> modifiedList = new ArrayList<String>();
 		for (WebElement element : inputList) {
 			String elementText = element.getText();
@@ -38,5 +41,8 @@ public class OngoingSubjectPom {
 		}
 		return modifiedList;
 	}
+	
+	
+	
 
 }

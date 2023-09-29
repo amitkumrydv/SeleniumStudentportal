@@ -21,20 +21,40 @@ public class StudentDaoImpl implements StudentDao {
 	}
 
 	@Override
-	public StudentStudentPortalBean getStudentRegistration(String sapid) {
-		StudentStudentPortalBean currenrtRgistration = new StudentStudentPortalBean();
+	public StudentStudentPortalBean getsinglStudentdata(String sapid) {
+		StudentStudentPortalBean studentData = new StudentStudentPortalBean();
 		try {
 			String sqlquery = "SELECT * FROM exam.students s where"
 					+ "   s.sapid = ?  and s.sem = (Select max(sem) from exam.students where sapid =? ) ";
 
-			currenrtRgistration = (StudentStudentPortalBean) jdbcTemplate.queryForObject(sqlquery,
-					new Object[] { sapid, sapid }, new BeanPropertyRowMapper(StudentStudentPortalBean.class));
-			currenrtRgistration.setProgramForHeader(currenrtRgistration.getProgram());
+			studentData = (StudentStudentPortalBean) jdbcTemplate.queryForObject(sqlquery,
+					new Object[] { sapid, sapid }, new BeanPropertyRowMapper<StudentStudentPortalBean>(StudentStudentPortalBean.class));
+			
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return studentData;
+	}
+
+	@Override
+	public StudentStudentPortalBean getstudentLatestRegistration(String sapid) {
+		
+		StudentStudentPortalBean currenrtRgistration = new StudentStudentPortalBean();
+		try {
+			String query = "SELECT * FROM exam.registration r where "
+					+ "r.sapid = ?  and r.sem = (Select max(sem) from exam.registration where sapid = ? ) ";
+
+			currenrtRgistration = (StudentStudentPortalBean) jdbcTemplate.queryForObject(query,
+					new Object[] { sapid, sapid }, new BeanPropertyRowMapper<StudentStudentPortalBean>(StudentStudentPortalBean.class));
 
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return currenrtRgistration;
+	
 	}
+		
+	
 
 }
