@@ -29,13 +29,13 @@ public class TC_OngoingSubject_00006 extends BaseClass {
 	public String path = readStudentdata.getStudentDetailsExcel();
 
 	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class)
-	public void ongoingSubject(String user, String pwd) throws Exception {
+	public void ongoingSubjectTest(String user, String pwd) throws Exception {
 
 		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
 
 		loginPage.setUserName(user);
 		logger.info("Entered the UserId");
-
+ 
 		loginPage.setPassword(pwd);
 		logger.info("Entered the password");
 

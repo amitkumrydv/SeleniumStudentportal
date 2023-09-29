@@ -13,14 +13,12 @@ public class SubjectPageObjectMethod {
 	
 	public static Logger logger;
 	
-	List<String> actualSubjectList = new ArrayList<String>();
+
 
 	public List<String> getOngoingSubjectFromUI(WebDriver driver, String xpath) {
 		List<WebElement> OngoingSubjectLocationOnUI = driver.findElements(By.xpath(xpath));
-		List<String> modifiedList = applySubstring(OngoingSubjectLocationOnUI, 2);           // on the web have every count numners of subjets  now here remove the number
-		System.out.println(" modifiedList " +modifiedList);
-		//logger.info("Modified Suject Name remove the count ");
-		//logger.info("subject list modifiedList by substring ");
+		// on the web have every count numners of subjets  now here remove the number
+		List<String> modifiedList = applySubstring(OngoingSubjectLocationOnUI, 2);           
 
 		return modifiedList;
 	}

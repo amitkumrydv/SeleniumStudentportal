@@ -86,6 +86,7 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 		logger.info("Data Displyed on header " + actualTextValues);
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
 		List<String> expectedOptions = excelReader.studentDetailExcel(path, "Details");
 		logger.info("Excel data " + expectedOptions);
 
