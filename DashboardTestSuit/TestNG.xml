@@ -17,18 +17,18 @@
 		<classes>
 
 
-			<!-- <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001" 
-				/> -->
-			<!-- <class name="com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002" 
-				/> -->
-			<!-- <class name="com.nmims.selenium.studentportal.testutil.LoginTestutil" 
-				/> -->
-			<!-- <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004" 
-				/> -->
+			 <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001" 
+				/> 
+			 <class name="com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002" 
+				/> 
+			<class name="com.nmims.selenium.studentportal.testutil.LoginTestutil" 
+				/> 
+			 <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004" 
+				/> 
 			<class
 				name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006" />
-			<!-- <class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009" 
-				/> -->
+			<class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009" 
+				/> 
 
 
 
