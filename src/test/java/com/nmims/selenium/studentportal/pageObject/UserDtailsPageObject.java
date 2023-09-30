@@ -12,7 +12,7 @@ public class UserDtailsPageObject {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath = "//h3[normalize-space()='ASHISH KUMAR']")
+	@FindBy(xpath = "//h3[@class='student-name']")
 	@CacheLookup
 	protected  WebElement studentName;
 

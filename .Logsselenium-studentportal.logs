@@ -3672,3 +3672,319 @@
 2023-09-30 09:53:56,339 [main] INFO Selenium_studentPortal - Click on the login button 
 2023-09-30 09:53:57,749 - Selenium_studentPortal -INFO - Ongoing Subject is not available 0 Courses
 2023-09-30 09:53:57,749 [main] INFO Selenium_studentPortal - Ongoing Subject is not available 0 Courses
+2023-09-30 10:29:39,056 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-30 10:29:39,056 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-30 10:29:39,297 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 10:29:39,297 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 10:29:39,523 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 10:29:39,523 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 10:29:49,806 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 10:29:49,806 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 10:29:55,232 - Selenium_studentPortal -INFO - Page logout 
+2023-09-30 10:29:55,232 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-30 10:29:57,962 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 10:29:57,962 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 10:29:58,196 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 10:29:58,196 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 10:30:07,098 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 10:30:07,098 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 10:30:09,396 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-30 10:30:09,396 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-30 10:30:09,585 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 10:30:09,585 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 10:30:09,906 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 10:30:09,906 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 10:30:17,205 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 10:30:17,205 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 10:30:21,527 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 10:30:21,527 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 10:30:21,719 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 10:30:21,719 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 10:30:42,073 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 10:30:42,073 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 10:30:55,506 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 10:30:55,506 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 10:30:55,864 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 10:30:55,864 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 10:31:04,212 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 10:31:04,212 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 10:31:05,351 - Selenium_studentPortal -INFO - Ongoing Subject is not available 0 Courses
+2023-09-30 10:31:05,351 [main] INFO Selenium_studentPortal - Ongoing Subject is not available 0 Courses
+2023-09-30 10:31:07,827 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 10:31:07,827 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 10:31:08,043 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 10:31:08,043 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 10:31:14,340 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 10:31:14,340 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 10:31:24,462 - Selenium_studentPortal -INFO - assignmentList  --> []
+2023-09-30 10:31:24,462 [main] INFO Selenium_studentPortal - assignmentList  --> []
+2023-09-30 14:21:18,277 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-30 14:21:18,277 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-30 14:21:18,467 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 14:21:18,467 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 14:21:18,643 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 14:21:18,643 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 14:22:07,381 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 14:22:07,381 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 14:22:12,535 - Selenium_studentPortal -INFO - Page logout 
+2023-09-30 14:22:12,535 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-30 14:22:16,479 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 14:22:16,479 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 14:22:16,683 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 14:22:16,683 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 14:22:32,125 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 14:22:32,125 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 14:22:35,614 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 14:22:35,614 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 14:22:35,822 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 14:22:35,822 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 14:22:42,492 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 14:22:42,492 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 14:22:55,365 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 14:22:55,365 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 14:22:55,587 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 14:22:55,587 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 14:23:01,280 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 14:23:01,280 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 14:23:02,065 - Selenium_studentPortal -INFO - Ongoing Subject is not available 0 Courses
+2023-09-30 14:23:02,065 [main] INFO Selenium_studentPortal - Ongoing Subject is not available 0 Courses
+2023-09-30 14:23:04,850 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 14:23:04,850 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 14:23:05,069 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 14:23:05,069 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 14:23:12,364 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 14:23:12,364 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 14:23:22,432 - Selenium_studentPortal -INFO - assignmentList  --> []
+2023-09-30 14:23:22,432 [main] INFO Selenium_studentPortal - assignmentList  --> []
+2023-09-30 15:14:23,130 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-09-30 15:14:23,130 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-09-30 15:14:23,157 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-09-30 15:14:23,157 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-09-30 15:14:23,173 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-30 15:14:23,173 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-30 15:14:35,841 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:14:35,841 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:14:36,088 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:14:36,088 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:14:43,678 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:14:43,678 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:14:46,705 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:14:46,705 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:14:46,906 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:14:46,906 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:14:51,343 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:14:51,343 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:15:03,916 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:15:03,916 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:15:04,173 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:15:04,173 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:15:08,662 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:15:08,662 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:15:09,492 - Selenium_studentPortal -INFO - Ongoing Subject is not available 0 Courses
+2023-09-30 15:15:09,492 [main] INFO Selenium_studentPortal - Ongoing Subject is not available 0 Courses
+2023-09-30 15:15:12,090 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:15:12,090 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:15:12,351 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:15:12,351 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:15:18,837 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:15:18,837 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:15:29,009 - Selenium_studentPortal -INFO - assignmentList  --> []
+2023-09-30 15:15:29,009 [main] INFO Selenium_studentPortal - assignmentList  --> []
+2023-09-30 15:20:36,821 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-09-30 15:20:36,821 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-09-30 15:20:36,842 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-09-30 15:20:36,842 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-09-30 15:20:36,855 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-30 15:20:36,855 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-30 15:20:37,049 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:20:37,049 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:20:37,265 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:20:37,265 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:20:43,629 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:20:43,629 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:20:43,879 - Selenium_studentPortal -INFO - Click on the logout button 
+2023-09-30 15:20:43,879 [main] INFO Selenium_studentPortal - Click on the logout button 
+2023-09-30 15:20:48,894 - Selenium_studentPortal -INFO - Page logout 
+2023-09-30 15:20:48,894 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-30 15:20:48,903 - Selenium_studentPortal -INFO - Alert text Displayed : 
+2023-09-30 15:20:48,903 [main] INFO Selenium_studentPortal - Alert text Displayed : 
+2023-09-30 15:20:53,481 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:20:53,481 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:20:53,752 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:20:53,752 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:20:59,532 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:20:59,532 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:21:02,081 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:21:02,081 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:21:02,346 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:21:02,346 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:21:07,230 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:21:07,230 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:21:20,259 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:21:20,259 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:21:20,595 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:21:20,595 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:21:26,441 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:21:26,441 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:21:27,254 - Selenium_studentPortal -INFO - Ongoing Subject is not available 0 Courses
+2023-09-30 15:21:27,254 [main] INFO Selenium_studentPortal - Ongoing Subject is not available 0 Courses
+2023-09-30 15:21:29,630 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:21:29,630 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:21:29,915 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:21:29,915 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:21:30,525 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:21:30,525 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:21:43,277 - Selenium_studentPortal -INFO - assignmentList  --> []
+2023-09-30 15:21:43,277 [main] INFO Selenium_studentPortal - assignmentList  --> []
+2023-09-30 15:34:33,106 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-09-30 15:34:33,106 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-09-30 15:34:33,123 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-09-30 15:34:33,123 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-09-30 15:34:33,134 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-30 15:34:33,134 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-30 15:34:33,418 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:34:33,418 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:34:33,695 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:34:33,695 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:34:41,314 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:34:41,314 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:34:41,457 - Selenium_studentPortal -INFO - Click on the logout button 
+2023-09-30 15:34:41,457 [main] INFO Selenium_studentPortal - Click on the logout button 
+2023-09-30 15:34:46,464 - Selenium_studentPortal -INFO - Page logout 
+2023-09-30 15:34:46,464 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-30 15:34:46,513 - Selenium_studentPortal -INFO - Alert text Displayed : 
+2023-09-30 15:34:46,513 [main] INFO Selenium_studentPortal - Alert text Displayed : 
+2023-09-30 15:34:49,373 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:34:49,373 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:34:49,635 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:34:49,635 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:34:59,048 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:34:59,048 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:35:01,897 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:35:01,897 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:35:02,145 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:35:02,145 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:35:06,656 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:35:06,656 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:35:19,328 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:35:19,328 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:35:19,561 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:35:19,561 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:35:28,281 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:35:28,281 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:35:29,515 - Selenium_studentPortal -INFO - Ongoing Subject is not available 0 Courses
+2023-09-30 15:35:29,515 [main] INFO Selenium_studentPortal - Ongoing Subject is not available 0 Courses
+2023-09-30 15:35:32,039 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:35:32,039 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:35:32,237 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:35:32,237 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:35:40,027 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:35:40,027 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:35:50,146 - Selenium_studentPortal -INFO - assignmentList  --> []
+2023-09-30 15:35:50,146 [main] INFO Selenium_studentPortal - assignmentList  --> []
+2023-09-30 15:37:11,717 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-09-30 15:37:11,717 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-09-30 15:37:11,741 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-09-30 15:37:11,741 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-09-30 15:37:11,760 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-30 15:37:11,760 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-30 15:37:11,978 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:37:11,978 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:37:12,270 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:37:12,270 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:37:19,930 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:37:19,930 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:37:20,065 - Selenium_studentPortal -INFO - Click on the logout button 
+2023-09-30 15:37:20,065 [main] INFO Selenium_studentPortal - Click on the logout button 
+2023-09-30 15:37:25,080 - Selenium_studentPortal -INFO - Page logout 
+2023-09-30 15:37:25,080 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-30 15:37:25,094 - Selenium_studentPortal -INFO - Alert text Displayed : 
+2023-09-30 15:37:25,094 [main] INFO Selenium_studentPortal - Alert text Displayed : 
+2023-09-30 15:37:28,064 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:37:28,064 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:37:28,414 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:37:28,414 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:37:33,262 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:37:33,262 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:37:36,074 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:37:36,074 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:37:36,278 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:37:36,278 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:38:16,213 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:38:16,213 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:38:31,304 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:38:31,304 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:38:31,588 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:38:31,588 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:38:37,326 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:38:37,326 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:38:38,123 - Selenium_studentPortal -INFO - Ongoing Subject is not available 0 Courses
+2023-09-30 15:38:38,123 [main] INFO Selenium_studentPortal - Ongoing Subject is not available 0 Courses
+2023-09-30 15:38:42,211 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:38:42,211 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:38:42,463 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:38:42,463 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:38:58,411 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:38:58,411 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:39:08,530 - Selenium_studentPortal -INFO - assignmentList  --> []
+2023-09-30 15:39:08,530 [main] INFO Selenium_studentPortal - assignmentList  --> []
+2023-09-30 15:42:25,530 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-09-30 15:42:25,530 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-09-30 15:42:25,552 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-09-30 15:42:25,552 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-09-30 15:42:25,566 - Selenium_studentPortal -INFO - Login page title is match
+2023-09-30 15:42:25,566 [main] INFO Selenium_studentPortal - Login page title is match
+2023-09-30 15:42:25,772 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:42:25,772 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:42:26,037 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:42:26,037 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:42:35,955 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:42:35,955 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:42:36,240 - Selenium_studentPortal -INFO - Click on the logout button 
+2023-09-30 15:42:36,240 [main] INFO Selenium_studentPortal - Click on the logout button 
+2023-09-30 15:42:41,243 - Selenium_studentPortal -INFO - Page logout 
+2023-09-30 15:42:41,243 [main] INFO Selenium_studentPortal - Page logout 
+2023-09-30 15:42:41,255 - Selenium_studentPortal -INFO - Alert text Displayed : 
+2023-09-30 15:42:41,255 [main] INFO Selenium_studentPortal - Alert text Displayed : 
+2023-09-30 15:42:44,215 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:42:44,215 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:42:44,489 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:42:44,489 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:42:50,412 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:42:50,412 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:42:52,994 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:42:52,994 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:42:53,234 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:42:53,234 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:42:56,352 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:42:56,352 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:42:56,483 - Selenium_studentPortal -INFO -  Readed student Actual Name 
+2023-09-30 15:42:56,483 [main] INFO Selenium_studentPortal -  Readed student Actual Name 
+2023-09-30 15:42:57,278 - Selenium_studentPortal -INFO - Actual Student Details VIKAS KUMAR
+2023-09-30 15:42:57,278 [main] INFO Selenium_studentPortal - Actual Student Details VIKAS KUMAR
+2023-09-30 15:42:57,278 - Selenium_studentPortal -INFO - Expected student Name VIKAS KUMAR
+2023-09-30 15:42:57,278 [main] INFO Selenium_studentPortal - Expected student Name VIKAS KUMAR
+2023-09-30 15:42:57,279 - Selenium_studentPortal -INFO - Student Name is matched
+2023-09-30 15:42:57,279 [main] INFO Selenium_studentPortal - Student Name is matched
+2023-09-30 15:42:57,448 - Selenium_studentPortal -INFO - Data Displyed on header [vickynehra00@gmail.com, 9996662977, PGDMM, 77118576036, Validity End: 31-Dec-2023]
+2023-09-30 15:42:57,448 [main] INFO Selenium_studentPortal - Data Displyed on header [vickynehra00@gmail.com, 9996662977, PGDMM, 77118576036, Validity End: 31-Dec-2023]
+2023-09-30 15:42:57,501 - Selenium_studentPortal -INFO - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-30 15:42:57,501 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-09-30 15:42:57,501 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-09-30 15:42:57,501 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-09-30 15:43:00,629 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:43:00,629 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:43:00,980 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:43:00,980 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:43:07,213 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:43:07,213 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:43:07,447 - Selenium_studentPortal -INFO - Ongoing Subject is not available 0 Courses
+2023-09-30 15:43:07,447 [main] INFO Selenium_studentPortal - Ongoing Subject is not available 0 Courses
+2023-09-30 15:43:09,894 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 15:43:09,894 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 15:43:10,090 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 15:43:10,090 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 15:43:18,365 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 15:43:18,365 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 15:43:28,451 - Selenium_studentPortal -INFO - assignmentList  --> []
+2023-09-30 15:43:28,451 [main] INFO Selenium_studentPortal - assignmentList  --> []

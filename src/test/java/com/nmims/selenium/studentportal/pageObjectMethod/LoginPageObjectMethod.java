@@ -33,4 +33,8 @@ public class LoginPageObjectMethod extends LoginPageObject {
 		logoutButton.click();
 	}
 	
+	public boolean verifyNmimsLogo() {
+		return nmimsLogo.isDisplayed();
+	}
+	
 }

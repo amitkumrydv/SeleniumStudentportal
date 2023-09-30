@@ -52,7 +52,7 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 		logger.info(" Readed student Actual Name ");
 
 		StudentStudentPortalBean actualSingleStudentDetails = singleStudentDetails.getsinglStudentdata(user);
-		logger.info("Actual single Student Details");
+		logger.info("Actual Student Details " +studentActualName);
 
 		String studentFirstName = actualSingleStudentDetails.getFirstName();
 		String studentLastName = actualSingleStudentDetails.getLastName();

@@ -37,7 +37,9 @@ public class LoginPageObject {
 	protected WebElement logoutButton;
 	
 	
-
+	@FindBy(xpath = "//div[@class='sz-logo']//img[@class='img-responsive']")
+	@CacheLookup
+	protected WebElement nmimsLogo;
 	
 	
 
