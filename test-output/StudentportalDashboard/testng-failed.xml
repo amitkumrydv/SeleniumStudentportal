@@ -9,7 +9,7 @@
     <classes>
       <class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009">
         <methods>
-          <include name="currentAssignmetTest" invocation-numbers="0"/>
+          <include name="currentAssignmetTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>

@@ -25,11 +25,10 @@
 				/> -->
 			<!-- <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004" 
 				/> -->
-			<!-- <class name="com.nmims.selenium.studentportal.testCase.TC_OngoingSubject_00006" 
-				/> -->
 			<class
-				name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009" />
-
+				name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006" />
+			<!-- <class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009" 
+				/> -->
 
 
 

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-29T13:00:03Z" name="StudentportalDashboard" finished-at="2023-09-29T13:00:30Z" duration-ms="27491">
+  <suite started-at="2023-09-30T04:23:36Z" name="StudentportalDashboard" finished-at="2023-09-30T04:23:58Z" duration-ms="21945">
     <groups>
     </groups>
-    <test started-at="2023-09-29T13:00:03Z" name="portalApp" finished-at="2023-09-29T13:00:30Z" duration-ms="27491">
-      <class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@524d6d96]" started-at="2023-09-29T13:00:03Z" name="setup" finished-at="2023-09-29T13:00:09Z" duration-ms="5778" status="PASS">
+    <test started-at="2023-09-30T04:23:36Z" name="portalApp" finished-at="2023-09-30T04:23:58Z" duration-ms="21945">
+      <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@20a14b55]" started-at="2023-09-30T04:23:36Z" name="setup" finished-at="2023-09-30T04:23:41Z" duration-ms="5442" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,27 +18,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="currentAssignmetTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@524d6d96]" started-at="2023-09-29T13:00:10Z" name="currentAssignmetTest" data-provider="Login" finished-at="2023-09-29T13:00:30Z" duration-ms="20049" status="PASS">
+        <test-method signature="ongoingSubjectTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@20a14b55]" started-at="2023-09-30T04:23:43Z" name="ongoingSubjectTest" data-provider="Login" finished-at="2023-09-30T04:23:57Z" duration-ms="14374" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[77119564838]]>
+                <![CDATA[77118576036]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Sonu@261295]]>
+                <![CDATA[Password@123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- currentAssignmetTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@524d6d96]" started-at="2023-09-29T13:00:30Z" name="tearDown" finished-at="2023-09-29T13:00:30Z" duration-ms="310" status="PASS">
+        </test-method> <!-- ongoingSubjectTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@20a14b55]" started-at="2023-09-30T04:23:57Z" name="tearDown" finished-at="2023-09-30T04:23:58Z" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009 -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_Subjects_00006 -->
     </test> <!-- portalApp -->
   </suite> <!-- StudentportalDashboard -->
 </testng-results>

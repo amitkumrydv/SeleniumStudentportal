@@ -19,7 +19,7 @@ import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
-public class TC_OngoingSubject_00006 extends BaseClass {
+public class TC_Subjects_00006 extends BaseClass {
 
 	ApplicationContext context = new AnnotationConfigApplicationContext(DataBaseConfig.class);
 	StudentSubjectDao studentSubjectDao = context.getBean("ongoingSubjectDao", StudentSubjectDao.class);
@@ -42,14 +42,26 @@ public class TC_OngoingSubject_00006 extends BaseClass {
 		loginPage.clickSubmit();
 		logger.info("Click on the login button ");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		StudentStudentPortalBean studentRgistration = singleStudentDetails.getstudentLatestRegistration (user);
+		SubjectPageObjectMethod actualSebjectOnUI = new SubjectPageObjectMethod(driver);
+		
+		// Compare acad year or month from the data base
+		String acadYear =studentRgistration.getYear();	
+		String acadMonth =studentRgistration.getMonth();
+		String currentAcadMonth = readStudentdata.getCurrentAcadMonth();
+		String currentAcadYear = readStudentdata.getCurrentAcadYear();
+		
 
-		SubjectPageObjectMethod actualSebjectOnUI = new SubjectPageObjectMethod();
+		if (acadYear.equals(currentAcadYear)  && acadMonth.equals(currentAcadMonth) ) {
+			logger.info("Check the Acad Year or Month ");
+		
 		List<String> actualSubjectsList = actualSebjectOnUI.getOngoingSubjectFromUI(driver,
 				"//a[@class=\" text-dark fw-semibold list-group-item list-group-item-action\"]");
 
 		logger.info("suject visible on the UI" + actualSubjectsList);
 
-		StudentStudentPortalBean studentRgistration = singleStudentDetails.getstudentLatestRegistration (user);
+		
 		String consumerProgramStructureId = studentRgistration.getConsumerProgramStructureId();
 		String sem =studentRgistration.getSem();
 		
@@ -73,5 +85,12 @@ public class TC_OngoingSubject_00006 extends BaseClass {
 			Assert.fail("Subject is not matched from the UI");
 		}
 
-	}
+	 }
+		else {
+			String subjectOnUI=actualSebjectOnUI.getZeroOngoingSubject();
+			
+			logger.info("Ongoing Subject is not available " +subjectOnUI);
+		}
+		
+	} 
 }

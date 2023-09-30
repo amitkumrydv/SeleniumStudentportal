@@ -3632,3 +3632,43 @@
 2023-09-29 18:30:14,179 [main] INFO Selenium_studentPortal - Click on the login button 
 2023-09-29 18:30:30,354 - Selenium_studentPortal -INFO - assignmentList  --> [Business Communication, , , , , , , Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
 2023-09-29 18:30:30,354 [main] INFO Selenium_studentPortal - assignmentList  --> [Business Communication, , , , , , , Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-09-30 08:37:26,146 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 08:37:26,146 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 08:37:26,376 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 08:37:26,376 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 08:37:45,286 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 08:37:45,286 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 08:41:38,966 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 08:41:38,966 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 08:41:39,170 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 08:41:39,170 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 08:42:18,876 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 08:42:18,876 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 08:45:13,935 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 08:45:13,935 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 08:45:14,209 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 08:45:14,209 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 08:45:42,328 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 08:45:42,328 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 08:48:06,793 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 08:48:06,793 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 08:48:07,010 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 08:48:07,010 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 08:48:30,606 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 08:48:30,606 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 08:48:31,925 - Selenium_studentPortal -INFO - suject visible on the UI[Decision Science, Operations Management, Business Law, Strategic Management, Business Communication, Essentials of HRM]
+2023-09-30 08:48:31,925 [main] INFO Selenium_studentPortal - suject visible on the UI[Decision Science, Operations Management, Business Law, Strategic Management, Business Communication, Essentials of HRM]
+2023-09-30 08:48:31,926 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-09-30 08:48:31,926 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-09-30 08:48:32,019 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-09-30 08:48:32,019 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-09-30 08:48:32,019 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-09-30 08:48:32,019 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-09-30 09:53:43,629 - Selenium_studentPortal -INFO - Entered the UserId
+2023-09-30 09:53:43,629 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-09-30 09:53:43,929 - Selenium_studentPortal -INFO - Entered the password
+2023-09-30 09:53:43,929 [main] INFO Selenium_studentPortal - Entered the password
+2023-09-30 09:53:56,339 - Selenium_studentPortal -INFO - Click on the login button 
+2023-09-30 09:53:56,339 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-09-30 09:53:57,749 - Selenium_studentPortal -INFO - Ongoing Subject is not available 0 Courses
+2023-09-30 09:53:57,749 [main] INFO Selenium_studentPortal - Ongoing Subject is not available 0 Courses
