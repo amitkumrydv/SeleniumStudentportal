@@ -3988,3 +3988,65 @@
 2023-09-30 15:43:18,365 [main] INFO Selenium_studentPortal - Click on the login button 
 2023-09-30 15:43:28,451 - Selenium_studentPortal -INFO - assignmentList  --> []
 2023-09-30 15:43:28,451 [main] INFO Selenium_studentPortal - assignmentList  --> []
+2023-10-01 17:31:14,293 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-10-01 17:31:14,293 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-10-01 17:31:14,317 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-10-01 17:31:14,317 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-10-01 17:31:14,329 - Selenium_studentPortal -INFO - Login page title is match
+2023-10-01 17:31:14,329 [main] INFO Selenium_studentPortal - Login page title is match
+2023-10-01 17:31:14,593 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-01 17:31:14,593 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-01 17:31:14,830 - Selenium_studentPortal -INFO - Entered the password
+2023-10-01 17:31:14,830 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-01 17:31:26,576 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-01 17:31:26,576 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-01 17:31:26,860 - Selenium_studentPortal -INFO - Click on the logout button 
+2023-10-01 17:31:26,860 [main] INFO Selenium_studentPortal - Click on the logout button 
+2023-10-01 17:31:31,864 - Selenium_studentPortal -INFO - Page logout 
+2023-10-01 17:31:31,864 [main] INFO Selenium_studentPortal - Page logout 
+2023-10-01 17:31:31,886 - Selenium_studentPortal -INFO - Alert text Displayed : 
+2023-10-01 17:31:31,886 [main] INFO Selenium_studentPortal - Alert text Displayed : 
+2023-10-01 17:31:31,937 - Selenium_studentPortal -INFO - Logout
+2023-10-01 17:31:31,937 [main] INFO Selenium_studentPortal - Logout
+2023-10-01 17:31:37,200 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-01 17:31:37,200 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-01 17:31:37,415 - Selenium_studentPortal -INFO - Entered the password
+2023-10-01 17:31:37,415 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-01 17:31:45,096 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-01 17:31:45,096 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-01 17:31:50,394 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-01 17:31:50,394 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-01 17:31:50,739 - Selenium_studentPortal -INFO - Entered the password
+2023-10-01 17:31:50,739 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-01 17:32:07,071 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-01 17:32:07,071 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-01 17:32:07,174 - Selenium_studentPortal -INFO -  Readed student Actual Name 
+2023-10-01 17:32:07,174 [main] INFO Selenium_studentPortal -  Readed student Actual Name 
+2023-10-01 17:32:08,611 - Selenium_studentPortal -INFO - Actual Student Details VIKAS KUMAR
+2023-10-01 17:32:08,611 [main] INFO Selenium_studentPortal - Actual Student Details VIKAS KUMAR
+2023-10-01 17:32:08,612 - Selenium_studentPortal -INFO - Expected student Name VIKAS KUMAR
+2023-10-01 17:32:08,612 [main] INFO Selenium_studentPortal - Expected student Name VIKAS KUMAR
+2023-10-01 17:32:08,612 - Selenium_studentPortal -INFO - Student Name is matched
+2023-10-01 17:32:08,612 [main] INFO Selenium_studentPortal - Student Name is matched
+2023-10-01 17:32:08,731 - Selenium_studentPortal -INFO - Data Displyed on header [vickynehra00@gmail.com, 9996662977, PGDMM, 77118576036, Validity End: 31-Dec-2023]
+2023-10-01 17:32:08,731 [main] INFO Selenium_studentPortal - Data Displyed on header [vickynehra00@gmail.com, 9996662977, PGDMM, 77118576036, Validity End: 31-Dec-2023]
+2023-10-01 17:32:08,831 - Selenium_studentPortal -INFO - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-10-01 17:32:08,831 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-10-01 17:32:08,832 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-10-01 17:32:08,832 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-10-01 17:32:13,921 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-01 17:32:13,921 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-01 17:32:14,317 - Selenium_studentPortal -INFO - Entered the password
+2023-10-01 17:32:14,317 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-01 17:32:23,363 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-01 17:32:23,363 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-01 17:32:23,616 - Selenium_studentPortal -INFO - Ongoing Subject is not available 0 Courses
+2023-10-01 17:32:23,616 [main] INFO Selenium_studentPortal - Ongoing Subject is not available 0 Courses
+2023-10-01 17:32:31,109 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-01 17:32:31,109 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-01 17:32:31,553 - Selenium_studentPortal -INFO - Entered the password
+2023-10-01 17:32:31,553 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-01 17:32:41,908 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-01 17:32:41,908 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-01 17:32:52,003 - Selenium_studentPortal -INFO - assignmentList  --> []
+2023-10-01 17:32:52,003 [main] INFO Selenium_studentPortal - assignmentList  --> []

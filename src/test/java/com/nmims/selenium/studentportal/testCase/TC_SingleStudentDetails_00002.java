@@ -8,12 +8,8 @@ import com.nmims.selenium.studentportal.baseClass.BaseClass;
 import com.nmims.selenium.studentportal.config.DataBaseConfig;
 import com.nmims.selenium.studentportal.dao.StudentDao;
 import com.nmims.selenium.studentportal.data.DataProvideLogin;
-import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
-import com.nmims.selenium.studentportal.pageObjectMethod.UserDtailsPageObjectMethod;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
-
-import junit.framework.Assert;
 
 public class TC_SingleStudentDetails_00002 extends BaseClass {
 	
@@ -24,7 +20,7 @@ public class TC_SingleStudentDetails_00002 extends BaseClass {
 
 	public String path = readStudentdata.getStudentDetailsExcel();
 
-	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class)
+	@Test( dataProvider = "Login", dataProviderClass = DataProvideLogin.class)
 	public void singleStudentAllData(String user, String pwd) throws Exception {
 
 		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);

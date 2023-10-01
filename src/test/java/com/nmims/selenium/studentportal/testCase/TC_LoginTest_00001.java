@@ -14,7 +14,7 @@ import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 
 public class TC_LoginTest_00001 extends BaseClass {
 
-	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class, groups = "authentication")
+	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class)   //groups = "authentication"
 	public void loginTest(String user, String pwd) throws InterruptedException, IOException {
 
 		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);

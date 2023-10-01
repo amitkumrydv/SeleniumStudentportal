@@ -29,7 +29,7 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 	 * Sapid, EmailID, Phone number and Sem.
 	 */
 
-	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class)
+	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class )
 	public void studentDetailsTest(String user, String pwd) throws Exception {
 
 		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);

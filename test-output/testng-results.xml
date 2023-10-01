@@ -2,15 +2,12 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-30T10:12:19Z" name="StudentportalDashboard" finished-at="2023-09-30T10:13:28Z" duration-ms="69117">
+  <suite started-at="2023-10-01T12:01:05Z" name="StudentportalDashboard" finished-at="2023-10-01T12:02:52Z" duration-ms="107151">
     <groups>
-      <group name="authentication">
-        <method signature="TC_LoginTest_00001.loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@2a8d39c4]" name="loginTest" class="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001"/>
-      </group> <!-- authentication -->
     </groups>
-    <test started-at="2023-09-30T10:12:19Z" name="portalApp" finished-at="2023-09-30T10:13:28Z" duration-ms="69117">
+    <test started-at="2023-10-01T12:01:05Z" name="portalApp" finished-at="2023-10-01T12:02:52Z" duration-ms="107151">
       <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@72758afa]" started-at="2023-09-30T10:12:50Z" name="setup" finished-at="2023-09-30T10:12:52Z" duration-ms="1889" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@72758afa]" started-at="2023-10-01T12:01:45Z" name="setup" finished-at="2023-10-01T12:01:50Z" duration-ms="4481" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@72758afa]" started-at="2023-09-30T10:12:52Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-09-30T10:12:57Z" duration-ms="5147" status="FAIL">
+        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@72758afa]" started-at="2023-10-01T12:01:50Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-10-01T12:02:09Z" duration-ms="19091" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -77,13 +74,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- studentDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@72758afa]" started-at="2023-09-30T10:12:57Z" name="tearDown" finished-at="2023-09-30T10:12:58Z" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@72758afa]" started-at="2023-10-01T12:02:09Z" name="tearDown" finished-at="2023-10-01T12:02:09Z" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004 -->
       <class name="com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@25b2cfcb]" started-at="2023-09-30T10:12:41Z" name="setup" finished-at="2023-09-30T10:12:43Z" duration-ms="1790" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@25b2cfcb]" started-at="2023-10-01T12:01:33Z" name="setup" finished-at="2023-10-01T12:01:36Z" duration-ms="3629" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,7 +91,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="singleStudentAllData(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@25b2cfcb]" started-at="2023-09-30T10:12:43Z" name="singleStudentAllData" data-provider="Login" finished-at="2023-09-30T10:12:50Z" duration-ms="6554" status="PASS">
+        <test-method signature="singleStudentAllData(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@25b2cfcb]" started-at="2023-10-01T12:01:36Z" name="singleStudentAllData" data-provider="Login" finished-at="2023-10-01T12:01:45Z" duration-ms="8141" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,13 +107,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singleStudentAllData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@25b2cfcb]" started-at="2023-09-30T10:12:50Z" name="tearDown" finished-at="2023-09-30T10:12:50Z" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@25b2cfcb]" started-at="2023-10-01T12:01:45Z" name="tearDown" finished-at="2023-10-01T12:01:45Z" duration-ms="412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002 -->
       <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@fb9c7aa]" started-at="2023-09-30T10:12:58Z" name="setup" finished-at="2023-09-30T10:13:00Z" duration-ms="2040" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@fb9c7aa]" started-at="2023-10-01T12:02:09Z" name="setup" finished-at="2023-10-01T12:02:13Z" duration-ms="3988" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,7 +124,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ongoingSubjectTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@fb9c7aa]" started-at="2023-09-30T10:13:00Z" name="ongoingSubjectTest" data-provider="Login" finished-at="2023-09-30T10:13:07Z" duration-ms="7002" status="PASS">
+        <test-method signature="ongoingSubjectTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@fb9c7aa]" started-at="2023-10-01T12:02:13Z" name="ongoingSubjectTest" data-provider="Login" finished-at="2023-10-01T12:02:23Z" duration-ms="9895" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,13 +140,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ongoingSubjectTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@fb9c7aa]" started-at="2023-09-30T10:13:07Z" name="tearDown" finished-at="2023-09-30T10:13:07Z" duration-ms="263" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@fb9c7aa]" started-at="2023-10-01T12:02:23Z" name="tearDown" finished-at="2023-10-01T12:02:23Z" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_Subjects_00006 -->
       <class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@4c398c80]" started-at="2023-09-30T10:13:07Z" name="setup" finished-at="2023-09-30T10:13:09Z" duration-ms="1864" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@4c398c80]" started-at="2023-10-01T12:02:23Z" name="setup" finished-at="2023-10-01T12:02:30Z" duration-ms="6891" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -160,7 +157,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="currentAssignmetTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@4c398c80]" started-at="2023-09-30T10:13:09Z" name="currentAssignmetTest" data-provider="Login" finished-at="2023-09-30T10:13:28Z" duration-ms="18727" status="PASS">
+        <test-method signature="currentAssignmetTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@4c398c80]" started-at="2023-10-01T12:02:30Z" name="currentAssignmetTest" data-provider="Login" finished-at="2023-10-01T12:02:52Z" duration-ms="21102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,13 +173,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- currentAssignmetTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@4c398c80]" started-at="2023-09-30T10:13:28Z" name="tearDown" finished-at="2023-09-30T10:13:28Z" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@4c398c80]" started-at="2023-10-01T12:02:52Z" name="tearDown" finished-at="2023-10-01T12:02:52Z" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009 -->
       <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@2a8d39c4]" started-at="2023-09-30T10:12:19Z" name="setup" finished-at="2023-09-30T10:12:23Z" duration-ms="3833" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@2a8d39c4]" started-at="2023-10-01T12:01:05Z" name="setup" finished-at="2023-10-01T12:01:12Z" duration-ms="6978" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -193,7 +190,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@2a8d39c4]" started-at="2023-09-30T10:12:25Z" name="loginTest" data-provider="Login" finished-at="2023-09-30T10:12:41Z" duration-ms="16207" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@2a8d39c4]" started-at="2023-10-01T12:01:13Z" name="loginTest" data-provider="Login" finished-at="2023-10-01T12:01:32Z" duration-ms="18936" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -209,7 +206,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@2a8d39c4]" started-at="2023-09-30T10:12:41Z" name="tearDown" finished-at="2023-09-30T10:12:41Z" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@2a8d39c4]" started-at="2023-10-01T12:01:32Z" name="tearDown" finished-at="2023-10-01T12:01:33Z" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
