@@ -24,6 +24,8 @@ import org.testng.annotations.Parameters;
 import com.nmims.selenium.studentportal.config.DataBaseConfig;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 
@@ -51,9 +53,9 @@ public class BaseClass {
 		
      if (br.equals("chrome"))
      {
-    	 System.setProperty("webdriver.chrome.driver", readConfig.getChrome());
+    	// System.setProperty("webdriver.chrome.driver", readConfig.getChrome());
     	 
-    	 
+    	 WebDriverManager.chromedriver().setup();
     	 // Add arguments to enable the "clear-browser-data" command-line switch
     	 ChromeOptions options = new ChromeOptions();
          options.addArguments("--disable-extensions"); // Disable extensions
