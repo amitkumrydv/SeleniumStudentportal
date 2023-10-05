@@ -31,7 +31,7 @@ Page Object Model (POM)
 
    Page Objects: Page objects are classes that represent web pages or components of a web application. Each page object contains elements and actions related to a specific page or component. These elements are typically defined as WebElements, and the actions are represented as methods that interact with these elements.
 
-   Page Methods: Page methods encapsulate interactions with web elements and hide the underlying WebDriver code. These methods make it easy to perform actions on a page or retrieve information from it without exposing the details of the HTML structure.
+   Page Methods: Page methods  with web elements and hide the underlying WebDriver code. These methods make it easy to perform actions on a page or retrieve information from it without exposing the details of the HTML structure.
                  
 pageObject Structure
 
