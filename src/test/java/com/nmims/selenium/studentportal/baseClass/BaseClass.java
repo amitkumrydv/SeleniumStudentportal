@@ -2,12 +2,14 @@ package com.nmims.selenium.studentportal.baseClass;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -97,6 +99,16 @@ public class BaseClass {
      }
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
  	    driver.get(baseURL);
+ 	// Capture cookies
+		
+ 			Set<Cookie> cookies= driver.manage().getCookies();
+ 			logger.info("Size of the cookies : "+cookies.size());
+ 			
+ 			// How to print the cookies from the browser
+ 			for(Cookie cookie:cookies) {
+ 				
+ 				logger.info("Cookie Name  "+ cookie.getName() +" Cookie Value  "+cookie.getValue());
+ 			}
  	                       
  	   driver.manage().window().maximize();
 	}

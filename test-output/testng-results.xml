@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-02T03:56:22Z" name="StudentportalDashboard" finished-at="2023-10-02T03:57:31Z" duration-ms="69166">
+  <suite started-at="2023-10-08T04:20:06Z" name="StudentportalDashboard" finished-at="2023-10-08T04:26:22Z" duration-ms="375799">
     <groups>
     </groups>
-    <test started-at="2023-10-02T03:56:22Z" name="portalApp" finished-at="2023-10-02T03:57:31Z" duration-ms="69166">
+    <test started-at="2023-10-08T04:20:06Z" name="portalApp" finished-at="2023-10-08T04:26:22Z" duration-ms="375799">
       <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@75f65e45]" started-at="2023-10-02T03:56:57Z" name="setup" finished-at="2023-10-02T03:56:59Z" duration-ms="2103" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@52045dbe]" started-at="2023-10-08T04:20:34Z" name="setup" finished-at="2023-10-08T04:20:36Z" duration-ms="1995" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@75f65e45]" started-at="2023-10-02T03:56:59Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-10-02T03:57:04Z" duration-ms="5481" status="FAIL">
+        <test-method signature="studentDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@52045dbe]" started-at="2023-10-08T04:20:36Z" name="studentDetailsTest" data-provider="Login" finished-at="2023-10-08T04:20:48Z" duration-ms="11421" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -31,18 +31,47 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Lists differ at element [0]: vickynehra00@gmail.com != Shiv.Golani.Ext@nmims.edu expected [vickynehra00@gmail.com] but found [Shiv.Golani.Ext@nmims.edu]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@class='student-name']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-HKLU73H', ip: '192.168.145.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bea5f70f5632ed5c76ec4f05627f58a6
+*** Element info: {Using=xpath, value=//h3[@class='student-name']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Lists differ at element [0]: vickynehra00@gmail.com != Shiv.Golani.Ext@nmims.edu expected [vickynehra00@gmail.com] but found [Shiv.Golani.Ext@nmims.edu]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:831)
-at org.testng.Assert.assertEquals(Assert.java:796)
-at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004.studentDetailsTest(TC_StudenBasicInfo_00004.java:100)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@class='student-name']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-HKLU73H', ip: '192.168.145.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bea5f70f5632ed5c76ec4f05627f58a6
+*** Element info: {Using=xpath, value=//h3[@class='student-name']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy25.getText(Unknown Source)
+at com.nmims.selenium.studentportal.pageObjectMethod.UserDtailsPageObjectMethod.setStudentName(UserDtailsPageObjectMethod.java:33)
+at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004.studentDetailsTest(TC_StudenBasicInfo_00004.java:51)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -70,17 +99,17 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- studentDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@75f65e45]" started-at="2023-10-02T03:57:04Z" name="tearDown" finished-at="2023-10-02T03:57:05Z" duration-ms="295" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@52045dbe]" started-at="2023-10-08T04:20:48Z" name="tearDown" finished-at="2023-10-08T04:20:48Z" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004 -->
       <class name="com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@60641ec8]" started-at="2023-10-02T03:56:48Z" name="setup" finished-at="2023-10-02T03:56:50Z" duration-ms="2136" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@6cfcd46d]" started-at="2023-10-08T04:20:30Z" name="setup" finished-at="2023-10-08T04:20:32Z" duration-ms="1828" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +120,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="singleStudentAllData(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@60641ec8]" started-at="2023-10-02T03:56:50Z" name="singleStudentAllData" data-provider="Login" finished-at="2023-10-02T03:56:56Z" duration-ms="5832" status="PASS">
+        <test-method signature="singleStudentAllData(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@6cfcd46d]" started-at="2023-10-08T04:20:32Z" name="singleStudentAllData" data-provider="Login" finished-at="2023-10-08T04:20:34Z" duration-ms="1474" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,13 +136,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singleStudentAllData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@60641ec8]" started-at="2023-10-02T03:56:56Z" name="tearDown" finished-at="2023-10-02T03:56:57Z" duration-ms="347" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@6cfcd46d]" started-at="2023-10-08T04:20:34Z" name="tearDown" finished-at="2023-10-08T04:20:34Z" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002 -->
       <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@6eeade6c]" started-at="2023-10-02T03:57:05Z" name="setup" finished-at="2023-10-02T03:57:07Z" duration-ms="2063" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@674658f7]" started-at="2023-10-08T04:20:48Z" name="setup" finished-at="2023-10-08T04:20:50Z" duration-ms="1930" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,7 +153,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ongoingSubjectTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@6eeade6c]" started-at="2023-10-02T03:57:07Z" name="ongoingSubjectTest" data-provider="Login" finished-at="2023-10-02T03:57:13Z" duration-ms="6429" status="PASS">
+        <test-method signature="ongoingSubjectTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@674658f7]" started-at="2023-10-08T04:20:50Z" name="ongoingSubjectTest" data-provider="Login" finished-at="2023-10-08T04:21:09Z" duration-ms="19037" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -137,16 +166,85 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//small[normalize-space()='0 Courses']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-HKLU73H', ip: '192.168.145.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95a19455c46504f88ec3d6b7b316aa17
+*** Element info: {Using=xpath, value=//small[normalize-space()='0 Courses']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//small[normalize-space()='0 Courses']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-HKLU73H', ip: '192.168.145.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95a19455c46504f88ec3d6b7b316aa17
+*** Element info: {Using=xpath, value=//small[normalize-space()='0 Courses']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy25.getText(Unknown Source)
+at com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod.getZeroOngoingSubject(SubjectPageObjectMethod.java:47)
+at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ongoingSubjectTest(TC_Subjects_00006.java:90)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ongoingSubjectTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@6eeade6c]" started-at="2023-10-02T03:57:13Z" name="tearDown" finished-at="2023-10-02T03:57:13Z" duration-ms="335" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@674658f7]" started-at="2023-10-08T04:21:09Z" name="tearDown" finished-at="2023-10-08T04:21:09Z" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_Subjects_00006 -->
       <class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@4a891c97]" started-at="2023-10-02T03:57:13Z" name="setup" finished-at="2023-10-02T03:57:16Z" duration-ms="2077" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@5c8eee0f]" started-at="2023-10-08T04:21:09Z" name="setup" finished-at="2023-10-08T04:21:13Z" duration-ms="3636" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,7 +255,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="currentAssignmetTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@4a891c97]" started-at="2023-10-02T03:57:16Z" name="currentAssignmetTest" data-provider="Login" finished-at="2023-10-02T03:57:31Z" duration-ms="14937" status="PASS">
+        <test-method signature="currentAssignmetTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@5c8eee0f]" started-at="2023-10-08T04:21:13Z" name="currentAssignmetTest" data-provider="Login" finished-at="2023-10-08T04:26:22Z" duration-ms="308490" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -170,16 +268,83 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-HKLU73H', ip: '192.168.145.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: afb307c9a161abc0280b701f8b89ac67
+*** Element info: {Using=xpath, value=//ul[@class='list-group ']//li}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-HKLU73H', ip: '192.168.145.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: afb307c9a161abc0280b701f8b89ac67
+*** Element info: {Using=xpath, value=//ul[@class='list-group ']//li}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+at com.sun.proxy.$Proxy26.size(Unknown Source)
+at com.nmims.selenium.studentportal.pageObjectMethod.AssignmentPageObjectMethod.assignmetCountOnUI(AssignmentPageObjectMethod.java:43)
+at com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009.currentAssignmetTest(TC_CurrentAssignment_00009.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- currentAssignmetTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@4a891c97]" started-at="2023-10-02T03:57:31Z" name="tearDown" finished-at="2023-10-02T03:57:31Z" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@5c8eee0f]" started-at="2023-10-08T04:26:22Z" name="tearDown" finished-at="2023-10-08T04:26:22Z" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009 -->
       <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@3382f8ae]" started-at="2023-10-02T03:56:22Z" name="setup" finished-at="2023-10-02T03:56:33Z" duration-ms="10599" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@57fd91c9]" started-at="2023-10-08T04:20:06Z" name="setup" finished-at="2023-10-08T04:20:11Z" duration-ms="4889" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -190,7 +355,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@3382f8ae]" started-at="2023-10-02T03:56:34Z" name="loginTest" data-provider="Login" finished-at="2023-10-02T03:56:48Z" duration-ms="13846" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@57fd91c9]" started-at="2023-10-08T04:20:13Z" name="loginTest" data-provider="Login" finished-at="2023-10-08T04:20:29Z" duration-ms="16209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -206,7 +371,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@3382f8ae]" started-at="2023-10-02T03:56:48Z" name="tearDown" finished-at="2023-10-02T03:56:48Z" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@57fd91c9]" started-at="2023-10-08T04:20:29Z" name="tearDown" finished-at="2023-10-08T04:20:30Z" duration-ms="1211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

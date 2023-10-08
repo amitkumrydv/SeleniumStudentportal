@@ -4112,3 +4112,147 @@
 2023-10-02 09:27:20,994 [main] INFO Selenium_studentPortal - Click on the login button 
 2023-10-02 09:27:31,082 - Selenium_studentPortal -INFO - assignmentList  --> []
 2023-10-02 09:27:31,082 [main] INFO Selenium_studentPortal - assignmentList  --> []
+2023-10-08 09:30:09,180 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-10-08 09:30:09,180 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-10-08 09:30:09,193 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867F6B8B0168E1C747B311E368D
+2023-10-08 09:30:09,193 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867F6B8B0168E1C747B311E368D
+2023-10-08 09:30:11,151 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-10-08 09:30:11,151 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-10-08 09:30:11,164 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-10-08 09:30:11,164 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-10-08 09:30:11,179 - Selenium_studentPortal -INFO - Login page title is match
+2023-10-08 09:30:11,179 [main] INFO Selenium_studentPortal - Login page title is match
+2023-10-08 09:30:11,414 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-08 09:30:11,414 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-08 09:30:11,607 - Selenium_studentPortal -INFO - Entered the password
+2023-10-08 09:30:11,607 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-08 09:30:12,495 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-08 09:30:12,495 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-08 09:30:23,756 - Selenium_studentPortal -INFO - Click on the logout button 
+2023-10-08 09:30:23,756 [main] INFO Selenium_studentPortal - Click on the logout button 
+2023-10-08 09:30:28,764 - Selenium_studentPortal -INFO - Page logout 
+2023-10-08 09:30:28,764 [main] INFO Selenium_studentPortal - Page logout 
+2023-10-08 09:30:28,784 - Selenium_studentPortal -INFO - Alert text Displayed : 
+2023-10-08 09:30:28,784 [main] INFO Selenium_studentPortal - Alert text Displayed : 
+2023-10-08 09:30:28,860 - Selenium_studentPortal -INFO - Logout
+2023-10-08 09:30:28,860 [main] INFO Selenium_studentPortal - Logout
+2023-10-08 09:30:32,035 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-10-08 09:30:32,035 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-10-08 09:30:32,036 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28678BDC271D2E1E2C2210003C49
+2023-10-08 09:30:32,036 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28678BDC271D2E1E2C2210003C49
+2023-10-08 09:30:32,642 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-08 09:30:32,642 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-08 09:30:32,857 - Selenium_studentPortal -INFO - Entered the password
+2023-10-08 09:30:32,857 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-08 09:30:33,777 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-08 09:30:33,777 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-08 09:30:35,799 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-10-08 09:30:35,799 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-10-08 09:30:35,800 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867AADD8AB6D41EA79A20381403
+2023-10-08 09:30:35,800 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867AADD8AB6D41EA79A20381403
+2023-10-08 09:30:36,466 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-08 09:30:36,466 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-08 09:30:36,710 - Selenium_studentPortal -INFO - Entered the password
+2023-10-08 09:30:36,710 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-08 09:30:37,484 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-08 09:30:37,484 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-08 09:30:44,446 - Selenium_studentPortal -INFO -  Readed student Actual Name 
+2023-10-08 09:30:44,446 [main] INFO Selenium_studentPortal -  Readed student Actual Name 
+2023-10-08 09:30:45,990 - Selenium_studentPortal -INFO - Actual Student Details VIKAS KUMAR
+2023-10-08 09:30:45,990 [main] INFO Selenium_studentPortal - Actual Student Details VIKAS KUMAR
+2023-10-08 09:30:45,990 - Selenium_studentPortal -INFO - Expected student Name VIKAS KUMAR
+2023-10-08 09:30:45,990 [main] INFO Selenium_studentPortal - Expected student Name VIKAS KUMAR
+2023-10-08 09:30:45,991 - Selenium_studentPortal -INFO - Student Name is matched
+2023-10-08 09:30:45,991 [main] INFO Selenium_studentPortal - Student Name is matched
+2023-10-08 09:30:46,103 - Selenium_studentPortal -INFO - Data Displyed on header [vickynehra00@gmail.com, 9996662977, PGDMM, 77118576036, Validity End: 31-Dec-2023]
+2023-10-08 09:30:46,103 [main] INFO Selenium_studentPortal - Data Displyed on header [vickynehra00@gmail.com, 9996662977, PGDMM, 77118576036, Validity End: 31-Dec-2023]
+2023-10-08 09:30:46,194 - Selenium_studentPortal -INFO - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-10-08 09:30:46,194 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-10-08 09:30:46,195 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-10-08 09:30:46,195 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-10-08 09:30:49,008 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-10-08 09:30:49,008 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-10-08 09:30:49,008 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28672744DD6F57EFCF971D7CA700
+2023-10-08 09:30:49,008 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28672744DD6F57EFCF971D7CA700
+2023-10-08 09:30:49,531 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-08 09:30:49,531 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-08 09:30:49,780 - Selenium_studentPortal -INFO - Entered the password
+2023-10-08 09:30:49,780 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-08 09:30:50,583 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-08 09:30:50,583 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-08 09:31:10,422 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-10-08 09:31:10,422 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-10-08 09:31:10,423 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867D638C3C89C9B33ADD4C63AAC
+2023-10-08 09:31:10,423 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867D638C3C89C9B33ADD4C63AAC
+2023-10-08 09:31:10,927 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-08 09:31:10,927 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-08 09:31:11,136 - Selenium_studentPortal -INFO - Entered the password
+2023-10-08 09:31:11,136 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-08 09:31:11,926 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-08 09:31:11,926 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-08 09:31:18,472 - Selenium_studentPortal -INFO - assignmentList  --> [B2B Marketing, , , , , , Business: Ethics, Governance & Risk, Integrated Marketing Communications, Marketing Research, Services Marketing]
+2023-10-08 09:31:18,472 [main] INFO Selenium_studentPortal - assignmentList  --> [B2B Marketing, , , , , , Business: Ethics, Governance & Risk, Integrated Marketing Communications, Marketing Research, Services Marketing]
+2023-10-08 09:50:11,680 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-10-08 09:50:11,680 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-10-08 09:50:11,693 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867401806FB4DDFF5FEEF2F9183
+2023-10-08 09:50:11,693 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867401806FB4DDFF5FEEF2F9183
+2023-10-08 09:50:13,530 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-10-08 09:50:13,530 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-10-08 09:50:13,539 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-10-08 09:50:13,539 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-10-08 09:50:13,556 - Selenium_studentPortal -INFO - Login page title is match
+2023-10-08 09:50:13,556 [main] INFO Selenium_studentPortal - Login page title is match
+2023-10-08 09:50:13,793 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-08 09:50:13,793 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-08 09:50:14,097 - Selenium_studentPortal -INFO - Entered the password
+2023-10-08 09:50:14,097 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-08 09:50:15,057 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-08 09:50:15,057 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-08 09:50:24,371 - Selenium_studentPortal -INFO - Click on the logout button 
+2023-10-08 09:50:24,371 [main] INFO Selenium_studentPortal - Click on the logout button 
+2023-10-08 09:50:29,374 - Selenium_studentPortal -INFO - Page logout 
+2023-10-08 09:50:29,374 [main] INFO Selenium_studentPortal - Page logout 
+2023-10-08 09:50:29,384 - Selenium_studentPortal -INFO - Alert text Displayed : 
+2023-10-08 09:50:29,384 [main] INFO Selenium_studentPortal - Alert text Displayed : 
+2023-10-08 09:50:29,403 - Selenium_studentPortal -INFO - Logout
+2023-10-08 09:50:29,403 [main] INFO Selenium_studentPortal - Logout
+2023-10-08 09:50:32,510 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-10-08 09:50:32,510 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-10-08 09:50:32,511 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867162B9E70739F0766BFA6F4A0
+2023-10-08 09:50:32,511 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867162B9E70739F0766BFA6F4A0
+2023-10-08 09:50:33,301 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-08 09:50:33,301 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-08 09:50:33,517 - Selenium_studentPortal -INFO - Entered the password
+2023-10-08 09:50:33,517 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-08 09:50:34,337 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-08 09:50:34,337 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-08 09:50:36,508 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-10-08 09:50:36,508 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-10-08 09:50:36,511 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28674DD6B83F64B23163821BD1EB
+2023-10-08 09:50:36,511 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28674DD6B83F64B23163821BD1EB
+2023-10-08 09:50:36,988 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-08 09:50:36,988 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-08 09:50:37,344 - Selenium_studentPortal -INFO - Entered the password
+2023-10-08 09:50:37,344 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-08 09:50:38,100 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-08 09:50:38,100 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-08 09:50:50,164 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-10-08 09:50:50,164 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-10-08 09:50:50,165 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867D11159045EB66CC654A44218
+2023-10-08 09:50:50,165 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867D11159045EB66CC654A44218
+2023-10-08 09:50:50,673 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-08 09:50:50,673 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-08 09:50:51,019 - Selenium_studentPortal -INFO - Entered the password
+2023-10-08 09:50:51,019 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-08 09:50:51,859 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-08 09:50:51,859 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-10-08 09:51:13,345 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-10-08 09:51:13,345 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-10-08 09:51:13,346 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28677C7C4C5D1982376F001F66FF
+2023-10-08 09:51:13,346 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28677C7C4C5D1982376F001F66FF
+2023-10-08 09:51:13,845 - Selenium_studentPortal -INFO - Entered the UserId
+2023-10-08 09:51:13,845 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-10-08 09:51:14,084 - Selenium_studentPortal -INFO - Entered the password
+2023-10-08 09:51:14,084 [main] INFO Selenium_studentPortal - Entered the password
+2023-10-08 09:51:16,257 - Selenium_studentPortal -INFO - Click on the login button 
+2023-10-08 09:51:16,257 [main] INFO Selenium_studentPortal - Click on the login button 
