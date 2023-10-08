@@ -1,7 +1,38 @@
 # selenium-studentportal
-Automate Student portal using selenium Junit and TestNG. 
-1. Setup TestNG --> https://github.com/testng-team/testng-eclipse
+Automate Student portal using selenium Junit, TestNG, TestRail, and jenkins. 
+1. Junit Configuration  https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit.html
+2. Junit Documentation  https://junit.org/junit4/
+3. Selenium WebDriver  https://www.selenium.dev/documentation/webdriver/
+4. Selenium Clases or Interfaces  https://www.selenium.dev/selenium/docs/api/java/allclasses-index.html
+5. Setup TestNG --> https://github.com/testng-team/testng-eclipse
+6. TestNGconfiguration https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
+7. Jenkis   https://www.jenkins.io/doc/
 
+   Project Structure
+   ![image](https://github.com/amitkumrydv/selenium-studentportal/assets/98074991/fd819ce3-77fb-4cee-852a-f7124d16e1e3)
+
+   Base Class --In the Base Class have setUp() method annotated with @BeforeClass, we set up the WebDriver, and the tearDown() method annotated with @AfterClass.
+   
+Uses of listnerClass
+      1. Logging and Reporting: 
+      2.Test Retry: 
+      3. Dependency Management: 
+     4. Test Data Management: 
+     5. Parallel Execution Control: 
+     6. Custom Assertions:
+Some Interfaces in testNG
+   ITestListener: Used to listen to test-level events such as test case start, success, failure, and skip.
+ISuiteListener: Listens to suite-level events such as suite start and suite finish.
+IInvokedMethodListener: Listens to method-level events, which includes before and after test method execution.
+
+Page Object Model (POM)
+    is a design pattern commonly used in Selenium WebDriver automation to improve the maintainability, readability, and reusability of 
+   automation code. 
+
+   Page Objects: Page objects are classes that represent web pages or components of a web application. Each page object contains elements and actions related to a specific page or component. These elements are typically defined as WebElements, and the actions are represented as methods that interact with these elements.
+
+   Page Methods: Page methods  with web elements and hide the underlying WebDriver code. These methods make it easy to perform actions on a page or retrieve information from it without exposing the details of the HTML structure.
+                 
 pageObject Structure
 
 ![image](https://github.com/amitkumrydv/SeleniumStudentportal/assets/98074991/1f8674d3-0697-4c75-95cf-9ebe7a229fc7)
