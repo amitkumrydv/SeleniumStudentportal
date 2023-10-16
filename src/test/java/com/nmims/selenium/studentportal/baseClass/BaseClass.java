@@ -15,6 +15,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.springframework.context.ApplicationContext;
@@ -41,14 +42,16 @@ public class BaseClass {
 	public String baseURL = readConfig.getApplicationURL();
 	//public String userName = readConfig.getUsername();
 	//public String password = readConfig.getPassword();
+	String br="chrome";
 	public  WebDriver driver;
 	public static Logger logger; 
 	
 	
 	
+	
     @Parameters("browser")
 	@BeforeClass
-	public void setup(String br) {
+	public void setup() {
 		
 		logger=Logger.getLogger("Selenium_studentPortal");
 		PropertyConfigurator.configure("Log4j.properties");
@@ -88,15 +91,25 @@ public class BaseClass {
      }
      if (br.equals("firefox"))
      {
-    	 System.setProperty("webdriver.gecko.driver", readConfig.getFireFoxPath());
+    	 //System.setProperty("webdriver.gecko.driver", readConfig.getFireFoxPath());
+    	 WebDriverManager.firefoxdriver().setup();
     	 driver = new FirefoxDriver();
      }
      
      if (br.equals("ie"))
      {
-    	 System.setProperty("webdriver.ie.driver", readConfig.getIEPath());
+    	 //System.setProperty("webdriver.ie.driver", readConfig.getIEPath());
+    	 WebDriverManager.iedriver().setup();
     	 driver = new InternetExplorerDriver();
      }
+     
+     if (br.equals("edg"))
+     {
+    	 WebDriverManager.edgedriver().setup();
+    	 WebDriver driver = new EdgeDriver();
+     }
+     
+     
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
  	    driver.get(baseURL);
  	// Capture cookies

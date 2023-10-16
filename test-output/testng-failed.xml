@@ -7,13 +7,6 @@
   <test thread-count="5" name="portalApp(failed)" verbose="100">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009">
-        <methods>
-          <include name="currentAssignmetTest" invocation-numbers="0"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009 -->
       <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004">
         <methods>
           <include name="studentDetailsTest" invocation-numbers="0"/>
