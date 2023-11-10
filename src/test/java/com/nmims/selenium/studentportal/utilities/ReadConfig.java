@@ -28,16 +28,16 @@ public class ReadConfig {
 		return url;
 	}
 
-//	public String getUsername() {
-//		String username=pro.getProperty("username");
-//		System.out.println("userName Value passed from the propert file " + username);
-//		return username;
-//	}
-//	
-//	public String getPassword() {
-//		String password=pro.getProperty("password");
-//		return password;
-//	}
+	public String getUsername() {
+		String username=pro.getProperty("userName");
+		System.out.println("userName Value passed from the propert file " + username);
+		return username;
+	}
+	
+	public String getPassword() {
+		String password=pro.getProperty("Password");
+		return password;
+	}
 
 	public String getChrome() {
 		String Chromepath = pro.getProperty("Chromepath");

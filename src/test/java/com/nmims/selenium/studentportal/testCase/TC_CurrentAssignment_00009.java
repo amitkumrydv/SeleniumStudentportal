@@ -11,23 +11,23 @@ import com.nmims.selenium.studentportal.baseClass.BaseClass;
 import com.nmims.selenium.studentportal.data.DataProvideLogin;
 import com.nmims.selenium.studentportal.pageObjectMethod.AssignmentPageObjectMethod;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
+import com.nmims.selenium.studentportal.utilities.CaptureScreen;
+import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
 public class TC_CurrentAssignment_00009 extends BaseClass {
 	
 	private List<String> assignmentList;
+	private CaptureScreen captureScreenshot;
+	ReadConfig readConfig = new ReadConfig();
+	private String user = readConfig.getUsername();
 
-	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class)
-	public void currentAssignmetTest (String user, String pwd) {
+	@Test
+	public void currentAssignmetTest () {
+		
 	LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
+	loginPage.commanLogin();
+	logger.info("Successful login test ");
 
-	loginPage.setUserName(user);
-	logger.info("Entered the UserId");
-
-	loginPage.setPassword(pwd);
-	logger.info("Entered the password");
-
-	loginPage.clickSubmit();
-	logger.info("Click on the login button ");
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	
 	AssignmentPageObjectMethod assignmentsListOnUI = new AssignmentPageObjectMethod(driver);

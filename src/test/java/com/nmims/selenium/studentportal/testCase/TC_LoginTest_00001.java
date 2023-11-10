@@ -11,8 +11,11 @@ import org.testng.annotations.Test;
 import com.nmims.selenium.studentportal.baseClass.BaseClass;
 import com.nmims.selenium.studentportal.data.DataProvideLogin;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
+import com.nmims.selenium.studentportal.utilities.CaptureScreen;
 
 public class TC_LoginTest_00001 extends BaseClass {
+	
+	CaptureScreen captureScreenshot;
 
 	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class)   //groups = "authentication"
 	public void loginTest(String user, String pwd) throws InterruptedException, IOException {
@@ -31,7 +34,7 @@ public class TC_LoginTest_00001 extends BaseClass {
 			logger.info("Login page title is match");
 
 		} else {
-			captureScreen(driver, "loginTest");
+			captureScreenshot.captureFullScreen(driver, "loginTest");
 			logger.info("Login page title is not match");
 			Assert.assertTrue(false);
 		}

@@ -20,55 +20,11 @@ public class TC_SingleStudentDetails_00002 extends BaseClass {
 
 	public String path = readStudentdata.getStudentDetailsExcel();
 
-	@Test( dataProvider = "Login", dataProviderClass = DataProvideLogin.class)
+	@Test
 	public void singleStudentAllData(String user, String pwd) throws Exception {
-
 		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
+		loginPage.commanLogin();
+		logger.info("Successful login test ");
 
-		loginPage.setUserName(user);
-		logger.info("Entered the UserId");
-
-		loginPage.setPassword(pwd);
-		logger.info("Entered the password");
-
-		loginPage.clickSubmit();
-		logger.info("Click on the login button ");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		
-//		UserDtailsPageObjectMethod studentActualNameOnUI = new UserDtailsPageObjectMethod(driver);  // don't write above of the method
-//		
-//		String studentActualName= studentActualNameOnUI.setStudentName();
-//		logger.info(" Readed student Actual Name " +studentActualName);
-//	
-//	
-//		StudentStudentPortalBean actualSingleStudentDetails = singleStudentDetails.getStudentRegistration(user);
-//		logger.info("ActualsingleStudentDetails" + actualSingleStudentDetails);
-//		
-//		String studentFirstName = actualSingleStudentDetails.getFirstName();
-//		String studentLastName = actualSingleStudentDetails.getLastName();
-//		String studentExpectedFirstLastName =studentFirstName +" "+ studentLastName;
-//	   // Name required in Alphabet
-//		String studenNamecapitalAlphabetExpected = studentExpectedFirstLastName.toUpperCase();
-//		System.out.println(studenNamecapitalAlphabetExpected);
-//
-//		System.out.println( "studentExpectedName " +studenNamecapitalAlphabetExpected);
-//		
-//		if (studenNamecapitalAlphabetExpected.equals(studentActualName)){
-//			
-//			Assert.assertEquals(studenNamecapitalAlphabetExpected, studentActualName);
-//			logger.info("Student Name is matched");
-//			
-//		} else {
-//			
-//			logger.info("Student Name is not matched from the UI");
-//			captureScreen(driver, "TC_OngoingSubject00006");
-//			Assert.fail("Student Name is not matched from the UI");
-//
-//			
-//		}
-		
-	
 	}
-
 }

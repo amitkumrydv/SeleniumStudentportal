@@ -1,5 +1,6 @@
 package com.nmims.selenium.studentportal.testCase;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -17,10 +18,16 @@ import com.nmims.selenium.studentportal.data.DataProvideLogin;
 import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod;
+import com.nmims.selenium.studentportal.utilities.CaptureScreen;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
 public class TC_Subjects_00006 extends BaseClass {
 
+	ReadConfig readConfig = new ReadConfig();
+	private String user = readConfig.getUsername();
+	CaptureScreen captureScreenshot;
+
+	//Using for dao call
 	ApplicationContext context = new AnnotationConfigApplicationContext(DataBaseConfig.class);
 	StudentSubjectDao studentSubjectDao = context.getBean("ongoingSubjectDao", StudentSubjectDao.class);
 	ReadConfig readStudentdata = new ReadConfig();
@@ -28,69 +35,74 @@ public class TC_Subjects_00006 extends BaseClass {
 
 	public String path = readStudentdata.getStudentDetailsExcel();
 
-	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class)
-	public void ongoingSubjectTest(String user, String pwd) throws Exception {
+	@Test
+	public void ongoingSubjectTest() throws Exception {
 
-		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
-
-		loginPage.setUserName(user);
-		logger.info("Entered the UserId");
- 
-		loginPage.setPassword(pwd);
-		logger.info("Entered the password");
-
-		loginPage.clickSubmit();
-		logger.info("Click on the login button ");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		// Login logic
+		LoginPageObjectMethod login = new LoginPageObjectMethod(driver);
+		login.commanLogin();
+		logger.info("Successfully verify login");
 		
-		StudentStudentPortalBean studentRgistration = singleStudentDetails.getstudentLatestRegistration (user);
+		
+		Thread.sleep(2000);
+		StudentStudentPortalBean studentRgistration = singleStudentDetails.getstudentLatestRegistration(user);
 		SubjectPageObjectMethod actualSebjectOnUI = new SubjectPageObjectMethod(driver);
+		logger.info("Read the subject from database "+actualSebjectOnUI);
+		
 		
 		// Compare acad year or month from the data base
-		String acadYear =studentRgistration.getYear();	
-		String acadMonth =studentRgistration.getMonth();
+		String acadYear = studentRgistration.getYear();
+		String acadMonth = studentRgistration.getMonth();
 		String currentAcadMonth = readStudentdata.getCurrentAcadMonth();
 		String currentAcadYear = readStudentdata.getCurrentAcadYear();
+		logger.info("Student registration year and month " +acadYear + "-"+acadMonth);
 		
+        // Student acad year and month compare from the registration table to config properties file
+		if (acadYear.equals(currentAcadYear) && acadMonth.equals(currentAcadMonth)) {
+			logger.info("Check the Acad Year or Month " +acadYear + "-"+acadMonth);
 
-		if (acadYear.equals(currentAcadYear)  && acadMonth.equals(currentAcadMonth) ) {
-			logger.info("Check the Acad Year or Month ");
-		
-		List<String> actualSubjectsList = actualSebjectOnUI.getOngoingSubjectFromUI(driver,
-				"//a[@class=\" text-dark fw-semibold list-group-item list-group-item-action\"]");
-
-		logger.info("suject visible on the UI" + actualSubjectsList);
-
-		
-		String consumerProgramStructureId = studentRgistration.getConsumerProgramStructureId();
-		String sem =studentRgistration.getSem();
-		
-		logger.info("Get student sem and consumerProgramStructureId");
-
-		// Static Value pass sem & consumerstructure
-		List<String> expectedSubjectsList = studentSubjectDao.getOngoingSubject(sem, consumerProgramStructureId);
-		logger.info("applicableCurrentSubject " + expectedSubjectsList);
-
-//		 This approach will work if you want to check whether the lists contain the same unique elements, regardless of their order.
-		Set<String> expectedtSubjects = new HashSet<String>(expectedSubjectsList);
-		Set<String> actualSubjects = new HashSet<String>(actualSubjectsList);
-
-		if (expectedtSubjects.equals(actualSubjects)) {
-
-			logger.info("Subject is matched from the UI");
-			Assert.assertEquals(expectedtSubjects, actualSubjects);
-		} else {
-			logger.info("Subject is not matched from the UI");
-			captureScreen(driver, "TC_OngoingSubject00006");
-			Assert.fail("Subject is not matched from the UI");
-		}
-
-	 }
-		else {
-			String subjectOnUI=actualSebjectOnUI.getZeroOngoingSubject();
 			
-			logger.info("Ongoing Subject is not available " +subjectOnUI);
+			//Store the suject from the ui
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			List<String> actualSubjectsList = actualSebjectOnUI.getOngoingSubjectFromUI(driver,
+					"//a[@class=\" text-dark list-group-item list-group-item-action\"]");
+			
+			//a[@class=" text-dark list-group-item list-group-item-action"]
+			//a[@class=\" text-dark fw-semibold list-group-item list-group-item-action\
+
+			logger.info("suject visible on the UI" + actualSubjectsList);
+
+			String consumerProgramStructureId = studentRgistration.getConsumerProgramStructureId();
+			String sem = studentRgistration.getSem();
+
+			logger.info("Get student sem and consumerProgramStructureId");
+
+			//pass Value for sem & consumerstructure
+			List<String> expectedSubjectsList = studentSubjectDao.getOngoingSubject(sem, consumerProgramStructureId);
+			logger.info("applicableCurrentSubject " + expectedSubjectsList);
+
+//		 This approach will work for store unique in order subject .
+			List<String> expectedtSubjects = new ArrayList<String>(expectedSubjectsList);
+			expectedtSubjects.sort(String::compareToIgnoreCase);
+			List<String> actualSubjects = new ArrayList<String>(actualSubjectsList);
+			actualSubjects.sort(String::compareToIgnoreCase);
+			
+			logger.info("expected---> "+ expectedtSubjects + "  "+"actualSubjects---> "+actualSubjects);
+			
+			
+            // if(expectedtSubjects)
+			if (expectedtSubjects.equals(actualSubjects) ) {
+
+				logger.info("Subject is matched from the UI");
+				Assert.assertEquals(expectedtSubjects, actualSubjects);
+			} else {
+				logger.info("Subject is not matched from the UI");
+				captureScreenshot.captureFullScreen(driver, "TC_OngoingSubject00006");
+				
+
 		}
 		
-	} 
+
+		}
+	}
 }

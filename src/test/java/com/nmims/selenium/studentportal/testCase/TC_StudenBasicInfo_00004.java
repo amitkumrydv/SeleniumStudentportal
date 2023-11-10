@@ -3,6 +3,7 @@ package com.nmims.selenium.studentportal.testCase;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.testng.Assert;
@@ -15,9 +16,17 @@ import com.nmims.selenium.studentportal.data.StudaentDetail;
 import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.nmims.selenium.studentportal.pageObjectMethod.UserDtailsPageObjectMethod;
+import com.nmims.selenium.studentportal.utilities.CaptureScreen;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
 public class TC_StudenBasicInfo_00004 extends BaseClass {
+	
+	CaptureScreen captureScreenshot;
+	ReadConfig readConfig = new ReadConfig();
+	public String user = readConfig.getUsername();
+	
+	
+	
 	ApplicationContext context = new AnnotationConfigApplicationContext(DataBaseConfig.class);
 	StudentDao singleStudentDetails = context.getBean("singleStudentData", StudentDao.class);
 
@@ -29,20 +38,13 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 	 * Sapid, EmailID, Phone number and Sem.
 	 */
 
-	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class )
-	public void studentDetailsTest(String user, String pwd) throws Exception {
-
+	@Test
+	public void studentDetailsTest() throws Exception {
+		
+		// Login logic
 		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
-
-		loginPage.setUserName(user);
-		logger.info("Entered the UserId");
-
-		loginPage.setPassword(pwd);
-		logger.info("Entered the password");
-
-		loginPage.clickSubmit();
-		logger.info("Click on the login button ");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		loginPage.commanLogin();
+		logger.info("Successful login test ");
 		
 		
 		// don't write above of the method
@@ -70,7 +72,7 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 		} else {
 
 			logger.info("Student Name is not matched from the UI");
-			captureScreen(driver, "TC_OngoingSubject00006");
+			captureScreenshot.captureFullScreen(driver, "TC_OngoingSubject00006");
 			Assert.fail("Student Name is not matched from the UI");
 
 		}
@@ -96,7 +98,7 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 			Assert.assertEquals(actualTextValues, expectedOptions);
 		} else {
 			logger.info("Student data is not matched from the Excel");
-			captureScreen(driver, "TC_StudenBasicInfo00004");
+			captureScreenshot.captureFullScreen(driver, "TC_StudenBasicInfo00004");
 			Assert.assertEquals(expectedOptions, actualTextValues);
 		}
 
