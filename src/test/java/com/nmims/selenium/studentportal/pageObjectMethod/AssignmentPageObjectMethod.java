@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,6 +18,7 @@ public class AssignmentPageObjectMethod extends AssignmentPageObject {
 	List<WebElement> CurrentAssignmentsOnUI;
 	List<String> assignmentListInText = new ArrayList<String>();
 	List<String> assignmentList = new ArrayList<String>();
+	public static Logger logger;
 
 	public AssignmentPageObjectMethod(WebDriver driver) {
 		super(driver);
@@ -39,10 +42,13 @@ public class AssignmentPageObjectMethod extends AssignmentPageObject {
 	
 	//Display on UI assignment name store in list with single xpath
 	public List<String> assignmetCountOnUI(WebDriver driver) {
+		
+		logger = Logger.getLogger("Selenium_studentPortal");
+		PropertyConfigurator.configure("Log4j.properties");
 
 		int numberOfAssignment = assignmentCount.size();
 
-		System.out.println("numberOfAssignment -> " + numberOfAssignment);
+		logger.info("numberOfAssignment -> " + numberOfAssignment);
 
 		for (int i = 1; i <= numberOfAssignment; i++) {
 

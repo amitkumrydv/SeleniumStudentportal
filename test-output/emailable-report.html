@@ -9,10 +9,68 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">StudentportalDashboard</th></tr>
-<tr><td><a href="#t0">portalApp</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">19,638</td><td></td><td></td></tr>
+<tr><td><a href="#t0">portalApp</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">60,231</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">StudentportalDashboard</th></tr></tbody><tbody id="t0"><tr><th colspan="4">portalApp &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_Subjects_00006</td><td><a href="#m0">ongoingSubjectTest</a></td><td rowspan="1">1699605963713</td><td rowspan="1">14332</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">StudentportalDashboard</th></tr></tbody><tbody id="t0"><tr><th colspan="4">portalApp &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002</td><td><a href="#m0">singleStudentAllData</a></td><td rowspan="1">1699606453214</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004</td><td><a href="#m1">studentDetailsTest</a></td><td rowspan="1">1699606455464</td><td rowspan="1">7228</td></tr><tr><th colspan="4">portalApp &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009</td><td><a href="#m2">currentAssignmetTest</a></td><td rowspan="1">1699606474073</td><td rowspan="1">12151</td></tr><tr class="passedodd"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001</td><td><a href="#m3">loginTest</a></td><td rowspan="1">1699606434064</td><td rowspan="1">15913</td></tr><tr class="passedeven"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_Subjects_00006</td><td><a href="#m4">ongoingSubjectTest</a></td><td rowspan="1">1699606464971</td><td rowspan="1">6040</td></tr></tbody>
 </table>
-<h2>portalApp</h2><h3 id="m0">com.nmims.selenium.studentportal.testCase.TC_Subjects_00006#ongoingSubjectTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>portalApp</h2><h3 id="m0">com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002#singleStudentAllData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [singleStudentAllData] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004#studentDetailsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004.studentDetailsTest(TC_StudenBasicInfo_00004.java:101)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009#currentAssignmetTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>77118576036</td><td>Password@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.nmims.selenium.studentportal.testCase.TC_Subjects_00006#ongoingSubjectTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

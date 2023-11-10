@@ -13,12 +13,8 @@ import com.nmims.selenium.studentportal.pageObject.LoginPageObject;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
 public class LoginPageObjectMethod extends LoginPageObject {
-	
-	
+
 //	WebDriver LoginPageDriver= BaseClass.setup();
-	
-	
-	
 
 	public LoginPageObjectMethod(WebDriver driver) {
 		super(driver);
@@ -60,25 +56,22 @@ public class LoginPageObjectMethod extends LoginPageObject {
 	public static Logger logger;
 
 	public void commanLogin() {
-		
+
 		try {
-		logger = Logger.getLogger("Selenium_studentPortal");
-		PropertyConfigurator.configure("Log4j.properties");
-		
-		BaseClass baseClass = new BaseClass();
-		
+			logger = Logger.getLogger("Selenium_studentPortal");
+			PropertyConfigurator.configure("Log4j.properties");
+
+			BaseClass baseClass = new BaseClass();
+
 			baseClass.loginPageTitleVerify();
-		
 
-		System.out.println("inside commanLogin username " + userName);
+			setUserName(userName);
+			logger.info("Entered the UserId");
+			setPassword(password);
+			logger.info("Entered the password");
+			clickSubmit();
+			logger.info("Click on the login button ");
 
-		setUserName(userName);
-		logger.info("Entered the UserId");
-		setPassword(password);
-		logger.info("Entered the password");
-		clickSubmit();
-		logger.info("Click on the login button ");
-		
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -30,7 +30,6 @@ public class ReadConfig {
 
 	public String getUsername() {
 		String username=pro.getProperty("userName");
-		System.out.println("userName Value passed from the propert file " + username);
 		return username;
 	}
 	

@@ -1,25 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-10T08:45:58Z" name="StudentportalDashboard" finished-at="2023-11-10T08:46:18Z" duration-ms="19638">
+  <suite started-at="2023-11-10T08:53:46Z" name="StudentportalDashboard" finished-at="2023-11-10T08:54:46Z" duration-ms="60231">
     <groups>
     </groups>
-    <test started-at="2023-11-10T08:45:58Z" name="portalApp" finished-at="2023-11-10T08:46:18Z" duration-ms="19638">
-      <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@246f8b8b]" started-at="2023-11-10T08:45:59Z" name="setup" finished-at="2023-11-10T08:46:03Z" duration-ms="4642" status="PASS">
+    <test started-at="2023-11-10T08:53:46Z" name="portalApp" finished-at="2023-11-10T08:54:46Z" duration-ms="60231">
+      <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@78fbff54]" started-at="2023-11-10T08:54:13Z" name="setup" finished-at="2023-11-10T08:54:15Z" duration-ms="1985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ongoingSubjectTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@246f8b8b]" started-at="2023-11-10T08:46:03Z" name="ongoingSubjectTest" finished-at="2023-11-10T08:46:18Z" duration-ms="14332" status="PASS">
+        <test-method signature="studentDetailsTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@78fbff54]" started-at="2023-11-10T08:54:15Z" name="studentDetailsTest" finished-at="2023-11-10T08:54:22Z" duration-ms="7228" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004.studentDetailsTest(TC_StudenBasicInfo_00004.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentDetailsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@78fbff54]" started-at="2023-11-10T08:54:22Z" name="tearDown" finished-at="2023-11-10T08:54:23Z" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004 -->
+      <class name="com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@77a98a6a]" started-at="2023-11-10T08:54:11Z" name="setup" finished-at="2023-11-10T08:54:13Z" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="singleStudentAllData(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@77a98a6a]" started-at="2023-11-10T08:54:13Z" name="singleStudentAllData" finished-at="2023-11-10T08:54:13Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [singleStudentAllData] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [singleStudentAllData] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleStudentAllData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@77a98a6a]" started-at="2023-11-10T08:54:13Z" name="tearDown" finished-at="2023-11-10T08:54:13Z" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002 -->
+      <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@3e10dc6]" started-at="2023-11-10T08:54:23Z" name="setup" finished-at="2023-11-10T08:54:24Z" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ongoingSubjectTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@3e10dc6]" started-at="2023-11-10T08:54:24Z" name="ongoingSubjectTest" finished-at="2023-11-10T08:54:31Z" duration-ms="6040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ongoingSubjectTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@246f8b8b]" started-at="2023-11-10T08:46:18Z" name="tearDown" finished-at="2023-11-10T08:46:18Z" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@3e10dc6]" started-at="2023-11-10T08:54:31Z" name="tearDown" finished-at="2023-11-10T08:54:31Z" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_Subjects_00006 -->
+      <class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@7e22550a]" started-at="2023-11-10T08:54:31Z" name="setup" finished-at="2023-11-10T08:54:34Z" duration-ms="2687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="currentAssignmetTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@7e22550a]" started-at="2023-11-10T08:54:34Z" name="currentAssignmetTest" finished-at="2023-11-10T08:54:46Z" duration-ms="12151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentAssignmetTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@7e22550a]" started-at="2023-11-10T08:54:46Z" name="tearDown" finished-at="2023-11-10T08:54:46Z" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009 -->
+      <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@3f0846c6]" started-at="2023-11-10T08:53:46Z" name="setup" finished-at="2023-11-10T08:53:52Z" duration-ms="5762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@3f0846c6]" started-at="2023-11-10T08:53:54Z" name="loginTest" data-provider="Login" finished-at="2023-11-10T08:54:09Z" duration-ms="15913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77118576036]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@3f0846c6]" started-at="2023-11-10T08:54:10Z" name="tearDown" finished-at="2023-11-10T08:54:11Z" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001 -->
     </test> <!-- portalApp -->
   </suite> <!-- StudentportalDashboard -->
 </testng-results>

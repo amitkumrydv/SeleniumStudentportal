@@ -31,7 +31,7 @@ public class BaseClass {
 	static ReadConfig readConfig = new ReadConfig();
 
 	public static String baseURL = readConfig.getApplicationURL();
-	 // public String userName = readConfig.getUsername();
+	// public String userName = readConfig.getUsername();
 	// public String password = readConfig.getPassword();
 	static String br = "chrome";
 	public static WebDriver driver;
@@ -94,8 +94,9 @@ public class BaseClass {
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(baseURL);
+		
+		
 		// Capture cookies
-
 		Set<Cookie> cookies = driver.manage().getCookies();
 		logger.info("Size of the cookies : " + cookies.size());
 
@@ -120,10 +121,9 @@ public class BaseClass {
 		String generatedstring2 = RandomStringUtils.randomNumeric(4);
 		return (generatedstring2);
 	}
-	
-	
+
 	public void loginPageTitleVerify() throws IOException {
-		
+
 		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
 
 		String pageHeaderTitle = loginPage.verifyTitle(); // This is page header title
@@ -142,13 +142,8 @@ public class BaseClass {
 			logger.info("Login page title is not match");
 			Assert.assertTrue(false);
 		}
-		
-		
+
 	}
-	
-	
-	
-	
 
 	@AfterClass
 	public void tearDown() {
