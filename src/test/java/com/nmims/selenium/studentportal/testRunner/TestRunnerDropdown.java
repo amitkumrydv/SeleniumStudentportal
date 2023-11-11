@@ -9,11 +9,44 @@ import java.util.List;
 
 public class TestRunnerDropdown {
     private JFrame frame;
+    private JFrame ftrame;
     private JComboBox<String> suiteComboBox;
     private JButton runButton;
     private JTextArea outputTextArea;
 
-    public TestRunnerDropdown() {
+    public void ExamTestSuit() {
+        frame = new JFrame("TestNG Test Runner");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(600, 400);
+
+        JPanel inputPanel = new JPanel(new GridLayout(2, 2));
+        suiteComboBox = new JComboBox<String>();
+        runButton = new JButton("Run Tests");
+        outputTextArea = new JTextArea();
+
+        inputPanel.add(new JLabel("Select Test Suite:"));
+
+        // Populate the combo box with available TestNG suite files
+        populateSuiteComboBox();
+
+        inputPanel.add(suiteComboBox);
+        inputPanel.add(new JLabel(""));
+        inputPanel.add(runButton);
+
+        frame.getContentPane().setLayout(new BorderLayout());
+        frame.getContentPane().add(inputPanel, BorderLayout.SOUTH);
+        frame.getContentPane().add(new JScrollPane(outputTextArea), BorderLayout.CENTER);
+
+        runButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                runTests();
+            }
+        });
+    }
+    
+    // Changes
+    public void PortalTest() {
         frame = new JFrame("TestNG Test Runner");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 400);
@@ -34,7 +67,7 @@ public class TestRunnerDropdown {
 
         frame.getContentPane().setLayout(new BorderLayout());
         frame.getContentPane().add(inputPanel, BorderLayout.NORTH);
-        frame.getContentPane().add(new JScrollPane(outputTextArea), BorderLayout.CENTER);
+        frame.getContentPane().add(new JScrollPane(outputTextArea), BorderLayout. WEST );
 
         runButton.addActionListener(new ActionListener() {
             @Override
@@ -43,6 +76,15 @@ public class TestRunnerDropdown {
             }
         });
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     private void populateSuiteComboBox() {
         // Replace this with logic to fetch available TestNG suite files in a directory
@@ -74,6 +116,7 @@ public class TestRunnerDropdown {
 
     public void display() {
         frame.setVisible(true);
+        trrame.setVisible(true);
     }
 
     public static void main(String[] args) {

@@ -29,7 +29,7 @@ public class TestRunnerGUIfIRSTcODE {
         inputPanel.add(runButton);
 
         frame.getContentPane().setLayout(new BorderLayout());
-        frame.getContentPane().add(inputPanel, BorderLayout.NORTH);
+        frame.getContentPane().add(inputPanel, BorderLayout.SOUTH);
         frame.getContentPane().add(new JScrollPane(outputTextArea), BorderLayout.CENTER);
 
         runButton.addActionListener(new ActionListener() {

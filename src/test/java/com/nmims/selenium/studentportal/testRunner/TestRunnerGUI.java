@@ -21,8 +21,8 @@ public class TestRunnerGUI {
 
         JPanel inputPanel = new JPanel(new GridLayout(3, 2));
 
-        suiteComboBox = new JComboBox<>();
-        testCaseComboBox = new JComboBox<>(); // Create the JComboBox for selecting test cases
+        suiteComboBox = new JComboBox<String>();
+        testCaseComboBox = new JComboBox<String>(); // Create the JComboBox for selecting test cases
         runButton = new JButton("Run Tests");
         outputTextArea = new JTextArea();
 
