@@ -5,7 +5,7 @@
     <classes>
       <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
         <methods>
-          <include name="ongoingSubjectTest"/>
+          <include name="ApplicableSubjectTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>

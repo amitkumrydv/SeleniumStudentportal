@@ -1,21 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-10T08:53:46Z" name="StudentportalDashboard" finished-at="2023-11-10T08:54:46Z" duration-ms="60231">
+  <suite started-at="2023-11-15T10:48:19Z" name="Default suite" finished-at="2023-11-15T10:49:09Z" duration-ms="49414">
     <groups>
     </groups>
-    <test started-at="2023-11-10T08:53:46Z" name="portalApp" finished-at="2023-11-10T08:54:46Z" duration-ms="60231">
-      <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@78fbff54]" started-at="2023-11-10T08:54:13Z" name="setup" finished-at="2023-11-10T08:54:15Z" duration-ms="1985" status="PASS">
+    <test started-at="2023-11-15T10:48:19Z" name="Default test" finished-at="2023-11-15T10:49:09Z" duration-ms="49414">
+      <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@24f43aa3]" started-at="2023-11-15T10:48:19Z" name="setup" finished-at="2023-11-15T10:48:26Z" duration-ms="6783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="studentDetailsTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@78fbff54]" started-at="2023-11-10T08:54:15Z" name="studentDetailsTest" finished-at="2023-11-10T08:54:22Z" duration-ms="7228" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="ApplicableSubjectTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@24f43aa3]" started-at="2023-11-15T10:48:26Z" name="ApplicableSubjectTest" finished-at="2023-11-15T10:49:08Z" duration-ms="42196" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (637, 953)
+  (Session info: chrome=119.0.6045.124)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c15b5ea70c1e1e18b4ce4ba48b795701]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004.studentDetailsTest(TC_StudenBasicInfo_00004.java:101)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (637, 953)
+  (Session info: chrome=119.0.6045.124)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c15b5ea70c1e1e18b4ce4ba48b795701
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy24.click(Unknown Source)
+at com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod.clickToViewBacklogSubject(SubjectPageObjectMethod.java:72)
+at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:139)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -43,120 +77,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- studentDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@78fbff54]" started-at="2023-11-10T08:54:22Z" name="tearDown" finished-at="2023-11-10T08:54:23Z" duration-ms="336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004 -->
-      <class name="com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@77a98a6a]" started-at="2023-11-10T08:54:11Z" name="setup" finished-at="2023-11-10T08:54:13Z" duration-ms="1924" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="singleStudentAllData(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@77a98a6a]" started-at="2023-11-10T08:54:13Z" name="singleStudentAllData" finished-at="2023-11-10T08:54:13Z" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Cannot inject @Test annotated Method [singleStudentAllData] with [class java.lang.String, class java.lang.String].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Cannot inject @Test annotated Method [singleStudentAllData] with [class java.lang.String, class java.lang.String].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
-at org.testng.internal.Parameters.createParameters(Parameters.java:635)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- singleStudentAllData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002@77a98a6a]" started-at="2023-11-10T08:54:13Z" name="tearDown" finished-at="2023-11-10T08:54:13Z" duration-ms="252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002 -->
-      <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@3e10dc6]" started-at="2023-11-10T08:54:23Z" name="setup" finished-at="2023-11-10T08:54:24Z" duration-ms="1937" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="ongoingSubjectTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@3e10dc6]" started-at="2023-11-10T08:54:24Z" name="ongoingSubjectTest" finished-at="2023-11-10T08:54:31Z" duration-ms="6040" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ongoingSubjectTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@3e10dc6]" started-at="2023-11-10T08:54:31Z" name="tearDown" finished-at="2023-11-10T08:54:31Z" duration-ms="370" status="PASS">
+        </test-method> <!-- ApplicableSubjectTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@24f43aa3]" started-at="2023-11-15T10:49:08Z" name="tearDown" finished-at="2023-11-15T10:49:09Z" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_Subjects_00006 -->
-      <class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@7e22550a]" started-at="2023-11-10T08:54:31Z" name="setup" finished-at="2023-11-10T08:54:34Z" duration-ms="2687" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="currentAssignmetTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@7e22550a]" started-at="2023-11-10T08:54:34Z" name="currentAssignmetTest" finished-at="2023-11-10T08:54:46Z" duration-ms="12151" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- currentAssignmetTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009@7e22550a]" started-at="2023-11-10T08:54:46Z" name="tearDown" finished-at="2023-11-10T08:54:46Z" duration-ms="304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009 -->
-      <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@3f0846c6]" started-at="2023-11-10T08:53:46Z" name="setup" finished-at="2023-11-10T08:53:52Z" duration-ms="5762" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@3f0846c6]" started-at="2023-11-10T08:53:54Z" name="loginTest" data-provider="Login" finished-at="2023-11-10T08:54:09Z" duration-ms="15913" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[77118576036]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001@3f0846c6]" started-at="2023-11-10T08:54:10Z" name="tearDown" finished-at="2023-11-10T08:54:11Z" duration-ms="1245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001 -->
-    </test> <!-- portalApp -->
-  </suite> <!-- StudentportalDashboard -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

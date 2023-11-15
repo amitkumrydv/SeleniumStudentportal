@@ -21,4 +21,6 @@ public void captureFullScreen(WebDriver driver, String tname) throws IOException
 		
 	}
 
+
+
 }
