@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-15T10:48:19Z" name="Default suite" finished-at="2023-11-15T10:49:09Z" duration-ms="49414">
+  <suite started-at="2023-11-19T03:32:11Z" name="Default suite" finished-at="2023-11-19T03:32:50Z" duration-ms="39361">
     <groups>
     </groups>
-    <test started-at="2023-11-15T10:48:19Z" name="Default test" finished-at="2023-11-15T10:49:09Z" duration-ms="49414">
+    <test started-at="2023-11-19T03:32:11Z" name="Default test" finished-at="2023-11-19T03:32:50Z" duration-ms="39361">
       <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@24f43aa3]" started-at="2023-11-15T10:48:19Z" name="setup" finished-at="2023-11-15T10:48:26Z" duration-ms="6783" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@24f43aa3]" started-at="2023-11-19T03:32:11Z" name="setup" finished-at="2023-11-19T03:32:16Z" duration-ms="5358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ApplicableSubjectTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@24f43aa3]" started-at="2023-11-15T10:48:26Z" name="ApplicableSubjectTest" finished-at="2023-11-15T10:49:08Z" duration-ms="42196" status="FAIL">
+        <test-method signature="ApplicableSubjectTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@24f43aa3]" started-at="2023-11-19T03:32:16Z" name="ApplicableSubjectTest" finished-at="2023-11-19T03:32:50Z" duration-ms="33561" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (637, 953)
-  (Session info: chrome=119.0.6045.124)
+              <![CDATA[element click intercepted: Element is not clickable at point (637, 1154)
+  (Session info: chrome=119.0.6045.160)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c15b5ea70c1e1e18b4ce4ba48b795701]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88f4359a5e21f428e3bfc3a5842bf99f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (637, 953)
-  (Session info: chrome=119.0.6045.124)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (637, 1154)
+  (Session info: chrome=119.0.6045.160)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-HKLU73H', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c15b5ea70c1e1e18b4ce4ba48b795701
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\AMITY~1.DES\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88f4359a5e21f428e3bfc3a5842bf99f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -48,7 +48,7 @@ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Delegating
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at com.sun.proxy.$Proxy24.click(Unknown Source)
-at com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod.clickToViewBacklogSubject(SubjectPageObjectMethod.java:72)
+at com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod.clickToViewBacklogSubject(SubjectPageObjectMethod.java:73)
 at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:139)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -81,7 +81,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApplicableSubjectTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@24f43aa3]" started-at="2023-11-15T10:49:08Z" name="tearDown" finished-at="2023-11-15T10:49:09Z" duration-ms="359" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@24f43aa3]" started-at="2023-11-19T03:32:50Z" name="tearDown" finished-at="2023-11-19T03:32:50Z" duration-ms="391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

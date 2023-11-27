@@ -67,7 +67,11 @@ public class SubjectPageObjectMethod extends SubjectPageObject {
 	}
 	
 	
-	public void clickToViewBacklogSubject() {
+	public void clickToViewBacklogSubject() throws Exception {
+		
+		Thread.sleep(5000);
+		
+		
 		
 		viewBacklogSubjectsTextLink.click();
 	}
