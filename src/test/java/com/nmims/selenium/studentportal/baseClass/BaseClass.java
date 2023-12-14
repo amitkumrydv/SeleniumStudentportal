@@ -40,7 +40,7 @@ public class BaseClass {
 
 	@Parameters("browser")
 	@BeforeClass
-	public static WebDriver setup() {
+	public static void setup() {
 
 		logger = Logger.getLogger("Selenium_studentPortal");
 		PropertyConfigurator.configure("Log4j.properties");
@@ -107,7 +107,7 @@ public class BaseClass {
 		}
 
 		driver.manage().window().maximize();
-		return driver;
+		//return driver;
 	}
 
 	public String randomestring() // Generat rendom email user defne method method
