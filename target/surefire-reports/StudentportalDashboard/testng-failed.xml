@@ -9,8 +9,8 @@
     <classes>
       <class name="com.nmims.selenium.studentportal.testCase.TC_SideBarMenuTest_00010">
         <methods>
+          <include name="sideBarMenueIconsTest"/>
           <include name="setup"/>
-          <include name="ongoingSubjectTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.nmims.selenium.studentportal.testCase.TC_SideBarMenuTest_00010 -->

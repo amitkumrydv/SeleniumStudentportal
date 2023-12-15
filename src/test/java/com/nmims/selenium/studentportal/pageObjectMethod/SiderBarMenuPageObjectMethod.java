@@ -31,12 +31,12 @@ public class SiderBarMenuPageObjectMethod extends SiderBarMenuPageObject  {
 	// Dashboard
 	public void isDisplayDashboardIcon() {
 
-		clickableDashboard.isDisplayed();
+		clickableDashboardStudentportal.isDisplayed();
 	}
 
 	public void clickOnDisplayDashboardIcon() {
 
-		clickableDashboard.click();
+		clickableDashboardStudentportal.click();
 	}
 
 	// Acads

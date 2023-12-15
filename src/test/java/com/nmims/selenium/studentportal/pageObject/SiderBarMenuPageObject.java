@@ -12,78 +12,53 @@ import com.nmims.selenium.studentportal.action.ActionClass;
 import com.nmims.selenium.studentportal.baseClass.BaseClass;
 
 public class SiderBarMenuPageObject extends BaseClass {
-	
-	
-	
+
 	ActionClass actionClass;
-	
-	public SiderBarMenuPageObject (WebDriver driver) {
-		
+	WebDriverWait wait = new WebDriverWait(driver, 10);
+
+	public SiderBarMenuPageObject(WebDriver driver) {
+
 		PageFactory.initElements(driver, this);
 	}
-	
-  @FindBy (xpath="//li[@id='toggle-nav']//a")
-  public WebElement expandMenueArrow;
-  
-  
-  @FindBy (xpath="//li[@id=\"ListwithToltip\"]//a[@href='/authenticate/home']")
-  public WebElement clickableDashboard;
-  
-  
-  @FindBy (xpath="//li[@id=\"ListwithToltip\"]//a[@href='/acads/student/viewStudentTimeTable']")
-  public WebElement clickableAcad;
-	
-  
-  @FindBy (xpath="//li[@id=\"ListwithToltip\"]//a[@href='/studentportal/student/viewCourseHomePage']")
-  public WebElement clickableMycourses;
-  
-  
-  // This is dynamic xpath becouse of change month and year
-  @FindBy (xpath="//li[@id=\"ListwithToltip\"]//a[@href=\"/acads/student/videosHome?pageNo=1&academicCycle=Jul2023\"]")
-  public WebElement clickableSesionvideo;
-  
-  
-  @FindBy (xpath="//li[@id=\"ListwithToltip\"]//a[@href='/studentportal/student/bookmarks']")
-  public WebElement clickableBookmark;
-  
-  
-  @FindBy (xpath="//a[@href=\"/exam/student/getMostRecentResults\"]/p[text()='Exam']")
-  public WebElement ClickableMousHoverExam;
-  
- 
-  @FindBy (xpath="//a[@href=\"/studentportal/student/connectWithUs\"]/p[text()='Student Support']")
-  public WebElement ClickableMousHoverStudentSupport;
-  
-  
-  
-  
-  @FindBy (xpath="//li[@id=\"ListwithToltip\"]//a[@href=\"/almashines/student/welcomeToAlmashines\"]")
-  public WebElement ClickableNGASCEAlumniPortal;
-  
-  
-  
-  
-  @FindBy (xpath="//li[@id=\"ListwithToltip\"]//a[@href='/studentportal/student/myBadges']")
-  public WebElement ClickableMyBadges;
-  
-  
-  
-  @FindBy (xpath="//a[@href=\"#\"]/p[text()='Quick Links']")
-  public WebElement mouseHoverQuickLinks;
-  
-  
-  
-  
-  
-  public void clickOnDisplayExamIcon() {
-	  
-	  
-	  WebDriverWait wait = new WebDriverWait(driver, 10);
-	  WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href=\"/exam/student/getMostRecentResults\"]")));
-	  
-	  boolean ExamButtonelement = element.isDisplayed();
-	  System.out.println("ExamButtonelement "+ExamButtonelement);
-	  element.click();
+
+	@FindBy(xpath = "//li[@id='toggle-nav']//a")
+	public WebElement expandMenueArrow;
+
+	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href='/authenticate/home']")
+	public WebElement clickableDashboardAuthenticate;
+
+	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href='/studentportal/home']")
+	public WebElement clickableDashboardStudentportal;
+
+	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href='/acads/student/viewStudentTimeTable']")
+	public WebElement clickableAcad;
+
+	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href='/studentportal/student/viewCourseHomePage']")
+	public WebElement clickableMycourses;
+
+	// This is dynamic xpath becouse of change month and year
+	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href=\"/acads/student/videosHome?pageNo=1&academicCycle=Jul2023\"]")
+	public WebElement clickableSesionvideo;
+
+	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href='/studentportal/student/bookmarks']")
+	public WebElement clickableBookmark;
+
+	@FindBy(xpath = "//a[@href='/exam/student/getMostRecentResults']")
+	public WebElement ClickableMousHoverExam;
+
+	@FindBy(xpath = "//a[@href=\"/studentportal/student/connectWithUs\"]//span")
+	public WebElement ClickableMousHoverStudentSupport;
+
+	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href=\"/almashines/student/welcomeToAlmashines\"]")
+	public WebElement ClickableNGASCEAlumniPortal;
+
+	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href='/studentportal/student/myBadges']")
+	public WebElement ClickableMyBadges;
+
+	@FindBy(xpath = "//a[@href=\"#\"]")
+	public WebElement mouseHoverQuickLinks;
+
+	public void clickOnDisplayExamIcon() {
 
 //		//actionClass.mouseover(driver, ClickableMousHoverExam);
 //		boolean ExamButtonelement = ClickableMousHoverExam.isDisplayed();
@@ -91,34 +66,52 @@ public class SiderBarMenuPageObject extends BaseClass {
 //		
 //		ClickableMousHoverExam.click();
 	}
-  
+
 //To check the Dashboard top arrow
 	public boolean isVisibleExpandArrow() {
 
 		boolean isDisplayManueArrow = expandMenueArrow.isDisplayed();
-		System.out.println("isDisplayManueArrow "+isDisplayManueArrow);
+		System.out.println("isDisplayManueArrow " + isDisplayManueArrow);
 		return isDisplayManueArrow;
 
 	}
 
 	// Dashboard
 	public void isDisplayDashboardIcon() {
+		
+		
+		
 
-		boolean isDisplayDashboardIcon= clickableDashboard.isDisplayed();
-		System.out.println("isDisplayDashboardIcon "+isDisplayDashboardIcon);
+//		if (clickableDashboardAuthenticate != null && clickableDashboardAuthenticate.isSelected()) {
+//			WebElement clickableDashboardIconAuthenticate = wait
+//					.until(ExpectedConditions.elementToBeClickable(clickableDashboardAuthenticate));
+//			boolean isDisplayDashboardIcon = clickableDashboardIconAuthenticate.isDisplayed();
+//			System.out.println("isDisplayDashboardIcon " + isDisplayDashboardIcon);
+//		}
+		if (clickableDashboardStudentportal != null && clickableDashboardStudentportal.isEnabled()) {
+			WebElement clickableDashboardIconStudentportal = wait
+					.until(ExpectedConditions.elementToBeClickable(clickableDashboardStudentportal));
+
+			boolean isDisplayDashboardIcon = clickableDashboardIconStudentportal.isDisplayed();
+			logger.info("isDisplayDashboardIcon " + isDisplayDashboardIcon);
+
+		} else {
+			System.out.println(" Element not found ");
+		}
 	}
 
 	public void clickOnDisplayDashboardIcon() {
 
-		clickableDashboard.click();
+		clickableDashboardAuthenticate.click();
 	}
 
 	// Acads
 
 	public void isDisplayAcadIcon() {
 
-		boolean isDisplayAcadIcon=clickableAcad.isDisplayed();
-		System.out.println("isDisplayAcadIcon "+isDisplayAcadIcon);
+		WebElement clickableAcadIcan = wait.until(ExpectedConditions.elementToBeClickable(clickableAcad));
+		boolean acadButtonelement = clickableAcadIcan.isDisplayed();
+		logger.info("clickableAcadIcan " + acadButtonelement);
 	}
 
 	public void clickOnDisplayAcadIcon() {
@@ -129,9 +122,9 @@ public class SiderBarMenuPageObject extends BaseClass {
 	// My Courses
 	public void isDisplayMycoursesIcon() {
 
-		boolean isDisplayMycoursesIcon=clickableMycourses.isDisplayed();
-		
-		System.out.println("isDisplayMycoursesIcon "+isDisplayMycoursesIcon);
+		WebElement clickableMycoursesIcon = wait.until(ExpectedConditions.elementToBeClickable(clickableMycourses));
+		boolean myCoursesIconButtone = clickableMycoursesIcon.isDisplayed();
+		logger.info("myCoursesIconButtonelement " + myCoursesIconButtone);
 	}
 
 	public void clickOnDisplayMycoursesIcon() {
@@ -142,6 +135,10 @@ public class SiderBarMenuPageObject extends BaseClass {
 	// Session video
 
 	public void isDisplaySesionvideoIcon() {
+
+		WebElement clickableSesionvideoIcon = wait.until(ExpectedConditions.elementToBeClickable(clickableSesionvideo));
+		boolean sesionvideoIconButtone = clickableSesionvideoIcon.isDisplayed();
+		logger.info("sesionvideoIconButtone " + sesionvideoIconButtone);
 
 		clickableSesionvideo.isDisplayed();
 	}
@@ -155,6 +152,10 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 	public void isDisplayBookmarkIcon() {
 
+		WebElement clickableBookmarkIcon = wait.until(ExpectedConditions.elementToBeClickable(clickableBookmark));
+		boolean bookmarkIconButtone = clickableBookmarkIcon.isDisplayed();
+		logger.info("bookmarkIconButtone " + bookmarkIconButtone);
+
 		clickableBookmark.isDisplayed();
 	}
 
@@ -166,73 +167,69 @@ public class SiderBarMenuPageObject extends BaseClass {
 	// Exam
 	public void isDisplayExamIcon() {
 
-		ClickableMousHoverExam.isDisplayed();
-	}
+		WebElement clickableExamIconn = wait.until(ExpectedConditions.elementToBeClickable(ClickableMousHoverExam));
+		boolean examIconButtone = clickableExamIconn.isDisplayed();
+		logger.info("examIconButtone " + examIconButtone);
 
+	}
 
 	// StudentSupport
 
 	public void isDisplayStudentSupportIcon() {
 
-		//actionClass.mouseover(driver, ClickableMousHoverExam);
-				boolean isDisplayStudentSupportIcon = ClickableMousHoverStudentSupport.isDisplayed();
-				System.out.println("isDisplayStudentSupportIcon "+isDisplayStudentSupportIcon);
-				
-			     ClickableMousHoverExam.click();
+		WebElement clickableStudentSupportIcon = wait
+				.until(ExpectedConditions.elementToBeClickable(ClickableMousHoverStudentSupport));
+		boolean studentSupportIconButtone = clickableStudentSupportIcon.isDisplayed();
+		logger.info("studentSupportIconButtone " + studentSupportIconButtone);
+
 	}
 
 	public void clickOnDisplayStudentSupportIcon() {
 
 		ClickableMousHoverStudentSupport.click();
 	}
-	
-	
-	//NGASCEAlumniPortal
-	
+
+	// NGASCEAlumniPortal
+
 	public void isDisplayNGASCEAlumniPortalIcon() {
 
-		ClickableNGASCEAlumniPortal.isDisplayed();
-	}
-	
-	
-	public void clickOnDisplayNGASCEAlumniPortalIcon() {
+		WebElement clickableNGASCEAlumniPortalIcon = wait
+				.until(ExpectedConditions.elementToBeClickable(ClickableNGASCEAlumniPortal));
+		boolean NGASCEAlumniPortalIconButtone = clickableNGASCEAlumniPortalIcon.isDisplayed();
+		logger.info("NGASCEAlumniPortalIconButtone " + NGASCEAlumniPortalIconButtone);
 
+	}
+
+	public void clickOnDisplayNGASCEAlumniPortalIcon() {
 
 		ClickableNGASCEAlumniPortal.click();
 	}
-	
-	
-	
-	//MyBadges
+
+	// MyBadges
 	public void isDisplayMyBadgesIcon() {
 
-		ClickableMyBadges.isDisplayed();
+		WebElement clickableMyBadgesIcon = wait.until(ExpectedConditions.elementToBeClickable(ClickableMyBadges));
+		boolean myBadgesIconButtone = clickableMyBadgesIcon.isDisplayed();
+		logger.info("myBadgesIconButtone " + myBadgesIconButtone);
 	}
-	
-	
-	public void clickOnDisplayMyBadgesIcon() {
 
+	public void clickOnDisplayMyBadgesIcon() {
 
 		ClickableMyBadges.click();
 	}
-	
-	
-	
-	//QuickLinks
+
+	// QuickLinks
 	public void isDisplayQuickLinksIcon() {
 
-		mouseHoverQuickLinks.isDisplayed();
-	}
-	
-	
-	public void clickOnDisplayQuickLinksIcon() {
+		WebElement clickableQuickLinksIcon = wait.until(ExpectedConditions.elementToBeClickable(mouseHoverQuickLinks));
+		boolean quickLinksIconButtone = clickableQuickLinksIcon.isDisplayed();
+		logger.info("quickLinksIconButtone " + quickLinksIconButtone);
 
+	}
+
+	public void clickOnDisplayQuickLinksIcon() {
 
 		mouseHoverQuickLinks.click();
 	}
-	
-	
-  
-  
-	
+
 }
