@@ -1,0 +1,10 @@
+com\nmims\selenium\studentportal\testCase\TC_CurrentAssignment_00009.class
+com\nmims\selenium\studentportal\action\ActionClass.class
+com\nmims\selenium\studentportal\utilities\Reporting.class
+com\nmims\selenium\studentportal\pageObject\LoginPageObject.class
+com\nmims\selenium\studentportal\baseClass\BaseClass.class
+com\nmims\selenium\studentportal\pageObjectMethod\LoginPageObjectMethod.class
+com\nmims\selenium\studentportal\pageObject\SiderBarMenuPageObject.class
+com\nmims\selenium\studentportal\utilities\ReadConfig.class
+com\nmims\selenium\studentportal\actionInterface\ActionInterface.class
+com\nmims\selenium\studentportal\utilities\CaptureScreen.class

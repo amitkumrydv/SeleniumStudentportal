@@ -28,7 +28,7 @@ public class SubjectPageObjectMethod extends SubjectPageObject {
 	
 	
 
-	// apply substring on the web element 
+	// Comman method to apply substring on the web element 
 	private List<String> applySubstring(List<WebElement> inputList, int startIndex) {
 		//logger.info("Applying Substring on the Suject");
 		List<String> modifiedList = new ArrayList<String>();
@@ -42,6 +42,8 @@ public class SubjectPageObjectMethod extends SubjectPageObject {
 		return modifiedList;
 	}
 	
+	
+	// If student does not have subject
 	public String getZeroOngoingSubject() {
 		
 		String ZeroSubject =zeroOngoingSubject.getText();
@@ -49,4 +51,44 @@ public class SubjectPageObjectMethod extends SubjectPageObject {
 	}
 	
 
+	
+	// Using above method for substring logic
+	public List<String> getBacklogSubjectList() {
+		
+		 ArrayList<WebElement> backlogSubjectsListFromUI = new ArrayList<>(SubjectPageObject.backlogSubjects);
+	//	 List<String> elementTexts = new ArrayList<>();
+		
+//		 for (WebElement element : backlogSubjectsListFromUI) {
+//	            elementTexts.add(element.getText());
+//	        }
+		 List<String> modifiedList = applySubstring(backlogSubjectsListFromUI, 2);
+		
+		return modifiedList;
+	}
+	
+	
+	public void clickToViewBacklogSubject() throws Exception {
+		
+		Thread.sleep(5000);
+		
+		
+		
+		viewBacklogSubjectsTextLink.click();
+	}
+	
+	
+	public List<String> getBacklogSubjectFromPopup(){
+		
+		ArrayList <WebElement> backlogSubjectFromPopup= new ArrayList<>(SubjectPageObject.listOfBacklogSubjctsInPopup);
+		List<String> elementTexts = new ArrayList<>();
+		 for (WebElement element : backlogSubjectFromPopup) {
+	            elementTexts.add(element.getText());
+         }
+		// List<String> removeNumbersFromeSubject = applySubstring(backlogSubjectFromPopup, 2);
+		
+		return elementTexts;
+	}
+	
+	
+	
 }

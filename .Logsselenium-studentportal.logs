@@ -5508,6 +5508,7 @@
 2023-11-10 14:24:45,692 [main] INFO Selenium_studentPortal - Successful login test 
 2023-11-10 14:24:46,223 - Selenium_studentPortal -INFO - assignmentList  --> [B2B Marketing, , , , , , Business: Ethics, Governance & Risk, Integrated Marketing Communications, Marketing Research, Services Marketing]
 2023-11-10 14:24:46,223 [main] INFO Selenium_studentPortal - assignmentList  --> [B2B Marketing, , , , , , Business: Ethics, Governance & Risk, Integrated Marketing Communications, Marketing Research, Services Marketing]
+<<<<<<< HEAD
 2023-12-14 14:27:11,482 - Selenium_studentPortal -INFO - Size of the cookies : 1
 2023-12-14 14:27:11,482 [main] INFO Selenium_studentPortal - Size of the cookies : 1
 2023-12-14 14:27:11,486 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B286769CAC8AC9E1DA41B734D8506
@@ -6458,3 +6459,1085 @@
 2023-12-18 11:56:11,068 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
 2023-12-18 11:56:11,068 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
 2023-12-18 11:56:11,068 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+=======
+2023-11-10 15:28:58,769 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-10 15:28:58,769 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-10 15:28:58,790 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867CC348C4E3F13847090B7CB76
+2023-11-10 15:28:58,790 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867CC348C4E3F13847090B7CB76
+2023-11-10 15:29:00,761 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-10 15:29:00,761 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-10 15:29:00,773 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-10 15:29:00,773 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-10 15:29:00,789 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-10 15:29:00,789 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-10 15:29:01,019 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-10 15:29:01,019 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-10 15:29:01,344 - Selenium_studentPortal -INFO - Entered the password
+2023-11-10 15:29:01,344 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-10 15:29:17,910 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-10 15:29:17,910 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-10 15:29:18,415 - Selenium_studentPortal -INFO - Click on the logout button 
+2023-11-10 15:29:18,415 [main] INFO Selenium_studentPortal - Click on the logout button 
+2023-11-10 15:29:23,416 - Selenium_studentPortal -INFO - Page logout 
+2023-11-10 15:29:23,416 [main] INFO Selenium_studentPortal - Page logout 
+2023-11-10 15:29:23,430 - Selenium_studentPortal -INFO - Alert text Displayed : 
+2023-11-10 15:29:23,430 [main] INFO Selenium_studentPortal - Alert text Displayed : 
+2023-11-10 15:29:23,502 - Selenium_studentPortal -INFO - Logout
+2023-11-10 15:29:23,502 [main] INFO Selenium_studentPortal - Logout
+2023-11-10 15:29:26,487 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-10 15:29:26,487 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-10 15:29:26,488 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28671208426AF7E2498AF4BDB4BB
+2023-11-10 15:29:26,488 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28671208426AF7E2498AF4BDB4BB
+2023-11-10 15:29:28,626 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-10 15:29:28,626 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-10 15:29:28,627 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B286767D1A5511C618F7BE5EC7B67
+2023-11-10 15:29:28,627 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B286767D1A5511C618F7BE5EC7B67
+2023-11-10 15:29:28,900 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-10 15:29:28,900 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-10 15:29:28,911 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-10 15:29:28,911 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-10 15:29:28,921 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-10 15:29:28,921 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-10 15:29:29,134 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-10 15:29:29,134 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-10 15:29:29,378 - Selenium_studentPortal -INFO - Entered the password
+2023-11-10 15:29:29,378 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-10 15:29:50,814 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-10 15:29:50,814 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-10 15:29:50,816 - Selenium_studentPortal -INFO - Successful login test 
+2023-11-10 15:29:50,816 [main] INFO Selenium_studentPortal - Successful login test 
+2023-11-10 15:29:50,937 - Selenium_studentPortal -INFO -  Readed student Actual Name 
+2023-11-10 15:29:50,937 [main] INFO Selenium_studentPortal -  Readed student Actual Name 
+2023-11-10 15:29:51,624 - Selenium_studentPortal -INFO - Actual Student Details SOMESH TURDE
+2023-11-10 15:29:51,624 [main] INFO Selenium_studentPortal - Actual Student Details SOMESH TURDE
+2023-11-10 15:29:51,626 - Selenium_studentPortal -INFO - Expected student Name SOMESH TURDE
+2023-11-10 15:29:51,626 [main] INFO Selenium_studentPortal - Expected student Name SOMESH TURDE
+2023-11-10 15:29:51,627 - Selenium_studentPortal -INFO - Student Name is matched
+2023-11-10 15:29:51,627 [main] INFO Selenium_studentPortal - Student Name is matched
+2023-11-10 15:29:51,760 - Selenium_studentPortal -INFO - Data Displyed on header [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-11-10 15:29:51,760 [main] INFO Selenium_studentPortal - Data Displyed on header [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-11-10 15:29:51,948 - Selenium_studentPortal -INFO - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-11-10 15:29:51,948 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-11-10 15:29:51,949 - Selenium_studentPortal -INFO - Student details is matched from the UI
+2023-11-10 15:29:51,949 [main] INFO Selenium_studentPortal - Student details is matched from the UI
+2023-11-10 15:29:56,578 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-10 15:29:56,578 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-10 15:29:56,579 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867FB660156DC43704199755683
+2023-11-10 15:29:56,579 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867FB660156DC43704199755683
+2023-11-10 15:29:56,909 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-10 15:29:56,909 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-10 15:29:56,921 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-10 15:29:56,921 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-10 15:29:56,934 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-10 15:29:56,934 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-10 15:29:57,290 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-10 15:29:57,290 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-10 15:29:57,668 - Selenium_studentPortal -INFO - Entered the password
+2023-11-10 15:29:57,668 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-10 15:30:10,496 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-10 15:30:10,496 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-10 15:30:10,499 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-10 15:30:10,499 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-10 15:30:12,682 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@7aae1170
+2023-11-10 15:30:12,682 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@7aae1170
+2023-11-10 15:30:12,683 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-10 15:30:12,683 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-10 15:30:12,684 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-10 15:30:12,684 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-10 15:30:12,851 - Selenium_studentPortal -INFO - suject visible on the UI[Organisational Behaviour, Marketing Management, Management Theory and Practice, Information Systems for Managers, Financial Accounting & Analysis]
+2023-11-10 15:30:12,851 [main] INFO Selenium_studentPortal - suject visible on the UI[Organisational Behaviour, Marketing Management, Management Theory and Practice, Information Systems for Managers, Financial Accounting & Analysis]
+2023-11-10 15:30:12,852 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-10 15:30:12,852 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-10 15:30:12,956 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business Economics, Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]
+2023-11-10 15:30:12,956 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business Economics, Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]
+2023-11-10 15:30:12,958 - Selenium_studentPortal -INFO - expected---> [Business Economics, Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]  actualSubjects---> [Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]
+2023-11-10 15:30:12,958 [main] INFO Selenium_studentPortal - expected---> [Business Economics, Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]  actualSubjects---> [Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]
+2023-11-10 15:30:12,959 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-11-10 15:30:12,959 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-11-10 15:30:16,208 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-10 15:30:16,208 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-10 15:30:16,209 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867AE737BC6DB8DF435CFD7C6BF
+2023-11-10 15:30:16,209 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867AE737BC6DB8DF435CFD7C6BF
+2023-11-10 15:30:16,447 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-10 15:30:16,447 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-10 15:30:16,459 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-10 15:30:16,459 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-10 15:30:16,474 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-10 15:30:16,474 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-10 15:30:16,755 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-10 15:30:16,755 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-10 15:30:17,072 - Selenium_studentPortal -INFO - Entered the password
+2023-11-10 15:30:17,072 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-10 15:30:38,475 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-10 15:30:38,475 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-10 15:30:38,476 - Selenium_studentPortal -INFO - Successful login test 
+2023-11-10 15:30:38,476 [main] INFO Selenium_studentPortal - Successful login test 
+2023-11-10 15:30:38,600 - Selenium_studentPortal -INFO - numberOfAssignment -> 5
+2023-11-10 15:30:38,600 [main] INFO Selenium_studentPortal - numberOfAssignment -> 5
+2023-11-10 15:30:39,180 - Selenium_studentPortal -INFO - assignmentList  --> [Financial Accounting & Analysis, , , , , , Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]
+2023-11-10 15:30:39,180 [main] INFO Selenium_studentPortal - assignmentList  --> [Financial Accounting & Analysis, , , , , , Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]
+2023-11-12 16:01:58,795 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-12 16:01:58,795 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-12 16:01:58,804 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867B954F459D5B70214DF86D90E
+2023-11-12 16:01:58,804 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867B954F459D5B70214DF86D90E
+2023-11-12 16:01:59,154 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 16:01:59,154 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 16:01:59,170 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-12 16:01:59,170 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-12 16:01:59,190 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-12 16:01:59,190 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-12 16:01:59,379 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-12 16:01:59,379 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-12 16:01:59,644 - Selenium_studentPortal -INFO - Entered the password
+2023-11-12 16:01:59,644 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-12 16:02:37,519 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-12 16:02:37,519 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-12 16:02:37,522 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-12 16:02:37,522 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-12 16:02:40,617 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@1f736d00
+2023-11-12 16:02:40,617 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@1f736d00
+2023-11-12 16:02:40,618 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-12 16:02:40,618 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-12 16:02:40,619 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-12 16:02:40,619 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-12 16:02:40,803 - Selenium_studentPortal -INFO - suject visible on the UI[Organisational Behaviour, Marketing Management, Management Theory and Practice, Information Systems for Managers, Financial Accounting & Analysis]
+2023-11-12 16:02:40,803 [main] INFO Selenium_studentPortal - suject visible on the UI[Organisational Behaviour, Marketing Management, Management Theory and Practice, Information Systems for Managers, Financial Accounting & Analysis]
+2023-11-12 16:02:40,803 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-12 16:02:40,803 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-12 16:02:40,905 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business Economics, Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]
+2023-11-12 16:02:40,905 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business Economics, Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]
+2023-11-12 16:02:40,908 - Selenium_studentPortal -INFO - expected---> [Business Economics, Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]  actualSubjects---> [Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]
+2023-11-12 16:02:40,908 [main] INFO Selenium_studentPortal - expected---> [Business Economics, Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]  actualSubjects---> [Financial Accounting & Analysis, Information Systems for Managers, Management Theory and Practice, Marketing Management, Organisational Behaviour]
+2023-11-12 16:02:40,911 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-11-12 16:02:40,911 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-11-12 16:15:01,460 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-12 16:15:01,460 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-12 16:15:01,472 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867BC7E290E5E6753EF735F0AE2
+2023-11-12 16:15:01,472 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867BC7E290E5E6753EF735F0AE2
+2023-11-12 16:15:01,822 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 16:15:01,822 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 16:15:01,834 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-12 16:15:01,834 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-12 16:15:01,848 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-12 16:15:01,848 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-12 16:15:02,041 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-12 16:15:02,041 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-12 16:15:02,239 - Selenium_studentPortal -INFO - Entered the password
+2023-11-12 16:15:02,239 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-12 16:15:02,594 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-12 16:15:02,594 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-12 16:15:02,594 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-12 16:15:02,594 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-12 16:15:05,791 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@270d43a7
+2023-11-12 16:15:05,791 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@270d43a7
+2023-11-12 16:15:05,792 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-12 16:15:05,792 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-12 16:49:03,823 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-12 16:49:03,823 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-12 16:49:03,833 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867D85E0D67AC6CDC6D2F2A3CDB
+2023-11-12 16:49:03,833 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867D85E0D67AC6CDC6D2F2A3CDB
+2023-11-12 16:49:04,102 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 16:49:04,102 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 16:49:04,114 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-12 16:49:04,114 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-12 16:49:04,127 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-12 16:49:04,127 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-12 16:49:04,317 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-12 16:49:04,317 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-12 16:49:04,513 - Selenium_studentPortal -INFO - Entered the password
+2023-11-12 16:49:04,513 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-12 16:49:04,888 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-12 16:49:04,888 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-12 16:49:04,890 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-12 16:49:04,890 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-12 16:49:07,594 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@270d43a7
+2023-11-12 16:49:07,594 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@270d43a7
+2023-11-12 16:49:07,594 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-12 16:49:07,594 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-12 16:51:14,198 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-12 16:51:14,198 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-12 16:51:14,208 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867C3B516576F43A8879601BB1B
+2023-11-12 16:51:14,208 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867C3B516576F43A8879601BB1B
+2023-11-12 16:51:14,534 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 16:51:14,534 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 16:51:14,544 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-12 16:51:14,544 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-12 16:51:14,557 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-12 16:51:14,557 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-12 16:51:14,804 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-12 16:51:14,804 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-12 16:51:15,049 - Selenium_studentPortal -INFO - Entered the password
+2023-11-12 16:51:15,049 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-12 16:51:23,084 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-12 16:51:23,084 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-12 16:51:23,085 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-12 16:51:23,085 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-12 16:51:26,391 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@270d43a7
+2023-11-12 16:51:26,391 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@270d43a7
+2023-11-12 16:51:26,393 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-12 16:51:26,393 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-12 17:15:50,903 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-12 17:15:50,903 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-12 17:15:50,914 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28675920777F7BC8A492465B9EDF
+2023-11-12 17:15:50,914 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28675920777F7BC8A492465B9EDF
+2023-11-12 17:15:51,357 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 17:15:51,357 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 17:15:51,377 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-12 17:15:51,377 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-12 17:15:51,402 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-12 17:15:51,402 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-12 17:15:51,762 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-12 17:15:51,762 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-12 17:15:52,197 - Selenium_studentPortal -INFO - Entered the password
+2023-11-12 17:15:52,197 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-12 17:16:06,186 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-12 17:16:06,186 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-12 17:16:06,188 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-12 17:16:06,188 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-12 17:16:09,657 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@4be0a27d
+2023-11-12 17:16:09,657 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@4be0a27d
+2023-11-12 17:16:09,658 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-12 17:16:09,658 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-12 18:02:29,654 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-12 18:02:29,654 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-12 18:02:29,674 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28670183718559D28BBB4ACC9564
+2023-11-12 18:02:29,674 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28670183718559D28BBB4ACC9564
+2023-11-12 18:02:30,151 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 18:02:30,151 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 18:02:30,172 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-12 18:02:30,172 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-12 18:02:30,193 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-12 18:02:30,193 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-12 18:02:30,457 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-12 18:02:30,457 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-12 18:02:30,734 - Selenium_studentPortal -INFO - Entered the password
+2023-11-12 18:02:30,734 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-12 18:02:49,462 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-12 18:02:49,462 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-12 18:02:49,463 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-12 18:02:49,463 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-12 18:02:52,248 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@7b5b5bfe
+2023-11-12 18:02:52,248 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@7b5b5bfe
+2023-11-12 18:02:52,248 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-12 18:02:52,248 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-12 19:09:40,676 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-12 19:09:40,676 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-12 19:09:40,682 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867D1C5AF0B8E9C83EF5F4030BD
+2023-11-12 19:09:40,682 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867D1C5AF0B8E9C83EF5F4030BD
+2023-11-12 19:09:40,959 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 19:09:40,959 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 19:09:40,968 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-12 19:09:40,968 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-12 19:09:40,978 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-12 19:09:40,978 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-12 19:09:41,139 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-12 19:09:41,139 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-12 19:09:41,325 - Selenium_studentPortal -INFO - Entered the password
+2023-11-12 19:09:41,325 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-12 19:09:48,989 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-12 19:09:48,989 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-12 19:09:48,992 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-12 19:09:48,992 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-12 19:09:51,625 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@4be0a27d
+2023-11-12 19:09:51,625 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@4be0a27d
+2023-11-12 19:09:51,626 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-12 19:09:51,626 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-12 19:09:51,626 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-12 19:09:51,626 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-12 19:09:51,684 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-12 19:09:51,684 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-12 19:09:51,685 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-12 19:09:51,685 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-12 19:21:12,994 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-12 19:21:12,994 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-12 19:21:13,001 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867CF2751881255D0C5264FED21
+2023-11-12 19:21:13,001 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867CF2751881255D0C5264FED21
+2023-11-12 19:21:13,307 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 19:21:13,307 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 19:21:13,317 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-12 19:21:13,317 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-12 19:21:13,329 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-12 19:21:13,329 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-12 19:21:13,521 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-12 19:21:13,521 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-12 19:21:13,701 - Selenium_studentPortal -INFO - Entered the password
+2023-11-12 19:21:13,701 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-12 19:21:23,421 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-12 19:21:23,421 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-12 19:21:23,426 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-12 19:21:23,426 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-12 19:21:26,350 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@7b5b5bfe
+2023-11-12 19:21:26,350 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@7b5b5bfe
+2023-11-12 19:21:26,360 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-12 19:21:26,360 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-12 19:21:26,361 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-12 19:21:26,361 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-12 19:21:26,458 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-12 19:21:26,458 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-12 19:21:26,459 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-12 19:21:26,459 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-12 19:23:40,835 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-12 19:23:40,835 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-12 19:23:40,843 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867542F0FD564B8F0A367713337
+2023-11-12 19:23:40,843 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867542F0FD564B8F0A367713337
+2023-11-12 19:23:41,145 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 19:23:41,145 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 19:23:41,155 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-12 19:23:41,155 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-12 19:23:41,167 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-12 19:23:41,167 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-12 19:23:41,362 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-12 19:23:41,362 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-12 19:23:41,563 - Selenium_studentPortal -INFO - Entered the password
+2023-11-12 19:23:41,563 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-12 19:23:48,861 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-12 19:23:48,861 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-12 19:23:48,865 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-12 19:23:48,865 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-12 19:23:51,566 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@7b5b5bfe
+2023-11-12 19:23:51,566 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@7b5b5bfe
+2023-11-12 19:23:51,567 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-12 19:23:51,567 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-12 19:23:51,567 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-12 19:23:51,567 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-12 19:23:51,633 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-12 19:23:51,633 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-12 19:23:51,634 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-12 19:23:51,634 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-12 19:23:51,705 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-12 19:23:51,705 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-12 22:31:04,252 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-12 22:31:04,252 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-12 22:31:04,264 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867F9F10BBE604D70307D3E9FDA
+2023-11-12 22:31:04,264 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867F9F10BBE604D70307D3E9FDA
+2023-11-12 22:31:04,585 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 22:31:04,585 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-12 22:31:04,599 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-12 22:31:04,599 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-12 22:31:04,614 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-12 22:31:04,614 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-12 22:31:04,840 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-12 22:31:04,840 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-12 22:31:05,085 - Selenium_studentPortal -INFO - Entered the password
+2023-11-12 22:31:05,085 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-12 22:31:47,153 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-12 22:31:47,153 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-12 22:31:47,157 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-12 22:31:47,157 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-12 22:31:50,336 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@36ef1d65
+2023-11-12 22:31:50,336 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@36ef1d65
+2023-11-12 22:31:50,338 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-12 22:31:50,338 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-12 22:31:50,339 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-12 22:31:50,339 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-12 22:31:50,471 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-12 22:31:50,471 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-12 22:31:50,471 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-12 22:31:50,471 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-12 22:31:50,556 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-12 22:31:50,556 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 09:22:38,405 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-13 09:22:38,405 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-13 09:22:38,420 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28671275DDF2F73C3B4059C7A131
+2023-11-13 09:22:38,420 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28671275DDF2F73C3B4059C7A131
+2023-11-13 09:22:38,839 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-13 09:22:38,839 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-13 09:22:38,849 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-13 09:22:38,849 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-13 09:22:38,860 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-13 09:22:38,860 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-13 09:22:39,078 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-13 09:22:39,078 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-13 09:22:39,352 - Selenium_studentPortal -INFO - Entered the password
+2023-11-13 09:22:39,352 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-13 09:22:47,738 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-13 09:22:47,738 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-13 09:22:47,741 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-13 09:22:47,741 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-13 09:22:50,874 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@36ef1d65
+2023-11-13 09:22:50,874 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@36ef1d65
+2023-11-13 09:22:50,875 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-13 09:22:50,875 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-13 09:22:50,876 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-13 09:22:50,876 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-13 09:22:50,966 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 09:22:50,966 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 09:22:50,966 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-13 09:22:50,966 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-13 09:22:51,051 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 09:22:51,051 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 09:57:55,855 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-13 09:57:55,855 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-13 09:57:55,878 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867E19A16A808B2E83441D2986C
+2023-11-13 09:57:55,878 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867E19A16A808B2E83441D2986C
+2023-11-13 09:57:56,203 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-13 09:57:56,203 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-13 09:57:56,214 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-13 09:57:56,214 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-13 09:57:56,226 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-13 09:57:56,226 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-13 09:57:56,426 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-13 09:57:56,426 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-13 09:57:56,662 - Selenium_studentPortal -INFO - Entered the password
+2023-11-13 09:57:56,662 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-13 09:58:10,732 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-13 09:58:10,732 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-13 09:58:10,733 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-13 09:58:10,733 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-13 09:58:13,864 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@50ab56e2
+2023-11-13 09:58:13,864 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@50ab56e2
+2023-11-13 09:58:13,864 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-13 09:58:13,864 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-13 09:58:13,865 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-13 09:58:13,865 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-13 09:58:13,938 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 09:58:13,938 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 09:58:13,939 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-13 09:58:13,939 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-13 09:58:14,016 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 09:58:14,016 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:02:13,292 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-13 10:02:13,292 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-13 10:02:13,309 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B286719512ED4DB51946DAECC963B
+2023-11-13 10:02:13,309 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B286719512ED4DB51946DAECC963B
+2023-11-13 10:02:13,644 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-13 10:02:13,644 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-13 10:02:13,654 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-13 10:02:13,654 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-13 10:02:13,668 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-13 10:02:13,668 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-13 10:02:13,871 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-13 10:02:13,871 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-13 10:02:14,174 - Selenium_studentPortal -INFO - Entered the password
+2023-11-13 10:02:14,174 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-13 10:02:22,329 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-13 10:02:22,329 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-13 10:02:22,332 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-13 10:02:22,332 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-13 10:02:25,529 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@50ab56e2
+2023-11-13 10:02:25,529 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@50ab56e2
+2023-11-13 10:02:25,529 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-13 10:02:25,529 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-13 10:02:25,530 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-13 10:02:25,530 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-13 10:02:25,605 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:02:25,605 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:02:25,606 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-13 10:02:25,606 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-13 10:02:25,689 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:02:25,689 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:03:21,079 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-13 10:03:21,079 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-13 10:03:21,087 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28676E6511789AAF5C35BBCA3BCA
+2023-11-13 10:03:21,087 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28676E6511789AAF5C35BBCA3BCA
+2023-11-13 10:03:21,466 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-13 10:03:21,466 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-13 10:03:21,482 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-13 10:03:21,482 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-13 10:03:21,494 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-13 10:03:21,494 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-13 10:03:21,724 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-13 10:03:21,724 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-13 10:03:21,984 - Selenium_studentPortal -INFO - Entered the password
+2023-11-13 10:03:21,984 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-13 10:03:29,323 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-13 10:03:29,323 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-13 10:03:29,327 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-13 10:03:29,327 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-13 10:03:32,565 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@50ab56e2
+2023-11-13 10:03:32,565 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@50ab56e2
+2023-11-13 10:03:32,567 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-13 10:03:32,567 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-13 10:03:32,569 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-13 10:03:32,569 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-13 10:03:32,649 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:03:32,649 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:03:32,650 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-13 10:03:32,650 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-13 10:03:32,734 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:03:32,734 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:13:34,105 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-13 10:13:34,105 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-13 10:13:34,114 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28675A6E02D9058F6F4F3338C567
+2023-11-13 10:13:34,114 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28675A6E02D9058F6F4F3338C567
+2023-11-13 10:13:34,502 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-13 10:13:34,502 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-13 10:13:34,515 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-13 10:13:34,515 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-13 10:13:34,538 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-13 10:13:34,538 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-13 10:13:34,719 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-13 10:13:34,719 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-13 10:13:34,931 - Selenium_studentPortal -INFO - Entered the password
+2023-11-13 10:13:34,931 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-13 10:13:45,149 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-13 10:13:45,149 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-13 10:13:45,154 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-13 10:13:45,154 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-13 10:13:48,422 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@50ab56e2
+2023-11-13 10:13:48,422 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@50ab56e2
+2023-11-13 10:13:48,422 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2023-11-13 10:13:48,422 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2023-11-13 10:13:48,423 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-13 10:13:48,423 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-13 10:13:48,500 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:13:48,500 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:13:48,501 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-13 10:13:48,501 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-13 10:13:48,593 - Selenium_studentPortal -INFO - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-13 10:13:48,593 [main] INFO Selenium_studentPortal - [International Banking & Foreign Exchange Management, Research Methodology]
+2023-11-14 13:54:56,028 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-14 13:54:56,028 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-14 13:54:56,038 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28675D6F6586D31A6AEB61B17666
+2023-11-14 13:54:56,038 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28675D6F6586D31A6AEB61B17666
+2023-11-14 13:54:56,485 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-14 13:54:56,485 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-14 13:54:56,498 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-14 13:54:56,498 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-14 13:54:56,514 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-14 13:54:56,514 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-14 13:54:56,761 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-14 13:54:56,761 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-14 13:54:56,999 - Selenium_studentPortal -INFO - Entered the password
+2023-11-14 13:54:56,999 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-14 13:55:26,953 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-14 13:55:26,953 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-14 13:55:26,956 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-14 13:55:26,956 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-14 13:55:30,061 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@46fc522d
+2023-11-14 13:55:30,061 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@46fc522d
+2023-11-14 13:55:30,062 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-14 13:55:30,062 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-14 13:55:30,063 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-14 13:55:30,063 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-14 13:55:40,107 - Selenium_studentPortal -INFO - suject visible on the UI[]
+2023-11-14 13:55:40,107 [main] INFO Selenium_studentPortal - suject visible on the UI[]
+2023-11-14 13:55:40,108 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-14 13:55:40,108 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-14 13:55:40,250 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business: Ethics, Governance & Risk, Digital Payments, IT Security and Risk Management, Managing Business Process Outsourcing, Project, Research Methodology]
+2023-11-14 13:55:40,250 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business: Ethics, Governance & Risk, Digital Payments, IT Security and Risk Management, Managing Business Process Outsourcing, Project, Research Methodology]
+2023-11-14 13:55:40,251 - Selenium_studentPortal -INFO - expected---> [Business: Ethics, Governance & Risk, Digital Payments, IT Security and Risk Management, Managing Business Process Outsourcing, Project, Research Methodology]  actualSubjects---> []
+2023-11-14 13:55:40,251 [main] INFO Selenium_studentPortal - expected---> [Business: Ethics, Governance & Risk, Digital Payments, IT Security and Risk Management, Managing Business Process Outsourcing, Project, Research Methodology]  actualSubjects---> []
+2023-11-14 13:55:40,253 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-11-14 13:55:40,253 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-11-14 14:18:12,115 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-14 14:18:12,115 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-14 14:18:12,126 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867DE30A65335A69A1CF240794E
+2023-11-14 14:18:12,126 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867DE30A65335A69A1CF240794E
+2023-11-14 14:18:12,485 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-14 14:18:12,485 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-14 14:18:12,495 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-14 14:18:12,495 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-14 14:18:12,508 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-14 14:18:12,508 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-14 14:18:12,707 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-14 14:18:12,707 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-14 14:18:12,921 - Selenium_studentPortal -INFO - Entered the password
+2023-11-14 14:18:12,921 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-14 14:18:21,162 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-14 14:18:21,162 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-14 14:18:21,167 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-14 14:18:21,167 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-14 14:18:24,313 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@50ab56e2
+2023-11-14 14:18:24,313 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@50ab56e2
+2023-11-14 14:18:24,314 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-14 14:18:24,314 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-14 14:18:24,315 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-14 14:18:24,315 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-14 14:18:24,393 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology
+2 Project
+3 Managing Business Process Outsourcing
+4 IT Security and Risk Management
+5 Digital Payments
+6 Business: Ethics, Governance & Risk]
+2023-11-14 14:18:24,393 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology
+2 Project
+3 Managing Business Process Outsourcing
+4 IT Security and Risk Management
+5 Digital Payments
+6 Business: Ethics, Governance & Risk]
+2023-11-14 14:18:24,394 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-14 14:18:24,394 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-14 14:18:24,482 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business: Ethics, Governance & Risk, Digital Payments, IT Security and Risk Management, Managing Business Process Outsourcing, Project, Research Methodology]
+2023-11-14 14:18:24,482 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business: Ethics, Governance & Risk, Digital Payments, IT Security and Risk Management, Managing Business Process Outsourcing, Project, Research Methodology]
+2023-11-14 14:18:24,482 - Selenium_studentPortal -INFO - Subject is not matched from the UI
+2023-11-14 14:18:24,482 [main] INFO Selenium_studentPortal - Subject is not matched from the UI
+2023-11-14 20:00:34,845 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-14 20:00:34,845 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-14 20:00:34,857 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867F4AC9CA893CC29072A5FE558
+2023-11-14 20:00:34,857 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867F4AC9CA893CC29072A5FE558
+2023-11-14 20:00:35,228 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-14 20:00:35,228 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-14 20:00:35,242 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-14 20:00:35,242 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-14 20:00:35,265 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-14 20:00:35,265 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-14 20:00:36,127 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-14 20:00:36,127 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-14 20:00:36,524 - Selenium_studentPortal -INFO - Entered the password
+2023-11-14 20:00:36,524 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-14 20:01:36,236 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-14 20:01:36,236 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-14 20:01:36,237 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-14 20:01:36,237 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-14 20:01:39,570 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@3a00b15d
+2023-11-14 20:01:39,570 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@3a00b15d
+2023-11-14 20:01:39,571 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-14 20:01:39,571 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-14 20:01:39,571 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-14 20:01:39,571 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-14 20:01:39,806 - Selenium_studentPortal -INFO - suject visible on the UI[Research Methodology, Project, Managing Business Process Outsourcing, IT Security and Risk Management, Digital Payments, Business: Ethics, Governance & Risk]
+2023-11-14 20:01:39,806 [main] INFO Selenium_studentPortal - suject visible on the UI[Research Methodology, Project, Managing Business Process Outsourcing, IT Security and Risk Management, Digital Payments, Business: Ethics, Governance & Risk]
+2023-11-14 20:01:39,806 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-14 20:01:39,806 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-14 20:01:39,907 - Selenium_studentPortal -INFO - applicableCurrentSubject [Business: Ethics, Governance & Risk, Digital Payments, IT Security and Risk Management, Managing Business Process Outsourcing, Project, Research Methodology]
+2023-11-14 20:01:39,907 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Business: Ethics, Governance & Risk, Digital Payments, IT Security and Risk Management, Managing Business Process Outsourcing, Project, Research Methodology]
+2023-11-14 20:01:39,908 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-11-14 20:01:39,908 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-11-14 20:01:39,911 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-14 20:01:39,911 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-14 20:01:49,991 - Selenium_studentPortal -INFO - []
+2023-11-14 20:01:49,991 [main] INFO Selenium_studentPortal - []
+2023-11-14 20:01:49,993 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-14 20:01:49,993 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-14 20:01:50,137 - Selenium_studentPortal -INFO - []
+2023-11-14 20:01:50,137 [main] INFO Selenium_studentPortal - []
+2023-11-15 09:43:26,898 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-15 09:43:26,898 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-15 09:43:26,913 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867DFF4CD3331C912D0B6DEBB2B
+2023-11-15 09:43:26,913 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867DFF4CD3331C912D0B6DEBB2B
+2023-11-15 09:43:27,294 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 09:43:27,294 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 09:43:27,303 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-15 09:43:27,303 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-15 09:43:27,320 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-15 09:43:27,320 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-15 09:43:27,719 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-15 09:43:27,719 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-15 09:43:28,163 - Selenium_studentPortal -INFO - Entered the password
+2023-11-15 09:43:28,163 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-15 09:43:39,102 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-15 09:43:39,102 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-15 09:43:39,105 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-15 09:43:39,105 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-15 09:43:42,268 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@4be0a27d
+2023-11-15 09:43:42,268 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@4be0a27d
+2023-11-15 09:43:42,270 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-15 09:43:42,270 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-15 09:43:42,271 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-15 09:43:42,271 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-15 09:43:42,453 - Selenium_studentPortal -INFO - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-15 09:43:42,453 [main] INFO Selenium_studentPortal - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-15 09:43:42,454 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-15 09:43:42,454 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-15 09:43:42,547 - Selenium_studentPortal -INFO - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-15 09:43:42,547 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-15 09:43:42,547 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-11-15 09:43:42,547 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-11-15 09:43:42,549 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-15 09:43:42,549 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-15 09:43:52,574 - Selenium_studentPortal -INFO - []
+2023-11-15 09:43:52,574 [main] INFO Selenium_studentPortal - []
+2023-11-15 09:43:52,575 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-15 09:43:52,575 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-15 09:43:52,756 - Selenium_studentPortal -INFO - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-15 09:43:52,756 [main] INFO Selenium_studentPortal - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-15 09:49:56,913 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-15 09:49:56,913 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-15 09:49:56,940 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867CC0F2F9EC9E1D41C681DB628
+2023-11-15 09:49:56,940 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867CC0F2F9EC9E1D41C681DB628
+2023-11-15 09:49:57,499 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 09:49:57,499 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 09:49:57,530 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-15 09:49:57,530 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-15 09:49:57,555 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-15 09:49:57,555 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-15 09:49:57,784 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-15 09:49:57,784 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-15 09:49:58,021 - Selenium_studentPortal -INFO - Entered the password
+2023-11-15 09:49:58,021 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-15 09:50:37,542 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-15 09:50:37,542 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-15 09:50:37,543 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-15 09:50:37,543 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-15 09:50:40,781 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@74834afd
+2023-11-15 09:50:40,781 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@74834afd
+2023-11-15 09:50:40,781 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-15 09:50:40,781 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-15 09:50:40,782 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-15 09:50:40,782 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-15 09:50:40,993 - Selenium_studentPortal -INFO - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-15 09:50:40,993 [main] INFO Selenium_studentPortal - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-15 09:50:40,994 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-15 09:50:40,994 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-15 09:50:41,098 - Selenium_studentPortal -INFO - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-15 09:50:41,098 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-15 09:50:41,099 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-11-15 09:50:41,099 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-11-15 09:50:41,103 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-15 09:50:41,103 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-15 09:50:51,203 - Selenium_studentPortal -INFO - []
+2023-11-15 09:50:51,203 [main] INFO Selenium_studentPortal - []
+2023-11-15 09:50:51,206 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-15 09:50:51,206 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-15 09:50:51,499 - Selenium_studentPortal -INFO - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-15 09:50:51,499 [main] INFO Selenium_studentPortal - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-15 09:57:40,841 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-15 09:57:40,841 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-15 09:57:40,847 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867DB026FEE49F805FF69F83231
+2023-11-15 09:57:40,847 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867DB026FEE49F805FF69F83231
+2023-11-15 09:57:41,122 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 09:57:41,122 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 09:57:41,131 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-15 09:57:41,131 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-15 09:57:41,142 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-15 09:57:41,142 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-15 09:57:41,343 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-15 09:57:41,343 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-15 09:57:41,527 - Selenium_studentPortal -INFO - Entered the password
+2023-11-15 09:57:41,527 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-15 09:58:01,356 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-15 09:58:01,356 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-15 09:58:01,357 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-15 09:58:01,357 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-15 10:33:20,205 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-15 10:33:20,205 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-15 10:33:20,213 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28671FB5BA7FF67E870DE8C15867
+2023-11-15 10:33:20,213 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28671FB5BA7FF67E870DE8C15867
+2023-11-15 10:33:20,518 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 10:33:20,518 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 10:33:20,527 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-15 10:33:20,527 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-15 10:33:20,539 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-15 10:33:20,539 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-15 10:33:20,727 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-15 10:33:20,727 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-15 10:33:20,943 - Selenium_studentPortal -INFO - Entered the password
+2023-11-15 10:33:20,943 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-15 10:33:27,425 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-15 10:33:27,425 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-15 10:33:27,426 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-15 10:33:27,426 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-15 10:33:30,148 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@74834afd
+2023-11-15 10:33:30,148 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@74834afd
+2023-11-15 10:33:30,149 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-15 10:33:30,149 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-15 10:33:30,151 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-15 10:33:30,151 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-15 10:33:30,286 - Selenium_studentPortal -INFO - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-15 10:33:30,286 [main] INFO Selenium_studentPortal - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-15 10:33:30,287 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-15 10:33:30,287 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-15 10:33:30,336 - Selenium_studentPortal -INFO - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-15 10:33:30,336 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-15 10:33:30,336 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-11-15 10:33:30,336 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-11-15 10:33:30,339 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-15 10:33:30,339 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-15 10:33:40,359 - Selenium_studentPortal -INFO - []
+2023-11-15 10:33:40,359 [main] INFO Selenium_studentPortal - []
+2023-11-15 10:33:40,360 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-15 10:33:40,360 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-15 10:33:40,418 - Selenium_studentPortal -INFO - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-15 10:33:40,418 [main] INFO Selenium_studentPortal - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-15 15:34:22,107 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-15 15:34:22,107 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-15 15:34:22,115 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B286707366C9A1984C08559B4833C
+2023-11-15 15:34:22,115 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B286707366C9A1984C08559B4833C
+2023-11-15 15:34:22,402 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 15:34:22,402 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 15:34:22,410 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-15 15:34:22,410 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-15 15:34:22,420 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-15 15:34:22,420 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-15 15:34:22,602 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-15 15:34:22,602 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-15 15:34:22,785 - Selenium_studentPortal -INFO - Entered the password
+2023-11-15 15:34:22,785 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-15 15:34:31,547 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-15 15:34:31,547 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-15 15:34:31,547 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-15 15:34:31,547 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-15 15:34:34,334 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@5f0a2638
+2023-11-15 15:34:34,334 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@5f0a2638
+2023-11-15 15:34:34,335 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-15 15:34:34,335 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-15 15:34:34,336 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-15 15:34:34,336 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-15 15:34:34,490 - Selenium_studentPortal -INFO - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-15 15:34:34,490 [main] INFO Selenium_studentPortal - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-15 15:34:34,491 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-15 15:34:34,491 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-15 15:34:34,570 - Selenium_studentPortal -INFO - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-15 15:34:34,570 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-15 15:34:34,571 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-11-15 15:34:34,571 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-11-15 15:34:34,573 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-15 15:34:34,573 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-15 15:34:44,645 - Selenium_studentPortal -INFO - []
+2023-11-15 15:34:44,645 [main] INFO Selenium_studentPortal - []
+2023-11-15 15:34:44,646 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-15 15:34:44,646 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-15 15:34:44,715 - Selenium_studentPortal -INFO - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-15 15:34:44,715 [main] INFO Selenium_studentPortal - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-15 16:18:26,301 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-15 16:18:26,301 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-15 16:18:26,309 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28674CBC8B8C8EB85D7A93EB4904
+2023-11-15 16:18:26,309 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28674CBC8B8C8EB85D7A93EB4904
+2023-11-15 16:18:26,676 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 16:18:26,676 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-15 16:18:26,691 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-15 16:18:26,691 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-15 16:18:26,705 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-15 16:18:26,705 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-15 16:18:26,904 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-15 16:18:26,904 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-15 16:18:27,149 - Selenium_studentPortal -INFO - Entered the password
+2023-11-15 16:18:27,149 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-15 16:18:48,822 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-15 16:18:48,822 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-15 16:18:48,823 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-15 16:18:48,823 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-15 16:18:51,906 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@74834afd
+2023-11-15 16:18:51,906 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@74834afd
+2023-11-15 16:18:51,907 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-15 16:18:51,907 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-15 16:18:51,908 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-15 16:18:51,908 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-15 16:18:52,085 - Selenium_studentPortal -INFO - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-15 16:18:52,085 [main] INFO Selenium_studentPortal - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-15 16:18:52,085 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-15 16:18:52,085 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-15 16:18:52,181 - Selenium_studentPortal -INFO - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-15 16:18:52,181 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-15 16:18:52,181 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-11-15 16:18:52,181 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-11-15 16:18:52,186 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-15 16:18:52,186 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-15 16:19:02,277 - Selenium_studentPortal -INFO - []
+2023-11-15 16:19:02,277 [main] INFO Selenium_studentPortal - []
+2023-11-15 16:19:02,277 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-15 16:19:02,277 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-15 16:19:02,371 - Selenium_studentPortal -INFO - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-15 16:19:02,371 [main] INFO Selenium_studentPortal - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-19 08:44:28,422 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-19 08:44:28,422 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-19 08:44:28,439 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B286746F137889D05A41E24B2A634
+2023-11-19 08:44:28,439 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B286746F137889D05A41E24B2A634
+2023-11-19 08:44:28,901 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-19 08:44:28,901 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-19 08:44:28,911 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-19 08:44:28,911 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-19 08:44:28,928 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-19 08:44:28,928 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-19 08:44:29,146 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-19 08:44:29,146 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-19 08:44:29,393 - Selenium_studentPortal -INFO - Entered the password
+2023-11-19 08:44:29,393 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-19 08:44:37,368 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-19 08:44:37,368 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-19 08:44:37,371 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-19 08:44:37,371 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-19 08:44:40,520 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@5f0a2638
+2023-11-19 08:44:40,520 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@5f0a2638
+2023-11-19 08:44:40,521 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-19 08:44:40,521 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-19 08:44:40,522 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-19 08:44:40,522 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-19 08:44:40,667 - Selenium_studentPortal -INFO - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-19 08:44:40,667 [main] INFO Selenium_studentPortal - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-19 08:44:40,667 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-19 08:44:40,667 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-19 08:44:40,770 - Selenium_studentPortal -INFO - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-19 08:44:40,770 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-19 08:44:40,771 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-11-19 08:44:40,771 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-11-19 08:44:40,774 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-19 08:44:40,774 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-19 08:44:50,857 - Selenium_studentPortal -INFO - []
+2023-11-19 08:44:50,857 [main] INFO Selenium_studentPortal - []
+2023-11-19 08:44:50,858 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-19 08:44:50,858 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-19 08:44:50,981 - Selenium_studentPortal -INFO - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-19 08:44:50,981 [main] INFO Selenium_studentPortal - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-19 08:52:55,328 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-19 08:52:55,328 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-19 08:52:55,336 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867B324C68CD4C24A739A7F92FF
+2023-11-19 08:52:55,336 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867B324C68CD4C24A739A7F92FF
+2023-11-19 08:52:55,647 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-19 08:52:55,647 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-19 08:52:55,663 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-19 08:52:55,663 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-19 08:52:55,678 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-19 08:52:55,678 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-19 08:52:55,920 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-19 08:52:55,920 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-19 08:52:56,192 - Selenium_studentPortal -INFO - Entered the password
+2023-11-19 08:52:56,192 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-19 08:53:05,295 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-19 08:53:05,295 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-19 08:53:05,298 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-19 08:53:05,298 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-19 09:02:16,381 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-19 09:02:16,381 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-19 09:02:16,390 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867BE415359925A7EE6994E7634
+2023-11-19 09:02:16,390 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867BE415359925A7EE6994E7634
+2023-11-19 09:02:16,717 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-19 09:02:16,717 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-19 09:02:16,731 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-19 09:02:16,731 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-19 09:02:16,745 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-19 09:02:16,745 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-19 09:02:16,959 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-19 09:02:16,959 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-19 09:02:17,215 - Selenium_studentPortal -INFO - Entered the password
+2023-11-19 09:02:17,215 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-19 09:02:25,076 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-19 09:02:25,076 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-19 09:02:25,079 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-19 09:02:25,079 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-19 09:02:28,393 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@74834afd
+2023-11-19 09:02:28,393 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@74834afd
+2023-11-19 09:02:28,395 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-19 09:02:28,395 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-19 09:02:28,395 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-19 09:02:28,395 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-19 09:02:28,550 - Selenium_studentPortal -INFO - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-19 09:02:28,550 [main] INFO Selenium_studentPortal - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-19 09:02:28,550 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-19 09:02:28,550 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-19 09:02:28,641 - Selenium_studentPortal -INFO - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-19 09:02:28,641 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-19 09:02:28,641 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-11-19 09:02:28,641 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-11-19 09:02:28,644 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-19 09:02:28,644 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-19 09:02:38,750 - Selenium_studentPortal -INFO - []
+2023-11-19 09:02:38,750 [main] INFO Selenium_studentPortal - []
+2023-11-19 09:02:38,751 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-19 09:02:38,751 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-19 09:02:38,843 - Selenium_studentPortal -INFO - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-19 09:02:38,843 [main] INFO Selenium_studentPortal - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-26 08:59:29,604 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-26 08:59:29,604 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-26 08:59:29,615 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28675D032D398DC1496668BC5EA8
+2023-11-26 08:59:29,615 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28675D032D398DC1496668BC5EA8
+2023-11-26 08:59:31,508 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-26 08:59:31,508 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-26 08:59:31,521 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-26 08:59:31,521 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-26 08:59:31,540 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-26 08:59:31,540 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-26 08:59:31,753 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-26 08:59:31,753 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-26 08:59:32,038 - Selenium_studentPortal -INFO - Entered the password
+2023-11-26 08:59:32,038 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-26 08:59:41,425 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-26 08:59:41,425 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-26 08:59:41,842 - Selenium_studentPortal -INFO - Click on the logout button 
+2023-11-26 08:59:41,842 [main] INFO Selenium_studentPortal - Click on the logout button 
+2023-11-26 08:59:46,849 - Selenium_studentPortal -INFO - Page logout 
+2023-11-26 08:59:46,849 [main] INFO Selenium_studentPortal - Page logout 
+2023-11-26 08:59:46,859 - Selenium_studentPortal -INFO - Alert text Displayed : 
+2023-11-26 08:59:46,859 [main] INFO Selenium_studentPortal - Alert text Displayed : 
+2023-11-26 08:59:46,924 - Selenium_studentPortal -INFO - Logout
+2023-11-26 08:59:46,924 [main] INFO Selenium_studentPortal - Logout
+2023-11-26 08:59:49,287 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-26 08:59:49,287 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-26 08:59:49,287 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867B7F9252F432BCCD2FAE717A3
+2023-11-26 08:59:49,287 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867B7F9252F432BCCD2FAE717A3
+2023-11-26 08:59:51,555 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-26 08:59:51,555 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-26 08:59:51,555 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28679CDBCA410741ADE31F381545
+2023-11-26 08:59:51,555 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28679CDBCA410741ADE31F381545
+2023-11-26 08:59:51,835 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-26 08:59:51,835 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-26 08:59:51,845 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-26 08:59:51,845 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-26 08:59:51,852 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-26 08:59:51,852 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-26 08:59:52,108 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-26 08:59:52,108 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-26 08:59:52,369 - Selenium_studentPortal -INFO - Entered the password
+2023-11-26 08:59:52,369 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-26 08:59:57,796 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-26 08:59:57,796 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-26 08:59:57,800 - Selenium_studentPortal -INFO - Successful login test 
+2023-11-26 08:59:57,800 [main] INFO Selenium_studentPortal - Successful login test 
+2023-11-26 08:59:57,941 - Selenium_studentPortal -INFO -  Readed student Actual Name 
+2023-11-26 08:59:57,941 [main] INFO Selenium_studentPortal -  Readed student Actual Name 
+2023-11-26 08:59:59,067 - Selenium_studentPortal -INFO - Actual Student Details DARSHAN SURENDRA CHAWADE
+2023-11-26 08:59:59,067 [main] INFO Selenium_studentPortal - Actual Student Details DARSHAN SURENDRA CHAWADE
+2023-11-26 08:59:59,067 - Selenium_studentPortal -INFO - Expected student Name DARSHAN SURENDRA CHAWADE
+2023-11-26 08:59:59,067 [main] INFO Selenium_studentPortal - Expected student Name DARSHAN SURENDRA CHAWADE
+2023-11-26 08:59:59,068 - Selenium_studentPortal -INFO - Student Name is matched
+2023-11-26 08:59:59,068 [main] INFO Selenium_studentPortal - Student Name is matched
+2023-11-26 08:59:59,163 - Selenium_studentPortal -INFO - Data Displyed on header [darshanchawade@gmail.com, 7709182030, MBA (ITSM), 77122558691, Validity End: 30-Jun-2026]
+2023-11-26 08:59:59,163 [main] INFO Selenium_studentPortal - Data Displyed on header [darshanchawade@gmail.com, 7709182030, MBA (ITSM), 77122558691, Validity End: 30-Jun-2026]
+2023-11-26 08:59:59,244 - Selenium_studentPortal -INFO - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-11-26 08:59:59,244 [main] INFO Selenium_studentPortal - Excel data [Shiv.Golani.Ext@nmims.edu, 8287324844, MBA (FM), 77777777775, Validity End: 31-Dec-2025]
+2023-11-26 08:59:59,252 - Selenium_studentPortal -INFO - Student data is not matched from the Excel
+2023-11-26 08:59:59,252 [main] INFO Selenium_studentPortal - Student data is not matched from the Excel
+2023-11-26 09:00:01,377 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-26 09:00:01,377 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-26 09:00:01,378 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B286772615496D16A7E0D65BFE167
+2023-11-26 09:00:01,378 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B286772615496D16A7E0D65BFE167
+2023-11-26 09:00:01,584 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-26 09:00:01,584 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-26 09:00:01,594 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-26 09:00:01,594 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-26 09:00:01,605 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-26 09:00:01,605 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-26 09:00:01,906 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-26 09:00:01,906 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-26 09:00:02,228 - Selenium_studentPortal -INFO - Entered the password
+2023-11-26 09:00:02,228 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-26 09:00:05,696 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-26 09:00:05,696 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-26 09:00:05,698 - Selenium_studentPortal -INFO - Successfully verify login
+2023-11-26 09:00:05,698 [main] INFO Selenium_studentPortal - Successfully verify login
+2023-11-26 09:00:07,877 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@221b77d7
+2023-11-26 09:00:07,877 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@221b77d7
+2023-11-26 09:00:07,878 - Selenium_studentPortal -INFO - Student registration year and month 2023-Jul
+2023-11-26 09:00:07,878 [main] INFO Selenium_studentPortal - Student registration year and month 2023-Jul
+2023-11-26 09:00:07,878 - Selenium_studentPortal -INFO - Check the Acad Year or Month 2023-Jul
+2023-11-26 09:00:07,878 [main] INFO Selenium_studentPortal - Check the Acad Year or Month 2023-Jul
+2023-11-26 09:00:08,014 - Selenium_studentPortal -INFO - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-26 09:00:08,014 [main] INFO Selenium_studentPortal - suject visible on the UI[IT Project Management, IT Infrastructure Management, Fundamentals of Big Data & Business Analytics, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, E-Business, Cloud Computing]
+2023-11-26 09:00:08,016 - Selenium_studentPortal -INFO - Get student sem and consumerProgramStructureId
+2023-11-26 09:00:08,016 [main] INFO Selenium_studentPortal - Get student sem and consumerProgramStructureId
+2023-11-26 09:00:08,105 - Selenium_studentPortal -INFO - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-26 09:00:08,105 [main] INFO Selenium_studentPortal - applicableCurrentSubject [Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2023-11-26 09:00:08,106 - Selenium_studentPortal -INFO - Subject is matched from the UI
+2023-11-26 09:00:08,106 [main] INFO Selenium_studentPortal - Subject is matched from the UI
+2023-11-26 09:00:08,106 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2023-11-26 09:00:08,106 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2023-11-26 09:00:18,139 - Selenium_studentPortal -INFO - []
+2023-11-26 09:00:18,139 [main] INFO Selenium_studentPortal - []
+2023-11-26 09:00:18,140 - Selenium_studentPortal -INFO - Backlog SubjectList From database 
+2023-11-26 09:00:18,140 [main] INFO Selenium_studentPortal - Backlog SubjectList From database 
+2023-11-26 09:00:18,208 - Selenium_studentPortal -INFO - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-26 09:00:18,208 [main] INFO Selenium_studentPortal - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2023-11-26 09:00:32,672 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2023-11-26 09:00:32,672 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2023-11-26 09:00:32,672 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867A6649D0F8DE273E6EF2B4407
+2023-11-26 09:00:32,672 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867A6649D0F8DE273E6EF2B4407
+2023-11-26 09:00:32,894 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-26 09:00:32,894 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2023-11-26 09:00:32,908 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2023-11-26 09:00:32,908 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2023-11-26 09:00:32,915 - Selenium_studentPortal -INFO - Login page title is match
+2023-11-26 09:00:32,915 [main] INFO Selenium_studentPortal - Login page title is match
+2023-11-26 09:00:33,153 - Selenium_studentPortal -INFO - Entered the UserId
+2023-11-26 09:00:33,153 [main] INFO Selenium_studentPortal - Entered the UserId
+2023-11-26 09:00:33,386 - Selenium_studentPortal -INFO - Entered the password
+2023-11-26 09:00:33,386 [main] INFO Selenium_studentPortal - Entered the password
+2023-11-26 09:00:40,985 - Selenium_studentPortal -INFO - Click on the login button 
+2023-11-26 09:00:40,985 [main] INFO Selenium_studentPortal - Click on the login button 
+2023-11-26 09:00:40,987 - Selenium_studentPortal -INFO - Successful login test 
+2023-11-26 09:00:40,987 [main] INFO Selenium_studentPortal - Successful login test 
+2023-11-26 09:00:41,101 - Selenium_studentPortal -INFO - numberOfAssignment -> 6
+2023-11-26 09:00:41,101 [main] INFO Selenium_studentPortal - numberOfAssignment -> 6
+2023-11-26 09:00:41,610 - Selenium_studentPortal -INFO - assignmentList  --> [Business Communication, , , , , , , , , , , , , , , Business Economics, Business Law, Decision Science, Essentials of HRM, Financial Accounting & Analysis]
+2023-11-26 09:00:41,610 [main] INFO Selenium_studentPortal - assignmentList  --> [Business Communication, , , , , , , , , , , , , , , Business Economics, Business Law, Decision Science, Essentials of HRM, Financial Accounting & Analysis]
+>>>>>>> BacklogSubjec

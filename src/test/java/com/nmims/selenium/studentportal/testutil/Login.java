@@ -14,7 +14,7 @@ public class Login extends BaseClass{
 	
 	
 	
-	public static void  loginPageTitleVerify() throws IOException {
+	public  static void  loginPageTitleVerify() throws IOException {
 
 		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
 

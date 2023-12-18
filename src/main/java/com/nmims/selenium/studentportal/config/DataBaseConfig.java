@@ -6,12 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import com.nmims.selenium.studentportal.dao.StudentDao;
 import com.nmims.selenium.studentportal.dao.StudentSubjectDao;
-import com.nmims.selenium.studentportal.daoImpl.OngoingSubjectDaoImpl;
 import com.nmims.selenium.studentportal.daoImpl.StudentDaoImpl;
+import com.nmims.selenium.studentportal.daoImpl.SubjectDaoImpl;
 
 @Configuration
 public class DataBaseConfig {
@@ -38,9 +37,9 @@ public class DataBaseConfig {
 	return jdbcTemplate;
 	}
 	
-	@Bean (name =	{ "ongoingSubjectDao" })
+	@Bean (name =	{ "SubjectListDao" })
 	public StudentSubjectDao getStudentDao (){
-		OngoingSubjectDaoImpl ongoingSubjectDaoImpl =	new OngoingSubjectDaoImpl();
+		SubjectDaoImpl ongoingSubjectDaoImpl =	new SubjectDaoImpl();
 		ongoingSubjectDaoImpl.setJdbcTemplate (getTemplate ());
 		return  ongoingSubjectDaoImpl;
 

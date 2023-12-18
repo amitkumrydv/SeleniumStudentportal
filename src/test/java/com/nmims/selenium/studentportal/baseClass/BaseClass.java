@@ -10,11 +10,13 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.Cookie;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -94,8 +96,7 @@ public class BaseClass {
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(baseURL);
-		
-		
+
 		// Capture cookies
 		Set<Cookie> cookies = driver.manage().getCookies();
 		logger.info("Size of the cookies : " + cookies.size());
@@ -107,7 +108,7 @@ public class BaseClass {
 		}
 
 		driver.manage().window().maximize();
-		//return driver;
+		// return driver;
 	}
 
 	public String randomestring() // Generat rendom email user defne method method
@@ -121,8 +122,6 @@ public class BaseClass {
 		String generatedstring2 = RandomStringUtils.randomNumeric(4);
 		return (generatedstring2);
 	}
-
-	
 
 	@AfterClass
 	public void tearDown() {
