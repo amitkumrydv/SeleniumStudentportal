@@ -8,7 +8,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-public class CaptureScreen {
+import com.nmims.selenium.studentportal.baseClass.BaseClass;
+
+public class CaptureScreen extends BaseClass {
 	
 public void captureFullScreen(WebDriver driver, String tname) throws IOException   {
 		

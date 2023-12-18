@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.springframework.util.Assert;
 
 import com.nmims.selenium.studentportal.action.ActionClass;
 import com.nmims.selenium.studentportal.baseClass.BaseClass;
@@ -70,9 +71,10 @@ public class SiderBarMenuPageObject extends BaseClass {
 //To check the Dashboard top arrow
 	public boolean isVisibleExpandArrow() {
 
-		boolean isDisplayManueArrow = expandMenueArrow.isDisplayed();
-		System.out.println("isDisplayManueArrow " + isDisplayManueArrow);
-		return isDisplayManueArrow;
+		boolean displayManueArrow = expandMenueArrow.isDisplayed();
+		
+		Assert.state(displayManueArrow);
+		return displayManueArrow;
 
 	}
 
@@ -92,8 +94,9 @@ public class SiderBarMenuPageObject extends BaseClass {
 			WebElement clickableDashboardIconStudentportal = wait
 					.until(ExpectedConditions.elementToBeClickable(clickableDashboardStudentportal));
 
-			boolean isDisplayDashboardIcon = clickableDashboardIconStudentportal.isDisplayed();
-			logger.info("isDisplayDashboardIcon " + isDisplayDashboardIcon);
+			boolean DashboardIcon = clickableDashboardIconStudentportal.isDisplayed();
+			Assert.state(DashboardIcon);
+			
 
 		} else {
 			System.out.println(" Element not found ");
@@ -110,8 +113,9 @@ public class SiderBarMenuPageObject extends BaseClass {
 	public void isDisplayAcadIcon() {
 
 		WebElement clickableAcadIcan = wait.until(ExpectedConditions.elementToBeClickable(clickableAcad));
-		boolean acadButtonelement = clickableAcadIcan.isDisplayed();
-		logger.info("clickableAcadIcan " + acadButtonelement);
+		boolean acadicon = clickableAcadIcan.isDisplayed();
+		Assert.state(acadicon);
+		
 	}
 
 	public void clickOnDisplayAcadIcon() {
@@ -123,8 +127,9 @@ public class SiderBarMenuPageObject extends BaseClass {
 	public void isDisplayMycoursesIcon() {
 
 		WebElement clickableMycoursesIcon = wait.until(ExpectedConditions.elementToBeClickable(clickableMycourses));
-		boolean myCoursesIconButtone = clickableMycoursesIcon.isDisplayed();
-		logger.info("myCoursesIconButtonelement " + myCoursesIconButtone);
+		boolean myCoursesIcon = clickableMycoursesIcon.isDisplayed();
+		Assert.state(myCoursesIcon);
+		
 	}
 
 	public void clickOnDisplayMycoursesIcon() {
@@ -137,8 +142,9 @@ public class SiderBarMenuPageObject extends BaseClass {
 	public void isDisplaySesionvideoIcon() {
 
 		WebElement clickableSesionvideoIcon = wait.until(ExpectedConditions.elementToBeClickable(clickableSesionvideo));
-		boolean sesionvideoIconButtone = clickableSesionvideoIcon.isDisplayed();
-		logger.info("sesionvideoIconButtone " + sesionvideoIconButtone);
+		boolean sesionvideoIcon = clickableSesionvideoIcon.isDisplayed();
+		Assert.state(sesionvideoIcon);
+		
 
 		clickableSesionvideo.isDisplayed();
 	}
@@ -153,8 +159,9 @@ public class SiderBarMenuPageObject extends BaseClass {
 	public void isDisplayBookmarkIcon() {
 
 		WebElement clickableBookmarkIcon = wait.until(ExpectedConditions.elementToBeClickable(clickableBookmark));
-		boolean bookmarkIconButtone = clickableBookmarkIcon.isDisplayed();
-		logger.info("bookmarkIconButtone " + bookmarkIconButtone);
+		boolean bookmarkIcon = clickableBookmarkIcon.isDisplayed();
+		Assert.state(bookmarkIcon);
+		
 
 		clickableBookmark.isDisplayed();
 	}
@@ -168,8 +175,9 @@ public class SiderBarMenuPageObject extends BaseClass {
 	public void isDisplayExamIcon() {
 
 		WebElement clickableExamIconn = wait.until(ExpectedConditions.elementToBeClickable(ClickableMousHoverExam));
-		boolean examIconButtone = clickableExamIconn.isDisplayed();
-		logger.info("examIconButtone " + examIconButtone);
+		boolean examIcon = clickableExamIconn.isDisplayed();
+		Assert.state(examIcon);
+	
 
 	}
 
@@ -179,8 +187,9 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 		WebElement clickableStudentSupportIcon = wait
 				.until(ExpectedConditions.elementToBeClickable(ClickableMousHoverStudentSupport));
-		boolean studentSupportIconButtone = clickableStudentSupportIcon.isDisplayed();
-		logger.info("studentSupportIconButtone " + studentSupportIconButtone);
+		boolean studentSupportIcon= clickableStudentSupportIcon.isDisplayed();
+		Assert.state(studentSupportIcon);
+
 
 	}
 
@@ -195,8 +204,9 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 		WebElement clickableNGASCEAlumniPortalIcon = wait
 				.until(ExpectedConditions.elementToBeClickable(ClickableNGASCEAlumniPortal));
-		boolean NGASCEAlumniPortalIconButtone = clickableNGASCEAlumniPortalIcon.isDisplayed();
-		logger.info("NGASCEAlumniPortalIconButtone " + NGASCEAlumniPortalIconButtone);
+		boolean NGASCEAlumniPortalIcon = clickableNGASCEAlumniPortalIcon.isDisplayed();
+		Assert.state(NGASCEAlumniPortalIcon);
+		
 
 	}
 
@@ -209,8 +219,9 @@ public class SiderBarMenuPageObject extends BaseClass {
 	public void isDisplayMyBadgesIcon() {
 
 		WebElement clickableMyBadgesIcon = wait.until(ExpectedConditions.elementToBeClickable(ClickableMyBadges));
-		boolean myBadgesIconButtone = clickableMyBadgesIcon.isDisplayed();
-		logger.info("myBadgesIconButtone " + myBadgesIconButtone);
+		boolean myBadgesIcon = clickableMyBadgesIcon.isDisplayed();
+		Assert.state(myBadgesIcon);
+		
 	}
 
 	public void clickOnDisplayMyBadgesIcon() {
@@ -222,8 +233,9 @@ public class SiderBarMenuPageObject extends BaseClass {
 	public void isDisplayQuickLinksIcon() {
 
 		WebElement clickableQuickLinksIcon = wait.until(ExpectedConditions.elementToBeClickable(mouseHoverQuickLinks));
-		boolean quickLinksIconButtone = clickableQuickLinksIcon.isDisplayed();
-		logger.info("quickLinksIconButtone " + quickLinksIconButtone);
+		boolean quickLinksIcon = clickableQuickLinksIcon.isDisplayed();
+		Assert.state(quickLinksIcon);
+		
 
 	}
 

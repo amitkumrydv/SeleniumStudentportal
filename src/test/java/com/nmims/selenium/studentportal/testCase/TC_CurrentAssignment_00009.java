@@ -11,6 +11,7 @@ import com.nmims.selenium.studentportal.baseClass.BaseClass;
 import com.nmims.selenium.studentportal.data.DataProvideLogin;
 import com.nmims.selenium.studentportal.pageObjectMethod.AssignmentPageObjectMethod;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
+import com.nmims.selenium.studentportal.testutil.SideBarMenuTest;
 import com.nmims.selenium.studentportal.utilities.CaptureScreen;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
@@ -22,11 +23,14 @@ public class TC_CurrentAssignment_00009 extends BaseClass {
 	private String user = readConfig.getUsername();
 
 	@Test
-	public void currentAssignmetTest () {
+	public void currentAssignmetTest () throws Exception {
 		
 	LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
 	loginPage.commanLogin();
 	logger.info("Successful login test ");
+	
+	SideBarMenuTest.sideBarMenueIconsTest();
+	logger.info("Validate the side-bar menu");
 
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	

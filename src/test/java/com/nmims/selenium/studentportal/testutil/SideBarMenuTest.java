@@ -1,4 +1,4 @@
-package com.nmims.selenium.studentportal.testCase;
+package com.nmims.selenium.studentportal.testutil;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -14,7 +14,7 @@ import com.nmims.selenium.studentportal.pageObjectMethod.SiderBarMenuPageObjectM
 import com.nmims.selenium.studentportal.utilities.CaptureScreen;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
-public class TC_SideBarMenuTest_00010 extends BaseClass {
+public class SideBarMenuTest extends BaseClass {
 
 	ReadConfig readConfig = new ReadConfig();
 	private String user = readConfig.getUsername();
@@ -28,14 +28,10 @@ public class TC_SideBarMenuTest_00010 extends BaseClass {
 
 	public String path = readStudentdata.getStudentDetailsExcel();
 
-	@Test
-	public void sideBarMenueIconsTest() throws Exception {
+	
+	public static void sideBarMenueIconsTest() throws Exception {
 
-		// Login logic
-		LoginPageObjectMethod login = new LoginPageObjectMethod(driver);
-		login.commanLogin();
-		logger.info("Successfully verify login");
-
+        logger.info("Start to validate side-bar menue");
 		SiderBarMenuPageObject sideBarMenu = new SiderBarMenuPageObject(driver);
 		sideBarMenu.isVisibleExpandArrow();
 		sideBarMenu.isDisplayDashboardIcon();
@@ -48,8 +44,6 @@ public class TC_SideBarMenuTest_00010 extends BaseClass {
 		sideBarMenu.isDisplayNGASCEAlumniPortalIcon();
 		sideBarMenu.isDisplayMyBadgesIcon();
 		sideBarMenu.isDisplayQuickLinksIcon();
-
-		logger.info("Sidebar menu is visible");
 
 	}
 

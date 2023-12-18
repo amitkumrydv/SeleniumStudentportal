@@ -18,6 +18,7 @@ import com.nmims.selenium.studentportal.data.DataProvideLogin;
 import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod;
+import com.nmims.selenium.studentportal.testutil.SideBarMenuTest;
 import com.nmims.selenium.studentportal.utilities.CaptureScreen;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
@@ -43,6 +44,10 @@ public class TC_Subjects_00006 extends BaseClass {
 		login.commanLogin();
 		logger.info("Successfully verify login");
 		
+		
+		// Verify the side-bar menu
+		SideBarMenuTest.sideBarMenueIconsTest();
+		logger.info("Validate the side-bar menu");
 		
 		Thread.sleep(2000);
 		StudentStudentPortalBean studentRgistration = singleStudentDetails.getstudentLatestRegistration(user);

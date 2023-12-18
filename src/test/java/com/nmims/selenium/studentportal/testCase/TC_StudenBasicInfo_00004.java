@@ -16,10 +16,13 @@ import com.nmims.selenium.studentportal.data.StudaentDetail;
 import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.nmims.selenium.studentportal.pageObjectMethod.UserDtailsPageObjectMethod;
+import com.nmims.selenium.studentportal.testutil.SideBarMenuTest;
 import com.nmims.selenium.studentportal.utilities.CaptureScreen;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
 public class TC_StudenBasicInfo_00004 extends BaseClass {
+	
+	
 	
 	CaptureScreen captureScreenshot;
 	ReadConfig readConfig = new ReadConfig();
@@ -46,6 +49,10 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 		loginPage.commanLogin();
 		logger.info("Successful login test ");
 		
+		// Check sidebar menue
+		
+		SideBarMenuTest.sideBarMenueIconsTest();
+		logger.info(" Completed Validation for the side-bar menu");
 		
 		// don't write above of the method
 		UserDtailsPageObjectMethod studentActualNameOnUI = new UserDtailsPageObjectMethod(driver);

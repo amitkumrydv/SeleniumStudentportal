@@ -122,28 +122,7 @@ public class BaseClass {
 		return (generatedstring2);
 	}
 
-	public void loginPageTitleVerify() throws IOException {
-
-		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
-
-		String pageHeaderTitle = loginPage.verifyTitle(); // This is page header title
-		logger.info("page header title is " + pageHeaderTitle);
-
-		String tabTitle = driver.getTitle(); // This is page tab title
-		logger.info("page title is " + tabTitle);
-
-		// Verify the tab title
-		if (driver.getTitle().equals(tabTitle)) {
-			Assert.assertTrue(true);
-			logger.info("Login page title is match");
-
-		} else {
-			captureScreenshot.captureFullScreen(driver, "loginTest");
-			logger.info("Login page title is not match");
-			Assert.assertTrue(false);
-		}
-
-	}
+	
 
 	@AfterClass
 	public void tearDown() {
