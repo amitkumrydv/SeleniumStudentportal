@@ -46,7 +46,11 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 	@FindBy(xpath = "//a[@href='/exam/student/getMostRecentResults']")
 	public WebElement ClickableMousHoverExam;
+	
+	@FindBy(xpath = "//li[@id='csSidebarIcon']//a[@href=\"/careerservices/Home\"]")
+	public WebElement ClickableMousHoverCareerServices;
 
+	
 	@FindBy(xpath = "//a[@href=\"/studentportal/student/connectWithUs\"]//span")
 	public WebElement ClickableMousHoverStudentSupport;
 
@@ -180,6 +184,45 @@ public class SiderBarMenuPageObject extends BaseClass {
 	
 
 	}
+	
+	
+	
+	
+	// Career Service
+	
+	
+
+	public void isDisplayCareerServicesIcon() {
+
+		WebElement clickableCareerServicesIcon = wait
+				.until(ExpectedConditions.elementToBeClickable(ClickableMousHoverCareerServices));
+		boolean careerServicesIcon= clickableCareerServicesIcon.isDisplayed();
+		Assert.state(careerServicesIcon);
+
+
+	}
+
+	public void clickOnDisplayCareerServicesIcon() {
+
+		ClickableMousHoverCareerServices.click();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	// StudentSupport
 
@@ -197,6 +240,8 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 		ClickableMousHoverStudentSupport.click();
 	}
+	
+
 
 	// NGASCEAlumniPortal
 

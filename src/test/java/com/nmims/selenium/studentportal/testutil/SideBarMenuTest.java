@@ -40,8 +40,15 @@ public class SideBarMenuTest extends BaseClass {
 		sideBarMenu.isDisplaySesionvideoIcon();
 		sideBarMenu.isDisplayBookmarkIcon();
 		sideBarMenu.isDisplayExamIcon();
+		
+		// logic not impemented for career Services
+	//	sideBarMenu.isDisplayCareerServicesIcon();
+		
 		sideBarMenu.isDisplayStudentSupportIcon();
-		sideBarMenu.isDisplayNGASCEAlumniPortalIcon();
+		
+		// Logic not implemented for the NGASCE Alimni
+	//	sideBarMenu.isDisplayNGASCEAlumniPortalIcon();
+		
 		sideBarMenu.isDisplayMyBadgesIcon();
 		sideBarMenu.isDisplayQuickLinksIcon();
 

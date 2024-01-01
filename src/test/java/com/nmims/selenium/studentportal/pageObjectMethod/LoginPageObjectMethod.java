@@ -54,9 +54,9 @@ public class LoginPageObjectMethod extends LoginPageObject {
 		return nmimsLogo.isDisplayed();
 	}
 
-	public void commanLogin() {
+	public void commanLogin() throws InterruptedException, IOException {
 
-		try {
+
 			logger = Logger.getLogger("Selenium_studentPortal");
 			PropertyConfigurator.configure("Log4j.properties");
 
@@ -68,10 +68,10 @@ public class LoginPageObjectMethod extends LoginPageObject {
 			logger.info("Entered the password");
 			clickSubmit();
 			logger.info("Click on the login button ");
+			
+			Thread.sleep(10000);
 
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		
 	}
 
 }

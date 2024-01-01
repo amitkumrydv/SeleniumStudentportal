@@ -10,7 +10,7 @@ import com.nmims.selenium.studentportal.utilities.CaptureScreen;
 
 public class Login extends BaseClass{
 	
-	public static CaptureScreen captureScreenshot;
+	static CaptureScreen captureScreenshot = new CaptureScreen(driver);
 	
 	
 	
@@ -30,7 +30,7 @@ public class Login extends BaseClass{
 			logger.info("Login page title is match");
 
 		} else {
-			captureScreenshot.captureFullScreen(driver, "loginTest");
+			captureScreenshot.captureFullScreen("loginTest");
 			logger.info("Login page title is not match");
 			Assert.assertTrue(false);
 		}

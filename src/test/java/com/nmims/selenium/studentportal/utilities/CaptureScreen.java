@@ -10,9 +10,24 @@ import org.openqa.selenium.WebDriver;
 
 import com.nmims.selenium.studentportal.baseClass.BaseClass;
 
-public class CaptureScreen extends BaseClass {
+public class CaptureScreen extends BaseClass{
 	
-public void captureFullScreen(WebDriver driver, String tname) throws IOException   {
+	//private WebDriver driver;
+	
+	
+	public CaptureScreen(WebDriver driver){
+		
+		this.driver=driver;
+	}
+	
+	
+public void captureFullScreen(String tname) throws IOException   {
+	
+	if (driver == null) {
+        System.err.println("WebDriver is not initialized.");
+        return;
+    }
+	
 		
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File source =ts.getScreenshotAs(OutputType.FILE);

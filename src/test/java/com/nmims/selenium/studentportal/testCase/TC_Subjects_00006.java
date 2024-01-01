@@ -17,6 +17,7 @@ import com.nmims.selenium.studentportal.config.DataBaseConfig;
 import com.nmims.selenium.studentportal.dao.StudentDao;
 import com.nmims.selenium.studentportal.dao.StudentSubjectDao;
 import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
+import com.nmims.selenium.studentportal.pageObject.SubjectPageObject;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod;
 import com.nmims.selenium.studentportal.testutil.SideBarMenuTest;
@@ -27,7 +28,7 @@ public class TC_Subjects_00006 extends BaseClass {
 
 	ReadConfig readConfig = new ReadConfig();
 	private String user = readConfig.getUsername();
-	CaptureScreen captureScreenshot;
+	CaptureScreen captureScreenshot = new CaptureScreen(driver);
 
 	//Using for dao call
 	ApplicationContext context = new AnnotationConfigApplicationContext(DataBaseConfig.class);
@@ -54,6 +55,7 @@ public class TC_Subjects_00006 extends BaseClass {
 		Thread.sleep(2000);
 		StudentStudentPortalBean studentRgistration = singleStudentDetails.getstudentLatestRegistration(user);
 		SubjectPageObjectMethod subjectOnUI = new SubjectPageObjectMethod(driver);
+		SubjectPageObject backlogSubjectTextLink = new SubjectPageObject(driver);
 		logger.info("Read the subject from database "+subjectOnUI);
 		
 		
@@ -100,11 +102,11 @@ public class TC_Subjects_00006 extends BaseClass {
             // if(expectedtSubjects)
 			if (expectedtSubjects.equals(actualSubjects) ) {
 
-				logger.info("Subject is matched from the UI");
+				logger.info("Ongoing Subject is matched from the UI");
 				Assert.assertEquals(expectedtSubjects, actualSubjects);
 			} else {
 				logger.info("Subject is not matched from the UI");
-				captureScreenshot.captureFullScreen(driver, "TC_OngoingSubject00006");
+				captureScreenshot.captureFullScreen("TC_OngoingSubject00006");
 				
 
 		}
@@ -116,36 +118,42 @@ public class TC_Subjects_00006 extends BaseClass {
 		Set<String> actualBacklogSubjects = new LinkedHashSet<String>(subjectListUI);
 		logger.info(actualBacklogSubjects);
 		
-		logger.info("Backlog SubjectList From database " );
+		logger.info("Expected Backlog Subject List  " );
 		List<String> expectedBacklogSubjectsList = studentSubjectDao.getBacklogSubjects(user);
-		Set<String>sortedBacklogSubjects = new LinkedHashSet<String>(expectedBacklogSubjectsList);
+		Set<String>sortedexpectedBacklogSubjects = new LinkedHashSet<String>(expectedBacklogSubjectsList);
 		
 		
 		//The logic run when the Student have only Bcklog subject 
 		
-		if (sortedBacklogSubjects!=null && acadYear != currentAcadYear && acadMonth  != currentAcadMonth)  {
-			logger.info(sortedBacklogSubjects);
+		if (sortedexpectedBacklogSubjects!=null && acadYear != currentAcadYear && acadMonth  != currentAcadMonth)  {
+			logger.info(sortedexpectedBacklogSubjects);
 			
-			if (sortedBacklogSubjects.equals(actualBacklogSubjects)) {
+			if (sortedexpectedBacklogSubjects.equals(actualBacklogSubjects)) {
 				
-				Assert.assertEquals(sortedBacklogSubjects, actualBacklogSubjects);
+				Assert.assertEquals(sortedexpectedBacklogSubjects, actualBacklogSubjects);
 				
 			}
 			
 		}
 		
 		//The logic run when the Student have Bcklog and ongoing subject 
-		if(sortedBacklogSubjects!=null && acadYear.equals(currentAcadYear) && acadMonth.equals(currentAcadMonth) ) {
+		if(sortedexpectedBacklogSubjects!=null && acadYear.equals(currentAcadYear) && acadMonth.equals(currentAcadMonth) ) {
 			
 			
-			System.out.println("clickToViewBacklogSubject ");
+		
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			Thread.sleep(5000);
-			subjectOnUI.clickToViewBacklogSubject();
-			System.out.println("clickToViewBacklogSubject ");
+			backlogSubjectTextLink.clickToViewBacklogSubject();
+		
 			List<String> backlogSubjectsDisplayedInPoppup =  subjectOnUI.getBacklogSubjectFromPopup();
+			Set<String>sortedActualBacklogSubjects = new LinkedHashSet<String>(expectedBacklogSubjectsList);
 			
-			System.out.println("backlogSubjectsDisplayedInPoppup  -->" + backlogSubjectsDisplayedInPoppup);
+			
+			Assert.assertEquals(sortedActualBacklogSubjects, sortedexpectedBacklogSubjects);
+			
+			
+			
+			logger.info("Backlog Subjects matched " +sortedActualBacklogSubjects);
 			
 			
           

@@ -56,24 +56,18 @@ public class SubjectPageObjectMethod extends SubjectPageObject {
 	public List<String> getBacklogSubjectList() {
 		
 		 ArrayList<WebElement> backlogSubjectsListFromUI = new ArrayList<>(SubjectPageObject.backlogSubjects);
-	//	 List<String> elementTexts = new ArrayList<>();
+		 
+		 System.out.println("backlogSubjectsListFromUI         --->" +backlogSubjectsListFromUI);
+		 List<String> elementTexts = new ArrayList<>();
 		
-//		 for (WebElement element : backlogSubjectsListFromUI) {
-//	            elementTexts.add(element.getText());
-//	        }
-		 List<String> modifiedList = applySubstring(backlogSubjectsListFromUI, 2);
+		 for (WebElement element : backlogSubjectsListFromUI) {
+	            elementTexts.add(element.getText());
+	        }
+		// List<String> modifiedList = applySubstring(backlogSubjectsListFromUI, 2);
 		
-		return modifiedList;
-	}
-	
-	
-	public void clickToViewBacklogSubject() throws Exception {
-		
-		Thread.sleep(5000);
-		
-		
-		
-		viewBacklogSubjectsTextLink.click();
+		 
+		 System.out.println("elementTexts         --->"+elementTexts);
+		return elementTexts;
 	}
 	
 	

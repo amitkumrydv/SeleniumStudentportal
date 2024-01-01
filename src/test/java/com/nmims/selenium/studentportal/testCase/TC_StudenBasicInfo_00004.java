@@ -24,7 +24,7 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 	
 	
 	
-	CaptureScreen captureScreenshot;
+	CaptureScreen captureScreenshot = new CaptureScreen(driver);
 	ReadConfig readConfig = new ReadConfig();
 	public String user = readConfig.getUsername();
 	
@@ -79,7 +79,7 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 		} else {
 
 			logger.info("Student Name is not matched from the UI");
-			captureScreenshot.captureFullScreen(driver, "TC_OngoingSubject00006");
+			captureScreenshot.captureFullScreen("TC_StudenBasicInfo_00004");
 			Assert.fail("Student Name is not matched from the UI");
 
 		}
@@ -105,7 +105,7 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 			Assert.assertEquals(actualTextValues, expectedOptions);
 		} else {
 			logger.info("Student data is not matched from the Excel");
-			captureScreenshot.captureFullScreen(driver, "TC_StudenBasicInfo00004");
+			captureScreenshot.captureFullScreen("TC_StudenBasicInfo00004");
 			Assert.assertEquals(expectedOptions, actualTextValues);
 		}
 

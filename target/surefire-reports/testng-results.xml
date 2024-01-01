@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="StudentportalDashboard" duration-ms="48920" started-at="2024-01-01T11:20:09Z" finished-at="2024-01-01T11:20:58Z">
+    <groups>
+    </groups>
+    <test name="portalApp" duration-ms="48920" started-at="2024-01-01T11:20:09Z" finished-at="2024-01-01T11:20:58Z">
+      <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@7bedc48a]" name="setup" is-config="true" duration-ms="1889" started-at="2024-01-01T11:20:09Z" finished-at="2024-01-01T11:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ApplicableSubjectTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@7bedc48a]" name="ApplicableSubjectTest" duration-ms="46296" started-at="2024-01-01T11:20:11Z" finished-at="2024-01-01T11:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicableSubjectTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@7bedc48a]" name="tearDown" is-config="true" duration-ms="660" started-at="2024-01-01T11:20:57Z" finished-at="2024-01-01T11:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_Subjects_00006 -->
+    </test> <!-- portalApp -->
+  </suite> <!-- StudentportalDashboard -->
+</testng-results>
