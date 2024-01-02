@@ -10,14 +10,14 @@ C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selen
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\pageObject\AssignmentPageObject.java
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\utilities\CaptureScreen.java
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\utilities\ReadConfig.java
-C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\pageObject\UserDtailsPageObject.java
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\data\StudaentDetail.java
-C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\pageObjectMethod\UserDtailsPageObjectMethod.java
+C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\pageObject\StudentBasicInfoPageObject.java
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\testutil\SideBarMenuTest.java
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\testCase\TC_Subjects_00006.java
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\baseClass\BaseClass.java
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\utilities\Reporting.java
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\testCase\TC_StudenBasicInfo_00004.java
+C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\pageObjectMethod\StudentBasicInfoPageObjectMethod.java
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\data\DataProvideLogin.java
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\testCase\TC_CurrentAssignment_00009.java
 C:\Users\amit.yadav.ext\git\selenium-studentportal\src\test\java\com\nmims\selenium\studentportal\pageObjectMethod\SiderBarMenuPageObjectMethod.java
