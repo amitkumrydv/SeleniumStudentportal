@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="StudentportalDashboard" duration-ms="20323" started-at="2024-01-02T08:42:31Z" finished-at="2024-01-02T08:42:51Z">
+  <suite name="StudentportalDashboard" duration-ms="48908" started-at="2024-01-04T07:26:29Z" finished-at="2024-01-04T07:27:18Z">
     <groups>
     </groups>
-    <test name="portalApp" duration-ms="20323" started-at="2024-01-02T08:42:31Z" finished-at="2024-01-02T08:42:51Z">
-      <class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@37ceb1df]" name="setup" is-config="true" duration-ms="1926" started-at="2024-01-02T08:42:31Z" finished-at="2024-01-02T08:42:33Z">
+    <test name="portalApp" duration-ms="48908" started-at="2024-01-04T07:26:29Z" finished-at="2024-01-04T07:27:18Z">
+      <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@87a85e1]" name="setup" is-config="true" duration-ms="3175" started-at="2024-01-04T07:26:29Z" finished-at="2024-01-04T07:26:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="studentDetailsTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@37ceb1df]" name="studentDetailsTest" duration-ms="17694" started-at="2024-01-02T08:42:33Z" finished-at="2024-01-02T08:42:51Z">
+        <test-method status="PASS" signature="ApplicableSubjectTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@87a85e1]" name="ApplicableSubjectTest" duration-ms="45014" started-at="2024-01-04T07:26:32Z" finished-at="2024-01-04T07:27:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- studentDetailsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004@37ceb1df]" name="tearDown" is-config="true" duration-ms="626" started-at="2024-01-02T08:42:51Z" finished-at="2024-01-02T08:42:51Z">
+        </test-method> <!-- ApplicableSubjectTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@87a85e1]" name="tearDown" is-config="true" duration-ms="643" started-at="2024-01-04T07:27:18Z" finished-at="2024-01-04T07:27:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004 -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_Subjects_00006 -->
     </test> <!-- portalApp -->
   </suite> <!-- StudentportalDashboard -->
 </testng-results>

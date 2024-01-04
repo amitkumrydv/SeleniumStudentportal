@@ -29,8 +29,9 @@ public class TC_Subjects_00006 extends BaseClass {
 	ReadConfig readConfig = new ReadConfig();
 	private String user = readConfig.getUsername();
 	CaptureScreen captureScreenshot = new CaptureScreen(driver);
+	
 
-	//Using for dao call
+	// Using for dao call
 	ApplicationContext context = new AnnotationConfigApplicationContext(DataBaseConfig.class);
 	StudentSubjectDao studentSubjectDao = context.getBean("SubjectListDao", StudentSubjectDao.class);
 	ReadConfig readStudentdata = new ReadConfig();
@@ -38,48 +39,44 @@ public class TC_Subjects_00006 extends BaseClass {
 
 	public String path = readStudentdata.getStudentDetailsExcel();
 
-
 	@Test
 	public void ApplicableSubjectTest() throws Exception {
+		
+		SubjectPageObject subjectPageObject = new SubjectPageObject(driver);
 
 		// Login logic
 		LoginPageObjectMethod login = new LoginPageObjectMethod(driver);
 		login.commanLogin();
 		logger.info("Successfully verify login");
 		
-		
+
 		// Verify the side-bar menu
 		SideBarMenuTest.sideBarMenueIconsTest();
 		logger.info("Validate the side-bar menu");
-		
+
 		Thread.sleep(2000);
 		StudentStudentPortalBean studentRgistration = singleStudentDetails.getstudentLatestRegistration(user);
-		SubjectPageObjectMethod subjectOnUI = new SubjectPageObjectMethod(driver);
-		SubjectPageObject backlogSubjectTextLink = new SubjectPageObject(driver);
-		logger.info("Read the subject from database "+subjectOnUI);
-		
-		
+
 		// Compare acad year or month from the data base
 		String acadYear = studentRgistration.getYear();
 		String acadMonth = studentRgistration.getMonth();
 		String currentAcadMonth = readStudentdata.getCurrentAcadMonth();
 		String currentAcadYear = readStudentdata.getCurrentAcadYear();
-		logger.info("Student registration year and month " +acadYear + "-"+acadMonth);
-		
-        // Student acad year and month compare from the registration table to config properties file
-		
-		//The logic run when the Student have only Ongoing subject 
-		if (acadYear.equals(currentAcadYear) && acadMonth.equals(currentAcadMonth)) {
-			logger.info("Check the Acad Year or Month " +acadYear + "-"+acadMonth);
+		logger.info("Student registration year and month " + acadYear + "-" + acadMonth);
 
-			
-			//Store the suject from the ui
+		// Student acad year and month compare from the registration table to config
+		// properties file
+
+		// The logic run when the Student have only Ongoing subject
+		if (acadYear.equals(currentAcadYear) && acadMonth.equals(currentAcadMonth)) {
+			logger.info("Check the Acad Year or Month " + acadYear + "-" + acadMonth);
+
+			// Store the suject from the ui
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			List<String> actualSubjectsList = subjectOnUI.getOngoingSubjectFromUI(driver,
-					"//div[@id='collapseFour']//div/a");
-			
-			//a[@class=" text-dark list-group-item list-group-item-action"]
-			//a[@class=\" text-dark fw-semibold list-group-item list-group-item-action\
+			List<String> actualSubjectsList = subjectPageObject.getOngoingSubjectsFromUI();
+
+			// a[@class=" text-dark list-group-item list-group-item-action"]
+			// a[@class=\" text-dark fw-semibold list-group-item list-group-item-action\
 
 			logger.info("suject visible on the UI" + actualSubjectsList);
 
@@ -88,89 +85,70 @@ public class TC_Subjects_00006 extends BaseClass {
 
 			logger.info("Get student sem and consumerProgramStructureId");
 
-			//pass Value for sem & consumerstructure
+			// pass Value for sem & consumerstructure
 			List<String> expectedSubjectsList = studentSubjectDao.getOngoingSubject(sem, consumerProgramStructureId);
 			logger.info("applicableCurrentSubject " + expectedSubjectsList);
 
 //		 This approach will work for store unique in order subject .
 			Set<String> expectedtSubjects = new LinkedHashSet<String>(expectedSubjectsList);
-		//	expectedtSubjects.sort(String::compareToIgnoreCase);
+			// expectedtSubjects.sort(String::compareToIgnoreCase);
 			Set<String> actualSubjects = new LinkedHashSet<String>(actualSubjectsList);
-		//	actualSubjects.sort(String::compareToIgnoreCase);
-			
-			
-            // if(expectedtSubjects)
-			if (expectedtSubjects.equals(actualSubjects) ) {
+			// actualSubjects.sort(String::compareToIgnoreCase);
+
+			// if(expectedtSubjects)
+			if (expectedtSubjects.equals(actualSubjects)) {
 
 				logger.info("Ongoing Subject is matched from the UI");
 				Assert.assertEquals(expectedtSubjects, actualSubjects);
 			} else {
 				logger.info("Subject is not matched from the UI");
 				captureScreenshot.captureFullScreen("TC_OngoingSubject00006");
-				
+
+			}
 
 		}
-			
-    }   
 		// Backlog subject logic
-		logger.info("Backlog SubjectList From the UI " );
-		List<String> subjectListUI =subjectOnUI.getBacklogSubjectList();
+		logger.info("Backlog SubjectList From the UI ");
+		List<String> subjectListUI = subjectPageObject.getBacklogSubjectList();
 		Set<String> actualBacklogSubjects = new LinkedHashSet<String>(subjectListUI);
 		logger.info(actualBacklogSubjects);
-		
-		logger.info("Expected Backlog Subject List  " );
+
+		logger.info("Expected Backlog Subject List  ");
 		List<String> expectedBacklogSubjectsList = studentSubjectDao.getBacklogSubjects(user);
-		Set<String>sortedexpectedBacklogSubjects = new LinkedHashSet<String>(expectedBacklogSubjectsList);
-		
-		
-		//The logic run when the Student have only Bcklog subject 
-		
-		if (sortedexpectedBacklogSubjects!=null && acadYear != currentAcadYear && acadMonth  != currentAcadMonth)  {
+		Set<String> sortedexpectedBacklogSubjects = new LinkedHashSet<String>(expectedBacklogSubjectsList);
+
+		// The logic run when the Student have only Bcklog subject
+
+		if (sortedexpectedBacklogSubjects != null && acadYear != currentAcadYear && acadMonth != currentAcadMonth) {
 			logger.info(sortedexpectedBacklogSubjects);
-			
+
 			if (sortedexpectedBacklogSubjects.equals(actualBacklogSubjects)) {
-				
+
 				Assert.assertEquals(sortedexpectedBacklogSubjects, actualBacklogSubjects);
-				
+
 			}
-			
+
 		}
-		
-		//The logic run when the Student have Bcklog and ongoing subject 
-		if(sortedexpectedBacklogSubjects!=null && acadYear.equals(currentAcadYear) && acadMonth.equals(currentAcadMonth) ) {
-			
-			
-		
+
+		// The logic run when the Student have Bcklog and ongoing subject
+		if (sortedexpectedBacklogSubjects != null && acadYear.equals(currentAcadYear)
+				&& acadMonth.equals(currentAcadMonth)) {
+
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			Thread.sleep(5000);
-			backlogSubjectTextLink.clickToViewBacklogSubject();
-		
-			List<String> backlogSubjectsDisplayedInPoppup =  subjectOnUI.getBacklogSubjectFromPopup();
-			Set<String>sortedActualBacklogSubjects = new LinkedHashSet<String>(expectedBacklogSubjectsList);
-			
-			
-			Assert.assertEquals(sortedActualBacklogSubjects, sortedexpectedBacklogSubjects);
-			
-			
-			
-			logger.info("Backlog Subjects matched " +sortedActualBacklogSubjects);
-			
-			
-          
-		}
-			
-			
-		}
-		
-		
-		
-		
-		
-		//if ()
-		
-		
-		
- }
-	
-	
+			subjectPageObject.clickToViewBacklogSubject();
 
+			List<String> backlogSubjectsDisplayedInPoppup = subjectPageObject.getBacklogSubjectFromPopup();
+			Set<String> sortedActualBacklogSubjects = new LinkedHashSet<String>(expectedBacklogSubjectsList);
+
+			Assert.assertEquals(sortedActualBacklogSubjects, sortedexpectedBacklogSubjects);
+
+			logger.info("Backlog Subjects matched " + sortedActualBacklogSubjects);
+
+		}
+
+	}
+
+	// if ()
+
+}
