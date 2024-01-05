@@ -17,8 +17,6 @@ import com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod
 
 public class SubjectPageObject extends BaseClass {
 
-	
-
 	public SubjectPageObject(WebDriver driver) {
 
 		PageFactory.initElements(driver, this);
@@ -31,7 +29,7 @@ public class SubjectPageObject extends BaseClass {
 	protected WebElement zeroOngoingSubject;
 
 	// When only displayed backlog subject on the ui
-	@FindBy(xpath = "//a[@class=' text-dark list-group-item list-group-item-action']")
+	@FindBy(xpath = "//span[contains(@class,'mt-2')]")
 	public static List<WebElement> backlogSubjects;
 
 	@FindBy(xpath = "//a[contains(text(),'View')]")
@@ -62,13 +60,12 @@ public class SubjectPageObject extends BaseClass {
 			String OngoingSubjectlisText = OngoingSubjectlis.getText();
 			String modifiedElement = OngoingSubjectlisText.substring(2);
 			modifiedList.add(modifiedElement);
-			
+
 			// modifiedList.add(elementText);
 
 		}
 
 		return modifiedList;
-
 	}
 
 	// If student does not have subject

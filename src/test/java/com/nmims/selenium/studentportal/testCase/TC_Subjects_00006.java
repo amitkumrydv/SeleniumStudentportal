@@ -121,8 +121,10 @@ public class TC_Subjects_00006 extends BaseClass {
 
 		if (sortedexpectedBacklogSubjects != null && acadYear != currentAcadYear && acadMonth != currentAcadMonth) {
 			logger.info(sortedexpectedBacklogSubjects);
+			
+			Assert.assertEquals(sortedexpectedBacklogSubjects, actualBacklogSubjects);
 
-			if (sortedexpectedBacklogSubjects.equals(actualBacklogSubjects)) {
+			if (!sortedexpectedBacklogSubjects.equals(actualBacklogSubjects)) {
 
 				Assert.assertEquals(sortedexpectedBacklogSubjects, actualBacklogSubjects);
 

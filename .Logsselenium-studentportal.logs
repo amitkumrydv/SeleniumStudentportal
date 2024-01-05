@@ -9751,3 +9751,87 @@
 2024-01-04 12:57:00,756 [main] INFO Selenium_studentPortal - [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
 2024-01-04 12:57:18,002 - Selenium_studentPortal -INFO - Backlog Subjects matched [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
 2024-01-04 12:57:18,002 [main] INFO Selenium_studentPortal - Backlog Subjects matched [Business Economics, Financial Accounting & Analysis, Business Communication, Business Law, Decision Science, Essentials of HRM, Operations Management, Strategic Management]
+2024-01-04 13:53:06,274 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-01-04 13:53:06,274 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-01-04 13:53:06,279 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867D277F33BA9096D1E0A0E424E
+2024-01-04 13:53:06,279 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867D277F33BA9096D1E0A0E424E
+2024-01-04 13:53:06,486 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2024-01-04 13:53:06,486 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2024-01-04 13:53:06,491 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2024-01-04 13:53:06,491 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2024-01-04 13:53:06,497 - Selenium_studentPortal -INFO - Login page title is match
+2024-01-04 13:53:06,497 [main] INFO Selenium_studentPortal - Login page title is match
+2024-01-04 13:53:06,604 - Selenium_studentPortal -INFO - Entered the UserId
+2024-01-04 13:53:06,604 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-01-04 13:53:06,710 - Selenium_studentPortal -INFO - Entered the password
+2024-01-04 13:53:06,710 [main] INFO Selenium_studentPortal - Entered the password
+2024-01-04 13:53:06,839 - Selenium_studentPortal -INFO - Click on the login button 
+2024-01-04 13:53:06,839 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-01-04 13:53:16,843 - Selenium_studentPortal -INFO - Successfully verify login
+2024-01-04 13:53:16,843 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-01-04 13:53:16,844 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-01-04 13:53:16,844 [main] INFO Selenium_studentPortal - Start to validate side-bar menue
+2024-01-04 13:55:34,764 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-01-04 13:55:34,764 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-01-04 13:55:34,768 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867ABD6F71D4A520E5FC433009C
+2024-01-04 13:55:34,768 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867ABD6F71D4A520E5FC433009C
+2024-01-04 13:55:34,968 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2024-01-04 13:55:34,968 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2024-01-04 13:55:34,972 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2024-01-04 13:55:34,972 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2024-01-04 13:55:34,975 - Selenium_studentPortal -INFO - Login page title is match
+2024-01-04 13:55:34,975 [main] INFO Selenium_studentPortal - Login page title is match
+2024-01-04 13:55:35,053 - Selenium_studentPortal -INFO - Entered the UserId
+2024-01-04 13:55:35,053 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-01-04 13:55:35,144 - Selenium_studentPortal -INFO - Entered the password
+2024-01-04 13:55:35,144 [main] INFO Selenium_studentPortal - Entered the password
+2024-01-04 13:55:38,365 - Selenium_studentPortal -INFO - Click on the login button 
+2024-01-04 13:55:38,365 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-01-04 13:55:48,377 - Selenium_studentPortal -INFO - Successfully verify login
+2024-01-04 13:55:48,377 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-01-04 13:55:48,378 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-01-04 13:55:48,378 [main] INFO Selenium_studentPortal - Start to validate side-bar menue
+2024-01-04 13:55:49,492 - Selenium_studentPortal -INFO - Validate the side-bar menu
+2024-01-04 13:55:49,492 [main] INFO Selenium_studentPortal - Validate the side-bar menu
+2024-01-04 13:55:52,035 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2024-01-04 13:55:52,035 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2024-01-04 13:55:52,035 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2024-01-04 13:55:52,035 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2024-01-04 13:55:52,218 - Selenium_studentPortal -INFO - [1 Capital Market and Portfolio Management, 2 Business: Ethics, Governance & Risk, 3 International Finance, 4 Taxation- Direct and Indirect, 5 Financial Institutions and Markets, 6 Strategic Financial Management]
+2024-01-04 13:55:52,218 [main] INFO Selenium_studentPortal - [1 Capital Market and Portfolio Management, 2 Business: Ethics, Governance & Risk, 3 International Finance, 4 Taxation- Direct and Indirect, 5 Financial Institutions and Markets, 6 Strategic Financial Management]
+2024-01-04 13:55:52,218 - Selenium_studentPortal -INFO - Expected Backlog Subject List  
+2024-01-04 13:55:52,218 [main] INFO Selenium_studentPortal - Expected Backlog Subject List  
+2024-01-04 13:55:52,268 - Selenium_studentPortal -INFO - [Decision Science, Capital Market and Portfolio Management, Taxation- Direct and Indirect, Business: Ethics, Governance & Risk, Financial Institutions and Markets, International Finance, Project, Research Methodology, Strategic Financial Management]
+2024-01-04 13:55:52,268 [main] INFO Selenium_studentPortal - [Decision Science, Capital Market and Portfolio Management, Taxation- Direct and Indirect, Business: Ethics, Governance & Risk, Financial Institutions and Markets, International Finance, Project, Research Methodology, Strategic Financial Management]
+2024-01-04 14:00:29,749 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-01-04 14:00:29,749 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-01-04 14:00:29,752 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28673D60279BB7D23D58C42B014E
+2024-01-04 14:00:29,752 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28673D60279BB7D23D58C42B014E
+2024-01-04 14:00:29,936 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2024-01-04 14:00:29,936 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2024-01-04 14:00:29,939 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2024-01-04 14:00:29,939 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2024-01-04 14:00:29,943 - Selenium_studentPortal -INFO - Login page title is match
+2024-01-04 14:00:29,943 [main] INFO Selenium_studentPortal - Login page title is match
+2024-01-04 14:00:30,019 - Selenium_studentPortal -INFO - Entered the UserId
+2024-01-04 14:00:30,019 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-01-04 14:00:30,108 - Selenium_studentPortal -INFO - Entered the password
+2024-01-04 14:00:30,108 [main] INFO Selenium_studentPortal - Entered the password
+2024-01-04 14:00:32,974 - Selenium_studentPortal -INFO - Click on the login button 
+2024-01-04 14:00:32,974 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-01-04 14:00:42,975 - Selenium_studentPortal -INFO - Successfully verify login
+2024-01-04 14:00:42,975 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-01-04 14:00:42,976 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-01-04 14:00:42,976 [main] INFO Selenium_studentPortal - Start to validate side-bar menue
+2024-01-04 14:00:44,588 - Selenium_studentPortal -INFO - Validate the side-bar menu
+2024-01-04 14:00:44,588 [main] INFO Selenium_studentPortal - Validate the side-bar menu
+2024-01-04 14:00:46,948 - Selenium_studentPortal -INFO - Student registration year and month 2022-Jul
+2024-01-04 14:00:46,948 [main] INFO Selenium_studentPortal - Student registration year and month 2022-Jul
+2024-01-04 14:00:46,948 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2024-01-04 14:00:46,948 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2024-01-04 14:00:47,031 - Selenium_studentPortal -INFO - [1 Capital Market and Portfolio Management, 2 Business: Ethics, Governance & Risk, 3 International Finance, 4 Taxation- Direct and Indirect, 5 Financial Institutions and Markets, 6 Strategic Financial Management]
+2024-01-04 14:00:47,031 [main] INFO Selenium_studentPortal - [1 Capital Market and Portfolio Management, 2 Business: Ethics, Governance & Risk, 3 International Finance, 4 Taxation- Direct and Indirect, 5 Financial Institutions and Markets, 6 Strategic Financial Management]
+2024-01-04 14:00:47,031 - Selenium_studentPortal -INFO - Expected Backlog Subject List  
+2024-01-04 14:00:47,031 [main] INFO Selenium_studentPortal - Expected Backlog Subject List  
+2024-01-04 14:00:47,064 - Selenium_studentPortal -INFO - [Decision Science, Capital Market and Portfolio Management, Taxation- Direct and Indirect, Business: Ethics, Governance & Risk, Financial Institutions and Markets, International Finance, Project, Research Methodology, Strategic Financial Management]
+2024-01-04 14:00:47,064 [main] INFO Selenium_studentPortal - [Decision Science, Capital Market and Portfolio Management, Taxation- Direct and Indirect, Business: Ethics, Governance & Risk, Financial Institutions and Markets, International Finance, Project, Research Methodology, Strategic Financial Management]
