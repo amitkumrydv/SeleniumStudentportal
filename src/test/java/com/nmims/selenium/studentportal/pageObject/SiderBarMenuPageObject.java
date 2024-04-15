@@ -38,7 +38,7 @@ public class SiderBarMenuPageObject extends BaseClass {
 	public WebElement clickableMycourses;
 
 	// This is dynamic xpath becouse of change month and year
-	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href=\"/acads/student/videosHome?pageNo=1&academicCycle=Jul2023\"]")
+	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href=\"/acads/student/videosHome?pageNo=1&academicCycle=Jan2024\"]")
 	public WebElement clickableSesionvideo;
 
 	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href='/studentportal/student/bookmarks']")

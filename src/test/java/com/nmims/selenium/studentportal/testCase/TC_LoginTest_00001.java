@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import com.nmims.selenium.studentportal.baseClass.BaseClass;
 import com.nmims.selenium.studentportal.data.DataProvideLogin;
-import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
+import com.nmims.selenium.studentportal.pageObject.LoginPageObject;
 import com.nmims.selenium.studentportal.utilities.CaptureScreen;
 
 public class TC_LoginTest_00001 extends BaseClass {
@@ -20,7 +20,7 @@ public class TC_LoginTest_00001 extends BaseClass {
 	@Test(dataProvider = "Login", dataProviderClass = DataProvideLogin.class)   //groups = "authentication"
 	public void loginTest(String user, String pwd) throws InterruptedException, IOException {
 
-		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
+		LoginPageObject loginPage = new LoginPageObject(driver);
 
 		String pageHeaderTitle = loginPage.verifyTitle(); // This is page header title
 		logger.info("page header title is " + pageHeaderTitle);

@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.testng.Assert;
 
 import com.nmims.selenium.studentportal.baseClass.BaseClass;
-import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
+import com.nmims.selenium.studentportal.pageObject.LoginPageObject;
 import com.nmims.selenium.studentportal.utilities.CaptureScreen;
 
 public class Login extends BaseClass{
@@ -16,7 +16,7 @@ public class Login extends BaseClass{
 	
 	public  static void  loginPageTitleVerify() throws IOException {
 
-		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
+		LoginPageObject loginPage = new LoginPageObject(driver);
 
 		String pageHeaderTitle = loginPage.verifyTitle(); // This is page header title
 		logger.info("page header title is " + pageHeaderTitle);

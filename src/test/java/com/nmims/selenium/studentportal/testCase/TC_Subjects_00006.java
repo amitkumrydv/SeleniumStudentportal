@@ -1,6 +1,7 @@
 package com.nmims.selenium.studentportal.testCase;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -29,7 +30,6 @@ public class TC_Subjects_00006 extends BaseClass {
 	ReadConfig readConfig = new ReadConfig();
 	private String user = readConfig.getUsername();
 	CaptureScreen captureScreenshot = new CaptureScreen(driver);
-	
 
 	// Using for dao call
 	ApplicationContext context = new AnnotationConfigApplicationContext(DataBaseConfig.class);
@@ -38,17 +38,26 @@ public class TC_Subjects_00006 extends BaseClass {
 	StudentDao singleStudentDetails = context.getBean("singleStudentData", StudentDao.class);
 
 	public String path = readStudentdata.getStudentDetailsExcel();
+	
+	
 
 	@Test
 	public void ApplicableSubjectTest() throws Exception {
-		
-		SubjectPageObject subjectPageObject = new SubjectPageObject(driver);
 
 		// Login logic
 		LoginPageObjectMethod login = new LoginPageObjectMethod(driver);
 		login.commanLogin();
 		logger.info("Successfully verify login");
 		
+		SubjectPageObject subjectPageObject = new SubjectPageObject(driver);
+		
+		// Store the subject from the popup
+		List<String> backlogSubjectsDisplayedInPoppup = subjectPageObject.getBacklogSubjectFromPopup();
+		Collections.sort(backlogSubjectsDisplayedInPoppup);
+		
+		// Backlog subject from the data base
+		logger.info("Expected Backlog Subject List  ");
+		List<String> expectedBacklogSubjectsList = studentSubjectDao.getBacklogSubjects(user);
 
 		// Verify the side-bar menu
 		SideBarMenuTest.sideBarMenueIconsTest();
@@ -71,14 +80,11 @@ public class TC_Subjects_00006 extends BaseClass {
 		if (acadYear.equals(currentAcadYear) && acadMonth.equals(currentAcadMonth)) {
 			logger.info("Check the Acad Year or Month " + acadYear + "-" + acadMonth);
 
-			// Store the suject from the ui
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			List<String> actualSubjectsList = subjectPageObject.getOngoingSubjectsFromUI();
 
 			// a[@class=" text-dark list-group-item list-group-item-action"]
 			// a[@class=\" text-dark fw-semibold list-group-item list-group-item-action\
 
-			logger.info("suject visible on the UI" + actualSubjectsList);
+			
 
 			String consumerProgramStructureId = studentRgistration.getConsumerProgramStructureId();
 			String sem = studentRgistration.getSem();
@@ -89,12 +95,14 @@ public class TC_Subjects_00006 extends BaseClass {
 			List<String> expectedSubjectsList = studentSubjectDao.getOngoingSubject(sem, consumerProgramStructureId);
 			logger.info("applicableCurrentSubject " + expectedSubjectsList);
 
+			// Store the suject from the ui
+			List<String> actualCurrentSubjectsListFromUI = subjectPageObject.getOngoingSubjectsFromUI();
 //		 This approach will work for store unique in order subject .
 			Set<String> expectedtSubjects = new LinkedHashSet<String>(expectedSubjectsList);
 			// expectedtSubjects.sort(String::compareToIgnoreCase);
-			Set<String> actualSubjects = new LinkedHashSet<String>(actualSubjectsList);
+			Set<String> actualSubjects = new LinkedHashSet<String>(actualCurrentSubjectsListFromUI);
 			// actualSubjects.sort(String::compareToIgnoreCase);
-
+			logger.info("suject visible on the UI" + actualCurrentSubjectsListFromUI);
 			// if(expectedtSubjects)
 			if (expectedtSubjects.equals(actualSubjects)) {
 
@@ -110,42 +118,66 @@ public class TC_Subjects_00006 extends BaseClass {
 		// Backlog subject logic
 		logger.info("Backlog SubjectList From the UI ");
 		List<String> subjectListUI = subjectPageObject.getBacklogSubjectList();
-		Set<String> actualBacklogSubjects = new LinkedHashSet<String>(subjectListUI);
-		logger.info(actualBacklogSubjects);
 
-		logger.info("Expected Backlog Subject List  ");
-		List<String> expectedBacklogSubjectsList = studentSubjectDao.getBacklogSubjects(user);
-		Set<String> sortedexpectedBacklogSubjects = new LinkedHashSet<String>(expectedBacklogSubjectsList);
+		Collections.sort(subjectListUI);
+		// Set<String> actualBacklogSubjects = new LinkedHashSet<String>(subjectListUI);
+		logger.info(subjectListUI);
 
-		// The logic run when the Student have only Bcklog subject
+		
 
-		if (sortedexpectedBacklogSubjects != null && acadYear != currentAcadYear && acadMonth != currentAcadMonth) {
-			logger.info(sortedexpectedBacklogSubjects);
-			
-			Assert.assertEquals(sortedexpectedBacklogSubjects, actualBacklogSubjects);
+		Collections.sort(expectedBacklogSubjectsList);
+		// Set<String> sortedexpectedBacklogSubjects = new
+		// LinkedHashSet<String>(expectedBacklogSubjectsList);
 
-			if (!sortedexpectedBacklogSubjects.equals(actualBacklogSubjects)) {
+		/*
+		 * The logic run when the Student have only Backlog subject. on the UI displayed
+		 * only 6 subject and all subject display in the popup. if the displayed more
+		 * than 6 backlog then will not run.
+		 * 
+		 */
 
-				Assert.assertEquals(sortedexpectedBacklogSubjects, actualBacklogSubjects);
+		if (expectedBacklogSubjectsList != null && acadYear != currentAcadYear && acadMonth != currentAcadMonth) {
+			logger.info(expectedBacklogSubjectsList);
 
+			if (6 < subjectListUI.size()) {
+
+				Assert.assertEquals(expectedBacklogSubjectsList, subjectListUI);
+				logger.info("The backlog subject are matched");
+
+//			if (!expectedBacklogSubjectsList.equals(subjectListUI)) {
+//
+//				Assert.assertEquals(expectedBacklogSubjectsList, subjectListUI);
+//
+//			}
+
+			} else  {                                               //(actualCurrentSubjectsListFromUI.equals(null))
+				
+				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+				subjectPageObject.clickToViewBacklogSubject();
+				// Set<String> sortedActualBacklogSubjects = new
+				// LinkedHashSet<String>(expectedBacklogSubjectsList);
+				logger.info("Backlog subjects in popup"+backlogSubjectsDisplayedInPoppup);
+				
+				Assert.assertEquals(expectedBacklogSubjectsList, backlogSubjectsDisplayedInPoppup);
+
+				logger.info("Backlog Subjects matched ");
 			}
-
 		}
 
 		// The logic run when the Student have Bcklog and ongoing subject
-		if (sortedexpectedBacklogSubjects != null && acadYear.equals(currentAcadYear)
+		if (expectedBacklogSubjectsList != null && acadYear.equals(currentAcadYear)
 				&& acadMonth.equals(currentAcadMonth)) {
-
+			
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			Thread.sleep(5000);
 			subjectPageObject.clickToViewBacklogSubject();
+			
+			
+			// Set<String> sortedActualBacklogSubjects = new
+			// LinkedHashSet<String>(expectedBacklogSubjectsList);
+			
+			Assert.assertEquals(expectedBacklogSubjectsList, backlogSubjectsDisplayedInPoppup);
 
-			List<String> backlogSubjectsDisplayedInPoppup = subjectPageObject.getBacklogSubjectFromPopup();
-			Set<String> sortedActualBacklogSubjects = new LinkedHashSet<String>(expectedBacklogSubjectsList);
-
-			Assert.assertEquals(sortedActualBacklogSubjects, sortedexpectedBacklogSubjects);
-
-			logger.info("Backlog Subjects matched " + sortedActualBacklogSubjects);
+			logger.info("Backlog Subjects matched ");
 
 		}
 

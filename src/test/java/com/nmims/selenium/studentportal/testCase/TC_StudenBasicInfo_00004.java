@@ -13,6 +13,7 @@ import com.nmims.selenium.studentportal.config.DataBaseConfig;
 import com.nmims.selenium.studentportal.dao.StudentDao;
 import com.nmims.selenium.studentportal.data.StudaentDetail;
 import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
+import com.nmims.selenium.studentportal.pageObject.LoginPageObject;
 import com.nmims.selenium.studentportal.pageObject.StudentBasicInfoPageObject;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.nmims.selenium.studentportal.testutil.SideBarMenuTest;
@@ -45,7 +46,7 @@ public class TC_StudenBasicInfo_00004 extends BaseClass {
 	public void studentDetailsTest() throws Exception {
 		
 		// Login logic
-		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
+		LoginPageObject loginPage = new LoginPageObject(driver);
 		loginPage.commanLogin();
 		logger.info("Successful login test ");
 		

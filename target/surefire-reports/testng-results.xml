@@ -2,26 +2,59 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="StudentportalDashboard" duration-ms="20272" started-at="2024-01-04T08:30:27Z" finished-at="2024-01-04T08:30:47Z">
+  <suite name="StudentportalDashboard" duration-ms="13388" started-at="2024-04-01T05:05:10Z" finished-at="2024-04-01T05:05:23Z">
     <groups>
     </groups>
-    <test name="portalApp" duration-ms="20272" started-at="2024-01-04T08:30:27Z" finished-at="2024-01-04T08:30:47Z">
+    <test name="portalApp" duration-ms="13388" started-at="2024-04-01T05:05:10Z" finished-at="2024-04-01T05:05:23Z">
       <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@87a85e1]" name="setup" is-config="true" duration-ms="2340" started-at="2024-01-04T08:30:27Z" finished-at="2024-01-04T08:30:29Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@87a85e1]" name="setup" is-config="true" duration-ms="2584" started-at="2024-04-01T05:05:10Z" finished-at="2024-04-01T05:05:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ApplicableSubjectTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@87a85e1]" name="ApplicableSubjectTest" duration-ms="17185" started-at="2024-01-04T08:30:29Z" finished-at="2024-01-04T08:30:47Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="ApplicableSubjectTest()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@87a85e1]" name="ApplicableSubjectTest" duration-ms="10054" started-at="2024-04-01T05:05:12Z" finished-at="2024-04-01T05:05:22Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Sets differ: expected [1 Capital Market and Portfolio Management, 2 Business: Ethics, Governance & Risk, 3 International Finance, 4 Taxation- Direct and Indirect, 5 Financial Institutions and Markets, 6 Strategic Financial Management] but got [Decision Science, Capital Market and Portfolio Management, Taxation- Direct and Indirect, Business: Ethics, Governance & Risk, Financial Institutions and Markets, International Finance, Project, Research Methodology, Strategic Financial Management]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'WELCOME TO NGASCE')]"}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MUM16123CPU2825', ip: '10.106.108.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbd1be36da1a3fa659be8c84d29117e1
+*** Element info: {Using=xpath, value=//h2[contains(text(),'WELCOME TO NGASCE')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Sets differ: expected [1 Capital Market and Portfolio Management, 2 Business: Ethics, Governance & Risk, 3 International Finance, 4 Taxation- Direct and Indirect, 5 Financial Institutions and Markets, 6 Strategic Financial Management] but got [Decision Science, Capital Market and Portfolio Management, Taxation- Direct and Indirect, Business: Ethics, Governance & Risk, Financial Institutions and Markets, International Finance, Project, Research Methodology, Strategic Financial Management]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.assertEquals(Assert.java:1042)
-at org.testng.Assert.assertEquals(Assert.java:1020)
-at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:125)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'WELCOME TO NGASCE')]"}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MUM16123CPU2825', ip: '10.106.108.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbd1be36da1a3fa659be8c84d29117e1
+*** Element info: {Using=xpath, value=//h2[contains(text(),'WELCOME TO NGASCE')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy18.getText(Unknown Source)
+at com.nmims.selenium.studentportal.pageObject.LoginPageObject.verifyTitle(LoginPageObject.java:61)
+at com.nmims.selenium.studentportal.testutil.Login.loginPageTitleVerify(Login.java:21)
+at com.nmims.selenium.studentportal.pageObject.LoginPageObject.commanLogin(LoginPageObject.java:93)
+at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:49)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -53,11 +86,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApplicableSubjectTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@87a85e1]" name="tearDown" is-config="true" duration-ms="667" started-at="2024-01-04T08:30:47Z" finished-at="2024-01-04T08:30:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@87a85e1]" name="tearDown" is-config="true" duration-ms="667" started-at="2024-04-01T05:05:22Z" finished-at="2024-04-01T05:05:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

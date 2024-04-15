@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 04 14:00:27 IST 2024</td>
+<td>Started on:</td><td>Mon Apr 01 10:35:10 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>20 seconds (20272 ms)</td>
+<tr><td>Total time:</td><td>13 seconds (13388 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,14 +76,63 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest()'><b>ApplicableSubjectTest</b><br>Test class: com.nmims.selenium.studentportal.testCase.TC_Subjects_00006</td>
-<td><div><pre>java.lang.AssertionError: Sets differ: expected [1 Capital Market and Portfolio Management, 2 Business: Ethics, Governance &amp; Risk, 3 International Finance, 4 Taxation- Direct and Indirect, 5 Financial Institutions and Markets, 6 Strategic Financial Management] but got [Decision Science, Capital Market and Portfolio Management, Taxation- Direct and Indirect, Business: Ethics, Governance &amp; Risk, Financial Institutions and Markets, International Finance, Project, Research Methodology, Strategic Financial Management]
-	at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:125)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace777236628", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace777236628'><pre>java.lang.AssertionError: Sets differ: expected [1 Capital Market and Portfolio Management, 2 Business: Ethics, Governance &amp; Risk, 3 International Finance, 4 Taxation- Direct and Indirect, 5 Financial Institutions and Markets, 6 Strategic Financial Management] but got [Decision Science, Capital Market and Portfolio Management, Taxation- Direct and Indirect, Business: Ethics, Governance &amp; Risk, Financial Institutions and Markets, International Finance, Project, Research Methodology, Strategic Financial Management]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.assertEquals(Assert.java:1042)
-	at org.testng.Assert.assertEquals(Assert.java:1020)
-	at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:125)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]&quot;}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MUM16123CPU2825&apos;, ip: &apos;10.106.108.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbd1be36da1a3fa659be8c84d29117e1
+*** Element info: {Using=xpath, value=//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.getText(Unknown Source)
+	at com.nmims.selenium.studentportal.pageObject.LoginPageObject.verifyTitle(LoginPageObject.java:61)
+	at com.nmims.selenium.studentportal.testutil.Login.loginPageTitleVerify(Login.java:21)
+	at com.nmims.selenium.studentportal.pageObject.LoginPageObject.commanLogin(LoginPageObject.java:93)
+	at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:49)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace465233746", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace465233746'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]&quot;}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MUM16123CPU2825&apos;, ip: &apos;10.106.108.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbd1be36da1a3fa659be8c84d29117e1
+*** Element info: {Using=xpath, value=//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.getText(Unknown Source)
+	at com.nmims.selenium.studentportal.pageObject.LoginPageObject.verifyTitle(LoginPageObject.java:61)
+	at com.nmims.selenium.studentportal.testutil.Login.loginPageTitleVerify(Login.java:21)
+	at com.nmims.selenium.studentportal.pageObject.LoginPageObject.commanLogin(LoginPageObject.java:93)
+	at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -114,7 +163,7 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>17</td>
+<td>10</td>
 <td>com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@87a85e1</td></tr>
 </table><p>
 </body>
