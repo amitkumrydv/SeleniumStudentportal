@@ -6,12 +6,15 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import com.nmims.selenium.studentportal.pageObject.SubjectPageObject;
 
 
 public class SubjectPageObjectMethod extends SubjectPageObject {
 	
+	
+	WebDriver driver;
 	
 	public SubjectPageObjectMethod(WebDriver driver) {
 		super(driver);
@@ -71,9 +74,11 @@ public class SubjectPageObjectMethod extends SubjectPageObject {
 		
 		Thread.sleep(5000);
 		
+		Actions actions = new Actions();
+		actions.moveToElement(viewBacklogSubjectsTextLink);
+		actions.perform();
 		
-		
-		viewBacklogSubjectsTextLink.click();
+		//viewBacklogSubjectsTextLink.getLocation();
 	}
 	
 	

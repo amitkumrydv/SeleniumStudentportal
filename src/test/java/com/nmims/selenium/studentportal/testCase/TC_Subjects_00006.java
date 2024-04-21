@@ -135,7 +135,6 @@ public class TC_Subjects_00006 extends BaseClass {
 			
 			System.out.println("clickToViewBacklogSubject ");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			Thread.sleep(5000);
 			subjectOnUI.clickToViewBacklogSubject();
 			System.out.println("clickToViewBacklogSubject ");
 			List<String> backlogSubjectsDisplayedInPoppup =  subjectOnUI.getBacklogSubjectFromPopup();

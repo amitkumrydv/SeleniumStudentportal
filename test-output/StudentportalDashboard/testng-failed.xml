@@ -7,20 +7,13 @@
   <test thread-count="5" name="portalApp(failed)" verbose="100">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
+      <class name="com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages">
         <methods>
-          <include name="ongoingSubjectTest"/>
+          <include name="prtalScreenshors"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_Subjects_00006 -->
-      <class name="com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002">
-        <methods>
-          <include name="singleStudentAllData"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002 -->
+      </class> <!-- com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages -->
     </classes>
   </test> <!-- portalApp(failed) -->
 </suite> <!-- Failed suite [StudentportalDashboard] -->

@@ -29,10 +29,13 @@ public class SubjectPageObject {
 	public static List< WebElement> backlogSubjects;
 	
 	
-	@FindBy (xpath="//a[contains(text(),'View  Backlog')]")
+	@FindBy (xpath="//div[@id=\"collapseFour\"]//li//a[contains(text(),'View  Backlog')]")
 	public  WebElement viewBacklogSubjectsTextLink;
 
 	@FindBy (xpath="//a[contains(@href,'/authenticate/student/viewCourseDetails')]")
 	public static List< WebElement> listOfBacklogSubjctsInPopup;
+	
+	
+	
 
 }
