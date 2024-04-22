@@ -12489,3 +12489,25 @@
 2024-04-01 10:35:12,783 [main] INFO Selenium_studentPortal - Size of the cookies : 1
 2024-04-01 10:35:12,786 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28675D3D8885DC4859E2D6F19A7F
 2024-04-01 10:35:12,786 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28675D3D8885DC4859E2D6F19A7F
+2024-04-15 15:28:42,787 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-04-15 15:28:42,787 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-04-15 15:28:42,789 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28677C9F33D734B7A2CB3B565B22
+2024-04-15 15:28:42,789 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28677C9F33D734B7A2CB3B565B22
+2024-04-15 15:28:42,964 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2024-04-15 15:28:42,964 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2024-04-15 15:28:42,969 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2024-04-15 15:28:42,969 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2024-04-15 15:28:42,974 - Selenium_studentPortal -INFO - Login page title is match
+2024-04-15 15:28:42,974 [main] INFO Selenium_studentPortal - Login page title is match
+2024-04-15 15:28:43,075 - Selenium_studentPortal -INFO - Entered the UserId
+2024-04-15 15:28:43,075 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-04-15 15:28:43,159 - Selenium_studentPortal -INFO - Entered the password
+2024-04-15 15:28:43,159 [main] INFO Selenium_studentPortal - Entered the password
+2024-04-15 15:28:46,346 - Selenium_studentPortal -INFO - Click on the login button 
+2024-04-15 15:28:46,346 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-04-15 15:28:46,354 - Selenium_studentPortal -INFO - Successfully verify login
+2024-04-15 15:28:46,354 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-04-15 15:28:46,423 - Selenium_studentPortal -INFO - Expected Backlog Subject List  
+2024-04-15 15:28:46,423 [main] INFO Selenium_studentPortal - Expected Backlog Subject List  
+2024-04-15 15:28:46,624 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-04-15 15:28:46,624 [main] INFO Selenium_studentPortal - Start to validate side-bar menue

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 01 10:35:10 IST 2024</td>
+<td>Started on:</td><td>Mon Apr 15 15:28:39 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13388 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18362 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest()'><b>ApplicableSubjectTest</b><br>Test class: com.nmims.selenium.studentportal.testCase.TC_Subjects_00006</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]&quot;}
-  (Session info: chrome=123.0.6312.86)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&quot;ListwithToltip&quot;]//a[@href=&apos;/studentportal/home&apos;]&quot;}
+  (Session info: chrome=123.0.6312.107)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;MUM16123CPU2825&apos;, ip: &apos;10.106.108.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bbd1be36da1a3fa659be8c84d29117e1
-*** Element info: {Using=xpath, value=//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.107, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a7b32d383932a097caf91828fc58620
+*** Element info: {Using=xpath, value=//li[@id=&quot;ListwithToltip&quot;]//a[@href=&apos;/studentportal/home&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -97,21 +97,20 @@ Session ID: bbd1be36da1a3fa659be8c84d29117e1
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy18.getText(Unknown Source)
-	at com.nmims.selenium.studentportal.pageObject.LoginPageObject.verifyTitle(LoginPageObject.java:61)
-	at com.nmims.selenium.studentportal.testutil.Login.loginPageTitleVerify(Login.java:21)
-	at com.nmims.selenium.studentportal.pageObject.LoginPageObject.commanLogin(LoginPageObject.java:93)
-	at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:49)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace465233746", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace465233746'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]&quot;}
-  (Session info: chrome=123.0.6312.86)
+	at com.sun.proxy.$Proxy19.isEnabled(Unknown Source)
+	at com.nmims.selenium.studentportal.pageObject.SiderBarMenuPageObject.isDisplayDashboardIcon(SiderBarMenuPageObject.java:97)
+	at com.nmims.selenium.studentportal.testutil.SideBarMenuTest.sideBarMenueIconsTest(SideBarMenuTest.java:37)
+	at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:63)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace979117606", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace979117606'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&quot;ListwithToltip&quot;]//a[@href=&apos;/studentportal/home&apos;]&quot;}
+  (Session info: chrome=123.0.6312.107)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;MUM16123CPU2825&apos;, ip: &apos;10.106.108.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bbd1be36da1a3fa659be8c84d29117e1
-*** Element info: {Using=xpath, value=//h2[contains(text(),&apos;WELCOME TO NGASCE&apos;)]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.107, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a7b32d383932a097caf91828fc58620
+*** Element info: {Using=xpath, value=//li[@id=&quot;ListwithToltip&quot;]//a[@href=&apos;/studentportal/home&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -128,11 +127,10 @@ Session ID: bbd1be36da1a3fa659be8c84d29117e1
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy18.getText(Unknown Source)
-	at com.nmims.selenium.studentportal.pageObject.LoginPageObject.verifyTitle(LoginPageObject.java:61)
-	at com.nmims.selenium.studentportal.testutil.Login.loginPageTitleVerify(Login.java:21)
-	at com.nmims.selenium.studentportal.pageObject.LoginPageObject.commanLogin(LoginPageObject.java:93)
-	at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:49)
+	at com.sun.proxy.$Proxy19.isEnabled(Unknown Source)
+	at com.nmims.selenium.studentportal.pageObject.SiderBarMenuPageObject.isDisplayDashboardIcon(SiderBarMenuPageObject.java:97)
+	at com.nmims.selenium.studentportal.testutil.SideBarMenuTest.sideBarMenueIconsTest(SideBarMenuTest.java:37)
+	at com.nmims.selenium.studentportal.testCase.TC_Subjects_00006.ApplicableSubjectTest(TC_Subjects_00006.java:63)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -163,7 +161,7 @@ Session ID: bbd1be36da1a3fa659be8c84d29117e1
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>10</td>
+<td>13</td>
 <td>com.nmims.selenium.studentportal.testCase.TC_Subjects_00006@87a85e1</td></tr>
 </table><p>
 </body>
