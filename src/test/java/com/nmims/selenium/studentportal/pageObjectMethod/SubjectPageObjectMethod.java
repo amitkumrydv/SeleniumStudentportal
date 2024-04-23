@@ -74,7 +74,7 @@ public class SubjectPageObjectMethod extends SubjectPageObject {
 		
 		Thread.sleep(5000);
 		
-		Actions actions = new Actions();
+		Actions actions = new Actions(driver);
 		actions.moveToElement(viewBacklogSubjectsTextLink);
 		actions.perform();
 		
