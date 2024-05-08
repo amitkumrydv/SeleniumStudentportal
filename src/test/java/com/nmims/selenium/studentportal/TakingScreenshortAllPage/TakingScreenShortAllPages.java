@@ -6,55 +6,86 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import com.nmims.selenium.studentportal.baseClass.BaseClass;
+import com.nmims.selenium.studentportal.pageObject.AssignmentPageObject;
 import com.nmims.selenium.studentportal.pageObject.DashboardPageObject;
+import com.nmims.selenium.studentportal.pageObject.SiderBarMenuPageObject;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.nmims.selenium.studentportal.utilities.CaptureScreen;
 import com.nmims.selenium.studentportal.utilities.ReadConfig;
 
-public class TakingScreenShortAllPages  extends BaseClass{
-	
-	
+public class TakingScreenShortAllPages extends BaseClass {
+
 	private List<String> assignmentList;
 	private CaptureScreen captureScreenshot;
 	ReadConfig readConfig = new ReadConfig();
 	private String user = readConfig.getUsername();
 
-	@Test
+	@Test(priority = 1)
 	public void prtalScreenshors() throws InterruptedException, IOException {
-	LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
-	loginPage.commanLogin();
-	logger.info("Successful login test ");
+		LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
+		loginPage.commanLogin();
+		logger.info("Successful login test ");
 
-	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	
-	DashboardPageObject  footer = new DashboardPageObject(driver);
-	
-	int footersize = footer.footerHeight();
-	System.out.println("footersize-- " +footersize);
-	
-	//CaptureScreen.takeScreenshotUpToFooter(driver,"TakingScreenShortAllPages");
-	
-	 for (int i = 0; i < footersize; i += 320) {
-	    	Thread.sleep(1000);
-	    	
-	    	CaptureScreen.takeScreenshotUpToFooter("TakingScreenShortAllPages"+i);
-	    	
-	        ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, " + i + ")");
-	     
-	            Thread.sleep(4000); // Adjust the delay as needed
-	        
-	    }
-	
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+		DashboardPageObject footer = new DashboardPageObject(driver);
+
+		int footersize = footer.footerHeight();
+		System.out.println("footersize-- " + footersize);
+
+		// CaptureScreen.takeScreenshotUpToFooter(driver,"TakingScreenShortAllPages");
+
+		for (int i = 0; i < footersize; i += 320) {
+			Thread.sleep(1000);
+
+			CaptureScreen.takeScreenshotUpToFooter("TakingScreenShortAllPages" + i);
+
+			((JavascriptExecutor) driver).executeScript("window.scrollTo(0, " + i + ")");
+
+			Thread.sleep(4000); // Adjust the delay as needed
+
+		}
+
 	}
-	
-	
-	
-	
-	
-	
-	
+
+	@Test(priority = 2)
+	public void assignment() throws InterruptedException, IOException {
+		/*
+		 * LoginPageObjectMethod loginPage = new LoginPageObjectMethod(driver);
+		 * loginPage.commanLogin(); logger.info("Successful login test ");
+		 */
+
+		SiderBarMenuPageObject mousehoverOnExam = new SiderBarMenuPageObject(driver);
+
+		mousehoverOnExam.mouseHoverExamIcon();
+		AssignmentPageObject assignmentOption = new AssignmentPageObject(driver);
+		assignmentOption.clickOnAssignmentOption();
+		
+		
+		DashboardPageObject footer = new DashboardPageObject(driver);
+
+		int footersize = footer.footerHeight();
+		System.out.println("footersize-- " + footersize);
+
+		// CaptureScreen.takeScreenshotUpToFooter(driver,"TakingScreenShortAllPages");
+
+		for (int i = 0; i < footersize; i += 320) {
+			Thread.sleep(1000);
+
+			CaptureScreen.takeScreenshotUpToFooter("TakingScreenShortAllPages" + i);
+
+			((JavascriptExecutor) driver).executeScript("window.scrollTo(0, " + i + ")");
+
+			Thread.sleep(4000); // Adjust the delay as needed
+		
+		
+		
+		}
+	}
+
 
 }

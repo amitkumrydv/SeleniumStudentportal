@@ -34,19 +34,10 @@ public class DashboardPageObject extends BaseClass {
 		Long totalHeight = (Long) js.executeScript("return document.body.scrollHeight");
 
 		System.out.println("totalHeight--- " + totalHeight);
-		// js.executeScript("arguments[0].scrollIntoView(true);", footerText);
-
-		// Set window size to full height
-	//	driver.manage().window().setSize(new Dimension(1920, totalHeight.intValue()));
-
-		// Get the dimensions of the footer element
+		
 		int footerHeight = footerText.getSize().getHeight();
 
-		// Calculate the height to scroll, excluding the footer
 		int scrollHeight = totalHeight.intValue() - footerHeight;
-
-		// Scroll to the bottom of the page
-		// js.executeScript("window.scrollTo(0, arguments[0]);", scrollHeight);
 
 		return scrollHeight;
 

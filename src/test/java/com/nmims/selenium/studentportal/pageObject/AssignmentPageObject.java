@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class AssignmentPageObject {
 	
-	protected AssignmentPageObject(WebDriver driver){
+	public AssignmentPageObject(WebDriver driver){
 		
 		PageFactory.initElements(driver, this);
 		
@@ -22,5 +22,18 @@ public class AssignmentPageObject {
 	@FindBy (xpath="//ul[@class='list-group ']//li")
 	protected List<WebElement> assignmentCount;
 	
+	
+	@FindBy (xpath="//p[text()=' Assignment ']")
+	public WebElement clickOnAssignment;
+	
+	
+	
+	
+	
+	
+	public void clickOnAssignmentOption() {
+		
+		clickOnAssignment.click();
+	}
 
 }

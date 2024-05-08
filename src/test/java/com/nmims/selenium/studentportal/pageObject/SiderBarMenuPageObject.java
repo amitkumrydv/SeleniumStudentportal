@@ -3,6 +3,7 @@ package com.nmims.selenium.studentportal.pageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -21,6 +22,8 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 		PageFactory.initElements(driver, this);
 	}
+
+	Actions actions = new Actions(driver);
 
 	@FindBy(xpath = "//li[@id='toggle-nav']//a")
 	public WebElement expandMenueArrow;
@@ -46,11 +49,10 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 	@FindBy(xpath = "//a[@href='/exam/student/getMostRecentResults']")
 	public WebElement ClickableMousHoverExam;
-	
+
 	@FindBy(xpath = "//li[@id='csSidebarIcon']//a[@href=\"/careerservices/Home\"]")
 	public WebElement ClickableMousHoverCareerServices;
 
-	
 	@FindBy(xpath = "//a[@href=\"/studentportal/student/connectWithUs\"]//span")
 	public WebElement ClickableMousHoverStudentSupport;
 
@@ -76,7 +78,7 @@ public class SiderBarMenuPageObject extends BaseClass {
 	public boolean isVisibleExpandArrow() {
 
 		boolean displayManueArrow = expandMenueArrow.isDisplayed();
-		
+
 		Assert.state(displayManueArrow);
 		return displayManueArrow;
 
@@ -84,9 +86,6 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 	// Dashboard
 	public void isDisplayDashboardIcon() {
-		
-		
-		
 
 //		if (clickableDashboardAuthenticate != null && clickableDashboardAuthenticate.isSelected()) {
 //			WebElement clickableDashboardIconAuthenticate = wait
@@ -100,7 +99,6 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 			boolean DashboardIcon = clickableDashboardIconStudentportal.isDisplayed();
 			Assert.state(DashboardIcon);
-			
 
 		} else {
 			System.out.println(" Element not found ");
@@ -119,7 +117,7 @@ public class SiderBarMenuPageObject extends BaseClass {
 		WebElement clickableAcadIcan = wait.until(ExpectedConditions.elementToBeClickable(clickableAcad));
 		boolean acadicon = clickableAcadIcan.isDisplayed();
 		Assert.state(acadicon);
-		
+
 	}
 
 	public void clickOnDisplayAcadIcon() {
@@ -133,7 +131,7 @@ public class SiderBarMenuPageObject extends BaseClass {
 		WebElement clickableMycoursesIcon = wait.until(ExpectedConditions.elementToBeClickable(clickableMycourses));
 		boolean myCoursesIcon = clickableMycoursesIcon.isDisplayed();
 		Assert.state(myCoursesIcon);
-		
+
 	}
 
 	public void clickOnDisplayMycoursesIcon() {
@@ -148,7 +146,6 @@ public class SiderBarMenuPageObject extends BaseClass {
 		WebElement clickableSesionvideoIcon = wait.until(ExpectedConditions.elementToBeClickable(clickableSesionvideo));
 		boolean sesionvideoIcon = clickableSesionvideoIcon.isDisplayed();
 		Assert.state(sesionvideoIcon);
-		
 
 		clickableSesionvideo.isDisplayed();
 	}
@@ -165,7 +162,6 @@ public class SiderBarMenuPageObject extends BaseClass {
 		WebElement clickableBookmarkIcon = wait.until(ExpectedConditions.elementToBeClickable(clickableBookmark));
 		boolean bookmarkIcon = clickableBookmarkIcon.isDisplayed();
 		Assert.state(bookmarkIcon);
-		
 
 		clickableBookmark.isDisplayed();
 	}
@@ -181,24 +177,23 @@ public class SiderBarMenuPageObject extends BaseClass {
 		WebElement clickableExamIconn = wait.until(ExpectedConditions.elementToBeClickable(ClickableMousHoverExam));
 		boolean examIcon = clickableExamIconn.isDisplayed();
 		Assert.state(examIcon);
-	
 
 	}
-	
-	
-	
-	
+
+	public void mouseHoverExamIcon() {
+
+		actions.moveToElement(ClickableMousHoverExam).perform();
+
+	}
+
 	// Career Service
-	
-	
 
 	public void isDisplayCareerServicesIcon() {
 
 		WebElement clickableCareerServicesIcon = wait
 				.until(ExpectedConditions.elementToBeClickable(ClickableMousHoverCareerServices));
-		boolean careerServicesIcon= clickableCareerServicesIcon.isDisplayed();
+		boolean careerServicesIcon = clickableCareerServicesIcon.isDisplayed();
 		Assert.state(careerServicesIcon);
-
 
 	}
 
@@ -206,23 +201,6 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 		ClickableMousHoverCareerServices.click();
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 	// StudentSupport
 
@@ -230,9 +208,8 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 		WebElement clickableStudentSupportIcon = wait
 				.until(ExpectedConditions.elementToBeClickable(ClickableMousHoverStudentSupport));
-		boolean studentSupportIcon= clickableStudentSupportIcon.isDisplayed();
+		boolean studentSupportIcon = clickableStudentSupportIcon.isDisplayed();
 		Assert.state(studentSupportIcon);
-
 
 	}
 
@@ -240,8 +217,6 @@ public class SiderBarMenuPageObject extends BaseClass {
 
 		ClickableMousHoverStudentSupport.click();
 	}
-	
-
 
 	// NGASCEAlumniPortal
 
@@ -251,7 +226,6 @@ public class SiderBarMenuPageObject extends BaseClass {
 				.until(ExpectedConditions.elementToBeClickable(ClickableNGASCEAlumniPortal));
 		boolean NGASCEAlumniPortalIcon = clickableNGASCEAlumniPortalIcon.isDisplayed();
 		Assert.state(NGASCEAlumniPortalIcon);
-		
 
 	}
 
@@ -266,7 +240,7 @@ public class SiderBarMenuPageObject extends BaseClass {
 		WebElement clickableMyBadgesIcon = wait.until(ExpectedConditions.elementToBeClickable(ClickableMyBadges));
 		boolean myBadgesIcon = clickableMyBadgesIcon.isDisplayed();
 		Assert.state(myBadgesIcon);
-		
+
 	}
 
 	public void clickOnDisplayMyBadgesIcon() {
@@ -280,7 +254,6 @@ public class SiderBarMenuPageObject extends BaseClass {
 		WebElement clickableQuickLinksIcon = wait.until(ExpectedConditions.elementToBeClickable(mouseHoverQuickLinks));
 		boolean quickLinksIcon = clickableQuickLinksIcon.isDisplayed();
 		Assert.state(quickLinksIcon);
-		
 
 	}
 
