@@ -9205,3 +9205,23 @@
 2024-01-02 14:12:51,139 [main] INFO Selenium_studentPortal - Excel data [darshanchawade@gmail.com, 7709182030, MBA (ITSM), 77122558691, Validity End: 30-Jun-2026]
 2024-01-02 14:12:51,140 - Selenium_studentPortal -INFO - Student details is matched from the UI
 2024-01-02 14:12:51,140 [main] INFO Selenium_studentPortal - Student details is matched from the UI
+2024-05-08 16:07:47,802 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-05-08 16:07:47,802 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-05-08 16:07:47,815 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867871AF21A9FB1D22F022588E2
+2024-05-08 16:07:47,815 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867871AF21A9FB1D22F022588E2
+2024-05-08 16:07:47,932 - Selenium_studentPortal -INFO - page header title is WELCOME TO NGASCE STUDENT ZONE
+2024-05-08 16:07:47,932 [main] INFO Selenium_studentPortal - page header title is WELCOME TO NGASCE STUDENT ZONE
+2024-05-08 16:07:47,935 - Selenium_studentPortal -INFO - page title is Welcome to Student Portal
+2024-05-08 16:07:47,935 [main] INFO Selenium_studentPortal - page title is Welcome to Student Portal
+2024-05-08 16:07:47,939 - Selenium_studentPortal -INFO - Login page title is match
+2024-05-08 16:07:47,939 [main] INFO Selenium_studentPortal - Login page title is match
+2024-05-08 16:07:48,047 - Selenium_studentPortal -INFO - Entered the UserId
+2024-05-08 16:07:48,047 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-05-08 16:07:48,171 - Selenium_studentPortal -INFO - Entered the password
+2024-05-08 16:07:48,171 [main] INFO Selenium_studentPortal - Entered the password
+2024-05-08 16:07:49,089 - Selenium_studentPortal -INFO - Click on the login button 
+2024-05-08 16:07:49,089 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-05-08 16:07:59,089 - Selenium_studentPortal -INFO - Successful login test 
+2024-05-08 16:07:59,089 [main] INFO Selenium_studentPortal - Successful login test 
+2024-05-08 16:07:59,090 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-05-08 16:07:59,090 [main] INFO Selenium_studentPortal - Start to validate side-bar menue

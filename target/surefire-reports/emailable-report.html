@@ -9,10 +9,35 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">StudentportalDashboard</th></tr>
-<tr><td><a href="#t0">portalApp</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">20,323</td><td></td><td></td></tr>
+<tr><td><a href="#t0">portalApp</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">26,371</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">StudentportalDashboard</th></tr></tbody><tbody id="t0"><tr><th colspan="4">portalApp &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004</td><td><a href="#m0">studentDetailsTest</a></td><td rowspan="1">1704184953446</td><td rowspan="1">17694</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">StudentportalDashboard</th></tr></tbody><tbody id="t0"><tr><th colspan="4">portalApp &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004</td><td><a href="#m0">studentDetailsTest</a></td><td rowspan="1">1715164667872</td><td rowspan="1">21356</td></tr></tbody>
 </table>
-<h2>portalApp</h2><h3 id="m0">com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004#studentDetailsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>portalApp</h2><h3 id="m0">com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004#studentDetailsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&quot;ListwithToltip&quot;]//a[@href=&apos;/studentportal/home&apos;]&quot;}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MUM16123CPU2825&apos;, ip: &apos;10.106.108.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54671}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e4e9da389031a6ae17b9f17bf626690d
+*** Element info: {Using=xpath, value=//li[@id=&quot;ListwithToltip&quot;]//a[@href=&apos;/studentportal/home&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.isEnabled(Unknown Source)
+	at com.nmims.selenium.studentportal.pageObject.SiderBarMenuPageObject.isDisplayDashboardIcon(SiderBarMenuPageObject.java:97)
+	at com.nmims.selenium.studentportal.testutil.SideBarMenuTest.sideBarMenueIconsTest(SideBarMenuTest.java:37)
+	at com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004.studentDetailsTest(TC_StudenBasicInfo_00004.java:54)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
