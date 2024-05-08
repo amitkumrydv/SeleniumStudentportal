@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="StudentportalDashboard" duration-ms="56123" started-at="2024-04-23T05:13:30Z" finished-at="2024-04-23T05:14:26Z">
+  <suite name="StudentportalDashboard" duration-ms="57236" started-at="2024-05-03T03:35:30Z" finished-at="2024-05-03T03:36:27Z">
     <groups>
     </groups>
-    <test name="portalApp" duration-ms="56123" started-at="2024-04-23T05:13:30Z" finished-at="2024-04-23T05:14:26Z">
+    <test name="portalApp" duration-ms="57236" started-at="2024-05-03T03:35:30Z" finished-at="2024-05-03T03:36:27Z">
       <class name="com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@234bef66]" name="setup" is-config="true" duration-ms="2232" started-at="2024-04-23T05:13:30Z" finished-at="2024-04-23T05:13:33Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@234bef66]" name="setup" is-config="true" duration-ms="1816" started-at="2024-05-03T03:35:30Z" finished-at="2024-05-03T03:35:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="prtalScreenshors()[pri:0, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@234bef66]" name="prtalScreenshors" duration-ms="53048" started-at="2024-04-23T05:13:33Z" finished-at="2024-04-23T05:14:26Z">
+        <test-method status="PASS" signature="prtalScreenshors()[pri:0, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@234bef66]" name="prtalScreenshors" duration-ms="54643" started-at="2024-05-03T03:35:32Z" finished-at="2024-05-03T03:36:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prtalScreenshors -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@234bef66]" name="tearDown" is-config="true" duration-ms="690" started-at="2024-04-23T05:14:26Z" finished-at="2024-04-23T05:14:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@234bef66]" name="tearDown" is-config="true" duration-ms="669" started-at="2024-05-03T03:36:26Z" finished-at="2024-05-03T03:36:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
