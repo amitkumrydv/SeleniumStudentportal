@@ -16,11 +16,11 @@ public class LoginPageObject {
 	
 	
     // Xpath
-	@FindBy(xpath = "//h2[contains(text(),'WELCOME TO NGASCE')]")
+	@FindBy(xpath = "//title[text()='Welcome To Student Portal']")
 	@CacheLookup
 	protected WebElement loginPageTitle;
 
-	@FindBy(id = "userId")
+	@FindBy(id = "userLogin")
 	@CacheLookup
 	protected WebElement userId;
 
@@ -28,7 +28,7 @@ public class LoginPageObject {
 	@CacheLookup
 	protected WebElement pswd;
 
-	@FindBy(xpath = "//button[contains(text(), 'LOGIN')]")
+	@FindBy(xpath = "//button[@type='submit']")
 	@CacheLookup
 	protected WebElement loginButton;
 	

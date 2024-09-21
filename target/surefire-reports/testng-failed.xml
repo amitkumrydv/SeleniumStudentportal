@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [StudentportalDashboard]" allow-return-values="true">
+<suite name="Failed suite [StudentportalDashboard]" guice-stage="DEVELOPMENT" allow-return-values="true" verbose="0">
   <listeners>
     <listener class-name="com.nmims.selenium.studentportal.utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="portalApp(failed)">
+  <test thread-count="5" name="portalApp(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages">
         <methods>
-          <include name="prtalScreenshors"/>
+          <include name="assignment"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>

@@ -1,7 +1,0 @@
-com\nmims\selenium\studentportal\entities\StudentStudentPortalBean.class
-com\nmims\selenium\studentportal\daoImpl\SubjectDaoImpl.class
-com\nmims\selenium\studentportal\dao\StudentSubjectDao.class
-com\nmims\selenium\studentportal\daoImpl\RowMapperImpl.class
-com\nmims\selenium\studentportal\config\DataBaseConfig.class
-com\nmims\selenium\studentportal\dao\StudentDao.class
-com\nmims\selenium\studentportal\daoImpl\StudentDaoImpl.class

@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 102.734 sec - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 50.571 sec <<< FAILURE! - in TestSuite
+assignment(com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages)  Time elapsed: 0.094 sec  <<< FAILURE!
+org.openqa.selenium.JavascriptException: javascript error: {"status":60,"value":"https://studentzone-ncdoe.nmims.edu/exam/student/getMostRecentResults has no size and location"}
+  (Session info: chrome=127.0.6533.100)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MUM16123CPU2825', ip: '10.106.108.88', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2e6cbfccb834495ece75301bb7c334e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:614)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:640)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:596)
+	at com.nmims.selenium.studentportal.pageObject.SiderBarMenuPageObject.mouseHoverExamIcon(SiderBarMenuPageObject.java:185)
+	at com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages.assignment(TakingScreenShortAllPages.java:64)
+

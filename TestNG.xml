@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
+<!-- 
+verbose="100": Providing log  in detailed based on the number
+preserve-order="true" : Tests will run in the order they are specified, which is crucial if tests have dependencies on one another.
+parallel="false": You can run the test case parallel  
+
+
+ -->
 <suite name="StudentportalDashboard" allow-return-values="true"
 	verbose="100" parallel="false" preserve-order="true">
 
@@ -17,13 +24,13 @@
 		<classes>
 
 
-			<!-- <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001"/>
-            <class name="com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002"/>  -->
-		<!-- 	<class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004"/> -->
-	<!-- 	 <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006"/> -->
-		<!--	<class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009"/>  -->
+			<class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001"/>
+            <class name="com.nmims.selenium.studentportal.testCase.TC_SingleStudentDetails_00002"/> 
+			<class name="com.nmims.selenium.studentportal.testCase.TC_StudenBasicInfo_00004"/>
+		   <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006"/>
+			<class name="com.nmims.selenium.studentportal.testCase.TC_CurrentAssignment_00009"/> 
 		
-		 <class name="com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages"/>
+		<!--  <class name="com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages"/> -->
 			
 			
 

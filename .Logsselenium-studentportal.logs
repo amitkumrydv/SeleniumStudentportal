@@ -9299,3 +9299,439 @@
 2024-05-08 17:37:51,047 [main] INFO Selenium_studentPortal - Click on the login button 
 2024-05-08 17:38:01,049 - Selenium_studentPortal -INFO - Successful login test 
 2024-05-08 17:38:01,049 [main] INFO Selenium_studentPortal - Successful login test 
+2024-06-08 17:53:40,761 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-06-08 17:53:40,761 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-06-08 17:53:40,764 - Selenium_studentPortal -INFO - Cookie Name  SESSION Cookie Value  e5ecc1fa-ac83-428b-b551-28296edd4e79
+2024-06-08 17:53:40,764 [main] INFO Selenium_studentPortal - Cookie Name  SESSION Cookie Value  e5ecc1fa-ac83-428b-b551-28296edd4e79
+2024-06-15 12:45:16,251 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-06-15 12:45:16,251 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-06-15 12:45:16,255 - Selenium_studentPortal -INFO - Cookie Name  SESSION Cookie Value  9b662623-c6d1-4c73-925e-28ff1ee3f8aa
+2024-06-15 12:45:16,255 [main] INFO Selenium_studentPortal - Cookie Name  SESSION Cookie Value  9b662623-c6d1-4c73-925e-28ff1ee3f8aa
+2024-06-15 12:46:45,813 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-06-15 12:46:45,813 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-06-15 12:46:45,816 - Selenium_studentPortal -INFO - Cookie Name  SESSION Cookie Value  9b040718-bf7c-4547-a888-cbe375ca4f81
+2024-06-15 12:46:45,816 [main] INFO Selenium_studentPortal - Cookie Name  SESSION Cookie Value  9b040718-bf7c-4547-a888-cbe375ca4f81
+2024-06-15 16:09:25,725 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-06-15 16:09:25,725 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-06-15 16:09:25,730 - Selenium_studentPortal -INFO - Cookie Name  SESSION Cookie Value  9c359595-5896-4c25-be33-dcdb036a888c
+2024-06-15 16:09:25,730 [main] INFO Selenium_studentPortal - Cookie Name  SESSION Cookie Value  9c359595-5896-4c25-be33-dcdb036a888c
+2024-06-15 16:12:16,162 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-06-15 16:12:16,162 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-06-15 16:12:16,166 - Selenium_studentPortal -INFO - Cookie Name  SESSION Cookie Value  e2bb316c-fa1d-4d62-9d88-78b97aca3848
+2024-06-15 16:12:16,166 [main] INFO Selenium_studentPortal - Cookie Name  SESSION Cookie Value  e2bb316c-fa1d-4d62-9d88-78b97aca3848
+2024-06-15 16:27:31,735 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:27:31,735 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:33:37,994 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:33:37,994 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:33:38,117 - Selenium_studentPortal -INFO - page header title is 
+2024-06-15 16:33:38,117 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-15 16:33:38,122 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-15 16:33:38,122 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-15 16:33:38,128 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-15 16:33:38,128 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-15 16:33:38,330 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-15 16:33:38,330 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-15 16:33:38,449 - Selenium_studentPortal -INFO - Entered the password
+2024-06-15 16:33:38,449 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-15 16:33:44,002 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-15 16:33:44,002 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-15 16:33:54,012 - Selenium_studentPortal -INFO - Successful login test 
+2024-06-15 16:33:54,012 [main] INFO Selenium_studentPortal - Successful login test 
+2024-06-15 16:39:49,354 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:39:49,354 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:39:49,854 - Selenium_studentPortal -INFO - page header title is 
+2024-06-15 16:39:49,854 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-15 16:39:49,860 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-15 16:39:49,860 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-15 16:39:49,866 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-15 16:39:49,866 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-15 16:39:49,986 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-15 16:39:49,986 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-15 16:39:50,099 - Selenium_studentPortal -INFO - Entered the password
+2024-06-15 16:39:50,099 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-15 16:39:53,301 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-15 16:39:53,301 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-15 16:39:53,470 - Selenium_studentPortal -INFO - Click on the logout button 
+2024-06-15 16:39:53,470 [main] INFO Selenium_studentPortal - Click on the logout button 
+2024-06-15 16:39:58,481 - Selenium_studentPortal -INFO - Page logout 
+2024-06-15 16:39:58,481 [main] INFO Selenium_studentPortal - Page logout 
+2024-06-15 16:40:00,403 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:40:00,403 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:40:02,315 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:40:02,315 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:40:02,412 - Selenium_studentPortal -INFO - page header title is 
+2024-06-15 16:40:02,412 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-15 16:40:02,421 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-15 16:40:02,421 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-15 16:40:02,427 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-15 16:40:02,427 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-15 16:40:02,584 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-15 16:40:02,584 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-15 16:40:02,696 - Selenium_studentPortal -INFO - Entered the password
+2024-06-15 16:40:02,696 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-15 16:40:07,050 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-15 16:40:07,050 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-15 16:40:17,059 - Selenium_studentPortal -INFO - Successful login test 
+2024-06-15 16:40:17,059 [main] INFO Selenium_studentPortal - Successful login test 
+2024-06-15 16:40:17,061 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-06-15 16:40:17,061 [main] INFO Selenium_studentPortal - Start to validate side-bar menue
+2024-06-15 16:40:29,117 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:40:29,117 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:40:29,185 - Selenium_studentPortal -INFO - page header title is 
+2024-06-15 16:40:29,185 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-15 16:40:29,189 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-15 16:40:29,189 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-15 16:40:29,193 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-15 16:40:29,193 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-15 16:40:29,327 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-15 16:40:29,327 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-15 16:40:29,446 - Selenium_studentPortal -INFO - Entered the password
+2024-06-15 16:40:29,446 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-15 16:40:32,610 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-15 16:40:32,610 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-15 16:40:42,625 - Selenium_studentPortal -INFO - Successfully verify login
+2024-06-15 16:40:42,625 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-06-15 16:40:42,626 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-06-15 16:40:42,626 [main] INFO Selenium_studentPortal - Start to validate side-bar menue
+2024-06-15 16:40:54,537 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:40:54,537 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:40:54,614 - Selenium_studentPortal -INFO - page header title is 
+2024-06-15 16:40:54,614 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-15 16:40:54,618 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-15 16:40:54,618 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-15 16:40:54,622 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-15 16:40:54,622 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-15 16:40:54,753 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-15 16:40:54,753 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-15 16:40:54,867 - Selenium_studentPortal -INFO - Entered the password
+2024-06-15 16:40:54,867 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-15 16:40:58,075 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-15 16:40:58,075 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-15 16:41:08,087 - Selenium_studentPortal -INFO - Successful login test 
+2024-06-15 16:41:08,087 [main] INFO Selenium_studentPortal - Successful login test 
+2024-06-15 16:41:08,087 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-06-15 16:41:08,087 [main] INFO Selenium_studentPortal - Start to validate side-bar menue
+2024-06-15 16:42:54,318 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:42:54,318 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:42:54,725 - Selenium_studentPortal -INFO - page header title is 
+2024-06-15 16:42:54,725 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-15 16:42:54,729 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-15 16:42:54,729 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-15 16:42:54,734 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-15 16:42:54,734 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-15 16:42:54,856 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-15 16:42:54,856 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-15 16:42:54,967 - Selenium_studentPortal -INFO - Entered the password
+2024-06-15 16:42:54,967 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-15 16:42:58,568 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-15 16:42:58,568 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-15 16:42:58,733 - Selenium_studentPortal -INFO - Click on the logout button 
+2024-06-15 16:42:58,733 [main] INFO Selenium_studentPortal - Click on the logout button 
+2024-06-15 16:43:03,749 - Selenium_studentPortal -INFO - Page logout 
+2024-06-15 16:43:03,749 [main] INFO Selenium_studentPortal - Page logout 
+2024-06-15 16:43:05,715 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:43:05,715 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:43:07,517 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:43:07,517 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:43:07,600 - Selenium_studentPortal -INFO - page header title is 
+2024-06-15 16:43:07,600 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-15 16:43:07,600 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-15 16:43:07,600 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-15 16:43:07,600 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-15 16:43:07,600 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-15 16:43:07,754 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-15 16:43:07,754 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-15 16:43:07,872 - Selenium_studentPortal -INFO - Entered the password
+2024-06-15 16:43:07,872 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-15 16:43:12,944 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-15 16:43:12,944 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-15 16:43:22,956 - Selenium_studentPortal -INFO - Successful login test 
+2024-06-15 16:43:22,956 [main] INFO Selenium_studentPortal - Successful login test 
+2024-06-15 16:43:22,958 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-06-15 16:43:22,958 [main] INFO Selenium_studentPortal - Start to validate side-bar menue
+2024-06-15 16:43:34,976 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:43:34,976 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:43:35,045 - Selenium_studentPortal -INFO - page header title is 
+2024-06-15 16:43:35,045 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-15 16:43:35,045 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-15 16:43:35,045 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-15 16:43:35,045 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-15 16:43:35,045 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-15 16:43:35,175 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-15 16:43:35,175 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-15 16:43:35,281 - Selenium_studentPortal -INFO - Entered the password
+2024-06-15 16:43:35,281 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-15 16:43:38,594 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-15 16:43:38,594 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-15 16:43:48,606 - Selenium_studentPortal -INFO - Successfully verify login
+2024-06-15 16:43:48,606 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-06-15 16:43:48,606 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-06-15 16:43:48,606 [main] INFO Selenium_studentPortal - Start to validate side-bar menue
+2024-06-15 16:44:00,596 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-06-15 16:44:00,596 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-06-15 16:44:00,690 - Selenium_studentPortal -INFO - page header title is 
+2024-06-15 16:44:00,690 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-15 16:44:00,702 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-15 16:44:00,702 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-15 16:44:00,710 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-15 16:44:00,710 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-15 16:44:00,846 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-15 16:44:00,846 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-15 16:44:00,945 - Selenium_studentPortal -INFO - Entered the password
+2024-06-15 16:44:00,945 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-15 16:44:04,467 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-15 16:44:04,467 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-15 16:44:14,479 - Selenium_studentPortal -INFO - Successful login test 
+2024-06-15 16:44:14,479 [main] INFO Selenium_studentPortal - Successful login test 
+2024-06-15 16:44:14,479 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-06-15 16:44:14,479 [main] INFO Selenium_studentPortal - Start to validate side-bar menue
+2024-06-27 15:58:07,270 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-06-27 15:58:07,270 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-06-27 15:58:07,274 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867CEF77DA84141994E5C38BE94
+2024-06-27 15:58:07,274 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867CEF77DA84141994E5C38BE94
+2024-06-27 15:58:07,412 - Selenium_studentPortal -INFO - page header title is 
+2024-06-27 15:58:07,412 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-27 15:58:07,419 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-27 15:58:07,419 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-27 15:58:07,427 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-27 15:58:07,427 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-27 15:58:07,675 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-27 15:58:07,675 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-27 15:58:07,889 - Selenium_studentPortal -INFO - Entered the password
+2024-06-27 15:58:07,889 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-27 15:58:11,855 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-27 15:58:11,855 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-27 15:58:21,863 - Selenium_studentPortal -INFO - Successful login test 
+2024-06-27 15:58:21,863 [main] INFO Selenium_studentPortal - Successful login test 
+2024-06-27 15:59:39,848 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-06-27 15:59:39,848 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-06-27 15:59:39,851 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867D32B5E3EFE84B9D5EB596E7D
+2024-06-27 15:59:39,851 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867D32B5E3EFE84B9D5EB596E7D
+2024-06-27 15:59:39,966 - Selenium_studentPortal -INFO - page header title is 
+2024-06-27 15:59:39,966 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-27 15:59:39,980 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-27 15:59:39,980 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-27 15:59:39,987 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-27 15:59:39,987 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-27 15:59:40,138 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-27 15:59:40,138 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-27 15:59:40,242 - Selenium_studentPortal -INFO - Entered the password
+2024-06-27 15:59:40,242 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-27 15:59:42,894 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-27 15:59:42,894 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-27 15:59:52,898 - Selenium_studentPortal -INFO - Successfully verify login
+2024-06-27 15:59:52,898 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-06-27 15:59:52,903 - Selenium_studentPortal -INFO - Start to validate side-bar menue
+2024-06-27 15:59:52,903 [main] INFO Selenium_studentPortal - Start to validate side-bar menue
+2024-06-27 16:02:48,910 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-06-27 16:02:48,910 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-06-27 16:02:48,916 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B286793D6117C4EC16364BF12B690
+2024-06-27 16:02:48,916 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B286793D6117C4EC16364BF12B690
+2024-06-27 16:02:49,082 - Selenium_studentPortal -INFO - page header title is 
+2024-06-27 16:02:49,082 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-27 16:02:49,101 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-27 16:02:49,101 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-27 16:02:49,111 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-27 16:02:49,111 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-27 16:02:49,306 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-27 16:02:49,306 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-27 16:02:49,447 - Selenium_studentPortal -INFO - Entered the password
+2024-06-27 16:02:49,447 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-27 16:02:51,137 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-27 16:02:51,137 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-27 16:03:01,142 - Selenium_studentPortal -INFO - Successfully verify login
+2024-06-27 16:03:01,142 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-06-27 16:03:01,142 - Selenium_studentPortal -INFO - Validate the side-bar menu
+2024-06-27 16:03:01,142 [main] INFO Selenium_studentPortal - Validate the side-bar menu
+2024-06-27 16:03:03,797 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@796065aa
+2024-06-27 16:03:03,797 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@796065aa
+2024-06-27 16:03:03,797 - Selenium_studentPortal -INFO - Student registration year and month 2024-Jan
+2024-06-27 16:03:03,797 [main] INFO Selenium_studentPortal - Student registration year and month 2024-Jan
+2024-06-27 16:03:03,798 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2024-06-27 16:03:03,798 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2024-06-27 16:03:13,854 - Selenium_studentPortal -INFO - []
+2024-06-27 16:03:13,854 [main] INFO Selenium_studentPortal - []
+2024-06-27 16:03:13,854 - Selenium_studentPortal -INFO - Expected Backlog Subject List  
+2024-06-27 16:03:13,854 [main] INFO Selenium_studentPortal - Expected Backlog Subject List  
+2024-06-27 16:03:13,935 - Selenium_studentPortal -INFO - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-06-27 16:03:13,935 [main] INFO Selenium_studentPortal - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-06-27 16:18:02,679 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-06-27 16:18:02,679 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-06-27 16:18:02,683 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867BDF4859D7B7FB791B290C300
+2024-06-27 16:18:02,683 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867BDF4859D7B7FB791B290C300
+2024-06-27 16:18:02,835 - Selenium_studentPortal -INFO - page header title is 
+2024-06-27 16:18:02,835 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-27 16:18:02,847 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-27 16:18:02,847 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-27 16:18:02,860 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-27 16:18:02,860 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-27 16:18:03,092 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-27 16:18:03,092 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-27 16:18:03,223 - Selenium_studentPortal -INFO - Entered the password
+2024-06-27 16:18:03,223 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-27 16:18:05,123 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-27 16:18:05,123 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-27 16:18:15,124 - Selenium_studentPortal -INFO - Successfully verify login
+2024-06-27 16:18:15,124 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-06-27 16:18:15,124 - Selenium_studentPortal -INFO - Validate the side-bar menu
+2024-06-27 16:18:15,124 [main] INFO Selenium_studentPortal - Validate the side-bar menu
+2024-06-27 16:18:17,704 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@796065aa
+2024-06-27 16:18:17,704 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@796065aa
+2024-06-27 16:18:17,705 - Selenium_studentPortal -INFO - Student registration year and month 2024-Jan
+2024-06-27 16:18:17,705 [main] INFO Selenium_studentPortal - Student registration year and month 2024-Jan
+2024-06-27 16:18:17,705 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2024-06-27 16:18:17,705 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2024-06-27 16:18:27,758 - Selenium_studentPortal -INFO - []
+2024-06-27 16:18:27,758 [main] INFO Selenium_studentPortal - []
+2024-06-27 16:18:27,758 - Selenium_studentPortal -INFO - Expected Backlog Subject List  
+2024-06-27 16:18:27,758 [main] INFO Selenium_studentPortal - Expected Backlog Subject List  
+2024-06-27 16:18:27,803 - Selenium_studentPortal -INFO - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-06-27 16:18:27,803 [main] INFO Selenium_studentPortal - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-06-27 17:13:15,415 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-06-27 17:13:15,415 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-06-27 17:13:15,419 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B28672E92EC4F7608779D7646B712
+2024-06-27 17:13:15,419 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B28672E92EC4F7608779D7646B712
+2024-06-27 17:13:15,562 - Selenium_studentPortal -INFO - page header title is 
+2024-06-27 17:13:15,562 [main] INFO Selenium_studentPortal - page header title is 
+2024-06-27 17:13:15,569 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-06-27 17:13:15,569 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-06-27 17:13:15,578 - Selenium_studentPortal -INFO - Login page title is match
+2024-06-27 17:13:15,578 [main] INFO Selenium_studentPortal - Login page title is match
+2024-06-27 17:13:15,813 - Selenium_studentPortal -INFO - Entered the UserId
+2024-06-27 17:13:15,813 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-06-27 17:13:15,983 - Selenium_studentPortal -INFO - Entered the password
+2024-06-27 17:13:15,983 [main] INFO Selenium_studentPortal - Entered the password
+2024-06-27 17:13:17,635 - Selenium_studentPortal -INFO - Click on the login button 
+2024-06-27 17:13:17,635 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-06-27 17:13:27,637 - Selenium_studentPortal -INFO - Successfully verify login
+2024-06-27 17:13:27,637 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-06-27 17:13:27,637 - Selenium_studentPortal -INFO - Validate the side-bar menu
+2024-06-27 17:13:27,637 [main] INFO Selenium_studentPortal - Validate the side-bar menu
+2024-06-27 17:13:30,102 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@592238c5
+2024-06-27 17:13:30,102 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@592238c5
+2024-06-27 17:13:30,102 - Selenium_studentPortal -INFO - Student registration year and month 2024-Jan
+2024-06-27 17:13:30,102 [main] INFO Selenium_studentPortal - Student registration year and month 2024-Jan
+2024-06-27 17:13:30,104 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2024-06-27 17:13:30,104 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2024-06-27 17:13:40,181 - Selenium_studentPortal -INFO - []
+2024-06-27 17:13:40,181 [main] INFO Selenium_studentPortal - []
+2024-06-27 17:13:40,182 - Selenium_studentPortal -INFO - Expected Backlog Subject List  
+2024-06-27 17:13:40,182 [main] INFO Selenium_studentPortal - Expected Backlog Subject List  
+2024-06-27 17:13:40,266 - Selenium_studentPortal -INFO - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-06-27 17:13:40,266 [main] INFO Selenium_studentPortal - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-07-19 10:51:24,246 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-07-19 10:51:24,246 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-07-19 10:51:24,250 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867836CF5DDE0562AFCD7DCF2E3
+2024-07-19 10:51:24,250 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867836CF5DDE0562AFCD7DCF2E3
+2024-07-19 10:51:24,365 - Selenium_studentPortal -INFO - page header title is 
+2024-07-19 10:51:24,365 [main] INFO Selenium_studentPortal - page header title is 
+2024-07-19 10:51:24,372 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-07-19 10:51:24,372 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-07-19 10:51:24,380 - Selenium_studentPortal -INFO - Login page title is match
+2024-07-19 10:51:24,380 [main] INFO Selenium_studentPortal - Login page title is match
+2024-07-19 10:51:24,533 - Selenium_studentPortal -INFO - Entered the UserId
+2024-07-19 10:51:24,533 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-07-19 10:51:24,649 - Selenium_studentPortal -INFO - Entered the password
+2024-07-19 10:51:24,649 [main] INFO Selenium_studentPortal - Entered the password
+2024-07-19 10:51:26,646 - Selenium_studentPortal -INFO - Click on the login button 
+2024-07-19 10:51:26,646 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-07-19 10:51:36,651 - Selenium_studentPortal -INFO - Successfully verify login
+2024-07-19 10:51:36,651 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-07-19 10:51:36,651 - Selenium_studentPortal -INFO - Validate the side-bar menu
+2024-07-19 10:51:36,651 [main] INFO Selenium_studentPortal - Validate the side-bar menu
+2024-07-19 10:51:39,118 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@138caeca
+2024-07-19 10:51:39,118 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@138caeca
+2024-07-19 10:51:39,118 - Selenium_studentPortal -INFO - Student registration year and month 2024-Jan
+2024-07-19 10:51:39,118 [main] INFO Selenium_studentPortal - Student registration year and month 2024-Jan
+2024-07-19 10:51:39,118 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2024-07-19 10:51:39,118 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2024-07-19 10:51:49,164 - Selenium_studentPortal -INFO - []
+2024-07-19 10:51:49,164 [main] INFO Selenium_studentPortal - []
+2024-07-19 10:51:49,165 - Selenium_studentPortal -INFO - Expected Backlog Subject List  
+2024-07-19 10:51:49,165 [main] INFO Selenium_studentPortal - Expected Backlog Subject List  
+2024-07-19 10:51:49,198 - Selenium_studentPortal -INFO - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-07-19 10:51:49,198 [main] INFO Selenium_studentPortal - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-07-30 13:39:41,118 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-07-30 13:39:41,118 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-07-30 13:39:41,123 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867DE8F5DDB76322797F114E999
+2024-07-30 13:39:41,123 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867DE8F5DDB76322797F114E999
+2024-07-30 13:39:41,245 - Selenium_studentPortal -INFO - page header title is 
+2024-07-30 13:39:41,245 [main] INFO Selenium_studentPortal - page header title is 
+2024-07-30 13:39:41,250 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-07-30 13:39:41,250 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-07-30 13:39:41,259 - Selenium_studentPortal -INFO - Login page title is match
+2024-07-30 13:39:41,259 [main] INFO Selenium_studentPortal - Login page title is match
+2024-07-30 13:39:41,401 - Selenium_studentPortal -INFO - Entered the UserId
+2024-07-30 13:39:41,401 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-07-30 13:39:41,505 - Selenium_studentPortal -INFO - Entered the password
+2024-07-30 13:39:41,505 [main] INFO Selenium_studentPortal - Entered the password
+2024-07-30 13:39:43,885 - Selenium_studentPortal -INFO - Click on the login button 
+2024-07-30 13:39:43,885 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-07-30 13:39:53,899 - Selenium_studentPortal -INFO - Successfully verify login
+2024-07-30 13:39:53,899 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-07-30 13:39:53,899 - Selenium_studentPortal -INFO - Validate the side-bar menu
+2024-07-30 13:39:53,899 [main] INFO Selenium_studentPortal - Validate the side-bar menu
+2024-07-30 13:39:56,346 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@46fb0c33
+2024-07-30 13:39:56,346 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@46fb0c33
+2024-07-30 13:39:56,346 - Selenium_studentPortal -INFO - Student registration year and month 2024-Jan
+2024-07-30 13:39:56,346 [main] INFO Selenium_studentPortal - Student registration year and month 2024-Jan
+2024-07-30 13:39:56,346 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2024-07-30 13:39:56,346 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2024-07-30 13:40:06,394 - Selenium_studentPortal -INFO - []
+2024-07-30 13:40:06,394 [main] INFO Selenium_studentPortal - []
+2024-07-30 13:40:06,399 - Selenium_studentPortal -INFO - Expected Backlog Subject List  
+2024-07-30 13:40:06,399 [main] INFO Selenium_studentPortal - Expected Backlog Subject List  
+2024-07-30 13:40:06,455 - Selenium_studentPortal -INFO - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-07-30 13:40:06,455 [main] INFO Selenium_studentPortal - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-07-30 13:41:43,974 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-07-30 13:41:43,974 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-07-30 13:41:43,979 - Selenium_studentPortal -INFO - Cookie Name  SESSION Cookie Value  ddabb9d7-b705-4762-9cb6-171b82898ab7
+2024-07-30 13:41:43,979 [main] INFO Selenium_studentPortal - Cookie Name  SESSION Cookie Value  ddabb9d7-b705-4762-9cb6-171b82898ab7
+2024-07-30 13:44:06,453 - Selenium_studentPortal -INFO - Size of the cookies : 0
+2024-07-30 13:44:06,453 [main] INFO Selenium_studentPortal - Size of the cookies : 0
+2024-07-30 13:44:06,554 - Selenium_studentPortal -INFO - page header title is 
+2024-07-30 13:44:06,554 [main] INFO Selenium_studentPortal - page header title is 
+2024-07-30 13:44:06,560 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-07-30 13:44:06,560 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-07-30 13:44:06,567 - Selenium_studentPortal -INFO - Login page title is match
+2024-07-30 13:44:06,567 [main] INFO Selenium_studentPortal - Login page title is match
+2024-07-30 13:44:06,690 - Selenium_studentPortal -INFO - Entered the UserId
+2024-07-30 13:44:06,690 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-07-30 13:44:06,813 - Selenium_studentPortal -INFO - Entered the password
+2024-07-30 13:44:06,813 [main] INFO Selenium_studentPortal - Entered the password
+2024-07-30 13:44:10,388 - Selenium_studentPortal -INFO - Click on the login button 
+2024-07-30 13:44:10,388 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-07-30 13:44:20,392 - Selenium_studentPortal -INFO - Successfully verify login
+2024-07-30 13:44:20,392 [main] INFO Selenium_studentPortal - Successfully verify login
+2024-07-30 13:44:20,392 - Selenium_studentPortal -INFO - Validate the side-bar menu
+2024-07-30 13:44:20,392 [main] INFO Selenium_studentPortal - Validate the side-bar menu
+2024-07-30 13:44:22,786 - Selenium_studentPortal -INFO - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@3a3ed300
+2024-07-30 13:44:22,786 [main] INFO Selenium_studentPortal - Read the subject from database com.nmims.selenium.studentportal.pageObjectMethod.SubjectPageObjectMethod@3a3ed300
+2024-07-30 13:44:22,786 - Selenium_studentPortal -INFO - Student registration year and month 2024-Jan
+2024-07-30 13:44:22,786 [main] INFO Selenium_studentPortal - Student registration year and month 2024-Jan
+2024-07-30 13:44:22,786 - Selenium_studentPortal -INFO - Backlog SubjectList From the UI 
+2024-07-30 13:44:22,786 [main] INFO Selenium_studentPortal - Backlog SubjectList From the UI 
+2024-07-30 13:44:32,849 - Selenium_studentPortal -INFO - []
+2024-07-30 13:44:32,849 [main] INFO Selenium_studentPortal - []
+2024-07-30 13:44:32,851 - Selenium_studentPortal -INFO - Expected Backlog Subject List  
+2024-07-30 13:44:32,851 [main] INFO Selenium_studentPortal - Expected Backlog Subject List  
+2024-07-30 13:44:32,882 - Selenium_studentPortal -INFO - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-07-30 13:44:32,882 [main] INFO Selenium_studentPortal - [Business Communication, Decision Science, Essentials of HRM, Cloud Computing, E-Business, Emerging Technologies: IoT, Augmented Reality, Virtual Reality, Fundamentals of Big Data & Business Analytics, IT Infrastructure Management, IT Project Management]
+2024-08-09 17:43:25,512 - Selenium_studentPortal -INFO - Size of the cookies : 1
+2024-08-09 17:43:25,512 [main] INFO Selenium_studentPortal - Size of the cookies : 1
+2024-08-09 17:43:25,518 - Selenium_studentPortal -INFO - Cookie Name  cookiesession1 Cookie Value  678B2867468A439B88BDE7FEF54083FE
+2024-08-09 17:43:25,518 [main] INFO Selenium_studentPortal - Cookie Name  cookiesession1 Cookie Value  678B2867468A439B88BDE7FEF54083FE
+2024-08-09 17:43:25,694 - Selenium_studentPortal -INFO - page header title is 
+2024-08-09 17:43:25,694 [main] INFO Selenium_studentPortal - page header title is 
+2024-08-09 17:43:25,706 - Selenium_studentPortal -INFO - page title is Welcome To Student Portal
+2024-08-09 17:43:25,706 [main] INFO Selenium_studentPortal - page title is Welcome To Student Portal
+2024-08-09 17:43:25,725 - Selenium_studentPortal -INFO - Login page title is match
+2024-08-09 17:43:25,725 [main] INFO Selenium_studentPortal - Login page title is match
+2024-08-09 17:43:26,002 - Selenium_studentPortal -INFO - Entered the UserId
+2024-08-09 17:43:26,002 [main] INFO Selenium_studentPortal - Entered the UserId
+2024-08-09 17:43:26,222 - Selenium_studentPortal -INFO - Entered the password
+2024-08-09 17:43:26,222 [main] INFO Selenium_studentPortal - Entered the password
+2024-08-09 17:43:28,429 - Selenium_studentPortal -INFO - Click on the login button 
+2024-08-09 17:43:28,429 [main] INFO Selenium_studentPortal - Click on the login button 
+2024-08-09 17:43:38,436 - Selenium_studentPortal -INFO - Successful login test 
+2024-08-09 17:43:38,436 [main] INFO Selenium_studentPortal - Successful login test 

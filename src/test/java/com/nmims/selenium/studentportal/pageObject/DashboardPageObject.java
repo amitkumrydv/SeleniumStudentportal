@@ -36,6 +36,8 @@ public class DashboardPageObject extends BaseClass {
 		System.out.println("totalHeight--- " + totalHeight);
 		
 		int footerHeight = footerText.getSize().getHeight();
+		
+		System.out.println("footerHeight -"+ footerHeight);
 
 		int scrollHeight = totalHeight.intValue() - footerHeight;
 

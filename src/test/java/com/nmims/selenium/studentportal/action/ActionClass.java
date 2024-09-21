@@ -707,12 +707,12 @@ public class ActionClass extends BaseClass implements ActionInterface {
 	
 	@Override
 	public String getCurrentURL(WebDriver driver)  {
-		boolean flag = false;
+		
 
 		String text = driver.getCurrentUrl();
-		if (flag) {
+	
 			System.out.println("Current URL is: \""+text+"\"");
-		}
+
 		return text;
 	}
 	

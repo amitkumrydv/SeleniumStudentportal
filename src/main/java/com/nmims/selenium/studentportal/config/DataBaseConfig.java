@@ -7,10 +7,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import com.nmims.selenium.studentportal.dao.StudentDao;
-import com.nmims.selenium.studentportal.dao.StudentSubjectDao;
+
 import com.nmims.selenium.studentportal.daoImpl.StudentDaoImpl;
 import com.nmims.selenium.studentportal.daoImpl.SubjectDaoImpl;
+import com.nmims.selenium.studentportal.dataBas.StudentDao;
+import com.nmims.selenium.studentportal.dataBas.StudentSubjectDao;
 
 @Configuration
 public class DataBaseConfig {

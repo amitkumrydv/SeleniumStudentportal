@@ -55,12 +55,12 @@ public class SubjectPageObjectMethod extends SubjectPageObject {
 	// Using above method for substring logic
 	public List<String> getBacklogSubjectList() {
 		
-		 ArrayList<WebElement> backlogSubjectsListFromUI = new ArrayList<>(SubjectPageObject.backlogSubjects);
+		// ArrayList<WebElement> backlogSubjectsListFromUI = new ArrayList<>(SubjectPageObject.backlogSubjects);
 		 
-		 System.out.println("backlogSubjectsListFromUI         --->" +backlogSubjectsListFromUI);
+	//	 System.out.println("backlogSubjectsListFromUI         --->" +backlogSubjectsListFromUI);
 		 List<String> elementTexts = new ArrayList<>();
 		
-		 for (WebElement element : backlogSubjectsListFromUI) {
+		 for (WebElement element : SubjectPageObject.backlogSubjects) {
 	            elementTexts.add(element.getText());
 	        }
 		// List<String> modifiedList = applySubstring(backlogSubjectsListFromUI, 2);

@@ -5,7 +5,8 @@ import java.util.List;
 
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
-import com.nmims.selenium.studentportal.dao.StudentDao;
+
+import com.nmims.selenium.studentportal.dataBas.StudentDao;
 import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
 
 public class StudentDaoImpl implements StudentDao {

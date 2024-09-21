@@ -62,7 +62,7 @@ public class SiderBarMenuPageObject extends BaseClass {
 	@FindBy(xpath = "//li[@id=\"ListwithToltip\"]//a[@href='/studentportal/student/myBadges']")
 	public WebElement ClickableMyBadges;
 
-	@FindBy(xpath = "//a[@href=\"#\"]")
+	@FindBy(xpath = "//li[@data-parenttab='/studentportalapp/dashboard']//*[name()='svg']")
 	public WebElement mouseHoverQuickLinks;
 
 	public void clickOnDisplayExamIcon() {

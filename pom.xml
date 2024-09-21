@@ -165,11 +165,58 @@
 				<configuration>
 
 					<!-- TestNG suite XML files -->
-					 <suiteXmlFiles>
-                    <suiteXmlFile>DashboardTestSuit.xml</suiteXmlFile>     
-					</suiteXmlFiles> 
+					<suiteXmlFiles>
+						<suiteXmlFile>DashboardTestSuit.xml</suiteXmlFile>
+					</suiteXmlFiles>
 				</configuration>
 			</plugin>
+
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<version>3.4.0</version>
+				<configuration>
+					<!--<configLocation>resources/checkstyle-files/sun-checkstyle.xml</configLocation>-->
+					<encoding>UTF-8</encoding>
+					<consoleOutput>true</consoleOutput>
+					<failsOnError>true</failsOnError>
+					<linkXRef>false</linkXRef>
+				</configuration>
+				<executions>
+					<execution>
+						<id>validate</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>check</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>3.15.0</version> <!-- Use the latest stable version -->
+				<configuration>
+					<rulesets>
+						<ruleset>rulesets/java/basic.xml</ruleset>
+						<ruleset>rulesets/java/unusedcode.xml</ruleset>
+						<ruleset>rulesets/java/logging-java.xml</ruleset>
+						<ruleset>rulesets/java/design.xml</ruleset>
+						<!-- Add or remove rulesets as needed -->
+					</rulesets>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>verify</phase>
+						<goals>
+							<goal>pmd</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
 
 		</plugins>
 	</build>

@@ -1,25 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="StudentportalDashboard" duration-ms="102217" started-at="2024-05-08T12:07:48Z" finished-at="2024-05-08T12:09:30Z">
+  <suite started-at="2024-08-09T12:13:20Z" name="StudentportalDashboard" finished-at="2024-08-09T12:14:10Z" duration-ms="49844">
     <groups>
     </groups>
-    <test name="portalApp" duration-ms="102217" started-at="2024-05-08T12:07:48Z" finished-at="2024-05-08T12:09:30Z">
+    <test started-at="2024-08-09T12:13:20Z" name="portalApp" finished-at="2024-08-09T12:14:10Z" duration-ms="49844">
       <class name="com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@234bef66]" name="setup" is-config="true" duration-ms="1852" started-at="2024-05-08T12:07:48Z" finished-at="2024-05-08T12:07:50Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@4562e04d]" started-at="2024-08-09T12:13:21Z" name="setup" finished-at="2024-08-09T12:13:25Z" duration-ms="4435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="prtalScreenshors()[pri:1, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@234bef66]" name="prtalScreenshors" duration-ms="60361" started-at="2024-05-08T12:07:50Z" finished-at="2024-05-08T12:08:50Z">
+        <test-method signature="prtalScreenshors()[pri:1, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@4562e04d]" started-at="2024-08-09T12:13:25Z" name="prtalScreenshors" finished-at="2024-08-09T12:14:10Z" duration-ms="44999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prtalScreenshors -->
-        <test-method status="PASS" signature="assignment()[pri:2, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@234bef66]" name="assignment" duration-ms="39184" started-at="2024-05-08T12:08:50Z" finished-at="2024-05-08T12:09:29Z">
+        <test-method signature="assignment()[pri:2, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@4562e04d]" started-at="2024-08-09T12:14:10Z" name="assignment" finished-at="2024-08-09T12:14:10Z" duration-ms="84" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: {"status":60,"value":"https://studentzone-ncdoe.nmims.edu/exam/student/getMostRecentResults has no size and location"}
+  (Session info: chrome=127.0.6533.100)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MUM16123CPU2825', ip: '10.106.108.88', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2e6cbfccb834495ece75301bb7c334e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: {"status":60,"value":"https://studentzone-ncdoe.nmims.edu/exam/student/getMostRecentResults has no size and location"}
+  (Session info: chrome=127.0.6533.100)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MUM16123CPU2825', ip: '10.106.108.88', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\AMITYA~1.EXT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2e6cbfccb834495ece75301bb7c334e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:614)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:640)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:596)
+at com.nmims.selenium.studentportal.pageObject.SiderBarMenuPageObject.mouseHoverExamIcon(SiderBarMenuPageObject.java:185)
+at com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages.assignment(TakingScreenShortAllPages.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignment -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@234bef66]" name="tearDown" is-config="true" duration-ms="703" started-at="2024-05-08T12:09:29Z" finished-at="2024-05-08T12:09:30Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nmims.selenium.studentportal.TakingScreenshortAllPage.TakingScreenShortAllPages@4562e04d]" started-at="2024-08-09T12:14:10Z" name="tearDown" finished-at="2024-08-09T12:14:10Z" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

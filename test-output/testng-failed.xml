@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nmims.selenium.studentportal.testCase.TC_Subjects_00006">
+      <class name="com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001">
         <methods>
-          <include name="ApplicableSubjectTest"/>
+          <include name="loginTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_Subjects_00006 -->
+      </class> <!-- com.nmims.selenium.studentportal.testCase.TC_LoginTest_00001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

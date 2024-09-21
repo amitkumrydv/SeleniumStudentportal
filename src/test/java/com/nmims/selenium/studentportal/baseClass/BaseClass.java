@@ -73,6 +73,7 @@ public class BaseClass {
 //         options.addArguments("--disable-translate");
 			options.addArguments("--disable-web-security");
 			options.addArguments("--ignore-certificate-errors");
+//			options.addArguments("--incagnito");
 
 			driver = new ChromeDriver(options);
 

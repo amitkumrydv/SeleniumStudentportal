@@ -33,7 +33,9 @@ public class SubjectPageObject extends BaseClass{
 	@FindBy (xpath="//a[contains(text(),'View')]")
 	public  WebElement viewBacklogSubjectsTextLink;
 
-	@FindBy (xpath="//div[@id='modal']//div//p//a")
+	//@FindBy (xpath="//div[@id='modal']//div//p//a")
+	//@FindBy (xpath="//div[contains(@class,'modal-body')]//div//div")
+	@FindBy (xpath=" //a[normalize-space()='Consumer Behaviour']")
 	public static List< WebElement> listOfBacklogSubjctsInPopup;
 	
 	
@@ -45,7 +47,9 @@ public class SubjectPageObject extends BaseClass{
 
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			Thread.sleep(2000);
-			js.executeScript("window.scrollBy(0, 500);");
+		//	js.executeScript("window.scrollBy(0, 500);");
+		//	js.executeScript("arguments[0].scrollIntoView(true);",viewBacklogSubjectsTextLink);
+			js.executeScript("arguments[0].scrollIntoView(true);",viewBacklogSubjectsTextLink);
 
 			Thread.sleep(5000);
 			viewBacklogSubjectsTextLink.click();

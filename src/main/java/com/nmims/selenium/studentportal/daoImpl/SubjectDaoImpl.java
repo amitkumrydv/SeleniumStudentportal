@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.jdbc.core.JdbcTemplate;
-import com.nmims.selenium.studentportal.dao.StudentSubjectDao;
+
+import com.nmims.selenium.studentportal.dataBas.StudentSubjectDao;
 
 public class SubjectDaoImpl implements StudentSubjectDao {
 	

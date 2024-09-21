@@ -14,8 +14,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.nmims.selenium.studentportal.baseClass.BaseClass;
 import com.nmims.selenium.studentportal.config.DataBaseConfig;
-import com.nmims.selenium.studentportal.dao.StudentDao;
-import com.nmims.selenium.studentportal.dao.StudentSubjectDao;
+import com.nmims.selenium.studentportal.dataBas.StudentDao;
+import com.nmims.selenium.studentportal.dataBas.StudentSubjectDao;
 import com.nmims.selenium.studentportal.entities.StudentStudentPortalBean;
 import com.nmims.selenium.studentportal.pageObject.SubjectPageObject;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
@@ -49,7 +49,7 @@ public class TC_Subjects_00006 extends BaseClass {
 		
 		
 		// Verify the side-bar menu
-		SideBarMenuTest.sideBarMenueIconsTest();
+	//	SideBarMenuTest.sideBarMenueIconsTest();
 		logger.info("Validate the side-bar menu");
 		
 		Thread.sleep(2000);

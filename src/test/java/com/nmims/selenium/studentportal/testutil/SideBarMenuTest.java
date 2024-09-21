@@ -6,8 +6,8 @@ import org.testng.annotations.Test;
 
 import com.nmims.selenium.studentportal.baseClass.BaseClass;
 import com.nmims.selenium.studentportal.config.DataBaseConfig;
-import com.nmims.selenium.studentportal.dao.StudentDao;
-import com.nmims.selenium.studentportal.dao.StudentSubjectDao;
+import com.nmims.selenium.studentportal.dataBas.StudentDao;
+import com.nmims.selenium.studentportal.dataBas.StudentSubjectDao;
 import com.nmims.selenium.studentportal.pageObject.SiderBarMenuPageObject;
 import com.nmims.selenium.studentportal.pageObjectMethod.LoginPageObjectMethod;
 import com.nmims.selenium.studentportal.pageObjectMethod.SiderBarMenuPageObjectMethod;
